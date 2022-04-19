@@ -5,7 +5,6 @@ networks:
     name: develop_project_name_network
 
 services:
-  # http://127.0.0.1:8000 or http://localhost:8000
   develop_project_name_app:
     restart: on-failure
     container_name: develop_project_name_app
@@ -13,7 +12,7 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile
       target: development
-    env_file: ./settings/develop/settings.env
+    env_file: ./settings/development.env
     command: gunicorn conf.wsgi:application --bind 0.0.0.0:8000 --reload
     volumes:
       - ../src:/srv
@@ -21,17 +20,6 @@ services:
       - develop_project_name_db
     networks:
       - develop_project_name_network
-
-  # http://localhost:8080/
-#  develop_project_name_adminer:
-#    container_name: develop_project_name_adminer
-#    image: adminer
-#    ports:
-#      - 9876:8080
-#    depends_on:
-#      - develop_project_name_rb
-#    networks:
-#      - develop_project_name_network
 
   develop_project_name_db:
     container_name: develop_project_name_db

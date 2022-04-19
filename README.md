@@ -29,3 +29,11 @@ manually create a new repository.
 and install its dependencies: `poetry install`. If you want to use any other
 package manager, check the dependencies listed in the `pyproject.toml` file and
 then you can remove this file and `poetry.lock`.
+
+3. `cp docker/settings/settings.env.example docker/settings/development.env` and
+check and adjust settings. I you want to use a different name, also update
+docker/docker-compose.yml's `env_file` property.
+4. In the `docker` folder you can now do: `docker-compose up`.
+5. Run migrations and create a super user using the app's container shell:
+`docker exec -it develop_project_name_app /bin/bash`.
+6. Wagtail's admin will be accessible at http://localhost:8001/cms/
