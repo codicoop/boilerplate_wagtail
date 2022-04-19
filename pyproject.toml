@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "boilerplate_wagtail"
+version = "0.1.0"
+description = "Plantilla per nous projectes web"
+authors = ["Codi Cooperatiu <hola@codi.coop>"]
+license = "gpl-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+Django = "^4.0.4"
+wagtail = "^2.16.2"
+django-environ = "^0.8.1"
+gunicorn = "^20.1.0"
+psycopg2-binary = "^2.9.3"
+whitenoise = "^6.0.0"
+django-maintenance-mode = "^0.16.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
