@@ -16,7 +16,34 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from wagtail.admin import urls as wagtailadmin_urls
+from wagtail.core import urls as wagtail_urls
+from wagtail.documents import urls as wagtaildocs_urls
+
+
 urlpatterns = [
-    path('grappelli/', include('grappelli.urls')),  # grappelli URLS
+    # Grappelli URLS.
+    path('grappelli/', include('grappelli.urls')),
+    # Standard Django Admin URLs.
     path('admin/', admin.site.urls),
+    # The admin interface for Wagtail. This is separate from the Django admin
+    # interface (django.contrib.admin); Wagtail-only projects typically host
+    # the Wagtail admin at /admin/, but if this would clash with your project’s
+    # existing admin backend then an alternative path can be used, such as
+    # /cms/ here.
+    path('cms/', include(wagtailadmin_urls)),
+    # The location from where document files will be served. This can be
+    # omitted if you do not intend to use Wagtail’s document management
+    # features.
+    path('documents/', include(wagtaildocs_urls)),
+    # The base location from where the pages of your Wagtail site will be
+    # served. In the above example, Wagtail will handle URLs under /pages/,
+    # leaving the root URL and other paths to be handled as normal by your
+    # Django project. If you want Wagtail to handle the entire URL space
+    # including the root URL, this can be replaced with:
+    # path('', include(wagtail_urls)),
+    #
+    # In this case, this should be placed at the end of the urlpatterns list,
+    # so that it does not override more specific URL patterns.
+    path('pages/', include(wagtail_urls)),
 ]

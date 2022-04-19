@@ -48,6 +48,13 @@ EMAIL_USE_SSL = env('EMAIL_USE_SSL', bool)
 EMAIL_BACKEND = env('EMAIL_BACKEND')
 DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')  # MailingManager setting.
 
+# Wagtail
+WAGTAIL_SITE_NAME = env('WAGTAIL_SITE_NAME', default="Gestor de continguts")
+WAGTAILSEARCH_BACKENDS = {
+    'default': {
+        'BACKEND': 'wagtail.search.backends.database',
+    }
+}
 
 """
 Django settings for conf project.
@@ -68,10 +75,23 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Application definition
 INSTALLED_APPS = [
     'maintenance_mode',
+    'wagtail.contrib.forms',
+    'wagtail.contrib.redirects',
+    'wagtail.embeds',
+    'wagtail.sites',
+    'wagtail.users',
+    'wagtail.snippets',
+    'wagtail.documents',
+    'wagtail.images',
+    'wagtail.search',
+    'wagtail.admin',
+    'wagtail.core',
+    'modelcluster',
+    'taggit',
     'apps.base',
     'apps.users',
     'django.contrib.postgres',
-    'grappelli',  # Place before contrib.admin
+    # 'grappelli',  # Place before contrib.admin
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -93,6 +113,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'maintenance_mode.middleware.MaintenanceModeMiddleware',
+    'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 ]
 
 ROOT_URLCONF = 'conf.urls'
