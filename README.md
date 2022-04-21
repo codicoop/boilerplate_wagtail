@@ -50,3 +50,4 @@ The static assets are going to be served through the library Whitenoise when
 debug is deactivated. Beware that whitenoise makes an index of the static files
 when starting up, therefore if you change a static file you need to first
 `collectstatic` and then restart the container.
+
