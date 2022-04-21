@@ -1,13 +1,13 @@
 version: "3.5"
 
 networks:
-  develop_project_name_network:
-    name: develop_project_name_network
+  develop_wagtail_boilerplate_network:
+    name: develop_wagtail_boilerplate_network
 
 services:
-  develop_project_name_app:
+  develop_wagtail_boilerplate_app:
     restart: on-failure
-    container_name: develop_project_name_app
+    container_name: develop_wagtail_boilerplate_app
     build:
       context: ..
       dockerfile: ./docker/Dockerfile
@@ -17,22 +17,22 @@ services:
     volumes:
       - ../src:/srv
     depends_on:
-      - develop_project_name_db
+      - develop_wagtail_boilerplate_db
     networks:
-      - develop_project_name_network
+      - develop_wagtail_boilerplate_network
 
-  develop_project_name_db:
-    container_name: develop_project_name_db
+  develop_wagtail_boilerplate_db:
+    container_name: develop_wagtail_boilerplate_db
     image: postgres:14
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
       - ../dumps:/dumps
     networks:
-      - develop_project_name_network
+      - develop_wagtail_boilerplate_network
 
-  develop_project_name_nginx:
-    container_name: develop_project_name_nginx
+  develop_wagtail_boilerplate_nginx:
+    container_name: develop_wagtail_boilerplate_nginx
     image: nginx
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d
@@ -41,7 +41,7 @@ services:
       # To run multiple projects at once, change it to 8001:80 etc.
       - 8001:80
     depends_on:
-      - develop_project_name_app
+      - develop_wagtail_boilerplate_app
     networks:
-      - develop_project_name_network
+      - develop_wagtail_boilerplate_network
 
