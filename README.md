@@ -5,6 +5,10 @@ projects with a Wagtail on top of that, for that reason the installation steps
 taken are these:
 https://docs.wagtail.org/en/stable/getting_started/integrating_into_django.html
 
+A major difference from this guide is that we're not setting up MEDIA_ROOT or
+MEDIA_URL because we're using python itself to serve the static files, through
+the package Whitenoise.
+
 ## Prerequisites
 
 Knowledge of Python, virtual environments and Django are assumed for
@@ -50,4 +54,7 @@ The static assets are going to be served through the library Whitenoise when
 debug is deactivated. Beware that whitenoise makes an index of the static files
 when starting up, therefore if you change a static file you need to first
 `collectstatic` and then restart the container.
+Given that locally you'll be having debug activated and when deploying in
+pre-production or production you'll use the docker image (which already runs
+`collectstatic` when building it) you usually don't need to run it manually.
 
