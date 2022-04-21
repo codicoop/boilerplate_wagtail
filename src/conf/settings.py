@@ -92,6 +92,7 @@ INSTALLED_APPS = [
     "taggit",
     "apps.base",
     "apps.users",
+    "apps.home",
     "apps.examples",
     "django.contrib.postgres",
     "django.contrib.admin",
@@ -100,6 +101,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_extensions",
 ]
 
 AUTH_USER_MODEL = "users.User"

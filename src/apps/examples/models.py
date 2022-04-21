@@ -5,18 +5,6 @@ from wagtail.core.models import Page
 from wagtail.search import index
 
 
-class HomePage(Page):
-    # Settings
-    template = "examples/home.html"
-
-    # Fields
-    body = RichTextField(blank=True)
-
-    content_panels = Page.content_panels + [
-        FieldPanel('body', classname="full"),
-    ]
-
-
 class BlogIndexPage(Page):
     # Settings
     template = "examples/blog_index.html"
