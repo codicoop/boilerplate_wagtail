@@ -10,4 +10,3 @@ class EnquiryAnswerCreateViewTestCase(TestCase):
 
     def test_demo(self):
         print(self.user)
-        # self.assertEqual(response.status_code, 302)
