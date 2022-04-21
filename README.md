@@ -42,8 +42,12 @@ docker/docker-compose.yml's `env_file` property.
 7. To create your new app, you need to run `django-admin startapp` **from
 the `/src/apps` folder** and then add it to `INSTALLED_APPS` setting like this:
 `"apps.application_name"`
-8. In you new app's folder check that in `apps.py` the `BaseConfig` sets the
-property name also prefixed with the apps folder, like this: `name = "apps.application_name"`
+8. In you new app's folder modify `apps.py` prefixing the `name` property with
+the apps folder, like this: `name = "apps.application_name"`
+
+From this point, if it's your first time using Wagtail it's highly recommendable
+to read [this tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html)
+as well as [the documentation](https://docs.wagtail.org/en/stable/topics/index.html)
 
 ## Development guidelines
 
@@ -68,6 +72,29 @@ Which will validate the format and run the tests.
 
 Tox will automatically be run when you push a PR to Github. The configuration
 is in the `.github` folder.
+
+### First setup in Wagtail's admin panel
+
+The behavior of the root page deserves some special attention to understant and
+avoid confusion.
+
+Using the Pages menu, go to the root level (at the topmost breadcrumb you'll
+only see an earth globe) and read the information card. That means that at this
+root level you will only need to have multiple pages if you are using different
+sites in the same project. Right now, without any other pages added, when you
+access your site's URL (http://localhost:8001) you'll just see a page with that
+root page title.
+
+To make it less confusing, edit the page "Welcome to your new Wagtail site!" to
+a meaningful name, like "blog", your customer's brand name, etc.
+
+While editing that page, go to the Promote tab and note that the `Slug` field
+contains **home**. This is another source of confusion given that this slug does
+not actually exist, as you can see if you try to access `http://localhost:8001/home/`.
+
+
+
+
 
 ### Assets
 

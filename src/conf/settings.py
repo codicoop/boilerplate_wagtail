@@ -92,7 +92,7 @@ INSTALLED_APPS = [
     "taggit",
     "apps.base",
     "apps.users",
-    "apps.template",
+    "apps.examples",
     "django.contrib.postgres",
     "django.contrib.admin",
     "django.contrib.auth",
