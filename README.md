@@ -28,12 +28,10 @@ not going to use it.
 1. Open https://github.com/codicoop/boilerplate_wagtail and create a new repository
 using the "Use this template" button, or download all the files as .zip and
 manually create a new repository.
-
 2. Using [https://python-poetry.org/](Poetry), create the virtual environment
 and install its dependencies: `poetry install`. If you want to use any other
 package manager, check the dependencies listed in the `pyproject.toml` file and
 then you can remove this file and `poetry.lock`.
-
 3. `cp docker/settings/settings.env.example docker/settings/development.env` and
 check and adjust settings. I you want to use a different name, also update
 docker/docker-compose.yml's `env_file` property.
@@ -41,8 +39,35 @@ docker/docker-compose.yml's `env_file` property.
 5. Run migrations and create a super user using the app's container shell:
 `docker exec -it develop_project_name_app /bin/bash`.
 6. Wagtail's admin will be accessible at http://localhost:8001/cms/
+7. To create your new app, you need to run `django-admin startapp` **from
+the `/src/apps` folder** and then add it to `INSTALLED_APPS` setting like this:
+`"apps.application_name"`
+8. In you new app's folder check that in `apps.py` the `BaseConfig` sets the
+property name also prefixed with the apps folder, like this: `name = "apps.application_name"`
 
 ## Development guidelines
+
+### Code formatting, validation and tests
+
+#### Tox for black and tests
+A Tox setup is provided and the tox software itself is included as a dependency
+in `pyproject.toml`.
+
+To let tox reformat your code using Black, you need to get inside the virtual
+environment shell (`poetry shell`) and run:
+`tox -e format`
+
+Some format changes cannot be done automatically. You'll get a list of them when
+you run:
+
+`tox`
+
+Which will validate the format and run the tests.
+
+#### Github actions
+
+Tox will automatically be run when you push a PR to Github. The configuration
+is in the `.github` folder.
 
 ### Assets
 
