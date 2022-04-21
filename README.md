@@ -37,3 +37,16 @@ docker/docker-compose.yml's `env_file` property.
 5. Run migrations and create a super user using the app's container shell:
 `docker exec -it develop_project_name_app /bin/bash`.
 6. Wagtail's admin will be accessible at http://localhost:8001/cms/
+
+## Development guidelines
+
+### Assets
+
+The configuration expects a `/src/assets/` folder containing all static images, css
+and js. This folder should be created if it doesn't exist already or Django
+will complaint with warnings.
+
+The static assets are going to be served through the library Whitenoise when
+debug is deactivated. Beware that whitenoise makes an index of the static files
+when starting up, therefore if you change a static file you need to first
+`collectstatic` and then restart the container.
