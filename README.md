@@ -105,9 +105,10 @@ The same goes for all the strings in the backend that are localized with
 
 #### Wagtail content
 
-It's recommended to read this [Wagtail documentation's section](https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#multi-language-content).
+It's recommended to read this [Wagtail documentation's section](https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#multi-language-content)
+and the [Wagtail Localize documentation](https://www.wagtail-localize.org/tutorial/1-project-set-up/).
 
-##### Configurar quins idiomes hi haurà disponibles
+##### Configure available languages
 
 > In our experience we found that not including the english language or not
 > making it the default one in the Django settings some problems might appear.
@@ -119,11 +120,34 @@ It's recommended to read this [Wagtail documentation's section](https://docs.wag
 1. Firstly edit `WAGTAIL_CONTENT_LANGUAGES` in settings to specify the vailable
 languages.
 2. Access `Settings -> Locales` in the admin panel and add the locales that you
-want.
-3.
+want. Usually you'll want to enable de tree synchronization.
+3. If you are using the tree synchronization, all the existing page are now
+duplicated in the added locale. Select one of them and click on the Translate
+button to enagle the synchronized translation for this page, which will only ask
+you for the new strings. New pages will also be created for all other languages.
+4. If you want a different structure (i.e., the translated page will have
+different blocks), stop the synchronized translation for this page.
 
-You can remove the `Locales` menu by removing `wagtail.locales` from `INSTALLED_APPS`
-and manage them through console.
+If you want to prevent the editor from creating or removing locales you can
+remove the `Locales` menu by removing `wagtail_localize.locales` from
+`INSTALLED_APPS`. You will still be able to manage them through console
+(use `python manage.py shell_plus`).
+
+You can modify the field's status *translatable* vs *synchronized*, although
+the default behavior is usually the desired one. [Link to documentation](https://www.wagtail-localize.org/how-to/field-configuration/).
+We still have to test it better, but the idea is that when you modify the main
+page, its translations might have some fields override in order to keep the
+synchronization.
+
+For now, it's recommended to avoid ListBlocks for content susceptible to
+translation:
+
+> The recommended work around at the moment is to change all ListBlocks into
+> nested StreamBlocks instead. We should be able to solve this one when Wagtail
+> RFC 65 is implemented, which adds UUIDs into ListBlock.
+
+This RFC was included in a PR in 2021, so we should check if this is something
+already implemented but not updated in the documentation, or is still pending.
 
 ##### Translatable snippets
 
@@ -143,5 +167,5 @@ when starting up, therefore if you change a static file you need to first
 `collectstatic` and then restart the container.
 Given that locally you'll be having debug activated and when deploying in
 pre-production or production you'll use the docker image (which already runs
-`collectstatic` when building it) you usually don't need to run it manually.
-
+`collectstatic` when building it) you'll only need to run it manually when
+testing `debug = False` locally.
