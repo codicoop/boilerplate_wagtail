@@ -17,6 +17,8 @@ django-maintenance-mode = "^0.16.3"
 tox = "^3.25.0"
 django-extensions = "^3.1.5"
 wagtail-localize = "^1.1.1"
+django-storages = "^1.12.3"
+boto3 = "^1.21.46"
 
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
