@@ -1,7 +1,9 @@
 {% extends "base.html" %}
-{% load i18n wagtailimages_tags %}
+{% load i18n wagtailcore_tags wagtailimages_tags %}
 
 {% block content %}
+<a href="{% pageurl page.get_parent %}">{% translate "Back" %}</a>
+
 <h1>{{ page.title }}</h1>
 
 <p>{% translate "Category" %}: <b>{{ page.category }}</b></p>
