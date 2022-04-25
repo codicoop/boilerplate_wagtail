@@ -96,6 +96,7 @@ INSTALLED_APPS = [
     "apps.users",
     "apps.home",
     "apps.examples",
+    "apps.blog",
     "django.contrib.postgres",
     "django.contrib.admin",
     "django.contrib.auth",
