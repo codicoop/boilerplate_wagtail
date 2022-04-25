@@ -37,7 +37,7 @@ check and adjust settings. I you want to use a different name, also update
 docker/docker-compose.yml's `env_file` property.
 4. In the `docker` folder you can now do: `docker-compose up`.
 5. Run migrations and create a super user using the app's container shell:
-`docker exec -it develop_project_name_app /bin/bash`.
+`docker exec -it develop_wagtail_boilerplate_app /bin/bash`.
 6. Wagtail's admin will be accessible at http://localhost:8001/cms/
 7. To create your new app, you need to run `django-admin startapp` **from
 the `/src/apps` folder** and then add it to `INSTALLED_APPS` setting like this:
