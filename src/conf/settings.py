@@ -77,7 +77,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Application definition
 INSTALLED_APPS = [
     "maintenance_mode",
-    "wagtail.locales",
+    "wagtail_localize",
+    "wagtail_localize.locales",
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
     "wagtail.embeds",
@@ -174,6 +175,7 @@ WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
     ('ca', "Catalan"),
     ('es', "Spanish"),
 ]
+WAGTAIL_I18N_ENABLED = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

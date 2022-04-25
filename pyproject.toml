@@ -16,6 +16,7 @@ whitenoise = "^6.0.0"
 django-maintenance-mode = "^0.16.3"
 tox = "^3.25.0"
 django-extensions = "^3.1.5"
+wagtail-localize = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
