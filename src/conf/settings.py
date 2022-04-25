@@ -189,6 +189,7 @@ STATICFILES_DIRS = [
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Media uploads storage
+# S3 storage
 AWS_ACCESS_KEY_ID = env.str("AWS_ACCESS_KEY_ID", default="")
 AWS_SECRET_ACCESS_KEY = env.str("AWS_SECRET_ACCESS_KEY", default="")
 AWS_STORAGE_BUCKET_NAME = env.str("AWS_STORAGE_BUCKET_NAME", default="")
@@ -202,14 +203,11 @@ AWS_S3_OBJECT_PARAMETERS = {
 }
 AWS_LOCATION = "media"
 AWS_PRIVATE_MEDIA_LOCATION = env.str("AWS_PRIVATE_MEDIA_LOCATION", default="")
-
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# Local folder storage
+# IMPORTANT: Read the Django documentation and setup nginx to serve the images.
 # MEDIA_ROOT = env.str("MEDIA_ROOT", default="")
 # MEDIA_URL = env.str("MEDIA_URL", default="")
-
-
-# MEDIA_URL = AWS_S3_ENDPOINT_URL
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
 
 # Important settings, adjust according to your URLs:
 # LOGIN_URL = reverse_lazy('login')
