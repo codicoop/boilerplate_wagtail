@@ -125,6 +125,10 @@ want.
 You can remove the `Locales` menu by removing `wagtail.locales` from `INSTALLED_APPS`
 and manage them through console.
 
+##### Translatable snippets
+
+Snippets can be translatable: https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#translatable-snippets
+
 
 
 ### Assets
