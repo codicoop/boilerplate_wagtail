@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from django.urls import include, path
 from wagtail.admin import urls as wagtailadmin_urls
@@ -32,6 +33,9 @@ urlpatterns = [
     # omitted if you do not intend to use Wagtail’s document management
     # features.
     path("documents/", include(wagtaildocs_urls)),
+]
+
+urlpatterns += i18n_patterns(
     # The base location from where the pages of your Wagtail site will be
     # served. This was originally set as '/pages/',
     # leaving the root URL and other paths to be handled as normal by your
@@ -42,4 +46,4 @@ urlpatterns = [
     # This should be placed at the end of the urlpatterns list,
     # so that it does not override more specific URL patterns.
     path("", include(wagtail_urls)),
-]
+)

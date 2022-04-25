@@ -92,7 +92,38 @@ While editing that page, go to the Promote tab and note that the `Slug` field
 contains **home**. This is another source of confusion given that this slug does
 not actually exist, as you can see if you try to access `http://localhost:8001/home/`.
 
+### Internationalization
 
+#### Templates
+
+Translation tags are used across the templates and this part is handled by Django,
+not by Wagtail, so you'll need to generate the localization .po files, translate,
+and compile them.
+
+The same goes for all the strings in the backend that are localized with
+`_("Hello")`.
+
+#### Wagtail content
+
+It's recommended to read this [Wagtail documentation's section](https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#multi-language-content).
+
+##### Configurar quins idiomes hi haurà disponibles
+
+> In our experience we found that not including the english language or not
+> making it the default one in the Django settings some problems might appear.
+> We believe that this could be because all the localized strings in Django and
+> any package are written in english in the source code, and mixing it with
+> source code in another language is something that gets in the way of the .po
+> files management.
+
+1. Firstly edit `WAGTAIL_CONTENT_LANGUAGES` in settings to specify the vailable
+languages.
+2. Access `Settings -> Locales` in the admin panel and add the locales that you
+want.
+3.
+
+You can remove the `Locales` menu by removing `wagtail.locales` from `INSTALLED_APPS`
+and manage them through console.
 
 
 
