@@ -169,13 +169,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 LANGUAGE_CODE = "ca"
-TIME_ZONE = 'Europe/Andorra'
+TIME_ZONE = "Europe/Andorra"
 USE_I18N = True
 USE_TZ = True
 WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
-    ('en', "English"),
-    ('ca', "Catalan"),
-    ('es', "Spanish"),
+    ("en", "English"),
+    ("ca", "Catalan"),
+    ("es", "Spanish"),
 ]
 WAGTAIL_I18N_ENABLED = True
 
@@ -203,7 +203,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 }
 AWS_LOCATION = "media"
 AWS_PRIVATE_MEDIA_LOCATION = env.str("AWS_PRIVATE_MEDIA_LOCATION", default="")
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 # Local folder storage
 # IMPORTANT: Read the Django documentation and setup nginx to serve the images.
 # MEDIA_ROOT = env.str("MEDIA_ROOT", default="")
