@@ -49,6 +49,7 @@ class BlogPostPage(Page):
     ]
 
     parent_page_types = ["blog.BlogIndexPage"]
+    template = "blog/post.html"
 
 
 class BlogIndexPage(Page):
@@ -59,3 +60,5 @@ class BlogIndexPage(Page):
     ]
 
     parent_page_types = ["home.HomePage"]
+    subpage_types = ["blog.BlogPostPage"]
+    template = "blog/index.html"
