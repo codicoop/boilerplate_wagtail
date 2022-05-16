@@ -1,8 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel, PageChooserPanel
+from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel, \
+    PageChooserPanel
 from wagtail.core.models import Page
-from wagtail.documents.edit_handlers import DocumentChooserPanel
 from wagtail.images.edit_handlers import ImageChooserPanel
 
 
@@ -121,24 +121,3 @@ class HomePage(Page):
     ]
 
     template = "cms_site/home.html"
-
-
-class Collection(Page):
-    name = models.CharField(_("name"), max_length=40)
-    description = models.TextField(_("Description"), default="", blank=True)
-    pdf = models.ForeignKey(
-        'wagtaildocs.Document',
-        verbose_name=_("Catalogue's PDF"),
-        null=True,
-        blank=True,
-        on_delete=models.SET_NULL,
-        related_name='+'
-    )
-
-    content_panels = Page.content_panels + [
-        FieldPanel("name", classname="title"),
-        FieldPanel("description"),
-        DocumentChooserPanel("pdf"),
-    ]
-
-    template = "cms_site/collection.html"
