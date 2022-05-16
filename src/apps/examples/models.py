@@ -1,8 +1,7 @@
 from django.db import models
-from wagtail.admin.edit_handlers import MultiFieldPanel, \
-    FieldPanel, PageChooserPanel
-from wagtail.core.models import Page
 from django.utils.translation import gettext_lazy as _
+from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel, PageChooserPanel
+from wagtail.core.models import Page
 from wagtail.images.edit_handlers import ImageChooserPanel
 
 
@@ -86,9 +85,15 @@ class ExamplesPage(Page):
             children=[
                 FieldPanel("overlay_title", classname="title"),
                 FieldPanel("overlay_body", classname="ful"),
-                FieldPanel("overlay_button_text",),
-                PageChooserPanel("overlay_button_page",),
-                ImageChooserPanel("overlay_image",),
+                FieldPanel(
+                    "overlay_button_text",
+                ),
+                PageChooserPanel(
+                    "overlay_button_page",
+                ),
+                ImageChooserPanel(
+                    "overlay_image",
+                ),
             ],
             heading=_("Introduction overlaying header"),
         ),
