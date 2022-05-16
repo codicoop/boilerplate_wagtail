@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel
+from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
+from wagtail.core.fields import StreamField
 from wagtail.core.models import Page
 from wagtail.documents.edit_handlers import DocumentChooserPanel
 
@@ -18,7 +19,12 @@ class Collection(Page):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    items_list = CollectionItem()
+    items_list = StreamField(
+        [
+            ("item", CollectionItem()),
+        ],
+        verbose_name=_("Compositions, renders and photos"),
+    )
     # next: programar Streampanel amb ListBlock, o Inline Panel, per la gestió
     # de les imatges.
 
@@ -26,7 +32,7 @@ class Collection(Page):
         FieldPanel("name", classname="title"),
         FieldPanel("description"),
         DocumentChooserPanel("pdf"),
-        # StreamFieldPanel("items_list"),
+        StreamFieldPanel("items_list"),
         # StreamBlock(),
     ]
 

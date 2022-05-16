@@ -13,7 +13,7 @@ class CollectionItemType(TranslatableMixin):
         FieldPanel("name"),
     ]
 
-    class Meta:
+    class Meta(TranslatableMixin.Meta):
         verbose_name = _("Collection item type")
         verbose_name_plural = _("Collection item types")
 
@@ -29,7 +29,7 @@ class CollectionItemFinishing(TranslatableMixin):
         FieldPanel("name"),
     ]
 
-    class Meta:
+    class Meta(TranslatableMixin.Meta):
         verbose_name = _("Collection item finishing")
         verbose_name_plural = _("Collection item finishings")
 

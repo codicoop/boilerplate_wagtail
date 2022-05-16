@@ -28,7 +28,7 @@ class StoryBlock(blocks.StreamBlock):
 class BlogCategory(TranslatableMixin):
     name = models.CharField(max_length=255)
 
-    class Meta:
+    class Meta(TranslatableMixin.Meta):
         verbose_name = _("Blog category")
         verbose_name_plural = _("Blog categories")
 
