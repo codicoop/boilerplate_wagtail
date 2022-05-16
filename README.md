@@ -153,7 +153,12 @@ already implemented but not updated in the documentation, or is still pending.
 
 Snippets can be translatable: https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#translatable-snippets
 
+### Wagtail's styleguide
 
+Including `"wagtail.contrib.styleguide"` in your `INSTALLED_APPS` will add a
+menu option in settings to help you with colors, icons, etc. while developing.
+Make sure to disable it in production if you don't want your customer to see
+the option.
 
 ### Assets
 
