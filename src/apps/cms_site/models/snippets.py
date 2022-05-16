@@ -13,6 +13,10 @@ class CollectionItemType(TranslatableMixin):
         FieldPanel("name"),
     ]
 
+    class Meta:
+        verbose_name = _("Collection item type")
+        verbose_name_plural = _("Collection item types")
+
     def __str__(self):
         return self.name
 
@@ -24,6 +28,10 @@ class CollectionItemFinishing(TranslatableMixin):
     panels = [
         FieldPanel("name"),
     ]
+
+    class Meta:
+        verbose_name = _("Collection item finishing")
+        verbose_name_plural = _("Collection item finishings")
 
     def __str__(self):
         return self.name

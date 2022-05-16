@@ -7,6 +7,7 @@ from wagtail.images.blocks import ImageChooserBlock
 from wagtail.images.edit_handlers import ImageChooserPanel
 from wagtail.snippets.edit_handlers import SnippetChooserPanel
 from wagtail.snippets.models import register_snippet
+from django.utils.translation import gettext_lazy as _
 
 
 class ImageBlock(blocks.StructBlock):
@@ -26,6 +27,10 @@ class StoryBlock(blocks.StreamBlock):
 @register_snippet
 class BlogCategory(TranslatableMixin):
     name = models.CharField(max_length=255)
+
+    class Meta:
+        verbose_name = _("Blog category")
+        verbose_name_plural = _("Blog categories")
 
     def __str__(self):
         return self.name
