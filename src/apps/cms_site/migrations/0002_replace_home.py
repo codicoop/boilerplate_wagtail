@@ -99,7 +99,7 @@ def replace_home(apps, schema_editor):
     }
     """
 
-    home_page_model = apps.get_model("home", "HomePage")
+    home_page_model = apps.get_model("cms_site", "HomePage")
     site_model = apps.get_model("wagtailcore", "Site")
     page_model = apps.get_model("wagtailcore", "Page")
     cont_type_model = apps.get_model("contenttypes", "ContentType")
@@ -134,7 +134,7 @@ def replace_home(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0001_initial'),
+        ('cms_site', '0001_initial'),
         ('wagtailcore', '__latest__'),
     ]
 

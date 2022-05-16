@@ -59,6 +59,6 @@ class BlogIndexPage(Page):
         FieldPanel("introduction"),
     ]
 
-    parent_page_types = ["home.HomePage"]
+    parent_page_types = ["cms_site.HomePage"]
     subpage_types = ["blog.BlogPostPage"]
     template = "blog/index.html"
