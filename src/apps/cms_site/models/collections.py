@@ -37,8 +37,34 @@ class Collection(Page):
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
+        context.update({
+            "available_types": self.get_available_types(),
+            "available_finishings": self.get_available_finishings(),
+            "available_models": self.get_available_models(),
+            "collections": self.get_siblings(False),
+        })
         return context
 
-    # def get_available_types(self):
-    #     r =
-    #
+    def get_available_types(self):
+        available_types = set()
+        for item in self.items_list:
+            available_types = {
+                item_type
+                for item_type in dict(item.__dict__["value"])["item_types"]
+            }
+        return available_types
+
+    def get_available_finishings(self):
+        available_finishings = set()
+        for item in self.items_list:
+            available_finishings = {
+                finishing
+                for finishing in dict(item.__dict__["value"])["finishings"]
+            }
+        return available_finishings
+
+    def get_available_models(self):
+        available_models = set()
+        for item in self.items_list:
+            available_models.add(dict(item.__dict__["value"])["model"])
+        return available_models

@@ -2,11 +2,46 @@
 {% load wagtailcore_tags %}
 
 {% block content %}
-  {{ page.title }}
-  <p>Name: {{ page.name }}</p>
-  <p>PDF: {{ page.pdf }}</p>
-  <p>Description: {{ page.description }}</p>
-  <items_block>
-    {{ page.items_list }}
-  </items_block>
+
+<p>Page title (diria que aquesta dada és la que va al tag del header): {{ page.title }}</p>
+<p>Name: {{ page.name }}</p>
+<p>PDF: {{ page.pdf }}</p>
+<p>Description: {{ page.description }}</p>
+
+<p>Links a altres col·leccions per muntar el menú:
+{% for collection in collections %}
+  <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+{% empty %}
+  No hi ha cap altra col·lecció.
+{% endfor %}
+</p>
+
+<p>Nota: idealment els filtres funcionaran amb react i per tant les opcions
+disponibles caldrà passar-les a través de variables JS, però de moment
+ho poso com a HTML per tenir un punt de partida.</p>
+<p>Models disponibles pels filtres:</p>
+<ul>
+  {% for model in available_models %}
+  <li>{{ model }}</li>
+  {% endfor %}
+</ul>
+
+<p>Tipus disponibles pels filtres:</p>
+<ul>
+  {% for item_type in available_types %}
+  <li>{{ item_type }}</li>
+  {% endfor %}
+</ul>
+
+<p>Acabats disponibles pels filtres:</p>
+<ul>
+  {% for finishing in available_finishings %}
+  <li>{{ finishing }}</li>
+  {% endfor %}
+</ul>
+
+<items_block>
+  {{ page.items_list }}
+</items_block>
+
 {% endblock %}
