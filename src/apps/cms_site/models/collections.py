@@ -1,3 +1,4 @@
+from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
@@ -38,11 +39,14 @@ class Collection(BasePage):
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
+        designers_page_model = apps.get_model("cms_site", "DesignersPage")
+        designers_page = designers_page_model.objects.live().first()
         context.update({
             "available_types": self.get_available_types(),
             "available_finishings": self.get_available_finishings(),
             "available_models": self.get_available_models(),
             "collections": self.get_siblings(False),
+            "designers_page": designers_page,
         })
         return context
 

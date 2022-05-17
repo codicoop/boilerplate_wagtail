@@ -5,15 +5,21 @@
 
 <p>Page title (diria que aquesta dada és la que va al tag del header): {{ page.title }}</p>
 <p>Name: {{ page.name }}</p>
-<p>PDF: {{ page.pdf }}</p>
+<p>PDF: <a href="{{ page.pdf.file.url }}">Catàleg</a></p>
 <p>Description: {{ page.description }}</p>
 
-<p>Links a altres col·leccions per muntar el menú:
+<p>Links a altres col·leccions per muntar el submenú:
 {% for collection in collections %}
   <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
 {% empty %}
   No hi ha cap altra col·lecció.
 {% endfor %}
+</p>
+
+<p>Link a la pàgina Dissenyadors, pel submenú:
+{% if designers_page %}
+  <a href="{% pageurl designers_page %}">Dissenyadors</a>
+{% endif %}
 </p>
 
 <p>Nota: idealment els filtres funcionaran amb react i per tant les opcions

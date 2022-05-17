@@ -20,7 +20,8 @@ class CollectionItem(blocks.StructBlock):
             target_model="cms_site.CollectionItemFinishing",
             required=True,
             label=_("Finishing"),
-        )
+        ),
+        required=False,
     )
     model = SnippetChooserBlock(
         target_model="cms_site.CollectionItemModel",
