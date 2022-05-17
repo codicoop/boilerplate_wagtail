@@ -35,3 +35,19 @@ class CollectionItemFinishing(TranslatableMixin):
 
     def __str__(self):
         return self.name
+
+
+@register_snippet
+class CollectionItemModel(TranslatableMixin):
+    name = models.CharField(_("name"), max_length=255)
+
+    panels = [
+        FieldPanel("name"),
+    ]
+
+    class Meta(TranslatableMixin.Meta):
+        verbose_name = _("Collection item model")
+        verbose_name_plural = _("Collection item model")
+
+    def __str__(self):
+        return self.name
