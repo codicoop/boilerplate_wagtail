@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  {{ page.title }}
+  <p>Name: {{ page.name }}</p>
+  <p>PDF: {{ page.pdf }}</p>
+  <p>Description: {{ page.description }}</p>
+  <items_block>
+    {{ page.items_list }}
+  </items_block>
+{% endblock %}

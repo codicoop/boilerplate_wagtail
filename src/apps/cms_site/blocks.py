@@ -24,4 +24,5 @@ class CollectionItem(blocks.StructBlock):
     )
 
     class Meta:
+        template = "cms_site/collections/block_item.html"
         icon = "doc-full"

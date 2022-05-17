@@ -1,0 +1,16 @@
+{% load wagtailimages_tags %}
+
+<p>Item title: {{ value.title }}</p>
+<p>Image: {% image value.image width-400 %}</p>
+
+{% for item_type in value.item_types %}
+  <p>Item type: {{ item_type }}</p>
+{% empty %}
+<p>This item don't have any type</p>
+{% endfor %}
+
+{% for finishing in value.finishings %}
+  <p>Item type: {{ finishing }}</p>
+{% empty %}
+<p>This item don't have any finishing</p>
+{% endfor %}

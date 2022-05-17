@@ -25,15 +25,20 @@ class Collection(Page):
         ],
         verbose_name=_("Compositions, renders and photos"),
     )
-    # next: programar Streampanel amb ListBlock, o Inline Panel, per la gestió
-    # de les imatges.
 
     content_panels = Page.content_panels + [
         FieldPanel("name", classname="title"),
         FieldPanel("description"),
         DocumentChooserPanel("pdf"),
         StreamFieldPanel("items_list"),
-        # StreamBlock(),
     ]
 
-    template = "cms_site/collection.html"
+    template = "cms_site/collections/collection.html"
+
+    def get_context(self, request, *args, **kwargs):
+        context = super().get_context(request, *args, **kwargs)
+        return context
+
+    # def get_available_types(self):
+    #     r =
+    #
