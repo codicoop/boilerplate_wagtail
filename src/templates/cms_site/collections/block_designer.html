@@ -1,0 +1,7 @@
+{% load wagtailimages_tags %}
+
+<quote>{{ value.quote }}</quote>
+<p>Name: {{ value.name }}</p>
+<p>Rol: {{ value.title }}</p>
+<p>Descripció: {{ value.description }}</p>
+<p>Image: {% image value.photo width-400 %}</p>

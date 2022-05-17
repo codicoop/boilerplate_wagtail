@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+
+<p>Page title (diria que aquesta dada és la que va al tag del header): {{ page.title }}</p>
+
+<p>Links a altres col·leccions per muntar el menú:
+{% for collection in collections %}
+  <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+{% empty %}
+  No hi ha cap altra col·lecció.
+{% endfor %}
+</p>
+
+<items_block>
+  {{ page.designers_list }}
+</items_block>
+
+{% endblock %}

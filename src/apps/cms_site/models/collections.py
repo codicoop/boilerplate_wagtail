@@ -5,10 +5,11 @@ from wagtail.core.fields import StreamField
 from wagtail.core.models import Page
 from wagtail.documents.edit_handlers import DocumentChooserPanel
 
+from apps.base.models import BasePage
 from apps.cms_site.blocks import CollectionItem
 
 
-class Collection(Page):
+class Collection(BasePage):
     name = models.CharField(_("name"), max_length=40)
     description = models.TextField(_("Description"), default="", blank=True)
     pdf = models.ForeignKey(
