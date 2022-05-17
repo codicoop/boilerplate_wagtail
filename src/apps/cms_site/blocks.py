@@ -36,8 +36,8 @@ class CollectionItem(blocks.StructBlock):
 class DesignerItem(blocks.StructBlock):
     quote = blocks.CharBlock(label=_("Quote"))
     name = blocks.CharBlock(label=_("Name"))
-    title = blocks.CharBlock(
-        label=_("Introduction title"),
+    role = blocks.CharBlock(
+        label=_("Role"),
         help_text=_("I.e.: 'Area collection designer'"),
     )
     description = blocks.CharBlock(label=_("Description"))
