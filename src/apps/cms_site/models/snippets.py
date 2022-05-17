@@ -47,7 +47,7 @@ class CollectionItemModel(TranslatableMixin):
 
     class Meta(TranslatableMixin.Meta):
         verbose_name = _("Collection item model")
-        verbose_name_plural = _("Collection item model")
+        verbose_name_plural = _("Collection item models")
 
     def __str__(self):
         return self.name

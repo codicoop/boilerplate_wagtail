@@ -22,6 +22,11 @@ class CollectionItem(blocks.StructBlock):
             label=_("Finishing"),
         )
     )
+    model = SnippetChooserBlock(
+        target_model="cms_site.CollectionItemModel",
+        required=True,
+        label=_("Model"),
+    )
 
     class Meta:
         template = "cms_site/collections/block_item.html"
