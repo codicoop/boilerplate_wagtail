@@ -1,4 +1,4 @@
-from .snippets import CollectionItemType, CollectionItemFinishing
-from .home import HomePage
-from .collections import Collection, CollectionItem
-from .designers import DesignersPage
+from .collections import Collection, CollectionItem  # noqa
+from .designers import DesignersPage  # noqa
+from .home import HomePage  # noqa
+from .snippets import CollectionItemFinishing, CollectionItemType  # noqa

@@ -25,8 +25,9 @@ class DesignersPage(BasePage):
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
-        context.update({
-            # TO DO: get all pages of type Collection
-            "collections": Collection.objects.live(),
-        })
+        context.update(
+            {
+                "collections": Collection.objects.live(),
+            }
+        )
         return context
