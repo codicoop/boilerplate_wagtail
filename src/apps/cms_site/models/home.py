@@ -119,4 +119,4 @@ class HomePage(Page):
         # SnippetChooserPanel("category"),
     ]
 
-    template = "examples/home.html"
+    template = "cms_site/home.html"

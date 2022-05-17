@@ -174,3 +174,30 @@ Given that locally you'll be having debug activated and when deploying in
 pre-production or production you'll use the docker image (which already runs
 `collectstatic` when building it) you'll only need to run it manually when
 testing `debug = False` locally.
+
+
+# TO DO: Different phases of developing
+
+## Initial phase
+
+- Need to recreate migrations and database constantly
+- Need to bring the frontend developer some structure to place the template. If
+the project is headless they can build up all the html without the endpoints yet.
+
+## Content-related phase
+
+In this phase we have most of the development finished and we are filling up the
+cms with the final content.
+Our goal is to deliver the site with the initial content preloaded and ready to
+open in production, not just the CMS for the editor to fill everything itself.
+
+At the same time, the backend developers will still need to reset the database
+quite a lot of times, which could lead to the frontend developer to have to fill
+the content manually multiple times, consuming time and generating frustration.
+
+To address that we need to set "checkpoints" in which there's a commitment from
+the backend developers to keep the database structure intact unless something
+extremely important requires to break it.
+Then, the frontend developer can work with this branch until the content is
+ready, and ask the backend devs. to create a data migration that will load
+all the database to that point.

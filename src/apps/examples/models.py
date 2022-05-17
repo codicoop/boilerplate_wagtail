@@ -80,7 +80,7 @@ class ExamplesPage(Page):
     #     MultiFieldPanel(
     #         children=[
     #             FieldPanel("overlay_title", classname="title"),
-    #             FieldPanel("overlay_body", classname="ful"),
+    #             FieldPanel("overlay_body", classname="full"),
     #             FieldPanel(
     #                 "overlay_button_text",
     #             ),

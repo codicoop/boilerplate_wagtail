@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
 from wagtail.core import blocks
 from wagtail.core.fields import StreamField
@@ -26,6 +27,10 @@ class StoryBlock(blocks.StreamBlock):
 @register_snippet
 class BlogCategory(TranslatableMixin):
     name = models.CharField(max_length=255)
+
+    class Meta(TranslatableMixin.Meta):
+        verbose_name = _("Blog category")
+        verbose_name_plural = _("Blog categories")
 
     def __str__(self):
         return self.name
