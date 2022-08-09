@@ -20,7 +20,7 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS")
 # Instance's absolute URL (given we're not using Sites framework)
-ABSOLUTE_URL = env("ABSOLUTE_URL")
+WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL")
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
 SECRET_KEY = env("SECRET_KEY")
