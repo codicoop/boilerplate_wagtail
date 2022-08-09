@@ -79,6 +79,58 @@ class HomePage(Page):
         on_delete=models.PROTECT,
         related_name="+",
     )
+    collection_3_title = models.CharField(
+        _("Title"),
+        max_length=40,
+        default="",
+        blank=True,
+    )
+    collection_3_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Image"),
+        on_delete=models.PROTECT,
+        related_name="+",
+        null=True,
+        blank=True,
+    )
+    collection_3_page = models.ForeignKey(
+        "wagtailcore.Page",
+        verbose_name=_("Collection's page"),
+        null=True,
+        blank=True,
+        on_delete=models.PROTECT,
+        related_name="+",
+    )
+    custom_projects_title = models.CharField(
+        _("Title"),
+        max_length=40,
+        default="",
+        blank=True,
+    )
+    custom_projects_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Image"),
+        on_delete=models.PROTECT,
+        related_name="+",
+        null=True,
+        blank=True,
+    )
+    custom_projects_page = models.ForeignKey(
+        "wagtailcore.Page",
+        verbose_name=_("Custom projects' page"),
+        null=True,
+        blank=True,
+        on_delete=models.PROTECT,
+        related_name="+",
+    )
+    display_instagram_feed = models.BooleanField(
+        _("Display Instagram feed section"),
+        default=True,
+    )
+    display_header_highlight = models.BooleanField(
+        _("Display header highlighted overlay"),
+        default=True,
+    )
 
     content_panels = Page.content_panels + [
         MultiFieldPanel(
@@ -113,10 +165,30 @@ class HomePage(Page):
             ],
             heading=_("Image linking to the 2nd collection"),
         ),
-        # FieldPanel("other_page_summaries"),
-        # FieldPanel("publication_date"),
-        # FieldPanel("image"),
-        # FieldPanel("category"),
+        MultiFieldPanel(
+            [
+                FieldPanel("collection_3_title", classname="title"),
+                FieldPanel("collection_3_image"),
+                FieldPanel("collection_3_page"),
+            ],
+            heading=_("Image linking to the 3rd collection"),
+        ),
+        MultiFieldPanel(
+            [
+                FieldPanel("custom_projects_title", classname="title"),
+                FieldPanel("custom_projects_image"),
+                FieldPanel("custom_projects_page"),
+            ],
+            heading=_("Custom projects block"),
+        ),
     ]
-
+    settings_panels = [
+        MultiFieldPanel(
+            [
+                FieldPanel("display_instagram_feed"),
+                FieldPanel("display_header_highlight"),
+            ],
+            heading=_("Section's visibility configuration"),
+        ),
+    ] + Page.settings_panels
     template = "cms_site/home.html"
