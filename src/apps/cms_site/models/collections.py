@@ -1,9 +1,9 @@
 from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.admin.panels import FieldPanel, StreamFieldPanel
+from wagtail.fields import StreamField
+from wagtail.models import Page
 from wagtail.documents.edit_handlers import DocumentChooserPanel
 
 from apps.base.models import BasePage

@@ -3,8 +3,8 @@
 from django.db import migrations, models
 import django.db.models.deletion
 import uuid
-import wagtail.core.blocks
-import wagtail.core.fields
+import wagtail.blocks
+import wagtail.fields
 import wagtail.images.blocks
 import wagtail.snippets.blocks
 
@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
             name='DesignersPage',
             fields=[
                 ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('designers_list', wagtail.core.fields.StreamField([('item', wagtail.core.blocks.StructBlock([('quote', wagtail.core.blocks.CharBlock(label='Quote')), ('name', wagtail.core.blocks.CharBlock(label='Name')), ('role', wagtail.core.blocks.CharBlock(help_text="I.e.: 'Area collection designer'", label='Role')), ('description', wagtail.core.blocks.CharBlock(label='Description')), ('photo', wagtail.images.blocks.ImageChooserBlock(label='Photo'))]))], verbose_name='Compositions, renders and photos')),
+                ('designers_list', wagtail.fields.StreamField([('item', wagtail.blocks.StructBlock([('quote', wagtail.blocks.CharBlock(label='Quote')), ('name', wagtail.blocks.CharBlock(label='Name')), ('role', wagtail.blocks.CharBlock(help_text="I.e.: 'Area collection designer'", label='Role')), ('description', wagtail.blocks.CharBlock(label='Description')), ('photo', wagtail.images.blocks.ImageChooserBlock(label='Photo'))]))], verbose_name='Compositions, renders and photos')),
             ],
             options={
                 'abstract': False,
@@ -95,7 +95,7 @@ class Migration(migrations.Migration):
                 ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
                 ('name', models.CharField(max_length=40, verbose_name='name')),
                 ('description', models.TextField(blank=True, default='', verbose_name='Description')),
-                ('items_list', wagtail.core.fields.StreamField([('item', wagtail.core.blocks.StructBlock([('title', wagtail.core.blocks.CharBlock(label='Title')), ('image', wagtail.images.blocks.ImageChooserBlock(label='Image')), ('item_types', wagtail.core.blocks.ListBlock(wagtail.snippets.blocks.SnippetChooserBlock(label='Type of furniture', required=True, target_model='cms_site.CollectionItemType'))), ('finishings', wagtail.core.blocks.ListBlock(wagtail.snippets.blocks.SnippetChooserBlock(label='Finishing', required=True, target_model='cms_site.CollectionItemFinishing'))), ('model', wagtail.snippets.blocks.SnippetChooserBlock(label='Model', required=True, target_model='cms_site.CollectionItemModel'))]))], verbose_name='Compositions, renders and photos')),
+                ('items_list', wagtail.fields.StreamField([('item', wagtail.blocks.StructBlock([('title', wagtail.blocks.CharBlock(label='Title')), ('image', wagtail.images.blocks.ImageChooserBlock(label='Image')), ('item_types', wagtail.blocks.ListBlock(wagtail.snippets.blocks.SnippetChooserBlock(label='Type of furniture', required=True, target_model='cms_site.CollectionItemType'))), ('finishings', wagtail.blocks.ListBlock(wagtail.snippets.blocks.SnippetChooserBlock(label='Finishing', required=True, target_model='cms_site.CollectionItemFinishing'))), ('model', wagtail.snippets.blocks.SnippetChooserBlock(label='Model', required=True, target_model='cms_site.CollectionItemModel'))]))], verbose_name='Compositions, renders and photos')),
                 ('pdf', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtaildocs.document', verbose_name="Catalogue's PDF")),
             ],
             options={

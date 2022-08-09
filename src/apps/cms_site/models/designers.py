@@ -1,7 +1,7 @@
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import StreamFieldPanel
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.admin.panels import StreamFieldPanel
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 from apps.base.models import BasePage
 from apps.cms_site.blocks import DesignerItem
