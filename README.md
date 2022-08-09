@@ -75,7 +75,7 @@ is in the `.github` folder.
 
 ### First setup in Wagtail's admin panel
 
-The behavior of the root page deserves some special attention to understant and
+The behavior of the root page deserves some special attention to understand and
 avoid confusion.
 
 Using the Pages menu, go to the root level (at the topmost breadcrumb you'll
@@ -85,16 +85,27 @@ sites in the same project. Right now, without any other pages added, when you
 access your site's URL (http://localhost:8001) you'll just see a page with that
 root page title.
 
-To make it less confusing, edit the page "Welcome to your new Wagtail site!" to
+To make it less confusing, edit the page "Home Page" to
 a meaningful name, like "blog", your customer's brand name, etc.
 
 While editing that page, go to the Promote tab and note that the `Slug` field
 contains **home**. This is another source of confusion given that this slug does
 not actually exist, as you can see if you try to access `http://localhost:8001/home/`.
 
+With a "normal" or standalone installation of Wagtail, this home page is
+already an instance of a class that you can find in the sample source code
+they provide, so you can just modify or extend it right away.
+In this case, though, we're adding wagtail to an existing Django installation,
+for that reason we need a bit more work before we can start modifying the
+home page.
+Check `cms_site/migrations/0002_replace_home.py` to see how we solved this.
+Thanks to that migration, you can just get to `cms_site.models.home.HomePage`
+and work with this class without having to worry about manually creating the
+page and linking it to the site every time you reset the database.
+
 ### Internationalization
 
-#### Templates
+#### Source code
 
 Translation tags are used across the templates and this part is handled by Django,
 not by Wagtail, so you'll need to generate the localization .po files, translate,
@@ -117,13 +128,13 @@ and the [Wagtail Localize documentation](https://www.wagtail-localize.org/tutori
 > source code in another language is something that gets in the way of the .po
 > files management.
 
-1. Firstly edit `WAGTAIL_CONTENT_LANGUAGES` in settings to specify the vailable
+1. Firstly edit `WAGTAIL_CONTENT_LANGUAGES` in settings to specify the available
 languages.
 2. Access `Settings -> Locales` in the admin panel and add the locales that you
 want. Usually you'll want to enable de tree synchronization.
 3. If you are using the tree synchronization, all the existing page are now
 duplicated in the added locale. Select one of them and click on the Translate
-button to enagle the synchronized translation for this page, which will only ask
+button to enable the synchronized translation for this page, which will only ask
 you for the new strings. New pages will also be created for all other languages.
 4. If you want a different structure (i.e., the translated page will have
 different blocks), stop the synchronized translation for this page.
