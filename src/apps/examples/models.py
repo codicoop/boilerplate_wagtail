@@ -84,7 +84,7 @@ class ExamplesPage(Page):
     #             FieldPanel(
     #                 "overlay_button_text",
     #             ),
-    #             PageChooserPanel(
+    #             FieldPanel(
     #                 "overlay_button_page",
     #             ),
     #             FieldPanel(
@@ -97,7 +97,7 @@ class ExamplesPage(Page):
     #         [
     #             FieldPanel("collection_1_title", classname="title"),
     #             FieldPanel("collection_1_image"),
-    #             PageChooserPanel("collection_1_page"),
+    #             FieldPanel("collection_1_page"),
     #         ],
     #         heading=_("Image linking to the 1st collection"),
     #     ),
@@ -105,7 +105,7 @@ class ExamplesPage(Page):
     #         [
     #             FieldPanel("collection_2_title", classname="title"),
     #             FieldPanel("collection_2_image"),
-    #             PageChooserPanel("collection_2_page"),
+    #             FieldPanel("collection_2_page"),
     #         ],
     #         heading=_("Image linking to the 2nd collection"),
     #     ),

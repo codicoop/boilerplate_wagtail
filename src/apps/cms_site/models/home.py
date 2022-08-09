@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.panels import FieldPanel, MultiFieldPanel, PageChooserPanel
+from wagtail.admin.panels import FieldPanel, MultiFieldPanel, FieldPanel
 from wagtail.models import Page
 from wagtail.images.edit_handlers import FieldPanel
 
@@ -88,7 +88,7 @@ class HomePage(Page):
                 FieldPanel(
                     "overlay_button_text",
                 ),
-                PageChooserPanel(
+                FieldPanel(
                     "overlay_button_page",
                 ),
                 FieldPanel(
@@ -101,7 +101,7 @@ class HomePage(Page):
             [
                 FieldPanel("collection_1_title", classname="title"),
                 FieldPanel("collection_1_image"),
-                PageChooserPanel("collection_1_page"),
+                FieldPanel("collection_1_page"),
             ],
             heading=_("Image linking to the 1st collection"),
         ),
@@ -109,7 +109,7 @@ class HomePage(Page):
             [
                 FieldPanel("collection_2_title", classname="title"),
                 FieldPanel("collection_2_image"),
-                PageChooserPanel("collection_2_page"),
+                FieldPanel("collection_2_page"),
             ],
             heading=_("Image linking to the 2nd collection"),
         ),
