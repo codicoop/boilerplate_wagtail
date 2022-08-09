@@ -13,13 +13,15 @@ services:
       dockerfile: ./docker/Dockerfile
       target: development
     env_file: ./settings/development.env
-    command: gunicorn conf.wsgi:application --bind 0.0.0.0:8000 --reload
+    command: gunicorn conf.wsgi:application --bind 0.0.0.0:80 --reload --threads=10
     volumes:
       - ../src:/srv
     depends_on:
       - develop_wagtail_boilerplate_db
     networks:
       - develop_wagtail_boilerplate_network
+    ports:
+      - 80:80
 
   develop_wagtail_boilerplate_db:
     container_name: develop_wagtail_boilerplate_db
@@ -30,18 +32,3 @@ services:
       - ../dumps:/dumps
     networks:
       - develop_wagtail_boilerplate_network
-
-  develop_wagtail_boilerplate_nginx:
-    container_name: develop_wagtail_boilerplate_nginx
-    image: nginx
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d
-      - ../:/srv
-    ports:
-      # To run multiple projects at once, change it to 8001:80 etc.
-      - 8001:80
-    depends_on:
-      - develop_wagtail_boilerplate_app
-    networks:
-      - develop_wagtail_boilerplate_network
-
