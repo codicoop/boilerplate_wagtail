@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.panels import FieldPanel, StreamFieldPanel
+from wagtail.admin.panels import FieldPanel, FieldPanel
 from wagtail import blocks
 from wagtail.fields import StreamField
 from wagtail.models import Page, TranslatableMixin
@@ -49,7 +49,7 @@ class BlogPostPage(Page):
     content_panels = Page.content_panels + [
         FieldPanel("publication_date"),
         ImageChooserPanel("image"),
-        StreamFieldPanel("body"),
+        FieldPanel("body"),
         SnippetChooserPanel("category"),
     ]
 

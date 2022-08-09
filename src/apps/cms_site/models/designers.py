@@ -1,5 +1,5 @@
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.panels import StreamFieldPanel
+from wagtail.admin.panels import FieldPanel
 from wagtail.fields import StreamField
 from wagtail.models import Page
 
@@ -17,7 +17,7 @@ class DesignersPage(BasePage):
     )
 
     content_panels = Page.content_panels + [
-        StreamFieldPanel("designers_list"),
+        FieldPanel("designers_list"),
     ]
 
     template = "cms_site/collections/designers.html"

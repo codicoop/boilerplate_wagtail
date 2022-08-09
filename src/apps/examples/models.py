@@ -109,7 +109,7 @@ class ExamplesPage(Page):
     #         ],
     #         heading=_("Image linking to the 2nd collection"),
     #     ),
-    #     # StreamFieldPanel("other_page_summaries"),
+    #     # FieldPanel("other_page_summaries"),
     #     # FieldPanel("publication_date"),
     #     # ImageChooserPanel("image"),
     #     # SnippetChooserPanel("category"),
