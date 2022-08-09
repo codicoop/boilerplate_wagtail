@@ -192,3 +192,34 @@ class HomePage(Page):
         ),
     ] + Page.settings_panels
     template = "cms_site/home.html"
+
+    def display_collection(self, number):
+        return (
+            getattr(self, f"collection_{number}_page")
+            and getattr(self, f"collection_{number}_image")
+            and getattr(self, f"collection_{number}_title")
+        )
+
+    @property
+    def display_collections_section(self):
+        return (
+            self.display_collection(1)
+            and self.display_collection(2)
+            and self.display_collection(3)
+        )
+
+    @property
+    def display_custom_projects_section(self):
+        return (
+            self.custom_projects_page
+            and self.custom_projects_image
+            and self.custom_projects_title
+        )
+
+    def can_display_header_highlight(self):
+        return (
+            self.display_header_highlight
+            and self.overlay_image
+            and self.overlay_body
+            and self.overlay_title
+        )
