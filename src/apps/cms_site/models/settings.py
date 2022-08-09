@@ -47,22 +47,23 @@ class ContactDetailsSettings(BaseSetting):
     email = models.EmailField(
         blank=True,
         null=True,
-        help_text=_("Direct e-mail"),
+        help_text=_("Contact e-mail"),
         default="info@moblesciurans.com",
     )
-    address = models.URLField(
+    address = models.TextField(
         blank=True,
         null=True,
-        help_text=_("Telegram URL"),
-        default="""C/ Priora Xixilona, 14
-        08530 La Garriga
+        help_text=_("Address"),
+        default="""C/ Priora Xixilona, 14<br>
+        08530 La Garriga<br>
         Barcelona""",
     )
-    phone = models.URLField(
+    phone = models.CharField(
         blank=True,
         null=True,
-        help_text=_("Whatsapp URL"),
+        help_text=_("Phone number"),
         default="93 871 80 07",
+        max_length=30,
     )
 
     panels = [

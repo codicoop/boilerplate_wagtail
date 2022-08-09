@@ -12,33 +12,47 @@
 {% block content %}
 {% endblock %}
 
+<h3>Segueix-nos a les xarxes</h3>
 <ul>
     {% if settings.cms_site.SocialMediaIconsSettings.facebook %}
-    <li>
-        <a href="{{ settings.cms_site.SocialMediaIconsSettings.facebook }}">
-            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}">
-        </a>
-    </li>
+      <li>
+          <a href="{{ settings.cms_site.SocialMediaIconsSettings.facebook }}">
+              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}">
+          </a>
+      </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.youtube %}
-    <li>
-        <a href="{{ settings.cms_site.SocialMediaIconsSettings.youtube }}">
-            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Youtube Icon' %}">
-        </a>
-    </li>
+      <li>
+          <a href="{{ settings.cms_site.SocialMediaIconsSettings.youtube }}">
+              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Youtube Icon' %}">
+          </a>
+      </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.instagram %}
-    <li>
-        <a href="{{ settings.cms_site.SocialMediaIconsSettings.instagram }}">
-            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Instagram Icon' %}">
-        </a>
-    </li>
+      <li>
+          <a href="{{ settings.cms_site.SocialMediaIconsSettings.instagram }}">
+              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Instagram Icon' %}">
+          </a>
+      </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.vimeo %}
-    <li>
-        <a href="{{ settings.cms_site.SocialMediaIconsSettings.vimeo }}">
-            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Vimeo Icon' %}">
-        </a>
-    </li>
+      <li>
+          <a href="{{ settings.cms_site.SocialMediaIconsSettings.vimeo }}">
+              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Vimeo Icon' %}">
+          </a>
+      </li>
+    {% endif %}
+</ul>
+
+<h3>Contacte</h3>
+<ul>
+    {% if settings.cms_site.ContactDetailsSettings.email %}
+      <li>{{ settings.cms_site.ContactDetailsSettings.email }}</li>
+    {% endif %}
+    {% if settings.cms_site.ContactDetailsSettings.address %}
+      <li>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</li>
+    {% endif %}
+    {% if settings.cms_site.ContactDetailsSettings.phone %}
+      <li>{{ settings.cms_site.ContactDetailsSettings.phone }}</li>
     {% endif %}
 </ul>
