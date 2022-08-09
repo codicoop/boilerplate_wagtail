@@ -11,21 +11,25 @@ class SocialMediaIconsSettings(BaseSetting):
         blank=True,
         null=True,
         help_text=_("Facebook URL"),
+        default="https://www.facebook.com/moblesciurans",
     )
     youtube = models.URLField(
         blank=True,
         null=True,
         help_text=_("Youtube URL"),
+        default="http://www.youtube.com/user/ciuransmobles",
     )
     instagram = models.URLField(
         blank=True,
         null=True,
         help_text=_("Instagram URL"),
+        default="https://www.instagram.com/moblesciurans",
     )
     vimeo = models.URLField(
         blank=True,
         null=True,
         help_text=_("Vimeo URL"),
+        default="http://vimeo.com/moblesciurans",
     )
 
     panels = [
@@ -66,5 +70,5 @@ class ContactDetailsSettings(BaseSetting):
             FieldPanel("email"),
             FieldPanel("address"),
             FieldPanel("phone"),
-        ], heading=_("Contact Icons URLs"))
+        ], heading=_("Contact Details"))
     ]
