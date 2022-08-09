@@ -14,6 +14,7 @@ class DesignersPage(BasePage):
             ("item", DesignerItem()),
         ],
         verbose_name=_("Compositions, renders and photos"),
+        use_json_field=True,
     )
 
     content_panels = Page.content_panels + [

@@ -41,7 +41,7 @@ class BlogPostPage(Page):
     image = models.ForeignKey(
         "wagtailimages.Image", on_delete=models.SET_NULL, null=True
     )
-    body = StreamField(StoryBlock())
+    body = StreamField(StoryBlock(), use_json_field=True)
     category = models.ForeignKey(
         BlogCategory, on_delete=models.SET_NULL, null=True, related_name="blog_posts"
     )
