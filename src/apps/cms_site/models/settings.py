@@ -29,7 +29,7 @@ class SocialMediaIconsSettings(BaseSetting):
         blank=True,
         null=True,
         help_text=_("Vimeo URL"),
-        default="http://vimeo.com/moblesciurans",
+        default="https://vimeo.com/moblesciurans",
     )
 
     panels = [

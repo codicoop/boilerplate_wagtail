@@ -1,4 +1,4 @@
-{% load i18n wagtailcore_tags %}
+{% load i18n wagtailcore_tags static %}
 
 {% if page %}
     {% for translation in page.get_translations.live %}
@@ -11,3 +11,34 @@
 
 {% block content %}
 {% endblock %}
+
+<ul>
+    {% if settings.cms_site.SocialMediaIconsSettings.facebook %}
+    <li>
+        <a href="{{ settings.cms_site.SocialMediaIconsSettings.facebook }}">
+            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}">
+        </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.youtube %}
+    <li>
+        <a href="{{ settings.cms_site.SocialMediaIconsSettings.youtube }}">
+            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Youtube Icon' %}">
+        </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.instagram %}
+    <li>
+        <a href="{{ settings.cms_site.SocialMediaIconsSettings.instagram }}">
+            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Instagram Icon' %}">
+        </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.vimeo %}
+    <li>
+        <a href="{{ settings.cms_site.SocialMediaIconsSettings.vimeo }}">
+            <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Vimeo Icon' %}">
+        </a>
+    </li>
+    {% endif %}
+</ul>
