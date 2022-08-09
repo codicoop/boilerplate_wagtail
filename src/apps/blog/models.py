@@ -5,7 +5,7 @@ from wagtail import blocks
 from wagtail.fields import StreamField
 from wagtail.models import Page, TranslatableMixin
 from wagtail.images.blocks import ImageChooserBlock
-from wagtail.images.edit_handlers import ImageChooserPanel
+from wagtail.images.edit_handlers import FieldPanel
 from wagtail.snippets.edit_handlers import SnippetChooserPanel
 from wagtail.snippets.models import register_snippet
 
@@ -48,7 +48,7 @@ class BlogPostPage(Page):
 
     content_panels = Page.content_panels + [
         FieldPanel("publication_date"),
-        ImageChooserPanel("image"),
+        FieldPanel("image"),
         FieldPanel("body"),
         SnippetChooserPanel("category"),
     ]
