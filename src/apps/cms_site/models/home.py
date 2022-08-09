@@ -116,7 +116,7 @@ class HomePage(Page):
         # FieldPanel("other_page_summaries"),
         # FieldPanel("publication_date"),
         # FieldPanel("image"),
-        # SnippetChooserPanel("category"),
+        # FieldPanel("category"),
     ]
 
     template = "cms_site/home.html"
