@@ -1,8 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel, PageChooserPanel
-from wagtail.core.models import Page
-from wagtail.images.edit_handlers import ImageChooserPanel
+from wagtail.admin.panels import MultiFieldPanel
+from wagtail.images.edit_handlers import FieldPanel
+from wagtail.models import Page
 
 
 class HomePage(Page):
@@ -88,10 +88,10 @@ class HomePage(Page):
                 FieldPanel(
                     "overlay_button_text",
                 ),
-                PageChooserPanel(
+                FieldPanel(
                     "overlay_button_page",
                 ),
-                ImageChooserPanel(
+                FieldPanel(
                     "overlay_image",
                 ),
             ],
@@ -100,23 +100,23 @@ class HomePage(Page):
         MultiFieldPanel(
             [
                 FieldPanel("collection_1_title", classname="title"),
-                ImageChooserPanel("collection_1_image"),
-                PageChooserPanel("collection_1_page"),
+                FieldPanel("collection_1_image"),
+                FieldPanel("collection_1_page"),
             ],
             heading=_("Image linking to the 1st collection"),
         ),
         MultiFieldPanel(
             [
                 FieldPanel("collection_2_title", classname="title"),
-                ImageChooserPanel("collection_2_image"),
-                PageChooserPanel("collection_2_page"),
+                FieldPanel("collection_2_image"),
+                FieldPanel("collection_2_page"),
             ],
             heading=_("Image linking to the 2nd collection"),
         ),
-        # StreamFieldPanel("other_page_summaries"),
+        # FieldPanel("other_page_summaries"),
         # FieldPanel("publication_date"),
-        # ImageChooserPanel("image"),
-        # SnippetChooserPanel("category"),
+        # FieldPanel("image"),
+        # FieldPanel("category"),
     ]
 
     template = "cms_site/home.html"

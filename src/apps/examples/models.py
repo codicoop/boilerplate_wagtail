@@ -1,4 +1,4 @@
-from wagtail.core.models import Page
+from wagtail.models import Page
 
 
 class ExamplesPage(Page):
@@ -84,10 +84,10 @@ class ExamplesPage(Page):
     #             FieldPanel(
     #                 "overlay_button_text",
     #             ),
-    #             PageChooserPanel(
+    #             FieldPanel(
     #                 "overlay_button_page",
     #             ),
-    #             ImageChooserPanel(
+    #             FieldPanel(
     #                 "overlay_image",
     #             ),
     #         ],
@@ -96,22 +96,22 @@ class ExamplesPage(Page):
     #     MultiFieldPanel(
     #         [
     #             FieldPanel("collection_1_title", classname="title"),
-    #             ImageChooserPanel("collection_1_image"),
-    #             PageChooserPanel("collection_1_page"),
+    #             FieldPanel("collection_1_image"),
+    #             FieldPanel("collection_1_page"),
     #         ],
     #         heading=_("Image linking to the 1st collection"),
     #     ),
     #     MultiFieldPanel(
     #         [
     #             FieldPanel("collection_2_title", classname="title"),
-    #             ImageChooserPanel("collection_2_image"),
-    #             PageChooserPanel("collection_2_page"),
+    #             FieldPanel("collection_2_image"),
+    #             FieldPanel("collection_2_page"),
     #         ],
     #         heading=_("Image linking to the 2nd collection"),
     #     ),
-    #     # StreamFieldPanel("other_page_summaries"),
+    #     # FieldPanel("other_page_summaries"),
     #     # FieldPanel("publication_date"),
-    #     # ImageChooserPanel("image"),
-    #     # SnippetChooserPanel("category"),
+    #     # FieldPanel("image"),
+    #     # FieldPanel("category"),
     # ]
     pass

@@ -1,10 +1,9 @@
 from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
-from wagtail.documents.edit_handlers import DocumentChooserPanel
+from wagtail.documents.edit_handlers import FieldPanel
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 from apps.base.models import BasePage
 from apps.cms_site.blocks import CollectionItem
@@ -26,13 +25,14 @@ class Collection(BasePage):
             ("item", CollectionItem()),
         ],
         verbose_name=_("Compositions, renders and photos"),
+        use_json_field=True,
     )
 
     content_panels = Page.content_panels + [
         FieldPanel("name", classname="title"),
         FieldPanel("description"),
-        DocumentChooserPanel("pdf"),
-        StreamFieldPanel("items_list"),
+        FieldPanel("pdf"),
+        FieldPanel("items_list"),
     ]
 
     template = "cms_site/collections/collection.html"

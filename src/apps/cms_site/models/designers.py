@@ -1,7 +1,7 @@
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import StreamFieldPanel
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.admin.panels import FieldPanel
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 from apps.base.models import BasePage
 from apps.cms_site.blocks import DesignerItem
@@ -14,10 +14,11 @@ class DesignersPage(BasePage):
             ("item", DesignerItem()),
         ],
         verbose_name=_("Compositions, renders and photos"),
+        use_json_field=True,
     )
 
     content_panels = Page.content_panels + [
-        StreamFieldPanel("designers_list"),
+        FieldPanel("designers_list"),
     ]
 
     template = "cms_site/collections/designers.html"
