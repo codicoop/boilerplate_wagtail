@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel, FieldPanel
 from wagtail.fields import StreamField
 from wagtail.models import Page
-from wagtail.documents.edit_handlers import DocumentChooserPanel
+from wagtail.documents.edit_handlers import FieldPanel
 
 from apps.base.models import BasePage
 from apps.cms_site.blocks import CollectionItem
@@ -31,7 +31,7 @@ class Collection(BasePage):
     content_panels = Page.content_panels + [
         FieldPanel("name", classname="title"),
         FieldPanel("description"),
-        DocumentChooserPanel("pdf"),
+        FieldPanel("pdf"),
         FieldPanel("items_list"),
     ]
 
