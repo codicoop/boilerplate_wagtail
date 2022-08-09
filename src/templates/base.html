@@ -50,7 +50,7 @@
       <li>{{ settings.cms_site.ContactDetailsSettings.email }}</li>
     {% endif %}
     {% if settings.cms_site.ContactDetailsSettings.address %}
-      <li>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</li>
+      <li>{{ settings.cms_site.ContactDetailsSettings.address|richtext }}</li>
     {% endif %}
     {% if settings.cms_site.ContactDetailsSettings.phone %}
       <li>{{ settings.cms_site.ContactDetailsSettings.phone }}</li>
