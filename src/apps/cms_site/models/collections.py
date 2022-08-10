@@ -34,6 +34,7 @@ class Collection(BasePage):
     ]
 
     template = "cms_site/collections/collection.html"
+    parent_page_types = ["cms_site.HomePage"]
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
