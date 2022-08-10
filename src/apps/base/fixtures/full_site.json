@@ -1,5 +1,280 @@
 [
 {
+  "model": "wagtail_localize.translatableobject",
+  "pk": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 1,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "specific_content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "locale": 1,
+    "object_repr": "Eslògan de portada",
+    "content_json": "{\"pk\": 2, \"path\": \"00010001\", \"depth\": 2, \"numchild\": 0, \"translation_key\": \"cbf1099f-57c1-4bdd-beae-1b1eb6602e3c\", \"locale\": 1, \"title\": \"Esl\\u00f2gan de portada\", \"draft_title\": \"Esl\\u00f2gan de portada\", \"slug\": \"home\", \"content_type\": 5, \"live\": true, \"has_unpublished_changes\": false, \"url_path\": \"/home/\", \"owner\": null, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"locked_at\": null, \"locked_by\": null, \"first_published_at\": \"2022-08-10T13:56:15.151Z\", \"last_published_at\": \"2022-08-10T13:56:15.151Z\", \"latest_revision_created_at\": \"2022-08-10T13:56:15.122Z\", \"live_revision\": 1, \"alias_of\": null, \"overlay_title\": \"Nou disseny de llit pel teu dormitori\", \"overlay_body\": \"Est\\u00e0 compost per un cap\\u00e7al de llistons de grossors diferents i una base retroil\\u00b7luminada pel matal\\u00e0s. Tens l'opci\\u00f3 de complementar-la amb les tauletes de la col\\u00b7lecci\\u00f3 New Area Collection.\", \"overlay_button_text\": \"Veure col\\u00b7lecci\\u00f3\", \"overlay_button_page\": null, \"overlay_image\": 1, \"collection_1_title\": \"\", \"collection_1_image\": null, \"collection_1_page\": null, \"collection_2_title\": \"\", \"collection_2_image\": null, \"collection_2_page\": null, \"collection_3_title\": \"\", \"collection_3_image\": null, \"collection_3_page\": null, \"custom_projects_title\": \"\", \"custom_projects_image\": null, \"custom_projects_page\": null, \"display_instagram_feed\": true, \"display_header_highlight\": true, \"wagtail_admin_comments\": []}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-10T13:58:40.067Z",
+    "last_updated_at": "2022-08-10T13:58:40.064Z"
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 1,
+  "fields": {
+    "uuid": "3cbd7a30-74d3-42c6-9b83-5cab8720f76c",
+    "source": 1,
+    "target_locale": 2,
+    "created_at": "2022-08-10T13:58:40.126Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 1,
+  "fields": {
+    "locale": 1,
+    "data_hash": "89d6dc55-b7d6-50ab-94a1-a365472ebc7e",
+    "data": "Eslògan de portada"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 2,
+  "fields": {
+    "locale": 1,
+    "data_hash": "d6b6148d-7628-5c7b-b603-7ed96dfcb5a4",
+    "data": "home"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 3,
+  "fields": {
+    "locale": 1,
+    "data_hash": "a83a8d29-7e29-549b-b411-c16076b3bf5c",
+    "data": "Nou disseny de llit pel teu dormitori"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 4,
+  "fields": {
+    "locale": 1,
+    "data_hash": "3de7a0c7-9b76-522e-bb87-e0d2a631fa12",
+    "data": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection."
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 5,
+  "fields": {
+    "locale": 1,
+    "data_hash": "82fdcd13-5def-5d14-8f13-fd395f6d5840",
+    "data": "Veure col·lecció"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 1,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "f749566c-8a06-5c72-89b8-682e4e49f74f",
+    "path": "title",
+    "field_path": "title"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 2,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "d71ad27b-d7c2-5061-865d-752015b09e05",
+    "path": "slug",
+    "field_path": "slug"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 3,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "320b53d2-09a2-5429-9a58-88627f689b6c",
+    "path": "overlay_title",
+    "field_path": "overlay_title"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 4,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "8f785e12-7d7d-5bce-a30d-ed002c9b07f4",
+    "path": "overlay_body",
+    "field_path": "overlay_body"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 5,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "584b295d-20c0-58f9-a29b-3d053b6c8c70",
+    "path": "overlay_button_text",
+    "field_path": "overlay_button_text"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 6,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "d72d1aca-b10c-56af-835b-9f724f69738a",
+    "path": "overlay_image",
+    "field_path": "overlay_image"
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 1,
+  "fields": {
+    "translation_of": 3,
+    "locale": 2,
+    "context": 3,
+    "data": "Nuevo diseño de cama para tu dormitorio",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:58:57.651Z",
+    "updated_at": "2022-08-10T13:58:57.651Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 2,
+  "fields": {
+    "translation_of": 4,
+    "locale": 2,
+    "context": 4,
+    "data": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:59:06.380Z",
+    "updated_at": "2022-08-10T13:59:06.380Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 3,
+  "fields": {
+    "translation_of": 5,
+    "locale": 2,
+    "context": 5,
+    "data": "Ver colección",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:59:12.982Z",
+    "updated_at": "2022-08-10T13:59:12.982Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 1,
+  "fields": {
+    "source": 1,
+    "context": 1,
+    "order": 1,
+    "string": 1,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 2,
+  "fields": {
+    "source": 1,
+    "context": 2,
+    "order": 2,
+    "string": 2,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 3,
+  "fields": {
+    "source": 1,
+    "context": 3,
+    "order": 3,
+    "string": 3,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 4,
+  "fields": {
+    "source": 1,
+    "context": 4,
+    "order": 4,
+    "string": 4,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 5,
+  "fields": {
+    "source": 1,
+    "context": 5,
+    "order": 5,
+    "string": 5,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.overridablesegment",
+  "pk": 1,
+  "fields": {
+    "source": 1,
+    "context": 6,
+    "order": 6,
+    "data_json": "1"
+  }
+},
+{
+  "model": "wagtail_localize.localesynchronization",
+  "pk": 1,
+  "fields": {
+    "locale": 2,
+    "sync_from": 1
+  }
+},
+{
   "model": "wagtailimages.image",
   "pk": 1,
   "fields": {
@@ -21,10 +296,24 @@
   }
 },
 {
-  "model": "wagtailcore.locale",
+  "model": "wagtailcore.modellogentry",
   "pk": 1,
   "fields": {
-    "language_code": "ca"
+    "content_type": [
+      "wagtailcore",
+      "locale"
+    ],
+    "label": "Spanish",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.856Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
   }
 },
 {
@@ -33,7 +322,7 @@
   "fields": {
     "path": "0001",
     "depth": 1,
-    "numchild": 1,
+    "numchild": 2,
     "translation_key": "8de012ef-93aa-4dc4-a16f-1c815806e7c0",
     "locale": 1,
     "title": "Root",
@@ -96,6 +385,42 @@
     "last_published_at": "2022-08-10T13:56:15.151Z",
     "latest_revision_created_at": "2022-08-10T13:56:15.122Z",
     "live_revision": 1,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "00010002",
+    "depth": 2,
+    "numchild": 0,
+    "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "locale": 2,
+    "title": "Eslògan de portada",
+    "draft_title": "Eslògan de portada",
+    "slug": "home-1",
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-10T13:56:15.151Z",
+    "last_published_at": "2022-08-10T13:59:15.000Z",
+    "latest_revision_created_at": "2022-08-10T13:59:14.983Z",
+    "live_revision": 4,
     "alias_of": null
   }
 },
@@ -163,6 +488,195 @@
   }
 },
 {
+  "model": "wagtailcore.pagerevision",
+  "pk": 2,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:58:40.155Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-es/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:56:15.122Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 3,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:58:40.189Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:58:40.155Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 4,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:59:14.983Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+      "live_revision": 3,
+      "overlay_image": 1,
+      "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:58:40.204Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Ver colección",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:58:40.189Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -207,12 +721,187 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.897Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 3,
+        "title": "Eslògan de portada"
+      },
+      "source": {
+        "id": 1,
+        "title": "Root"
+      },
+      "destination": {
+        "id": 1,
+        "title": "Root"
+      }
+    },
+    "timestamp": "2022-08-10T13:58:26.901Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.903Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.convert_alias",
+    "data": {
+      "page": {
+        "id": 3,
+        "title": "Eslògan de portada"
+      }
+    },
+    "timestamp": "2022-08-10T13:58:40.162Z",
+    "uuid": null,
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:40.227Z",
+    "uuid": "1caffe5c-ec6e-41ea-adb1-82269809bb68",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:59:15.022Z",
+    "uuid": "f0190e40-e031-46ec-b3ca-ac5d6c8a9131",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 4
+  }
+},
+{
   "model": "cms_site.homepage",
   "pk": 2,
   "fields": {
     "overlay_title": "Nou disseny de llit pel teu dormitori",
     "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
     "overlay_button_text": "Veure col·lecció",
+    "overlay_button_page": null,
+    "overlay_image": 1,
+    "collection_1_title": "",
+    "collection_1_image": null,
+    "collection_1_page": null,
+    "collection_2_title": "",
+    "collection_2_image": null,
+    "collection_2_page": null,
+    "collection_3_title": "",
+    "collection_3_image": null,
+    "collection_3_page": null,
+    "custom_projects_title": "",
+    "custom_projects_image": null,
+    "custom_projects_page": null,
+    "display_instagram_feed": true,
+    "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.homepage",
+  "pk": 3,
+  "fields": {
+    "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+    "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+    "overlay_button_text": "Ver colección",
     "overlay_button_page": null,
     "overlay_image": 1,
     "collection_1_title": "",
