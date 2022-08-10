@@ -14,6 +14,22 @@ class Command(BaseCommand):
     )
 
     def handle(self, *args, **options):
+        self.dump_locales()
+        self.dump_content()
+
+    def dump_locales(self):
+        path = "apps/base/fixtures/locales.json"
+        parameters = (
+            "--indent=2",
+            "wagtailcore.locale",
+            f"-o={path}",
+        )
+        call_command("dumpdata", *parameters, verbosity=2)
+        self.stdout.write(
+            f"Fixtures updated at {path}."
+        )
+
+    def dump_content(self):
         path = "apps/base/fixtures/full_site.json"
         parameters = (
             "--natural-foreign",
@@ -34,12 +50,12 @@ class Command(BaseCommand):
             "-e=wagtailcore.workflowpage",
             "-e=wagtailcore.collection",  # ????????????
             "-e=wagtailcore.site",
+            "-e=wagtailcore.locale",
             "-e=wagtailsearch.indexentry",
             "-e=wagtail_localize.translationlog",
             f"-o={path}",
         )
         call_command("dumpdata", *parameters, verbosity=2)
-
         self.stdout.write(
             f"Fixtures updated at {path}."
         )

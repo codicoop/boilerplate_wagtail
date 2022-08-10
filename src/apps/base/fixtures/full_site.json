@@ -202,6 +202,25 @@
   }
 },
 {
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 4,
+  "fields": {
+    "translation_of": 1,
+    "locale": 2,
+    "context": 1,
+    "data": "Eslogan de portada, pendiente",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T14:51:57.775Z",
+    "updated_at": "2022-08-10T14:52:08.337Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
   "model": "wagtail_localize.stringsegment",
   "pk": 1,
   "fields": {
@@ -397,8 +416,8 @@
     "numchild": 0,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 2,
-    "title": "Eslògan de portada",
-    "draft_title": "Eslògan de portada",
+    "title": "Eslogan de portada, pendiente",
+    "draft_title": "Eslogan de portada, pendiente",
     "slug": "home-1",
     "content_type": [
       "cms_site",
@@ -418,9 +437,9 @@
     "locked_at": null,
     "locked_by": null,
     "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-10T13:59:15.000Z",
-    "latest_revision_created_at": "2022-08-10T13:59:14.983Z",
-    "live_revision": 4,
+    "last_published_at": "2022-08-10T14:52:12.043Z",
+    "latest_revision_created_at": "2022-08-10T14:52:12.026Z",
+    "live_revision": 5,
     "alias_of": null
   }
 },
@@ -677,6 +696,69 @@
   }
 },
 {
+  "model": "wagtailcore.pagerevision",
+  "pk": 5,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T14:52:12.026Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslogan de portada, pendiente",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslogan de portada, pendiente",
+      "content_type": 5,
+      "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+      "live_revision": 4,
+      "overlay_image": 1,
+      "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:59:15Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Ver colección",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:59:14.983Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -868,6 +950,28 @@
     "deleted": false,
     "page": 3,
     "revision": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslogan de portada, pendiente",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T14:52:12.066Z",
+    "uuid": "c9d34c60-e150-4f99-8534-a446b2dd0dce",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 5
   }
 },
 {
