@@ -19,34 +19,34 @@ les dades mínimes per mostrar el header (títol, text i imatge).</em>
 
   {% if page.display_collections_section %}
     <h3>Catàleg</h3>
-      {% if page.display_collection.1 %}
+      {% if page.display_collection_1 %}
         <a href="{% pageurl page.collection_1_page %}">
           <div>
-            <p>{{ collection_1_title }}</p>
+            <p>{{ page.collection_1_title }}</p>
             <!--Canvia la mida de la imatge per la que toqui!-->
-            <p>Image: {% image page.collection_1_image width-400 %}</p>
+            {% image page.collection_1_image width-400 %}
           </div>
         </a>
       {% else %}
           <br><em>A la col·lecció 1 li falta alguna dada.</em>
       {% endif %}
-      {% if page.display_collection.2 %}
+      {% if page.display_collection_2 %}
         <a href="{% pageurl page.collection_2_page %}">
           <div>
-            <p>{{ collection_2_title }}</p>
+            <p>{{ page.collection_2_title }}</p>
             <!--Canvia la mida de la imatge per la que toqui!-->
-            <p>Image: {% image page.collection_2_image width-400 %}</p>
+            {% image page.collection_2_image width-400 %}
           </div>
         </a>
       {% else %}
           <br><em>A la col·lecció 2 li falta alguna dada.</em>
       {% endif %}
-      {% if page.display_collection.3 %}
+      {% if page.display_collection_3 %}
         <a href="{% pageurl page.collection_3_page %}">
           <div>
-            <p>{{ collection_3_title }}</p>
+            <p>{{ page.collection_3_title }}</p>
             <!--Canvia la mida de la imatge per la que toqui!-->
-            <p>Image: {% image page.collection_3_image width-400 %}</p>
+            {% image page.collection_3_image width-400 %}
           </div>
         </a>
       {% else %}

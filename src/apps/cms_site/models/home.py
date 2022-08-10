@@ -193,19 +193,36 @@ class HomePage(Page):
     ] + Page.settings_panels
     template = "cms_site/home.html"
 
-    def display_collection(self, number):
+    @property
+    def display_collection_1(self):
         return (
-            getattr(self, f"collection_{number}_page")
-            and getattr(self, f"collection_{number}_image")
-            and getattr(self, f"collection_{number}_title")
+            self.collection_1_page
+            and self.collection_1_image
+            and self.collection_1_title
+        )
+
+    @property
+    def display_collection_2(self):
+        return (
+            self.collection_2_page
+            and self.collection_2_image
+            and self.collection_2_title
+        )
+
+    @property
+    def display_collection_3(self):
+        return (
+            self.collection_3_page
+            and self.collection_3_image
+            and self.collection_3_title
         )
 
     @property
     def display_collections_section(self):
         return (
-            self.display_collection(1)
-            and self.display_collection(2)
-            and self.display_collection(3)
+            self.display_collection_1
+            or self.display_collection_2
+            or self.display_collection_3
         )
 
     @property
