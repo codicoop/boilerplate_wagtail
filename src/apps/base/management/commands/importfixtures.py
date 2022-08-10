@@ -10,7 +10,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         fixtures = [
             "apps/base/fixtures/locales.json",
-            "apps/base/fixtures/full_site.json",
+            "apps/base/fixtures/content.json",
         ]
         for fixture in fixtures:
             call_command("loaddata", fixture, verbosity=2)

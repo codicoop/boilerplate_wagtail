@@ -30,7 +30,7 @@ class Command(BaseCommand):
         )
 
     def dump_content(self):
-        path = "apps/base/fixtures/full_site.json"
+        path = "apps/base/fixtures/content.json"
         parameters = (
             "--natural-foreign",
             "--indent=2",

@@ -202,7 +202,7 @@ them.
 
 Run this command:
 
-    python manage.py loaddata apps/base/fixtures/full_site.json
+    python manage.py loaddata apps/base/fixtures/content.json
 
 # TO DO: Different phases of developing
 
