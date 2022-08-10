@@ -10,7 +10,6 @@ from apps.cms_site.blocks import CollectionItem
 
 
 class Collection(BasePage):
-    name = models.CharField(_("name"), max_length=40)
     description = models.TextField(_("Description"), default="", blank=True)
     pdf = models.ForeignKey(
         "wagtaildocs.Document",
@@ -29,7 +28,6 @@ class Collection(BasePage):
     )
 
     content_panels = Page.content_panels + [
-        FieldPanel("name", classname="title"),
         FieldPanel("description"),
         FieldPanel("pdf"),
         FieldPanel("items_list"),
