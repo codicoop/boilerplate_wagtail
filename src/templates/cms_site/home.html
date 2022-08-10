@@ -9,6 +9,8 @@
   <h3>Destacat sobreposat al header</h3>
     {{ page.overlay_title }}
     {{ page.overlay_body|richtext }}
+    <!--Canvia la mida de la imatge per la que toqui!-->
+    {% image page.overlay_image width-400 %}
     {% if page.overlay_button_page and page.overlay_button_text %}
       <a href="{% pageurl page.overlay_button_page %}">{{ page.overlay_button_text }}</a>
     {% endif %}
