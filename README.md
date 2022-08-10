@@ -186,6 +186,23 @@ pre-production or production you'll use the docker image (which already runs
 `collectstatic` when building it) you'll only need to run it manually when
 testing `debug = False` locally.
 
+### Fixtures
+
+#### To create or update the fixtures with the current data, do the following:
+
+1. Create the desired data through the admin site.
+2. Use the `python manage.py update_fixtures` command.
+
+#### Loading the fixtures
+
+Fixtures are not loaded during the initial migration because the `contenttype`
+table is not filled yet, wich causes `loaddata` to fail.
+Also, is better to have the flexibility to decide if you want or not to load
+them.
+
+Run this command:
+
+    python manage.py loaddata apps/base/fixtures/full_site.json
 
 # TO DO: Different phases of developing
 
