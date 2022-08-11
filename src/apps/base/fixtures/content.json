@@ -4162,6 +4162,48 @@
   }
 },
 {
+  "model": "wagtailimages.image",
+  "pk": 10,
+  "fields": {
+    "collection": 1,
+    "title": "Els nostres dissenyadors",
+    "file": "original_images/ciurans_els_nostres_dissenyadors_header.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2022-08-11T10:50:44.711Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 811647,
+    "file_hash": "450e53408553d4b868c526616ec4e1ba1e9f488b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 11,
+  "fields": {
+    "collection": 1,
+    "title": "Josep Turell",
+    "file": "original_images/ciurans_foto_josep_turell.png",
+    "width": 326,
+    "height": 493,
+    "created_at": "2022-08-11T10:55:51.535Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 171950,
+    "file_hash": "bdf2d165d07cf27e441267286fb19920652f0b5b"
+  }
+},
+{
   "model": "wagtailcore.modellogentry",
   "pk": 1,
   "fields": {
@@ -5841,7 +5883,7 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 2,
+    "numchild": 3,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
     "title": "Eslògan de portada",
@@ -5865,9 +5907,9 @@
     "locked_at": null,
     "locked_by": null,
     "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-11T09:56:45.618Z",
-    "latest_revision_created_at": "2022-08-11T09:56:45.583Z",
-    "live_revision": 9,
+    "last_published_at": "2022-08-11T10:37:14.923Z",
+    "latest_revision_created_at": "2022-08-11T10:37:14.852Z",
+    "live_revision": 10,
     "alias_of": null
   }
 },
@@ -5877,7 +5919,7 @@
   "fields": {
     "path": "00010002",
     "depth": 2,
-    "numchild": 2,
+    "numchild": 3,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 2,
     "title": "Eslogan de portada, pendiente",
@@ -6057,6 +6099,82 @@
     "latest_revision_created_at": "2022-08-11T09:55:55.401Z",
     "live_revision": 8,
     "alias_of": 6
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 8,
+  "fields": {
+    "path": "000100010003",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+    "locale": 1,
+    "title": "Els nostres dissenyadors",
+    "draft_title": "Els nostres dissenyadors",
+    "slug": "els-nostres-dissenyadors",
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/els-nostres-dissenyadors/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T10:56:41.639Z",
+    "last_published_at": "2022-08-11T10:56:41.639Z",
+    "latest_revision_created_at": "2022-08-11T10:56:41.608Z",
+    "live_revision": 11,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 9,
+  "fields": {
+    "path": "000100020003",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+    "locale": 2,
+    "title": "Els nostres dissenyadors",
+    "draft_title": "Els nostres dissenyadors",
+    "slug": "els-nostres-dissenyadors",
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/els-nostres-dissenyadors/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T10:56:41.639Z",
+    "last_published_at": "2022-08-11T10:56:41.639Z",
+    "latest_revision_created_at": "2022-08-11T10:56:41.608Z",
+    "live_revision": 11,
+    "alias_of": 8
   }
 },
 {
@@ -6590,6 +6708,116 @@
       "has_unpublished_changes": false,
       "display_header_highlight": true,
       "latest_revision_created_at": "2022-08-11T08:58:01.066Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 10,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T10:37:14.852Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 2,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "header_image": 2,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 9,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-11T09:56:45.618Z",
+      "collection_1_image": 2,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 6,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-11T09:56:45.583Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 11,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T10:56:41.608Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 8,
+      "live": true,
+      "path": "000100010003",
+      "slug": "els-nostres-dissenyadors",
+      "depth": 3,
+      "owner": 1,
+      "title": "Els nostres dissenyadors",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/els-nostres-dissenyadors/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Els nostres dissenyadors",
+      "content_type": 53,
+      "header_image": 10,
+      "live_revision": null,
+      "show_in_menus": false,
+      "designers_list": "[{\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 11}, \"id\": \"1b138be3-9080-4500-b634-6326946153cb\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 11}, \"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\"}]",
+      "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
     },
     "approved_go_live_at": null
   }
@@ -7145,6 +7373,233 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T10:37:14.895Z",
+    "uuid": "e7d0cbe8-f66b-48b3-be31-182ecc570699",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 10
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T10:37:14.986Z",
+    "uuid": "e7d0cbe8-f66b-48b3-be31-182ecc570699",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 10
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T10:56:41.591Z",
+    "uuid": "2da7cc5f-1244-46d7-9f31-1a9a8b206735",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 8,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T10:56:41.675Z",
+    "uuid": "2da7cc5f-1244-46d7-9f31-1a9a8b206735",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 8,
+    "revision": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T10:56:41.747Z",
+    "uuid": "2da7cc5f-1244-46d7-9f31-1a9a8b206735",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 9,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 9,
+        "title": "Els nostres dissenyadors"
+      },
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 3,
+        "title": "Eslogan de portada, pendiente"
+      }
+    },
+    "timestamp": "2022-08-11T10:56:41.755Z",
+    "uuid": "2da7cc5f-1244-46d7-9f31-1a9a8b206735",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 9,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T10:56:41.761Z",
+    "uuid": "2da7cc5f-1244-46d7-9f31-1a9a8b206735",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 9,
+    "revision": null
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "header",
+    "slug": "header"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "equip",
+    "slug": "equip"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "dissenyador",
+    "slug": "dissenyador"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": 11
+  }
+},
+{
   "model": "cms_site.collection",
   "pk": 4,
   "fields": {
@@ -7181,9 +7636,26 @@
   }
 },
 {
+  "model": "cms_site.designerspage",
+  "pk": 8,
+  "fields": {
+    "header_image": 10,
+    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}]"
+  }
+},
+{
+  "model": "cms_site.designerspage",
+  "pk": 9,
+  "fields": {
+    "header_image": 10,
+    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}]"
+  }
+},
+{
   "model": "cms_site.homepage",
   "pk": 2,
   "fields": {
+    "header_image": 2,
     "overlay_title": "Nou disseny de llit pel teu dormitori",
     "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
     "overlay_button_text": "Veure col·lecció",
@@ -7209,6 +7681,7 @@
   "model": "cms_site.homepage",
   "pk": 3,
   "fields": {
+    "header_image": null,
     "overlay_title": "Nuevo diseño de cama para tu dormitorio",
     "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
     "overlay_button_text": "Ver colección",
