@@ -3958,6 +3958,21 @@
   }
 },
 {
+  "model": "wagtaildocs.document",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "Catàleg Nordic",
+    "file": "documents/ciurans_catalogo_pdf_15.pdf",
+    "created_at": "2022-08-11T09:45:01.905Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "file_size": 12108938,
+    "file_hash": "d8da8a57d804061898c16f94b3dd1a9c9947c20a"
+  }
+},
+{
   "model": "wagtailimages.image",
   "pk": 1,
   "fields": {
@@ -4060,6 +4075,90 @@
     "focal_point_height": null,
     "file_size": 182045,
     "file_hash": "41fe83cd000e66fc3757e3fcc3da2335d9a3af4c"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 6,
+  "fields": {
+    "collection": 1,
+    "title": "Nordic 1",
+    "file": "original_images/ciurans_nordic_1_Moble_televisio_Jorn_i_Bufet_Sovik.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2022-08-11T09:52:33.394Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 301839,
+    "file_hash": "2f88bd94a70c7e5a7c60846c5b446661c7204937"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 7,
+  "fields": {
+    "collection": 1,
+    "title": "Nordic 2",
+    "file": "original_images/ciurans_nordic_2_Moble_Jorn_Dora_i_Brei.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2022-08-11T09:53:26.849Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 291381,
+    "file_hash": "9aabcbec599311f210d279af00d37bda741ecd7b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 8,
+  "fields": {
+    "collection": 1,
+    "title": "Nordic 3",
+    "file": "original_images/ciurans_nordic_3_Buffet_Sovik.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2022-08-11T09:54:36.983Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 276138,
+    "file_hash": "0bc4b49f8d98e31b16e08aae6dd2d199c8731ff1"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 9,
+  "fields": {
+    "collection": 1,
+    "title": "Nordic 4",
+    "file": "original_images/ciurans_nordic_4_Llit_Brevik.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2022-08-11T09:55:28.441Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 277095,
+    "file_hash": "44743619ad038bacce3b422ef9b73520104ce44e"
   }
 },
 {
@@ -5281,6 +5380,426 @@
   }
 },
 {
+  "model": "wagtailcore.modellogentry",
+  "pk": 59,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Døra",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:09.202Z",
+    "uuid": "8312b1e1-a271-444e-b9bc-15fefd883e95",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "10"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 60,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Jörn",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:17.805Z",
+    "uuid": "ea9bcf77-ea75-4d10-a1c3-55348ba39bff",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "11"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 61,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Brei",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:22.413Z",
+    "uuid": "5881fff9-bbde-47dc-8466-9638ae719733",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "12"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 62,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Avik",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:32.384Z",
+    "uuid": "9d917309-b06d-4aee-a2e2-08078f1b7fdb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "13"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 63,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Søvik",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:37.805Z",
+    "uuid": "9ffcbd73-c40c-4d86-9402-ba92d67dc5f0",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "14"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 64,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Brevik",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:50.319Z",
+    "uuid": "a294c3c6-51de-4c75-81d0-8a6622ea8b2b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "15"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 65,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Tørla",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:47:59.092Z",
+    "uuid": "16698103-1d77-471f-af2f-964b9bed270d",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "16"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 66,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Göta",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:48:07.066Z",
+    "uuid": "88976c10-f53c-4f49-8ea0-56e7ac7dd833",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "17"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 67,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Tolga",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:48:16.085Z",
+    "uuid": "259014c4-14c6-45cb-9518-70293aa51dc9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "18"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 68,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Tøre",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:48:34.669Z",
+    "uuid": "541f60f8-6ac4-4ab3-97a8-dfb03a3a9c35",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "19"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 69,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Solna",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:48:45.617Z",
+    "uuid": "70fbe9b3-1b55-456e-8096-297f0ae4823c",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "20"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 70,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Vika",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:49:02.704Z",
+    "uuid": "cfc964a3-08a2-401f-a6ee-39dbd00c9693",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "21"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 71,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Rona",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:49:14.090Z",
+    "uuid": "06e10a7c-beee-4608-9c94-4fdf89a98e6d",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "22"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 72,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Bro",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:49:24.379Z",
+    "uuid": "aa61d074-5981-4b0f-860d-07976a7af2fc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "23"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 73,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Viken",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:49:33.374Z",
+    "uuid": "92b06341-7be3-4508-a90c-bae1ef359722",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "24"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 74,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Nybro",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:49:41.837Z",
+    "uuid": "aa2fd25c-d786-40b9-8a07-80533cbdca0f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "25"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 75,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Brunna",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:50:13.041Z",
+    "uuid": "5272ed9a-597e-45da-9377-d712186ac546",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "26"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 76,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Äsa",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:50:17.263Z",
+    "uuid": "27b0e85f-67c7-4aa3-8778-23226d7dd2b0",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "27"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 77,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Floda",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:50:50.026Z",
+    "uuid": "f508a02f-41e4-4c93-89ee-639e1be219a8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "28"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 78,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Göta",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:51:03.907Z",
+    "uuid": "ec0b3632-d4a8-4243-844b-9fa1954639b7",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "29"
+  }
+},
+{
   "model": "wagtailcore.page",
   "pk": 1,
   "fields": {
@@ -5322,7 +5841,7 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 1,
+    "numchild": 2,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
     "title": "Eslògan de portada",
@@ -5346,9 +5865,9 @@
     "locked_at": null,
     "locked_by": null,
     "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-11T08:58:01.108Z",
-    "latest_revision_created_at": "2022-08-11T08:58:01.066Z",
-    "live_revision": 7,
+    "last_published_at": "2022-08-11T09:56:45.618Z",
+    "latest_revision_created_at": "2022-08-11T09:56:45.583Z",
+    "live_revision": 9,
     "alias_of": null
   }
 },
@@ -5358,7 +5877,7 @@
   "fields": {
     "path": "00010002",
     "depth": 2,
-    "numchild": 1,
+    "numchild": 2,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 2,
     "title": "Eslogan de portada, pendiente",
@@ -5462,6 +5981,82 @@
     "latest_revision_created_at": "2022-08-11T08:55:15.227Z",
     "live_revision": 6,
     "alias_of": 4
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "000100010002",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+    "locale": 1,
+    "title": "Col·lecció Nordic",
+    "draft_title": "Col·lecció Nordic",
+    "slug": "collecció-nordic",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/collecció-nordic/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T09:55:55.433Z",
+    "last_published_at": "2022-08-11T09:55:55.433Z",
+    "latest_revision_created_at": "2022-08-11T09:55:55.401Z",
+    "live_revision": 8,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "000100020002",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+    "locale": 2,
+    "title": "Col·lecció Nordic",
+    "draft_title": "Col·lecció Nordic",
+    "slug": "collecció-nordic",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/collecció-nordic/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T09:55:55.433Z",
+    "last_published_at": "2022-08-11T09:55:55.433Z",
+    "latest_revision_created_at": "2022-08-11T09:55:55.401Z",
+    "live_revision": 8,
+    "alias_of": 6
   }
 },
 {
@@ -5890,6 +6485,116 @@
   }
 },
 {
+  "model": "wagtailcore.pagerevision",
+  "pk": 8,
+  "fields": {
+    "page": 6,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T09:55:55.401Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 6,
+      "pdf": 2,
+      "live": true,
+      "path": "000100010002",
+      "slug": "collecció-nordic",
+      "depth": 3,
+      "owner": 1,
+      "title": "Col·lecció Nordic",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/collecció-nordic/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "items_list": "[{\"type\": \"item\", \"value\": {\"title\": \"Moble televisi\\u00f3 J\\u00f6rn i Bufet Sovik\", \"image\": 6, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\"}], \"finishings\": [{\"type\": \"item\", \"value\": 2, \"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\"}], \"model\": 11}, \"id\": \"811a1adf-c664-46c6-aac1-51546373ea35\"}, {\"type\": \"item\", \"value\": {\"title\": \"Moble J\\u00f6rn, Dora i Brei\", \"image\": 7, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\"}], \"finishings\": [{\"type\": \"item\", \"value\": 3, \"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\"}, {\"type\": \"item\", \"value\": 24, \"id\": \"e6bccf66-0f71-431d-99ce-da5d718c1bd1\"}], \"model\": 11}, \"id\": \"66ddcfb8-310d-47f8-8499-57fc8347bf17\"}, {\"type\": \"item\", \"value\": {\"title\": \"Buffet Sovik\", \"image\": 8, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\"}], \"finishings\": [{\"type\": \"item\", \"value\": 1, \"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\"}], \"model\": 14}, \"id\": \"e9d20165-05e0-4ae6-b2ce-130e735d6c02\"}, {\"type\": \"item\", \"value\": {\"title\": \"Llit Brevik\", \"image\": 9, \"item_types\": [{\"type\": \"item\", \"value\": 3, \"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\"}], \"finishings\": [{\"type\": \"item\", \"value\": 2, \"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\"}, {\"type\": \"item\", \"value\": 24, \"id\": \"6c0aba94-ac4f-4647-bad9-d2ea43770670\"}], \"model\": 15}, \"id\": \"078d966c-2938-4bdf-b565-50baa1bc2032\"}]",
+      "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+      "draft_title": "Col·lecció Nordic",
+      "content_type": 54,
+      "live_revision": null,
+      "show_in_menus": false,
+      "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 9,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T09:56:45.583Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 2,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 7,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-11T08:58:01.108Z",
+      "collection_1_image": 2,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 6,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-11T08:58:01.066Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -6273,6 +6978,173 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:55:55.383Z",
+    "uuid": "bdb2f951-6fbd-4252-a764-be48fd46a1c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 6,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T09:55:55.471Z",
+    "uuid": "bdb2f951-6fbd-4252-a764-be48fd46a1c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 6,
+    "revision": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T09:55:55.524Z",
+    "uuid": "bdb2f951-6fbd-4252-a764-be48fd46a1c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 7,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 7,
+        "title": "Col·lecció Nordic"
+      },
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 3,
+        "title": "Eslogan de portada, pendiente"
+      }
+    },
+    "timestamp": "2022-08-11T09:55:55.529Z",
+    "uuid": "bdb2f951-6fbd-4252-a764-be48fd46a1c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 7,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T09:55:55.534Z",
+    "uuid": "bdb2f951-6fbd-4252-a764-be48fd46a1c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 7,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T09:56:45.598Z",
+    "uuid": "4f3a0bac-c686-4a7c-84e8-6258f695bed9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T09:56:45.652Z",
+    "uuid": "4f3a0bac-c686-4a7c-84e8-6258f695bed9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 9
+  }
+},
+{
   "model": "cms_site.collection",
   "pk": 4,
   "fields": {
@@ -6291,6 +7163,24 @@
   }
 },
 {
+  "model": "cms_site.collection",
+  "pk": 6,
+  "fields": {
+    "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+    "pdf": 2,
+    "items_list": "[{\"id\": \"811a1adf-c664-46c6-aac1-51546373ea35\", \"type\": \"item\", \"value\": {\"image\": 6, \"model\": 11, \"title\": \"Moble televisi\\u00f3 J\\u00f6rn i Bufet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"66ddcfb8-310d-47f8-8499-57fc8347bf17\", \"type\": \"item\", \"value\": {\"image\": 7, \"model\": 11, \"title\": \"Moble J\\u00f6rn, Dora i Brei\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 3}, {\"id\": \"e6bccf66-0f71-431d-99ce-da5d718c1bd1\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"e9d20165-05e0-4ae6-b2ce-130e735d6c02\", \"type\": \"item\", \"value\": {\"image\": 8, \"model\": 14, \"title\": \"Buffet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 1}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"078d966c-2938-4bdf-b565-50baa1bc2032\", \"type\": \"item\", \"value\": {\"image\": 9, \"model\": 15, \"title\": \"Llit Brevik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}, {\"id\": \"6c0aba94-ac4f-4647-bad9-d2ea43770670\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 3}]}}]"
+  }
+},
+{
+  "model": "cms_site.collection",
+  "pk": 7,
+  "fields": {
+    "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+    "pdf": 2,
+    "items_list": "[{\"id\": \"811a1adf-c664-46c6-aac1-51546373ea35\", \"type\": \"item\", \"value\": {\"image\": 6, \"model\": 11, \"title\": \"Moble televisi\\u00f3 J\\u00f6rn i Bufet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"66ddcfb8-310d-47f8-8499-57fc8347bf17\", \"type\": \"item\", \"value\": {\"image\": 7, \"model\": 11, \"title\": \"Moble J\\u00f6rn, Dora i Brei\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 3}, {\"id\": \"e6bccf66-0f71-431d-99ce-da5d718c1bd1\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"e9d20165-05e0-4ae6-b2ce-130e735d6c02\", \"type\": \"item\", \"value\": {\"image\": 8, \"model\": 14, \"title\": \"Buffet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 1}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"078d966c-2938-4bdf-b565-50baa1bc2032\", \"type\": \"item\", \"value\": {\"image\": 9, \"model\": 15, \"title\": \"Llit Brevik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}, {\"id\": \"6c0aba94-ac4f-4647-bad9-d2ea43770670\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 3}]}}]"
+  }
+},
+{
   "model": "cms_site.homepage",
   "pk": 2,
   "fields": {
@@ -6302,9 +7192,9 @@
     "collection_1_title": "Nova col·lecció Àrea",
     "collection_1_image": 2,
     "collection_1_page": 4,
-    "collection_2_title": "",
-    "collection_2_image": null,
-    "collection_2_page": null,
+    "collection_2_title": "Col·lecció Nørdic",
+    "collection_2_image": 6,
+    "collection_2_page": 6,
     "collection_3_title": "",
     "collection_3_image": null,
     "collection_3_page": null,
@@ -7193,6 +8083,186 @@
     "translation_key": "c40d1921-40f2-44f5-b5ea-2ce01613f7c7",
     "locale": 1,
     "name": "Tanit"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 10,
+  "fields": {
+    "translation_key": "84e73175-57e3-4f1b-9870-a34856d7c12d",
+    "locale": 1,
+    "name": "Døra"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 11,
+  "fields": {
+    "translation_key": "a8e249fc-f472-4c12-8dd2-c8b75a613e7b",
+    "locale": 1,
+    "name": "Jörn"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 12,
+  "fields": {
+    "translation_key": "b653c09d-84db-427a-87a7-fd52fec994ff",
+    "locale": 1,
+    "name": "Brei"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 13,
+  "fields": {
+    "translation_key": "5577248f-8be6-4b7e-8efb-efbb69d18995",
+    "locale": 1,
+    "name": "Avik"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 14,
+  "fields": {
+    "translation_key": "ebf5d91d-9712-4ca8-98f4-9eeb08936502",
+    "locale": 1,
+    "name": "Søvik"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 15,
+  "fields": {
+    "translation_key": "e2f34266-b5bd-4744-8162-8a95884614a6",
+    "locale": 1,
+    "name": "Brevik"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 16,
+  "fields": {
+    "translation_key": "f1f557a7-f229-4144-a82a-1d5599f27b1f",
+    "locale": 1,
+    "name": "Tørla"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 17,
+  "fields": {
+    "translation_key": "05e66773-a56e-4eb4-8663-d4fdf969f0a3",
+    "locale": 1,
+    "name": "Göta"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 18,
+  "fields": {
+    "translation_key": "2a6c66fa-a167-4638-b89b-c557a25708a1",
+    "locale": 1,
+    "name": "Tolga"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 19,
+  "fields": {
+    "translation_key": "0205ecdd-606e-4d51-90ed-89dc00abfecf",
+    "locale": 1,
+    "name": "Tøre"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 20,
+  "fields": {
+    "translation_key": "fb997cdb-a6d4-41fa-9367-4c61fcaa8a83",
+    "locale": 1,
+    "name": "Solna"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 21,
+  "fields": {
+    "translation_key": "047a8eec-0341-4556-bebb-d9e15f56866a",
+    "locale": 1,
+    "name": "Vika"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 22,
+  "fields": {
+    "translation_key": "4e23072a-0aa8-4b30-8d81-2cc8f8ce3701",
+    "locale": 1,
+    "name": "Rona"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 23,
+  "fields": {
+    "translation_key": "2d328587-6cca-49f3-9718-9ade9f24794e",
+    "locale": 1,
+    "name": "Bro"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 24,
+  "fields": {
+    "translation_key": "9b81989f-69bf-46c9-ae58-6ce8a01d5ee8",
+    "locale": 1,
+    "name": "Viken"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 25,
+  "fields": {
+    "translation_key": "918d5d08-6770-4f32-9b48-7a4ed8352939",
+    "locale": 1,
+    "name": "Nybro"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 26,
+  "fields": {
+    "translation_key": "2435b39f-7371-4060-8e8d-920720118a9f",
+    "locale": 1,
+    "name": "Brunna"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 27,
+  "fields": {
+    "translation_key": "da8d4158-2848-4b9c-9fdf-208c78efaa1b",
+    "locale": 1,
+    "name": "Äsa"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 28,
+  "fields": {
+    "translation_key": "cb012112-4401-4476-bc7a-d49dca3bbd8e",
+    "locale": 1,
+    "name": "Floda"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 29,
+  "fields": {
+    "translation_key": "bac8fb9c-ee6e-42ce-8a29-0e2a93dd72fc",
+    "locale": 1,
+    "name": "Göta"
   }
 },
 {
