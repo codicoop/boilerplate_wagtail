@@ -1,7 +1,7 @@
 // Dynamic variables
 .project-card {
   &__label {
-    --padding: 18px 24px 40px 24px;
+    --padding: var(--padding-sm) var(--padding-md) var(--padding-xlg) var(--padding-md);
   }
   &__arrow {
     --width: 25px;
@@ -13,7 +13,7 @@
 @media (min-width: 1024px) {
   .project-card {
     &__label {
-      --padding: 22px 30px 63px 30px;
+      --padding: var(--padding-md) var(--padding-lg) var(--padding-xxlg) var(--padding-lg);
     }
     &__arrow {
       --width: 32px;
@@ -49,7 +49,7 @@
     right: var(--right);
 
     div {
-      padding: 10px; // Ampliem l'area clickable del botó
+      padding: var(--padding-xsm); // Ampliem l'area clickable del botó
     }
 
     img {

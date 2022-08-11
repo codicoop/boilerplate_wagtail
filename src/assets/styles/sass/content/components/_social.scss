@@ -1,6 +1,6 @@
 // Dynamic variables                                                                                                                                                                                                                                     
 .social {
-  --padding-top: 26px;
+  --padding-top: var(--padding-md);
 
   &__icons {
     --max-width: 75%;
@@ -9,7 +9,7 @@
 
 @media (min-width: 1024px) {
   .social {
-    --padding-top: 60px;
+    --padding-top: var(--padding-xxlg);
 
     &__icons {
       --max-width: 50%;
@@ -30,12 +30,12 @@
   }
   &__icons {
     display: flex;
-    gap: 24px;
+    gap: var(--padding-md);
     justify-content: center;
     max-width: var(--max-width);
   }
   &__icon {
-    width: 24px;
+    width: var(--padding-md);
     height: auto;
   }
 }

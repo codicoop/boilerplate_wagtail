@@ -1,7 +1,7 @@
 // Dynamic variables
 .heading {
   &__title {
-    --padding-bottom: 39px;
+    --padding-bottom: var(--padding-xxlg);
   }
 }
 

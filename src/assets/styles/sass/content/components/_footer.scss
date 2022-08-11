@@ -1,9 +1,9 @@
 // Dynamic variables
 .prefooter {
-  --margin: 0 16px 32px 16px;
+  --margin: 0 var(--padding-sm) var(--padding-lg) var(--padding-sm);
 }
 .footer {
-  --padding-footer: 32px;
+  --padding-footer: var(--padding-lg);
   
   &__top {
     --diplay-nav: flex;
@@ -14,17 +14,17 @@
 }
 .footer-info {
   &__heading {
-    --padding-bottom: 16px;
+    --padding-bottom: var(--padding-sm);
   }
 }
 
 
 @media (min-width: 1024px) {
   .prefooter {
-    --margin: 0 64px 64px 64px;
+    --margin: 0 var(--padding-xxlg) var(--padding-xxlg) var(--padding-xxlg);
   }
   .footer {
-  --padding-footer: 55px;
+  --padding-footer: var(--padding-xxlg);
 
     &__top {
       --diplay-nav: grid;
@@ -35,7 +35,7 @@
   }
   .footer-info {
     &__heading {
-      --padding-bottom: 32px;
+      --padding-bottom: var(--padding-lg);
     }
   }
 }
