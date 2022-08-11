@@ -4,7 +4,7 @@
 }
 .header {
   --height-header: auto;
-  --padding-header: 23px 32px;
+  --padding-header: 23px var(--padding-lg);
   --display-header: flex;
   --background-color: transparent;
   --display-menu: none;
@@ -24,7 +24,7 @@
 }
 .topbar {
   &__action {
-    --width: 24px;
+    --width: var(--padding-md);
   }
 }
 
@@ -34,7 +34,7 @@
   }
   .header {
     --height-header: auto;
-    --padding-header: 40px 64px;
+    --padding-header: var(--padding-xlg) var(--padding-xxlg);
 
     &.is-open {
       --height-header: auto;
@@ -42,7 +42,7 @@
   }
   .topbar {
     &__action {
-      --width: 32px;
+      --width: var(--padding-lg);
     }
   }
 }
@@ -93,8 +93,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 19px 36px;
-    padding-bottom: 34px;
+    gap: var(--padding-sm) var(--padding-lg);
+    padding-bottom: var(--padding-lg);
   }
   // &__logo { }
   &__nav {

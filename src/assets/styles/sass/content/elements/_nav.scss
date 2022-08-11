@@ -22,7 +22,7 @@
   .nav {
     display: flex;
     flex-direction: var(--flex-direction);
-    gap: 18px 36px;
+    gap: var(--padding-sm) var(--padding-lg);
     justify-content: var(--justify-content);
   }
 }
@@ -31,7 +31,7 @@
   .nav {
     display: flex;
     flex-direction: column;
-    gap: 10px 0;
+    gap: var(--padding-xsm) 0;
 
     &__link {
       text-transform: uppercase;

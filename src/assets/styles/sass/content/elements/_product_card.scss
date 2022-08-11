@@ -8,7 +8,7 @@
 @media (min-width: 1024px) {
   .product-card {
     &__label {
-      --padding: 17px 22px;
+      --padding: var(--padding-sm) var(--padding-md);
     }
   }
 }

@@ -12,7 +12,7 @@
   .collection {
     &__nav-link {
       p {
-        --padding-text: 14px;
+        --padding-text: var(--padding-sm);
       }
     }
   }

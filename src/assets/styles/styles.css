@@ -274,6 +274,14 @@ body {
   --blackish: #303030;
   --grey: #808080;
   --brown: #745740;
+  --padding-base: 16px;
+  --padding-xxsm: calc(var(--padding-base) / 3);
+  --padding-xsm: calc(var(--padding-base) / 2);
+  --padding-sm: var(--padding-base);
+  --padding-md: calc(var(--padding-base) * 1.5);
+  --padding-lg: calc(var(--padding-base) * 2);
+  --padding-xlg: calc(var(--padding-base) * 3);
+  --padding-xxlg: calc(var(--padding-base) * 4);
 }
 
 html, body {
@@ -283,14 +291,14 @@ html, body {
 .grid-1 {
   display: flex;
   flex-direction: column;
-  padding: 0 32px;
+  padding: 0 var(--padding-lg);
 }
 
 .grid-2 {
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
-  gap: 16px;
+  padding: 0 var(--padding-sm);
+  gap: var(--padding-sm);
 }
 
 .grid-item-full {
@@ -413,14 +421,14 @@ html, body {
 .header .nav {
   display: flex;
   flex-direction: var(--flex-direction);
-  gap: 18px 36px;
+  gap: var(--padding-sm) var(--padding-lg);
   justify-content: var(--justify-content);
 }
 
 .footer .nav {
   display: flex;
   flex-direction: column;
-  gap: 10px 0;
+  gap: var(--padding-xsm) 0;
 }
 .footer .nav__link {
   text-transform: uppercase;
@@ -444,7 +452,7 @@ html, body {
 }
 
 .project-card__label {
-  --padding: 18px 24px 40px 24px;
+  --padding: var(--padding-sm) var(--padding-md) var(--padding-xlg) var(--padding-md);
 }
 .project-card__arrow {
   --width: 25px;
@@ -454,7 +462,7 @@ html, body {
 
 @media (min-width: 1024px) {
   .project-card__label {
-    --padding: 22px 30px 63px 30px;
+    --padding: var(--padding-md) var(--padding-lg) var(--padding-xxlg) var(--padding-lg);
   }
   .project-card__arrow {
     --width: 32px;
@@ -485,7 +493,7 @@ html, body {
   right: var(--right);
 }
 .project-card__arrow div {
-  padding: 10px;
+  padding: var(--padding-xsm);
 }
 .project-card__arrow img {
   width: var(--width);
@@ -497,7 +505,7 @@ html, body {
 
 @media (min-width: 1024px) {
   .product-card__label {
-    --padding: 17px 22px;
+    --padding: var(--padding-sm) var(--padding-md);
   }
 }
 .product-card {
@@ -524,7 +532,7 @@ html, body {
 
 .header {
   --height-header: auto;
-  --padding-header: 23px 32px;
+  --padding-header: 23px var(--padding-lg);
   --display-header: flex;
   --background-color: transparent;
   --display-menu: none;
@@ -541,7 +549,7 @@ html, body {
 }
 
 .topbar__action {
-  --width: 24px;
+  --width: var(--padding-md);
 }
 
 @media (min-width: 1024px) {
@@ -551,14 +559,14 @@ html, body {
 
   .header {
     --height-header: auto;
-    --padding-header: 40px 64px;
+    --padding-header: var(--padding-xlg) var(--padding-xxlg);
   }
   .header.is-open {
     --height-header: auto;
   }
 
   .topbar__action {
-    --width: 32px;
+    --width: var(--padding-lg);
   }
 }
 .empty-box {
@@ -602,15 +610,15 @@ html, body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 19px 36px;
-  padding-bottom: 34px;
+  gap: var(--padding-sm) var(--padding-lg);
+  padding-bottom: var(--padding-lg);
 }
 .prefooter {
-  --margin: 0 16px 32px 16px;
+  --margin: 0 var(--padding-sm) var(--padding-lg) var(--padding-sm);
 }
 
 .footer {
-  --padding-footer: 32px;
+  --padding-footer: var(--padding-lg);
 }
 .footer__top {
   --diplay-nav: flex;
@@ -620,16 +628,16 @@ html, body {
 }
 
 .footer-info__heading {
-  --padding-bottom: 16px;
+  --padding-bottom: var(--padding-sm);
 }
 
 @media (min-width: 1024px) {
   .prefooter {
-    --margin: 0 64px 64px 64px;
+    --margin: 0 var(--padding-xxlg) var(--padding-xxlg) var(--padding-xxlg);
   }
 
   .footer {
-    --padding-footer: 55px;
+    --padding-footer: var(--padding-xxlg);
   }
   .footer__top {
     --diplay-nav: grid;
@@ -639,7 +647,7 @@ html, body {
   }
 
   .footer-info__heading {
-    --padding-bottom: 32px;
+    --padding-bottom: var(--padding-lg);
   }
 }
 .bottom-page {
@@ -673,7 +681,7 @@ html, body {
 }
 
 .social {
-  --padding-top: 26px;
+  --padding-top: var(--padding-md);
 }
 .social__icons {
   --max-width: 75%;
@@ -681,7 +689,7 @@ html, body {
 
 @media (min-width: 1024px) {
   .social {
-    --padding-top: 60px;
+    --padding-top: var(--padding-xxlg);
   }
   .social__icons {
     --max-width: 50%;
@@ -699,17 +707,17 @@ html, body {
 }
 .social__icons {
   display: flex;
-  gap: 24px;
+  gap: var(--padding-md);
   justify-content: center;
   max-width: var(--max-width);
 }
 .social__icon {
-  width: 24px;
+  width: var(--padding-md);
   height: auto;
 }
 
 .heading__title {
-  --padding-bottom: 39px;
+  --padding-bottom: var(--padding-xxlg);
 }
 
 @media (min-width: 1024px) {
@@ -735,7 +743,7 @@ html, body {
 
 @media (min-width: 1024px) {
   .collection__nav-link p {
-    --padding-text: 14px;
+    --padding-text: var(--padding-sm);
   }
 }
 .collection__nav-link p {
