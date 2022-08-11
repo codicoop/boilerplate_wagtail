@@ -1,0 +1,22 @@
+// Dynamic variables
+.logo {
+  --height: 34px;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    --height: 48px;
+  }
+}
+
+.logo {
+  height: var(--height);
+  width: auto;
+}
+// .logo--dark svg{
+//   fill: none;
+
+//   path, rect {
+//     fill: red;
+//   }
+// }

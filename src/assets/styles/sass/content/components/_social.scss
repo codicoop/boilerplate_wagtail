@@ -1,0 +1,41 @@
+// Dynamic variables                                                                                                                                                                                                                                     
+.social {
+  --padding-top: 26px;
+
+  &__icons {
+    --max-width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social {
+    --padding-top: 60px;
+
+    &__icons {
+      --max-width: 50%;
+    }
+  }
+}
+
+// Layout
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--blackish);
+  padding-top: var(--padding-top);
+
+  &__text {
+    padding-bottom: 20px;
+  }
+  &__icons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    max-width: var(--max-width);
+  }
+  &__icon {
+    width: 24px;
+    height: auto;
+  }
+}

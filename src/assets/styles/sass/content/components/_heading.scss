@@ -1,0 +1,28 @@
+// Dynamic variables
+.heading {
+  &__title {
+    --padding-bottom: 39px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    &__title {
+      --padding-bottom: 114px;
+    }
+  }
+}
+
+// Layout
+.heading {
+  background-image: var(--bg-heading);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: -6px;
+  z-index: 1;
+  
+  &__title {
+    padding-bottom: var(--padding-bottom);
+  }
+}

@@ -1,0 +1,37 @@
+// Dynamic variables
+.product-card {
+  &__label {
+    --padding: 14px 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-card {
+    &__label {
+      --padding: 17px 22px;
+    }
+  }
+}
+
+// Layout
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    width: 100%;
+
+    img {
+      object-fit: cover;
+    }
+  }
+  &__label {
+    background-color: var(--blackish);
+    padding: var(--padding);
+  }
+  &__title,
+  &__text {
+    text-transform: uppercase;
+  }
+}

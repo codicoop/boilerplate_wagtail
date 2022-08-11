@@ -1,0 +1,59 @@
+// Dynamic variables
+.project-card {
+  &__label {
+    --padding: 18px 24px 40px 24px;
+  }
+  &__arrow {
+    --width: 25px;
+    --bottom: 20px;
+    --right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-card {
+    &__label {
+      --padding: 22px 30px 63px 30px;
+    }
+    &__arrow {
+      --width: 32px;
+      --bottom: 26px;
+      --right: 26px;
+    }
+  }
+}
+
+// Layout
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    width: 100%;
+
+    img {
+      object-fit: cover;
+    }
+  }
+  &__label {
+    position: relative;
+    padding: var(--padding);
+  }
+  &__title {
+    text-transform: uppercase;
+  }
+  &__arrow {
+    position: absolute;
+    bottom: var(--bottom);
+    right: var(--right);
+
+    div {
+      padding: 10px; // Ampliem l'area clickable del botó
+    }
+
+    img {
+      width: var(--width);
+    }
+  }
+}
