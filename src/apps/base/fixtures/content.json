@@ -5346,9 +5346,9 @@
     "locked_at": null,
     "locked_by": null,
     "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-10T13:56:15.151Z",
-    "latest_revision_created_at": "2022-08-10T13:56:15.122Z",
-    "live_revision": 1,
+    "last_published_at": "2022-08-11T08:58:01.108Z",
+    "latest_revision_created_at": "2022-08-11T08:58:01.066Z",
+    "live_revision": 7,
     "alias_of": null
   }
 },
@@ -5827,6 +5827,69 @@
   }
 },
 {
+  "model": "wagtailcore.pagerevision",
+  "pk": 7,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T08:58:01.066Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 1,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": 2,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:56:15.122Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -6166,6 +6229,50 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T08:58:01.088Z",
+    "uuid": "5973ed30-a91a-41e2-99e2-75bfa9018ddb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T08:58:01.143Z",
+    "uuid": "5973ed30-a91a-41e2-99e2-75bfa9018ddb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 7
+  }
+},
+{
   "model": "cms_site.collection",
   "pk": 4,
   "fields": {
@@ -6190,11 +6297,11 @@
     "overlay_title": "Nou disseny de llit pel teu dormitori",
     "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
     "overlay_button_text": "Veure col·lecció",
-    "overlay_button_page": null,
+    "overlay_button_page": 4,
     "overlay_image": 1,
-    "collection_1_title": "",
-    "collection_1_image": null,
-    "collection_1_page": null,
+    "collection_1_title": "Nova col·lecció Àrea",
+    "collection_1_image": 2,
+    "collection_1_page": 4,
     "collection_2_title": "",
     "collection_2_image": null,
     "collection_2_page": null,
