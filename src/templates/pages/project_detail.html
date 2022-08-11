@@ -1,0 +1,14 @@
+{% extends from './base.html' %}
+{% load %}
+
+{% block content %}
+<main class="main project-detail">
+  {% include '../components/heading.html' %}
+  {% include '../components/block_text_center.html' %}
+  <section class="projects-detail__list grid-2">
+    {# Per cada projecte incloure una #}
+    {% include '../elements/project_card.html' %}
+  </section>
+  {% include '../components/social.html' %}
+</main>
+{% endblock %}
