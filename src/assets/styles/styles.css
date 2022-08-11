@@ -618,7 +618,7 @@ html, body {
 }
 
 .footer {
-  --padding-footer: var(--padding-lg);
+  --padding-footer: var(--padding-lg) 0 0 0;
 }
 .footer__top {
   --diplay-nav: flex;
@@ -637,7 +637,7 @@ html, body {
   }
 
   .footer {
-    --padding-footer: var(--padding-xxlg);
+    --padding-footer: var(--padding-xxlg) var(--padding-lg) 0 var(--padding-lg);
   }
   .footer__top {
     --diplay-nav: grid;
@@ -663,9 +663,7 @@ html, body {
   background-color: var(--blackish);
 }
 .footer__top {
-  display: var(--diplay-nav);
   flex-direction: column;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 44px;
   color: var(--white);
 }

@@ -3,7 +3,7 @@
   --margin: 0 var(--padding-sm) var(--padding-lg) var(--padding-sm);
 }
 .footer {
-  --padding-footer: var(--padding-lg);
+  --padding-footer: var(--padding-lg) 0 0 0;
   
   &__top {
     --diplay-nav: flex;
@@ -24,7 +24,7 @@
     --margin: 0 var(--padding-xxlg) var(--padding-xxlg) var(--padding-xxlg);
   }
   .footer {
-  --padding-footer: var(--padding-xxlg);
+  --padding-footer: var(--padding-xxlg) var(--padding-lg) 0 var(--padding-lg);
 
     &__top {
       --diplay-nav: grid;
@@ -52,9 +52,7 @@
   background-color: var(--blackish);
 
   &__top {
-    display: var(--diplay-nav);
     flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 44px;
     color: var(--white);
   }

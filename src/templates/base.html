@@ -61,56 +61,54 @@
   {% block content %}
   {% endblock %}
 
-  <div class="bottom-page">
-    <div class="prefooter">
-      {% include './elements/social.html' %}
-    </div>
-    <footer class="footer">
-      <div class="footer__top">
-        <div class="footer__nav">
-          {% include './elements/nav.html' %}
-        </div>
-        {% if settings.cms_site.ContactDetailsSettings.address %}
-        <div class="footer-info">
-          <div class="footer-info__heading title-3">
-            <p>On Som</p>
-          </div>
-          <div class="footer-info__text">
-            <p>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</p>
-          </div>
-        </div>
-      {% endif %}
-      {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
-      <div class="footer-info">
+  <div class="prefooter">
+    {% include './elements/social.html' %}
+  </div>
+  <footer class="footer">
+    <div class="footer__top grid-1">
+      <div class="footer__nav grid-item-1-4">
+        {% include './elements/nav.html' %}
+      </div>
+      {% if settings.cms_site.ContactDetailsSettings.address %}
+      <div class="footer-info grid-item-5-8">
         <div class="footer-info__heading title-3">
-          <p>Contacte</p>
+          <p>On Som</p>
         </div>
         <div class="footer-info__text">
-          {% if settings.cms_site.ContactDetailsSettings.phone %}
-          <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
-          {% endif %}
-            {% if settings.cms_site.ContactDetailsSettings.email %}
-              <a href="mailto:{{ settings.cms_site.ContactDetailsSettings.email }}">
-                <p>{{ settings.cms_site.ContactDetailsSettings.email }}</p>
-              </a>
-            {% endif %}
-          </div>
+          <p>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</p>
         </div>
-      {% endif %}
       </div>
-      <div class="footer__bottom">
-        <span class="footer__legal">
-          <p>©2022 Mobles Ciurans.</p>
-          <p>Tots els drets reservats</p>
-        </span>
-        <span class="footer__legal">
-          <a href="">
-            <p>Avís legal</p>
-          </a>
-        </span>
+    {% endif %}
+    {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
+    <div class="footer-info grid-item-9-12">
+      <div class="footer-info__heading title-3">
+        <p>Contacte</p>
       </div>
-    </footer>
-  </div>
+      <div class="footer-info__text">
+        {% if settings.cms_site.ContactDetailsSettings.phone %}
+        <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
+        {% endif %}
+          {% if settings.cms_site.ContactDetailsSettings.email %}
+            <a href="mailto:{{ settings.cms_site.ContactDetailsSettings.email }}">
+              <p>{{ settings.cms_site.ContactDetailsSettings.email }}</p>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__legal">
+        <p>©2022 Mobles Ciurans.</p>
+        <p>Tots els drets reservats</p>
+      </span>
+      <span class="footer__legal">
+        <a href="">
+          <p>Avís legal</p>
+        </a>
+      </span>
+    </div>
+  </footer>
 
   <script src="/assets/js/scripts.js"></script>
 </body>
