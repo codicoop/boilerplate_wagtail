@@ -1,0 +1,7236 @@
+[
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "17d0583c-f397-4de4-938d-4bfe28c958c0",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "1d10dca5-a4af-4a15-85b8-a9996436c568",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "36659b27-e17a-4180-9750-10f7c9c7b932",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "4a084b27-1269-4d7d-9255-05b489c522c0",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "576df22e-7e06-4901-a897-5b510bc9db68",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "7721b947-9334-4315-b8aa-efff03bb8fee",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "82ddb93a-2345-471d-a61e-9b6ffc771889",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "8dfcadbd-7181-4642-9f69-340d6196cd86",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "8fe7c215-eb80-4a83-ac46-0c652873db16",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "9e65e943-e90e-425f-98a0-473c822cb4ff",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "a9d322e6-0497-40b8-879f-0411399b84e6",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "be14f0fb-af71-447b-ba06-869bd202ced3",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "dad5f225-030c-4f37-8430-bfdb635cbb00",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "f5e7a61e-c556-445c-90b1-1fb18440058a",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translatableobject",
+  "pk": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ]
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 1,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "specific_content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "locale": 1,
+    "object_repr": "Eslògan de portada",
+    "content_json": "{\"pk\": 2, \"path\": \"00010001\", \"depth\": 2, \"numchild\": 0, \"translation_key\": \"cbf1099f-57c1-4bdd-beae-1b1eb6602e3c\", \"locale\": 1, \"title\": \"Esl\\u00f2gan de portada\", \"draft_title\": \"Esl\\u00f2gan de portada\", \"slug\": \"home\", \"content_type\": 5, \"live\": true, \"has_unpublished_changes\": false, \"url_path\": \"/home/\", \"owner\": null, \"seo_title\": \"\", \"show_in_menus\": false, \"search_description\": \"\", \"go_live_at\": null, \"expire_at\": null, \"expired\": false, \"locked\": false, \"locked_at\": null, \"locked_by\": null, \"first_published_at\": \"2022-08-10T13:56:15.151Z\", \"last_published_at\": \"2022-08-10T13:56:15.151Z\", \"latest_revision_created_at\": \"2022-08-10T13:56:15.122Z\", \"live_revision\": 1, \"alias_of\": null, \"overlay_title\": \"Nou disseny de llit pel teu dormitori\", \"overlay_body\": \"Est\\u00e0 compost per un cap\\u00e7al de llistons de grossors diferents i una base retroil\\u00b7luminada pel matal\\u00e0s. Tens l'opci\\u00f3 de complementar-la amb les tauletes de la col\\u00b7lecci\\u00f3 New Area Collection.\", \"overlay_button_text\": \"Veure col\\u00b7lecci\\u00f3\", \"overlay_button_page\": null, \"overlay_image\": 1, \"collection_1_title\": \"\", \"collection_1_image\": null, \"collection_1_page\": null, \"collection_2_title\": \"\", \"collection_2_image\": null, \"collection_2_page\": null, \"collection_3_title\": \"\", \"collection_3_image\": null, \"collection_3_page\": null, \"custom_projects_title\": \"\", \"custom_projects_image\": null, \"custom_projects_page\": null, \"display_instagram_feed\": true, \"display_header_highlight\": true, \"wagtail_admin_comments\": []}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-10T13:58:40.067Z",
+    "last_updated_at": "2022-08-10T13:58:40.064Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 2,
+  "fields": {
+    "object": "36659b27-e17a-4180-9750-10f7c9c7b932",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 0",
+    "content_json": "{\"pk\": 1, \"translation_key\": \"36659b27-e17a-4180-9750-10f7c9c7b932\", \"locale\": 1, \"name\": \"Roure 0\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:25:37.614Z",
+    "last_updated_at": "2022-08-11T08:25:37.608Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 3,
+  "fields": {
+    "object": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 30",
+    "content_json": "{\"pk\": 2, \"translation_key\": \"e35734f9-8050-44e8-bf07-aa8bde8ff4af\", \"locale\": 1, \"name\": \"Roure 30\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:26:57.764Z",
+    "last_updated_at": "2022-08-11T08:26:57.760Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 4,
+  "fields": {
+    "object": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 60",
+    "content_json": "{\"pk\": 3, \"translation_key\": \"6095c5cd-ddd7-4ef6-b73a-b2712db863cb\", \"locale\": 1, \"name\": \"Roure 60\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:27:52.870Z",
+    "last_updated_at": "2022-08-11T08:27:52.867Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 5,
+  "fields": {
+    "object": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 90",
+    "content_json": "{\"pk\": 4, \"translation_key\": \"e182d5ab-cd32-4832-9760-43b6cc174cd0\", \"locale\": 1, \"name\": \"Roure 90\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:28:10.532Z",
+    "last_updated_at": "2022-08-11T08:28:10.529Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 6,
+  "fields": {
+    "object": "be14f0fb-af71-447b-ba06-869bd202ced3",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 75",
+    "content_json": "{\"pk\": 5, \"translation_key\": \"be14f0fb-af71-447b-ba06-869bd202ced3\", \"locale\": 1, \"name\": \"Roure 75\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:28:26.177Z",
+    "last_updated_at": "2022-08-11T08:28:26.174Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 7,
+  "fields": {
+    "object": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 15",
+    "content_json": "{\"pk\": 6, \"translation_key\": \"1ee9a4ab-b2f0-4139-8016-0ccd92e7f450\", \"locale\": 1, \"name\": \"Roure 15\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:28:42.518Z",
+    "last_updated_at": "2022-08-11T08:28:42.515Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 8,
+  "fields": {
+    "object": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Roure 20",
+    "content_json": "{\"pk\": 7, \"translation_key\": \"7c72987d-bf00-44cc-a5aa-3f1589b2da68\", \"locale\": 1, \"name\": \"Roure 20\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:29:01.646Z",
+    "last_updated_at": "2022-08-11T08:29:01.641Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 9,
+  "fields": {
+    "object": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Eucaliptus",
+    "content_json": "{\"pk\": 8, \"translation_key\": \"1aef47c1-bd58-4601-a029-213a8c51d3bb\", \"locale\": 1, \"name\": \"Eucaliptus\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:29:26.069Z",
+    "last_updated_at": "2022-08-11T08:29:26.067Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 10,
+  "fields": {
+    "object": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Noguera 06",
+    "content_json": "{\"pk\": 9, \"translation_key\": \"44a87b72-1e3b-4efc-8a35-143a47328a1f\", \"locale\": 1, \"name\": \"Noguera 06\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:29:39.509Z",
+    "last_updated_at": "2022-08-11T08:29:39.507Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 11,
+  "fields": {
+    "object": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Noguera 02",
+    "content_json": "{\"pk\": 10, \"translation_key\": \"9cb54c5b-48b9-455f-b4b5-63d7563fd96e\", \"locale\": 1, \"name\": \"Noguera 02\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:29:56.902Z",
+    "last_updated_at": "2022-08-11T08:29:56.899Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 12,
+  "fields": {
+    "object": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Noguera 07",
+    "content_json": "{\"pk\": 11, \"translation_key\": \"b567edfa-f59b-4f82-b12f-889504f1f6b6\", \"locale\": 1, \"name\": \"Noguera 07\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:30:10.370Z",
+    "last_updated_at": "2022-08-11T08:30:10.367Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 13,
+  "fields": {
+    "object": "576df22e-7e06-4901-a897-5b510bc9db68",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Noguera 10",
+    "content_json": "{\"pk\": 12, \"translation_key\": \"576df22e-7e06-4901-a897-5b510bc9db68\", \"locale\": 1, \"name\": \"Noguera 10\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:30:22.455Z",
+    "last_updated_at": "2022-08-11T08:30:22.453Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 14,
+  "fields": {
+    "object": "f5e7a61e-c556-445c-90b1-1fb18440058a",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Cirerer Noguera",
+    "content_json": "{\"pk\": 13, \"translation_key\": \"f5e7a61e-c556-445c-90b1-1fb18440058a\", \"locale\": 1, \"name\": \"Cirerer Noguera\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:30:36.555Z",
+    "last_updated_at": "2022-08-11T08:30:36.553Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 15,
+  "fields": {
+    "object": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Cirerer Natural",
+    "content_json": "{\"pk\": 14, \"translation_key\": \"50b03c86-7e9d-4873-8df8-49cbd3f0f4d6\", \"locale\": 1, \"name\": \"Cirerer Natural\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:30:51.080Z",
+    "last_updated_at": "2022-08-11T08:30:51.073Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 16,
+  "fields": {
+    "object": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blanc pur",
+    "content_json": "{\"pk\": 15, \"translation_key\": \"ceb9dbd2-49aa-4667-be90-cc88d93cd4fe\", \"locale\": 1, \"name\": \"Blanc pur\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:31:04.296Z",
+    "last_updated_at": "2022-08-11T08:31:04.294Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 17,
+  "fields": {
+    "object": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blanc Marfil",
+    "content_json": "{\"pk\": 16, \"translation_key\": \"4808f2d4-e966-4b08-8646-60eeb5e13c8b\", \"locale\": 1, \"name\": \"Blanc Marfil\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:31:17.073Z",
+    "last_updated_at": "2022-08-11T08:31:17.071Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 18,
+  "fields": {
+    "object": "8dfcadbd-7181-4642-9f69-340d6196cd86",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Beix Natural",
+    "content_json": "{\"pk\": 17, \"translation_key\": \"8dfcadbd-7181-4642-9f69-340d6196cd86\", \"locale\": 1, \"name\": \"Beix Natural\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:31:30.971Z",
+    "last_updated_at": "2022-08-11T08:31:30.968Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 19,
+  "fields": {
+    "object": "1d10dca5-a4af-4a15-85b8-a9996436c568",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Beix Pastel",
+    "content_json": "{\"pk\": 18, \"translation_key\": \"1d10dca5-a4af-4a15-85b8-a9996436c568\", \"locale\": 1, \"name\": \"Beix Pastel\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:31:48.725Z",
+    "last_updated_at": "2022-08-11T08:31:48.723Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 20,
+  "fields": {
+    "object": "82ddb93a-2345-471d-a61e-9b6ffc771889",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Beix Sorra",
+    "content_json": "{\"pk\": 19, \"translation_key\": \"82ddb93a-2345-471d-a61e-9b6ffc771889\", \"locale\": 1, \"name\": \"Beix Sorra\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:32:05.622Z",
+    "last_updated_at": "2022-08-11T08:32:05.620Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 21,
+  "fields": {
+    "object": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Beix Sílex",
+    "content_json": "{\"pk\": 20, \"translation_key\": \"c2697a21-157a-4c0d-bf47-13ee0f9a82f0\", \"locale\": 1, \"name\": \"Beix S\\u00edlex\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:32:27.197Z",
+    "last_updated_at": "2022-08-11T08:32:27.194Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 22,
+  "fields": {
+    "object": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Gris Nòrdic",
+    "content_json": "{\"pk\": 21, \"translation_key\": \"b9273aa3-3982-4314-98ae-0a72d7b6ffa2\", \"locale\": 1, \"name\": \"Gris N\\u00f2rdic\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:32:43.958Z",
+    "last_updated_at": "2022-08-11T08:32:43.956Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 23,
+  "fields": {
+    "object": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Gris Terra",
+    "content_json": "{\"pk\": 22, \"translation_key\": \"222fdc19-7cfb-4139-87ee-124bb49d0cf5\", \"locale\": 1, \"name\": \"Gris Terra\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:32:57.276Z",
+    "last_updated_at": "2022-08-11T08:32:57.274Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 24,
+  "fields": {
+    "object": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Negre Infinit",
+    "content_json": "{\"pk\": 24, \"translation_key\": \"8b8ce4f1-c669-4823-b7ad-1fc2867be6ad\", \"locale\": 1, \"name\": \"Negre Infinit\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:33:23.354Z",
+    "last_updated_at": "2022-08-11T08:33:23.352Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 25,
+  "fields": {
+    "object": "8fe7c215-eb80-4a83-ac46-0c652873db16",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Gris Pedra",
+    "content_json": "{\"pk\": 26, \"translation_key\": \"8fe7c215-eb80-4a83-ac46-0c652873db16\", \"locale\": 1, \"name\": \"Gris Pedra\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:33:44.968Z",
+    "last_updated_at": "2022-08-11T08:33:44.965Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 26,
+  "fields": {
+    "object": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Gris Plom",
+    "content_json": "{\"pk\": 27, \"translation_key\": \"e1e5bdc6-23a7-4bf8-a535-958db776e532\", \"locale\": 1, \"name\": \"Gris Plom\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:33:57.043Z",
+    "last_updated_at": "2022-08-11T08:33:57.040Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 27,
+  "fields": {
+    "object": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Taronja Terracota",
+    "content_json": "{\"pk\": 28, \"translation_key\": \"d8626d4a-bb6c-4216-819d-0e58a8b540a6\", \"locale\": 1, \"name\": \"Taronja Terracota\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:34:22.091Z",
+    "last_updated_at": "2022-08-11T08:34:22.089Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 28,
+  "fields": {
+    "object": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Groc Mostassa",
+    "content_json": "{\"pk\": 29, \"translation_key\": \"8aff345e-ae13-48c6-b04a-80cfe1f60bc1\", \"locale\": 1, \"name\": \"Groc Mostassa\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:34:59.042Z",
+    "last_updated_at": "2022-08-11T08:34:59.037Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 29,
+  "fields": {
+    "object": "7721b947-9334-4315-b8aa-efff03bb8fee",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blau Fosc",
+    "content_json": "{\"pk\": 30, \"translation_key\": \"7721b947-9334-4315-b8aa-efff03bb8fee\", \"locale\": 1, \"name\": \"Blau Fosc\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:35:14.323Z",
+    "last_updated_at": "2022-08-11T08:35:14.316Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 30,
+  "fields": {
+    "object": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blau Acer",
+    "content_json": "{\"pk\": 31, \"translation_key\": \"abf4e6c7-1c2c-468a-914c-c5a1246d6057\", \"locale\": 1, \"name\": \"Blau Acer\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:35:31.827Z",
+    "last_updated_at": "2022-08-11T08:35:31.825Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 31,
+  "fields": {
+    "object": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blau Turquesa",
+    "content_json": "{\"pk\": 32, \"translation_key\": \"a882ffd7-83c7-4bb3-a137-33ed2ce78074\", \"locale\": 1, \"name\": \"Blau Turquesa\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:35:49.891Z",
+    "last_updated_at": "2022-08-11T08:35:49.889Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 32,
+  "fields": {
+    "object": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blau Clar",
+    "content_json": "{\"pk\": 33, \"translation_key\": \"8ebaf4da-8371-4a93-b21b-a8da2762f469\", \"locale\": 1, \"name\": \"Blau Clar\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:36:07.378Z",
+    "last_updated_at": "2022-08-11T08:36:07.373Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 33,
+  "fields": {
+    "object": "17d0583c-f397-4de4-938d-4bfe28c958c0",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Blau Cel",
+    "content_json": "{\"pk\": 34, \"translation_key\": \"17d0583c-f397-4de4-938d-4bfe28c958c0\", \"locale\": 1, \"name\": \"Blau Cel\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:36:22.798Z",
+    "last_updated_at": "2022-08-11T08:36:22.795Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 34,
+  "fields": {
+    "object": "dad5f225-030c-4f37-8430-bfdb635cbb00",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Morat Albergínia",
+    "content_json": "{\"pk\": 35, \"translation_key\": \"dad5f225-030c-4f37-8430-bfdb635cbb00\", \"locale\": 1, \"name\": \"Morat Alberg\\u00ednia\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:36:36.714Z",
+    "last_updated_at": "2022-08-11T08:36:36.712Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 35,
+  "fields": {
+    "object": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Vermell Òxid",
+    "content_json": "{\"pk\": 36, \"translation_key\": \"c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d\", \"locale\": 1, \"name\": \"Vermell \\u00d2xid\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:36:58.409Z",
+    "last_updated_at": "2022-08-11T08:36:58.406Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 36,
+  "fields": {
+    "object": "4a084b27-1269-4d7d-9255-05b489c522c0",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Vermell Cirera",
+    "content_json": "{\"pk\": 37, \"translation_key\": \"4a084b27-1269-4d7d-9255-05b489c522c0\", \"locale\": 1, \"name\": \"Vermell Cirera\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:37:54.702Z",
+    "last_updated_at": "2022-08-11T08:37:54.700Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 37,
+  "fields": {
+    "object": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Rosa Fosc",
+    "content_json": "{\"pk\": 38, \"translation_key\": \"fd244d3e-8f9b-4683-9f1b-b8666b1e58e5\", \"locale\": 1, \"name\": \"Rosa Fosc\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:38:11.117Z",
+    "last_updated_at": "2022-08-11T08:38:11.115Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 38,
+  "fields": {
+    "object": "a9d322e6-0497-40b8-879f-0411399b84e6",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Atzabeja",
+    "content_json": "{\"pk\": 41, \"translation_key\": \"a9d322e6-0497-40b8-879f-0411399b84e6\", \"locale\": 1, \"name\": \"Atzabeja\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:38:38.285Z",
+    "last_updated_at": "2022-08-11T08:38:38.283Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 39,
+  "fields": {
+    "object": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Bronze Daurat",
+    "content_json": "{\"pk\": 42, \"translation_key\": \"f66f4846-7110-4b20-9db9-1cd76c3ef006\", \"locale\": 1, \"name\": \"Bronze Daurat\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:38:52.465Z",
+    "last_updated_at": "2022-08-11T08:38:52.463Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 40,
+  "fields": {
+    "object": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "locale": 1,
+    "object_repr": "Bronze Torrat",
+    "content_json": "{\"pk\": 43, \"translation_key\": \"6c80da38-a532-4845-86e5-1a8bdb20ed97\", \"locale\": 1, \"name\": \"Bronze Torrat\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:39:42.042Z",
+    "last_updated_at": "2022-08-11T08:39:42.039Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 41,
+  "fields": {
+    "object": "9e65e943-e90e-425f-98a0-473c822cb4ff",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ],
+    "locale": 1,
+    "object_repr": "Menjador",
+    "content_json": "{\"pk\": 1, \"translation_key\": \"9e65e943-e90e-425f-98a0-473c822cb4ff\", \"locale\": 1, \"name\": \"Menjador\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:40:16.516Z",
+    "last_updated_at": "2022-08-11T08:40:16.513Z"
+  }
+},
+{
+  "model": "wagtail_localize.translationsource",
+  "pk": 42,
+  "fields": {
+    "object": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
+    "specific_content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ],
+    "locale": 1,
+    "object_repr": "Dormitori",
+    "content_json": "{\"pk\": 3, \"translation_key\": \"ee934808-bee8-4a3d-8eee-d7eebb3fc8ab\", \"locale\": 1, \"name\": \"Dormitori\"}",
+    "schema_version": "0009_remove_collection_name_and_more",
+    "created_at": "2022-08-11T08:40:34.638Z",
+    "last_updated_at": "2022-08-11T08:40:34.636Z"
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 1,
+  "fields": {
+    "uuid": "3cbd7a30-74d3-42c6-9b83-5cab8720f76c",
+    "source": 1,
+    "target_locale": 2,
+    "created_at": "2022-08-10T13:58:40.126Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 2,
+  "fields": {
+    "uuid": "e1f5aa51-6f0e-45d8-97ff-4245d5b0c2cf",
+    "source": 2,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:25:37.646Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 3,
+  "fields": {
+    "uuid": "a883662e-4918-40e6-bed4-887c994b40b2",
+    "source": 3,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:26:57.792Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 4,
+  "fields": {
+    "uuid": "3511680a-72e2-4703-8790-3978aeddc763",
+    "source": 4,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:27:52.899Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 5,
+  "fields": {
+    "uuid": "edebd2dd-f55e-4e4e-9036-6dbd129b42b0",
+    "source": 5,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:28:10.557Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 6,
+  "fields": {
+    "uuid": "5c26e206-88ed-460b-b586-a77753d4e1f0",
+    "source": 6,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:28:26.201Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 7,
+  "fields": {
+    "uuid": "f1c0ef91-ac77-472d-905e-115f1022e2b7",
+    "source": 7,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:28:42.540Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 8,
+  "fields": {
+    "uuid": "c36dfd1f-332f-477d-b7e8-b7bd7c41c9ca",
+    "source": 8,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:29:01.667Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 9,
+  "fields": {
+    "uuid": "3e39298c-1c28-4712-970c-7c31a3093473",
+    "source": 9,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:29:26.095Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 10,
+  "fields": {
+    "uuid": "8624ccc6-1843-4725-ab59-26d0c65da862",
+    "source": 10,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:29:39.535Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 11,
+  "fields": {
+    "uuid": "86e4533d-317a-40f4-ad9c-37f9d2bf044b",
+    "source": 11,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:29:56.925Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 12,
+  "fields": {
+    "uuid": "81c1ce09-034f-4f08-859b-9d052b7553a3",
+    "source": 12,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:30:10.393Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 13,
+  "fields": {
+    "uuid": "01d874b8-ad67-4e76-81c1-3558a7a86a55",
+    "source": 13,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:30:22.480Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 14,
+  "fields": {
+    "uuid": "2ba371fb-5862-469b-8bbc-ee148422c89f",
+    "source": 14,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:30:36.582Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 15,
+  "fields": {
+    "uuid": "588df543-8524-4d21-95fe-0610cc8466e5",
+    "source": 15,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:30:51.103Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 16,
+  "fields": {
+    "uuid": "f02be00d-fd83-4ab6-b76b-927bcf1783d4",
+    "source": 16,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:31:04.324Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 17,
+  "fields": {
+    "uuid": "c072cb51-756c-4759-860f-b1daa7e69aa3",
+    "source": 17,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:31:17.099Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 18,
+  "fields": {
+    "uuid": "6299f91e-200b-4ffe-ae65-01902ebb51c1",
+    "source": 18,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:31:30.998Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 19,
+  "fields": {
+    "uuid": "2a069c86-3708-49a2-ac3b-9171e3c8e25e",
+    "source": 19,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:31:48.751Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 20,
+  "fields": {
+    "uuid": "450714f6-9dd0-4c8d-9615-bb7e671290b3",
+    "source": 20,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:32:05.654Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 21,
+  "fields": {
+    "uuid": "cea25285-0136-4349-8b0c-344a1bdc7457",
+    "source": 21,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:32:27.225Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 22,
+  "fields": {
+    "uuid": "e518b4c8-1102-4880-9155-e75c53d8d35b",
+    "source": 22,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:32:43.981Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 23,
+  "fields": {
+    "uuid": "a350b5ce-4c1b-4ec7-8ebd-845bde392a63",
+    "source": 23,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:32:57.304Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 24,
+  "fields": {
+    "uuid": "84c45ed4-92f1-433b-9fc9-bc9743cb7ede",
+    "source": 24,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:33:23.381Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 25,
+  "fields": {
+    "uuid": "458c5782-bc89-4c76-a870-e47a6b0bcdae",
+    "source": 25,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:33:44.991Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 26,
+  "fields": {
+    "uuid": "6a482a84-19bf-4217-af66-117893bd6d38",
+    "source": 26,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:33:57.065Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 27,
+  "fields": {
+    "uuid": "9ee65937-cac4-4554-af9c-debd3b6297a6",
+    "source": 27,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:34:22.120Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 28,
+  "fields": {
+    "uuid": "279ef640-33a3-48f9-bf13-ef375e6899f4",
+    "source": 28,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:34:59.064Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 29,
+  "fields": {
+    "uuid": "30bdd4d7-9337-461f-ba74-baa97a744d7c",
+    "source": 29,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:35:14.345Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 30,
+  "fields": {
+    "uuid": "2b01cd92-7f40-419a-9163-d8dd6df9b7fd",
+    "source": 30,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:35:31.854Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 31,
+  "fields": {
+    "uuid": "aeadc85f-2754-4f97-86fc-cd4787b21b07",
+    "source": 31,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:35:49.918Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 32,
+  "fields": {
+    "uuid": "cc5667c7-3d18-4f7e-8b80-95e5760e11e3",
+    "source": 32,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:36:07.401Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 33,
+  "fields": {
+    "uuid": "4cb0c198-5778-4493-a1bb-46ba9810231b",
+    "source": 33,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:36:22.826Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 34,
+  "fields": {
+    "uuid": "9105e0c9-6f1f-4adf-998c-12431a083176",
+    "source": 34,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:36:36.737Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 35,
+  "fields": {
+    "uuid": "8748bb00-ac3f-4507-ab8d-cd9c0dc8c90f",
+    "source": 35,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:36:58.433Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 36,
+  "fields": {
+    "uuid": "abb8d707-2e0a-486b-a451-8c1fac9a714e",
+    "source": 36,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:37:54.734Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 37,
+  "fields": {
+    "uuid": "ee9ec333-3a91-412b-a5cc-8fdf33d763ea",
+    "source": 37,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:38:11.142Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 38,
+  "fields": {
+    "uuid": "a4d5cbdd-39c6-49a1-b0c7-0628f5355056",
+    "source": 38,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:38:38.312Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 39,
+  "fields": {
+    "uuid": "43d7fc5b-fb6b-4110-9d32-7188ddbf7422",
+    "source": 39,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:38:52.489Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 40,
+  "fields": {
+    "uuid": "6b907f4a-9bbd-4b7c-9883-88714e2a37db",
+    "source": 40,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:39:42.065Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 41,
+  "fields": {
+    "uuid": "b0f7be2b-3c96-4d25-8cff-069eb36a9c43",
+    "source": 41,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:40:16.547Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.translation",
+  "pk": 42,
+  "fields": {
+    "uuid": "ca26765c-c9b1-40d1-b95b-cc7d9a69b6cc",
+    "source": 42,
+    "target_locale": 2,
+    "created_at": "2022-08-11T08:40:34.665Z",
+    "translations_last_updated_at": null,
+    "destination_last_updated_at": null,
+    "enabled": true
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 1,
+  "fields": {
+    "locale": 1,
+    "data_hash": "89d6dc55-b7d6-50ab-94a1-a365472ebc7e",
+    "data": "Eslògan de portada"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 2,
+  "fields": {
+    "locale": 1,
+    "data_hash": "d6b6148d-7628-5c7b-b603-7ed96dfcb5a4",
+    "data": "home"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 3,
+  "fields": {
+    "locale": 1,
+    "data_hash": "a83a8d29-7e29-549b-b411-c16076b3bf5c",
+    "data": "Nou disseny de llit pel teu dormitori"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 4,
+  "fields": {
+    "locale": 1,
+    "data_hash": "3de7a0c7-9b76-522e-bb87-e0d2a631fa12",
+    "data": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection."
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 5,
+  "fields": {
+    "locale": 1,
+    "data_hash": "82fdcd13-5def-5d14-8f13-fd395f6d5840",
+    "data": "Veure col·lecció"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 6,
+  "fields": {
+    "locale": 1,
+    "data_hash": "5b18b9da-fca3-5e9d-955c-53a6e17e7485",
+    "data": "Roure 0"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 7,
+  "fields": {
+    "locale": 1,
+    "data_hash": "7a9a6108-8d15-5047-ba07-000a9f021e74",
+    "data": "Roure 30"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 8,
+  "fields": {
+    "locale": 1,
+    "data_hash": "12cc73b6-8d3c-5652-a7cc-95d1468842e4",
+    "data": "Roure 60"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 9,
+  "fields": {
+    "locale": 1,
+    "data_hash": "70c29446-de99-5db6-9753-9c858f84dc3c",
+    "data": "Roure 90"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 10,
+  "fields": {
+    "locale": 1,
+    "data_hash": "cd5db9ee-2b39-526e-bd75-3fcf93af3fb4",
+    "data": "Roure 75"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 11,
+  "fields": {
+    "locale": 1,
+    "data_hash": "7c8baa1e-1b3c-56ec-b5f4-01ff20926c07",
+    "data": "Roure 15"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 12,
+  "fields": {
+    "locale": 1,
+    "data_hash": "782f74a1-c470-538b-96bb-23c4145e68b8",
+    "data": "Roure 20"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 13,
+  "fields": {
+    "locale": 1,
+    "data_hash": "680c745b-77a7-533f-8c7d-fe2122cac313",
+    "data": "Eucaliptus"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 14,
+  "fields": {
+    "locale": 1,
+    "data_hash": "1a73e9dc-5fdd-5cf0-bda9-39384aa1d4be",
+    "data": "Noguera 06"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 15,
+  "fields": {
+    "locale": 1,
+    "data_hash": "af47da70-6cdf-5078-9456-6017eb6ccd38",
+    "data": "Noguera 02"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 16,
+  "fields": {
+    "locale": 1,
+    "data_hash": "1fa98edd-fc91-5193-b0d6-29543e2c0587",
+    "data": "Noguera 07"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 17,
+  "fields": {
+    "locale": 1,
+    "data_hash": "7c0b344e-8acd-5a24-a9e4-c2feb709b9a4",
+    "data": "Noguera 10"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 18,
+  "fields": {
+    "locale": 1,
+    "data_hash": "fc62c2ed-14d4-5700-b40d-7651f65acf00",
+    "data": "Cirerer Noguera"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 19,
+  "fields": {
+    "locale": 1,
+    "data_hash": "c4a7c5ff-5f7b-59d0-9549-f07aa57144f6",
+    "data": "Cirerer Natural"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 20,
+  "fields": {
+    "locale": 1,
+    "data_hash": "45c7238f-84f9-5ddf-9f1a-f88c253359f2",
+    "data": "Blanc pur"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 21,
+  "fields": {
+    "locale": 1,
+    "data_hash": "4a5f4ac9-e292-5658-950a-779a010fddf4",
+    "data": "Blanc Marfil"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 22,
+  "fields": {
+    "locale": 1,
+    "data_hash": "5453c401-18c0-541e-8bc4-5069f7906808",
+    "data": "Beix Natural"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 23,
+  "fields": {
+    "locale": 1,
+    "data_hash": "58feacec-a8d5-5b0d-99f0-274b456e8d36",
+    "data": "Beix Pastel"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 24,
+  "fields": {
+    "locale": 1,
+    "data_hash": "2b04736f-215a-5bf0-90e9-a2b792e1350e",
+    "data": "Beix Sorra"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 25,
+  "fields": {
+    "locale": 1,
+    "data_hash": "85fe4b84-d6f3-50a1-93e4-8b722abee68e",
+    "data": "Beix Sílex"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 26,
+  "fields": {
+    "locale": 1,
+    "data_hash": "cecb16e0-57b0-51b9-8f9f-0cfcc63d1692",
+    "data": "Gris Nòrdic"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 27,
+  "fields": {
+    "locale": 1,
+    "data_hash": "04ae9e36-b911-5835-b603-827a898cbb29",
+    "data": "Gris Terra"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 28,
+  "fields": {
+    "locale": 1,
+    "data_hash": "345584e0-9a1c-5493-844e-b6028ec91c80",
+    "data": "Negre Infinit"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 29,
+  "fields": {
+    "locale": 1,
+    "data_hash": "658c39cf-eddd-50b6-af35-42f0ee288e23",
+    "data": "Gris Pedra"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 30,
+  "fields": {
+    "locale": 1,
+    "data_hash": "bda78394-29f0-5177-9af7-c5363ce0cb2c",
+    "data": "Gris Plom"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 31,
+  "fields": {
+    "locale": 1,
+    "data_hash": "33915d3c-38e3-5966-a421-9d16d269057d",
+    "data": "Taronja Terracota"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 32,
+  "fields": {
+    "locale": 1,
+    "data_hash": "9577951c-bc98-5b04-aa96-ab1ddb148e4e",
+    "data": "Groc Mostassa"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 33,
+  "fields": {
+    "locale": 1,
+    "data_hash": "ff139ddf-1cc3-50fc-94bb-3729357973cb",
+    "data": "Blau Fosc"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 34,
+  "fields": {
+    "locale": 1,
+    "data_hash": "7ff306cd-3460-5d52-84f2-5278ae965531",
+    "data": "Blau Acer"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 35,
+  "fields": {
+    "locale": 1,
+    "data_hash": "fb1d49c1-cac8-5e92-8a1e-114c19cf23c8",
+    "data": "Blau Turquesa"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 36,
+  "fields": {
+    "locale": 1,
+    "data_hash": "d3d4e35a-d576-55fb-a197-d505595e69c7",
+    "data": "Blau Clar"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 37,
+  "fields": {
+    "locale": 1,
+    "data_hash": "6cde9055-0bea-59f6-8387-d6e7d368d4a4",
+    "data": "Blau Cel"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 38,
+  "fields": {
+    "locale": 1,
+    "data_hash": "19386ac0-fa0a-5505-acf5-07a27d6f6a6d",
+    "data": "Morat Albergínia"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 39,
+  "fields": {
+    "locale": 1,
+    "data_hash": "db45decb-d5b7-5e53-bab4-9b74f2f0924f",
+    "data": "Vermell Òxid"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 40,
+  "fields": {
+    "locale": 1,
+    "data_hash": "6e7e0c17-9afb-5016-b12c-91732b7271b7",
+    "data": "Vermell Cirera"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 41,
+  "fields": {
+    "locale": 1,
+    "data_hash": "9fc1753d-9f06-5b0b-b292-fd0f5524b83e",
+    "data": "Rosa Fosc"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 42,
+  "fields": {
+    "locale": 1,
+    "data_hash": "813e4e89-78da-52e2-ad28-fe99c1900f0a",
+    "data": "Atzabeja"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 43,
+  "fields": {
+    "locale": 1,
+    "data_hash": "cd809778-0bdf-557c-a142-38c8e7d8e81f",
+    "data": "Bronze Daurat"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 44,
+  "fields": {
+    "locale": 1,
+    "data_hash": "5376f5bc-41a8-5796-a63f-a5f930a2f34e",
+    "data": "Bronze Torrat"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 45,
+  "fields": {
+    "locale": 1,
+    "data_hash": "f9a2afc1-773e-5336-a636-62368f64558c",
+    "data": "Menjador"
+  }
+},
+{
+  "model": "wagtail_localize.string",
+  "pk": 46,
+  "fields": {
+    "locale": 1,
+    "data_hash": "061613b4-d159-566f-bcab-2705db33e32a",
+    "data": "Dormitori"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 1,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "f749566c-8a06-5c72-89b8-682e4e49f74f",
+    "path": "title",
+    "field_path": "title"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 2,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "d71ad27b-d7c2-5061-865d-752015b09e05",
+    "path": "slug",
+    "field_path": "slug"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 3,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "320b53d2-09a2-5429-9a58-88627f689b6c",
+    "path": "overlay_title",
+    "field_path": "overlay_title"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 4,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "8f785e12-7d7d-5bce-a30d-ed002c9b07f4",
+    "path": "overlay_body",
+    "field_path": "overlay_body"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 5,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "584b295d-20c0-58f9-a29b-3d053b6c8c70",
+    "path": "overlay_button_text",
+    "field_path": "overlay_button_text"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 6,
+  "fields": {
+    "object": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "path_id": "d72d1aca-b10c-56af-835b-9f724f69738a",
+    "path": "overlay_image",
+    "field_path": "overlay_image"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 7,
+  "fields": {
+    "object": "36659b27-e17a-4180-9750-10f7c9c7b932",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 8,
+  "fields": {
+    "object": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 9,
+  "fields": {
+    "object": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 10,
+  "fields": {
+    "object": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 11,
+  "fields": {
+    "object": "be14f0fb-af71-447b-ba06-869bd202ced3",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 12,
+  "fields": {
+    "object": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 13,
+  "fields": {
+    "object": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 14,
+  "fields": {
+    "object": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 15,
+  "fields": {
+    "object": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 16,
+  "fields": {
+    "object": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 17,
+  "fields": {
+    "object": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 18,
+  "fields": {
+    "object": "576df22e-7e06-4901-a897-5b510bc9db68",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 19,
+  "fields": {
+    "object": "f5e7a61e-c556-445c-90b1-1fb18440058a",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 20,
+  "fields": {
+    "object": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 21,
+  "fields": {
+    "object": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 22,
+  "fields": {
+    "object": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 23,
+  "fields": {
+    "object": "8dfcadbd-7181-4642-9f69-340d6196cd86",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 24,
+  "fields": {
+    "object": "1d10dca5-a4af-4a15-85b8-a9996436c568",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 25,
+  "fields": {
+    "object": "82ddb93a-2345-471d-a61e-9b6ffc771889",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 26,
+  "fields": {
+    "object": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 27,
+  "fields": {
+    "object": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 28,
+  "fields": {
+    "object": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 29,
+  "fields": {
+    "object": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 30,
+  "fields": {
+    "object": "8fe7c215-eb80-4a83-ac46-0c652873db16",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 31,
+  "fields": {
+    "object": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 32,
+  "fields": {
+    "object": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 33,
+  "fields": {
+    "object": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 34,
+  "fields": {
+    "object": "7721b947-9334-4315-b8aa-efff03bb8fee",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 35,
+  "fields": {
+    "object": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 36,
+  "fields": {
+    "object": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 37,
+  "fields": {
+    "object": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 38,
+  "fields": {
+    "object": "17d0583c-f397-4de4-938d-4bfe28c958c0",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 39,
+  "fields": {
+    "object": "dad5f225-030c-4f37-8430-bfdb635cbb00",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 40,
+  "fields": {
+    "object": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 41,
+  "fields": {
+    "object": "4a084b27-1269-4d7d-9255-05b489c522c0",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 42,
+  "fields": {
+    "object": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 43,
+  "fields": {
+    "object": "a9d322e6-0497-40b8-879f-0411399b84e6",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 44,
+  "fields": {
+    "object": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 45,
+  "fields": {
+    "object": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 46,
+  "fields": {
+    "object": "9e65e943-e90e-425f-98a0-473c822cb4ff",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.translationcontext",
+  "pk": 47,
+  "fields": {
+    "object": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
+    "path_id": "3d8fca97-d5b8-5883-9c26-360f58a67899",
+    "path": "name",
+    "field_path": "name"
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 1,
+  "fields": {
+    "translation_of": 3,
+    "locale": 2,
+    "context": 3,
+    "data": "Nuevo diseño de cama para tu dormitorio",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:58:57.651Z",
+    "updated_at": "2022-08-10T13:58:57.651Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 2,
+  "fields": {
+    "translation_of": 4,
+    "locale": 2,
+    "context": 4,
+    "data": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:59:06.380Z",
+    "updated_at": "2022-08-10T13:59:06.380Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 3,
+  "fields": {
+    "translation_of": 5,
+    "locale": 2,
+    "context": 5,
+    "data": "Ver colección",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T13:59:12.982Z",
+    "updated_at": "2022-08-10T13:59:12.982Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 4,
+  "fields": {
+    "translation_of": 1,
+    "locale": 2,
+    "context": 1,
+    "data": "Eslogan de portada, pendiente",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-10T14:51:57.775Z",
+    "updated_at": "2022-08-10T14:52:08.337Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 5,
+  "fields": {
+    "translation_of": 6,
+    "locale": 2,
+    "context": 7,
+    "data": "Roble 0",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:25:45.194Z",
+    "updated_at": "2022-08-11T08:25:45.194Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 6,
+  "fields": {
+    "translation_of": 7,
+    "locale": 2,
+    "context": 8,
+    "data": "Roble 30",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:27:04.398Z",
+    "updated_at": "2022-08-11T08:27:04.398Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 7,
+  "fields": {
+    "translation_of": 8,
+    "locale": 2,
+    "context": 9,
+    "data": "Roble 60",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:27:59.010Z",
+    "updated_at": "2022-08-11T08:27:59.010Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 8,
+  "fields": {
+    "translation_of": 9,
+    "locale": 2,
+    "context": 10,
+    "data": "Roble 90",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:28:15.527Z",
+    "updated_at": "2022-08-11T08:28:15.527Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 9,
+  "fields": {
+    "translation_of": 10,
+    "locale": 2,
+    "context": 11,
+    "data": "Roble 75",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:28:33.064Z",
+    "updated_at": "2022-08-11T08:28:33.064Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 10,
+  "fields": {
+    "translation_of": 11,
+    "locale": 2,
+    "context": 12,
+    "data": "Roble 15",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:28:48.475Z",
+    "updated_at": "2022-08-11T08:28:48.475Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 11,
+  "fields": {
+    "translation_of": 12,
+    "locale": 2,
+    "context": 13,
+    "data": "Roble 20",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:29:06.067Z",
+    "updated_at": "2022-08-11T08:29:06.067Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 12,
+  "fields": {
+    "translation_of": 13,
+    "locale": 2,
+    "context": 14,
+    "data": "Eucalipto",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:29:32.043Z",
+    "updated_at": "2022-08-11T08:29:32.043Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 13,
+  "fields": {
+    "translation_of": 14,
+    "locale": 2,
+    "context": 15,
+    "data": "Nogal 06",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:29:48.024Z",
+    "updated_at": "2022-08-11T08:29:48.024Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 14,
+  "fields": {
+    "translation_of": 15,
+    "locale": 2,
+    "context": 16,
+    "data": "Nogal 02",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:30:01.415Z",
+    "updated_at": "2022-08-11T08:30:01.415Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 15,
+  "fields": {
+    "translation_of": 16,
+    "locale": 2,
+    "context": 17,
+    "data": "Nogal 07",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:30:15.067Z",
+    "updated_at": "2022-08-11T08:30:15.067Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 16,
+  "fields": {
+    "translation_of": 17,
+    "locale": 2,
+    "context": 18,
+    "data": "Nogal 10",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:30:26.489Z",
+    "updated_at": "2022-08-11T08:30:26.489Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 17,
+  "fields": {
+    "translation_of": 18,
+    "locale": 2,
+    "context": 19,
+    "data": "Cerezo Nogal",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:30:41.876Z",
+    "updated_at": "2022-08-11T08:30:41.876Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 18,
+  "fields": {
+    "translation_of": 19,
+    "locale": 2,
+    "context": 20,
+    "data": "Cerezo Natural",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:30:57.460Z",
+    "updated_at": "2022-08-11T08:30:57.460Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 19,
+  "fields": {
+    "translation_of": 20,
+    "locale": 2,
+    "context": 21,
+    "data": "Blanco Puro",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:31:09.220Z",
+    "updated_at": "2022-08-11T08:31:09.220Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 20,
+  "fields": {
+    "translation_of": 21,
+    "locale": 2,
+    "context": 22,
+    "data": "Blanco Marfil",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:31:22.090Z",
+    "updated_at": "2022-08-11T08:31:22.090Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 21,
+  "fields": {
+    "translation_of": 22,
+    "locale": 2,
+    "context": 23,
+    "data": "Beige Natural",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:31:38.558Z",
+    "updated_at": "2022-08-11T08:31:38.558Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 22,
+  "fields": {
+    "translation_of": 23,
+    "locale": 2,
+    "context": 24,
+    "data": "Beige Pastel",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:31:54.316Z",
+    "updated_at": "2022-08-11T08:31:54.316Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 23,
+  "fields": {
+    "translation_of": 24,
+    "locale": 2,
+    "context": 25,
+    "data": "Beige Arena",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:32:11.130Z",
+    "updated_at": "2022-08-11T08:32:11.130Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 24,
+  "fields": {
+    "translation_of": 25,
+    "locale": 2,
+    "context": 26,
+    "data": "Beige Sílex",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:32:36.981Z",
+    "updated_at": "2022-08-11T08:32:36.981Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 25,
+  "fields": {
+    "translation_of": 26,
+    "locale": 2,
+    "context": 27,
+    "data": "Gris Nórdico",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:32:49.147Z",
+    "updated_at": "2022-08-11T08:32:49.147Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 26,
+  "fields": {
+    "translation_of": 27,
+    "locale": 2,
+    "context": 28,
+    "data": "Gris Tierra",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:33:01.819Z",
+    "updated_at": "2022-08-11T08:33:01.819Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 27,
+  "fields": {
+    "translation_of": 28,
+    "locale": 2,
+    "context": 29,
+    "data": "Negro Infinito",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:33:31.388Z",
+    "updated_at": "2022-08-11T08:33:31.388Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 28,
+  "fields": {
+    "translation_of": 29,
+    "locale": 2,
+    "context": 30,
+    "data": "Gris Piedra",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:33:49.481Z",
+    "updated_at": "2022-08-11T08:33:49.481Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 29,
+  "fields": {
+    "translation_of": 30,
+    "locale": 2,
+    "context": 31,
+    "data": "Gris Plomo",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:34:06.570Z",
+    "updated_at": "2022-08-11T08:34:06.570Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 30,
+  "fields": {
+    "translation_of": 31,
+    "locale": 2,
+    "context": 32,
+    "data": "Naranja Terracota",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:34:49.489Z",
+    "updated_at": "2022-08-11T08:34:49.489Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 31,
+  "fields": {
+    "translation_of": 32,
+    "locale": 2,
+    "context": 33,
+    "data": "Amarillo Mostaza",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:35:05.548Z",
+    "updated_at": "2022-08-11T08:35:05.548Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 32,
+  "fields": {
+    "translation_of": 33,
+    "locale": 2,
+    "context": 34,
+    "data": "Azul Oscuro",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:35:21.804Z",
+    "updated_at": "2022-08-11T08:35:21.804Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 33,
+  "fields": {
+    "translation_of": 34,
+    "locale": 2,
+    "context": 35,
+    "data": "Azul Acero",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:35:38.212Z",
+    "updated_at": "2022-08-11T08:35:38.212Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 34,
+  "fields": {
+    "translation_of": 35,
+    "locale": 2,
+    "context": 36,
+    "data": "Azul Turquesa",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:35:59.027Z",
+    "updated_at": "2022-08-11T08:35:59.027Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 35,
+  "fields": {
+    "translation_of": 36,
+    "locale": 2,
+    "context": 37,
+    "data": "Azul Claro",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:36:12.399Z",
+    "updated_at": "2022-08-11T08:36:12.399Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 36,
+  "fields": {
+    "translation_of": 37,
+    "locale": 2,
+    "context": 38,
+    "data": "Azul Cielo",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:36:29.214Z",
+    "updated_at": "2022-08-11T08:36:29.214Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 37,
+  "fields": {
+    "translation_of": 38,
+    "locale": 2,
+    "context": 39,
+    "data": "Morado Berenjena",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:36:46.125Z",
+    "updated_at": "2022-08-11T08:36:46.125Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 38,
+  "fields": {
+    "translation_of": 39,
+    "locale": 2,
+    "context": 40,
+    "data": "Rojo Óxido",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:37:43.949Z",
+    "updated_at": "2022-08-11T08:37:43.949Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 39,
+  "fields": {
+    "translation_of": 40,
+    "locale": 2,
+    "context": 41,
+    "data": "Rojo Cereza",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:38:01.747Z",
+    "updated_at": "2022-08-11T08:38:01.747Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 40,
+  "fields": {
+    "translation_of": 41,
+    "locale": 2,
+    "context": 42,
+    "data": "Rosa Oscuro",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:38:19.194Z",
+    "updated_at": "2022-08-11T08:38:19.194Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 41,
+  "fields": {
+    "translation_of": 42,
+    "locale": 2,
+    "context": 43,
+    "data": "Azabache",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:38:43.902Z",
+    "updated_at": "2022-08-11T08:38:43.902Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 42,
+  "fields": {
+    "translation_of": 43,
+    "locale": 2,
+    "context": 44,
+    "data": "Bronce Dorado",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:39:36.132Z",
+    "updated_at": "2022-08-11T08:39:36.132Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 43,
+  "fields": {
+    "translation_of": 44,
+    "locale": 2,
+    "context": 45,
+    "data": "Bronce Tostado",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:39:47.585Z",
+    "updated_at": "2022-08-11T08:39:47.585Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 44,
+  "fields": {
+    "translation_of": 45,
+    "locale": 2,
+    "context": 46,
+    "data": "Comedor",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:40:20.302Z",
+    "updated_at": "2022-08-11T08:40:20.302Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringtranslation",
+  "pk": 45,
+  "fields": {
+    "translation_of": 46,
+    "locale": 2,
+    "context": 47,
+    "data": "Dormitorio",
+    "translation_type": "manual",
+    "tool_name": "",
+    "last_translated_by": [
+      "hola@codi.coop"
+    ],
+    "created_at": "2022-08-11T08:40:38.205Z",
+    "updated_at": "2022-08-11T08:40:38.205Z",
+    "has_error": false,
+    "field_error": ""
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 1,
+  "fields": {
+    "source": 1,
+    "context": 1,
+    "order": 1,
+    "string": 1,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 2,
+  "fields": {
+    "source": 1,
+    "context": 2,
+    "order": 2,
+    "string": 2,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 3,
+  "fields": {
+    "source": 1,
+    "context": 3,
+    "order": 3,
+    "string": 3,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 4,
+  "fields": {
+    "source": 1,
+    "context": 4,
+    "order": 4,
+    "string": 4,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 5,
+  "fields": {
+    "source": 1,
+    "context": 5,
+    "order": 5,
+    "string": 5,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 6,
+  "fields": {
+    "source": 2,
+    "context": 7,
+    "order": 1,
+    "string": 6,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 7,
+  "fields": {
+    "source": 3,
+    "context": 8,
+    "order": 1,
+    "string": 7,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 8,
+  "fields": {
+    "source": 4,
+    "context": 9,
+    "order": 1,
+    "string": 8,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 9,
+  "fields": {
+    "source": 5,
+    "context": 10,
+    "order": 1,
+    "string": 9,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 10,
+  "fields": {
+    "source": 6,
+    "context": 11,
+    "order": 1,
+    "string": 10,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 11,
+  "fields": {
+    "source": 7,
+    "context": 12,
+    "order": 1,
+    "string": 11,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 12,
+  "fields": {
+    "source": 8,
+    "context": 13,
+    "order": 1,
+    "string": 12,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 13,
+  "fields": {
+    "source": 9,
+    "context": 14,
+    "order": 1,
+    "string": 13,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 14,
+  "fields": {
+    "source": 10,
+    "context": 15,
+    "order": 1,
+    "string": 14,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 15,
+  "fields": {
+    "source": 11,
+    "context": 16,
+    "order": 1,
+    "string": 15,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 16,
+  "fields": {
+    "source": 12,
+    "context": 17,
+    "order": 1,
+    "string": 16,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 17,
+  "fields": {
+    "source": 13,
+    "context": 18,
+    "order": 1,
+    "string": 17,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 18,
+  "fields": {
+    "source": 14,
+    "context": 19,
+    "order": 1,
+    "string": 18,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 19,
+  "fields": {
+    "source": 15,
+    "context": 20,
+    "order": 1,
+    "string": 19,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 20,
+  "fields": {
+    "source": 16,
+    "context": 21,
+    "order": 1,
+    "string": 20,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 21,
+  "fields": {
+    "source": 17,
+    "context": 22,
+    "order": 1,
+    "string": 21,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 22,
+  "fields": {
+    "source": 18,
+    "context": 23,
+    "order": 1,
+    "string": 22,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 23,
+  "fields": {
+    "source": 19,
+    "context": 24,
+    "order": 1,
+    "string": 23,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 24,
+  "fields": {
+    "source": 20,
+    "context": 25,
+    "order": 1,
+    "string": 24,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 25,
+  "fields": {
+    "source": 21,
+    "context": 26,
+    "order": 1,
+    "string": 25,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 26,
+  "fields": {
+    "source": 22,
+    "context": 27,
+    "order": 1,
+    "string": 26,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 27,
+  "fields": {
+    "source": 23,
+    "context": 28,
+    "order": 1,
+    "string": 27,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 28,
+  "fields": {
+    "source": 24,
+    "context": 29,
+    "order": 1,
+    "string": 28,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 29,
+  "fields": {
+    "source": 25,
+    "context": 30,
+    "order": 1,
+    "string": 29,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 30,
+  "fields": {
+    "source": 26,
+    "context": 31,
+    "order": 1,
+    "string": 30,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 31,
+  "fields": {
+    "source": 27,
+    "context": 32,
+    "order": 1,
+    "string": 31,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 32,
+  "fields": {
+    "source": 28,
+    "context": 33,
+    "order": 1,
+    "string": 32,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 33,
+  "fields": {
+    "source": 29,
+    "context": 34,
+    "order": 1,
+    "string": 33,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 34,
+  "fields": {
+    "source": 30,
+    "context": 35,
+    "order": 1,
+    "string": 34,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 35,
+  "fields": {
+    "source": 31,
+    "context": 36,
+    "order": 1,
+    "string": 35,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 36,
+  "fields": {
+    "source": 32,
+    "context": 37,
+    "order": 1,
+    "string": 36,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 37,
+  "fields": {
+    "source": 33,
+    "context": 38,
+    "order": 1,
+    "string": 37,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 38,
+  "fields": {
+    "source": 34,
+    "context": 39,
+    "order": 1,
+    "string": 38,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 39,
+  "fields": {
+    "source": 35,
+    "context": 40,
+    "order": 1,
+    "string": 39,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 40,
+  "fields": {
+    "source": 36,
+    "context": 41,
+    "order": 1,
+    "string": 40,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 41,
+  "fields": {
+    "source": 37,
+    "context": 42,
+    "order": 1,
+    "string": 41,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 42,
+  "fields": {
+    "source": 38,
+    "context": 43,
+    "order": 1,
+    "string": 42,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 43,
+  "fields": {
+    "source": 39,
+    "context": 44,
+    "order": 1,
+    "string": 43,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 44,
+  "fields": {
+    "source": 40,
+    "context": 45,
+    "order": 1,
+    "string": 44,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 45,
+  "fields": {
+    "source": 41,
+    "context": 46,
+    "order": 1,
+    "string": 45,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.stringsegment",
+  "pk": 46,
+  "fields": {
+    "source": 42,
+    "context": 47,
+    "order": 1,
+    "string": 46,
+    "attrs": "null"
+  }
+},
+{
+  "model": "wagtail_localize.overridablesegment",
+  "pk": 1,
+  "fields": {
+    "source": 1,
+    "context": 6,
+    "order": 6,
+    "data_json": "1"
+  }
+},
+{
+  "model": "wagtail_localize.localesynchronization",
+  "pk": 1,
+  "fields": {
+    "locale": 2,
+    "sync_from": 1
+  }
+},
+{
+  "model": "wagtaildocs.document",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "Catàleg àrea",
+    "file": "documents/ciurans_catalogo_pdf_18.pdf",
+    "created_at": "2022-08-11T08:10:24.183Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "file_size": 13449157,
+    "file_hash": "833595b386b40781985402d48af791aa6d924c34"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "Llit destacat portada",
+    "file": "original_images/llit_ciurans.jpg",
+    "width": 1080,
+    "height": 719,
+    "created_at": "2022-08-10T13:54:18.332Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 133875,
+    "file_hash": "adc1c4f8109db4929ea116eadfcedf8bf2188bae"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "Àrea 1, serenitat calidesa i benestar",
+    "file": "original_images/ciurans_area_1_Serenitat_calidesa_i_benestar.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2022-08-11T08:14:45.882Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 207821,
+    "file_hash": "2ab0dbe697ef2db9daf65d62bc8efd5234e5ccbd"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 3,
+  "fields": {
+    "collection": 1,
+    "title": "Àrea 2, serenitat calidesa i benestar",
+    "file": "original_images/ciurans_area_2_Serenitat_calidesa_i_benestar.jpg",
+    "width": 800,
+    "height": 567,
+    "created_at": "2022-08-11T08:52:01.533Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 178856,
+    "file_hash": "79e6d7442f7461fe4c0d6f5b95b2055ca12cbd8b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 4,
+  "fields": {
+    "collection": 1,
+    "title": "Àrea 1, els clàssics renovats",
+    "file": "original_images/ciurans_area_3_Els_classics_renovats.jpg",
+    "width": 600,
+    "height": 600,
+    "created_at": "2022-08-11T08:53:03.349Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 73077,
+    "file_hash": "a44cb775bb3def7b1a01146434c1ef06f46c1754"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 5,
+  "fields": {
+    "collection": 1,
+    "title": "Area 2, els clàssics renovats",
+    "file": "original_images/ciurans_area_4_Els_classics_renovats.jpg",
+    "width": 800,
+    "height": 540,
+    "created_at": "2022-08-11T08:54:22.246Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 182045,
+    "file_hash": "41fe83cd000e66fc3757e3fcc3da2335d9a3af4c"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "locale"
+    ],
+    "label": "Spanish",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.856Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 0",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:04.210Z",
+    "uuid": "ca15ee3a-a632-43cb-bb1e-9f72e598b0dc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 30",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:08.646Z",
+    "uuid": "a3fa3954-4639-4f96-9c27-9d78c6a42cd1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 60",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:13.244Z",
+    "uuid": "3f73773d-c4d4-4404-9e6c-6041bfad68bb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 90",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:45.856Z",
+    "uuid": "65ac0749-9981-4651-8001-c0769ac716a8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "4"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 75",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:52.227Z",
+    "uuid": "d01c1697-056b-4d7a-8d08-4b8e96aa6a31",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "5"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 15",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:15:57.574Z",
+    "uuid": "71da13d8-4b9a-4a00-90b1-6aa16a27cac0",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "6"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 20",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:15.183Z",
+    "uuid": "1ab0a597-2286-4108-a677-6e683ce53825",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "7"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Eucaliptus",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:31.151Z",
+    "uuid": "d1edf3b5-81b8-41fd-8659-b448be7e58c9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "8"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Noguera 06",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:41.046Z",
+    "uuid": "651f80a4-6606-4e27-ac62-b50fdcb82011",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "9"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Noguera 02",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:46.983Z",
+    "uuid": "239974c4-2ba1-43c8-83fd-a2d69cad125e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "10"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Noguera 07",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:52.504Z",
+    "uuid": "cc83b933-420c-4fa5-b608-de95a4c17f5b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "11"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Noguera 10",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:16:58.118Z",
+    "uuid": "a6ec740b-e6ac-4a51-a9da-dadfaeb56f42",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "12"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Cirerer Noguera",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:17:12.518Z",
+    "uuid": "fb4a4993-e80b-4070-8110-605cb4b6a957",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "13"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Cirerer Natural",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:17:20.116Z",
+    "uuid": "9c58ba7f-bb10-471f-a599-da6c25ef9a0b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "14"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blanc pur",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:17:38.690Z",
+    "uuid": "54c1f8b1-227f-4111-9834-ed5a959663f6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "15"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blanc Marfil",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:17:44.207Z",
+    "uuid": "b62f618e-162b-4e08-b3ec-48565b1b62fd",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "16"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Beix Natural",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:17:51.823Z",
+    "uuid": "4f1076b3-150f-47d8-b5b1-03439ab3a56e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "17"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Beix Pastel",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:24.177Z",
+    "uuid": "359af613-403a-428a-ada0-0100dec20974",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "18"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Beix Sorra",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:29.400Z",
+    "uuid": "15c13c79-b055-4342-a3db-9c05436ef1ad",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "19"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Beix Sílex",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:34.935Z",
+    "uuid": "3146f096-2b07-40ee-bb97-98a3ca5fa47b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "20"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Nòrdic",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:40.807Z",
+    "uuid": "6d2ab33d-0dd0-4300-8a42-6a04d34c1006",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "21"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Terra",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:45.924Z",
+    "uuid": "ab3bbf08-f0b8-4aed-9a1c-629d4152af27",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "22"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Antracita",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:51.807Z",
+    "uuid": "d9e36589-9cd6-42fc-b882-845d245ec7a9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "23"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Negre Infinit",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:18:58.654Z",
+    "uuid": "284e23bb-0f46-476d-aa2c-f49cbd5eee14",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "24"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Perla",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:04.890Z",
+    "uuid": "1a8c405d-3906-4c3e-b97e-9fca474f9453",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "25"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Pedra",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:09.099Z",
+    "uuid": "4f050f50-af0e-4d9a-a869-377eceb6b8c7",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "26"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Gris Plom",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:14.020Z",
+    "uuid": "4c7e86f1-25ad-4389-bca0-92df0fa2c73f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "27"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Taronja Terracota",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:21.699Z",
+    "uuid": "33889175-86b2-4c6f-a262-fcb07eaac077",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "28"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Groc Mostassa",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:27.162Z",
+    "uuid": "cc5bb6dd-1b7e-47e0-8b0a-c7659bf9b43b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "29"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blau Fosc",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:33.058Z",
+    "uuid": "1fad8ab5-201f-452d-9b01-4e790406bce6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "30"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blau Acer",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:39.777Z",
+    "uuid": "e2e3c76e-3178-40f7-aba5-8c595a42bbdf",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "31"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blau Turquesa",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:44.750Z",
+    "uuid": "8110d3f9-173b-4b74-985a-02fb02409789",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "32"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blau Clar",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:50.358Z",
+    "uuid": "28b5d6b3-ad4d-4423-96fb-993c4c51980f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "33"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Blau Cel",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:19:54.989Z",
+    "uuid": "a4ac6409-8ddc-4a51-8175-55fb9ba142b9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "34"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Morat Albergínia",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:20:09.272Z",
+    "uuid": "c1204d2c-9e6e-4a5e-8df7-476aa5f6c66a",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "35"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Vermell Òxid",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:20:53.543Z",
+    "uuid": "297fc666-5ecb-4d72-a3a9-5ce14ee5c020",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "36"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Vermell Cirera",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:21:05.970Z",
+    "uuid": "656b6f14-a284-4368-8945-90f9f5d2328f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "37"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 39,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Rosa Fosc",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:23:24.488Z",
+    "uuid": "70155a92-a618-493d-bb2a-d04695e89711",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "38"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 40,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Rosa Palo",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:23:46.074Z",
+    "uuid": "a694cc8b-ac66-43d0-a3e4-3632d11a856b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "39"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Calacatta",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:24:05.751Z",
+    "uuid": "07e41740-895e-43fa-8083-f2337dbfd168",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "40"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Atzabeja",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:24:23.214Z",
+    "uuid": "3b1bce36-7de6-4233-8d86-e491491db94e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "41"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 43,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Bronze Daurat",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:24:31.276Z",
+    "uuid": "4267cc97-2eb6-4902-a48e-615cf7a8e2dc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "42"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 44,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Bronze Torrat",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:24:38.617Z",
+    "uuid": "eeaac69c-d416-49e7-950e-d69fd9ce7fbc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "43"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 45,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ],
+    "label": "Menjador",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:40:12.540Z",
+    "uuid": "23cde219-fc40-499c-94bf-5a1a2c283932",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 46,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ],
+    "label": "Dormitori",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:40:30.857Z",
+    "uuid": "0591c841-ba73-4415-bc2f-b7d1fd9932b4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "MN1",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:41:54.996Z",
+    "uuid": "9fc5d5ee-626d-4858-8d09-aa657b1bb8dc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 48,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "MN2",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:41:59.716Z",
+    "uuid": "3ff3388d-b08f-4383-a30a-9f0b67e38eb9",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 49,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "MN3",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:42:03.845Z",
+    "uuid": "da2b6117-08b9-48c2-a808-7e2567be8323",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 50,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area Single Net",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:43:02.769Z",
+    "uuid": "e830c841-0dfc-47a5-96ef-dfa9e9775f69",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "4"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 51,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area One MN1",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T08:44:12.446Z",
+    "uuid": "282e3ee1-cbce-48b2-8c01-4bde432685dc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 52,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area One MN2",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T08:44:18.247Z",
+    "uuid": "3e6775a0-c886-4a98-94d7-508810bc5362",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 53,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area One MN3",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T08:44:35.203Z",
+    "uuid": "723445c5-93ea-4324-885d-26b86d1d628b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 54,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area One MN8",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:44:55.508Z",
+    "uuid": "ea36f699-22b2-4682-8f06-380249eab5f3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "5"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 55,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Area One MN4",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:45:12.974Z",
+    "uuid": "e50d6dcf-8cda-456d-ab4f-5c71e72bb312",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "6"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 56,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Taga",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:45:24.872Z",
+    "uuid": "f7f3e600-9d63-479b-8f70-773a70589cd1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "7"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 57,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Volda",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:45:37.326Z",
+    "uuid": "23dda438-5c7a-4c4e-8a62-241be7acc483",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "8"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 58,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Tanit",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:45:51.911Z",
+    "uuid": "d1a1bf10-46e1-49ee-a89a-63a6e5848e05",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "9"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 2,
+    "translation_key": "8de012ef-93aa-4dc4-a16f-1c815806e7c0",
+    "locale": 1,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": null,
+    "last_published_at": null,
+    "latest_revision_created_at": null,
+    "live_revision": null,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 2,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 1,
+    "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "locale": 1,
+    "title": "Eslògan de portada",
+    "draft_title": "Eslògan de portada",
+    "slug": "home",
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-10T13:56:15.151Z",
+    "last_published_at": "2022-08-11T08:58:01.108Z",
+    "latest_revision_created_at": "2022-08-11T08:58:01.066Z",
+    "live_revision": 7,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "00010002",
+    "depth": 2,
+    "numchild": 1,
+    "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+    "locale": 2,
+    "title": "Eslogan de portada, pendiente",
+    "draft_title": "Eslogan de portada, pendiente",
+    "slug": "home-1",
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-10T13:56:15.151Z",
+    "last_published_at": "2022-08-10T14:52:12.043Z",
+    "latest_revision_created_at": "2022-08-10T14:52:12.026Z",
+    "live_revision": 5,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
+    "locale": 1,
+    "title": "Nova col·lecció Àrea",
+    "draft_title": "Nova col·lecció Àrea",
+    "slug": "nova-collecció-àrea",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/nova-collecció-àrea/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T08:55:15.251Z",
+    "last_published_at": "2022-08-11T08:55:15.251Z",
+    "latest_revision_created_at": "2022-08-11T08:55:15.227Z",
+    "live_revision": 6,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "000100020001",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
+    "locale": 2,
+    "title": "Nova col·lecció Àrea",
+    "draft_title": "Nova col·lecció Àrea",
+    "slug": "nova-collecció-àrea",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/nova-collecció-àrea/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-11T08:55:15.251Z",
+    "last_published_at": "2022-08-11T08:55:15.251Z",
+    "latest_revision_created_at": "2022-08-11T08:55:15.227Z",
+    "live_revision": 6,
+    "alias_of": 4
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 1,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:56:15.122Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Home Page",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": null,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": null,
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": null,
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 2,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:58:40.155Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-es/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:56:15.122Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 3,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:58:40.189Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:58:40.155Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 4,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T13:59:14.983Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+      "live_revision": 3,
+      "overlay_image": 1,
+      "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:58:40.204Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Ver colección",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:58:40.189Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 5,
+  "fields": {
+    "page": 3,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-10T14:52:12.026Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 3,
+      "live": true,
+      "path": "00010002",
+      "slug": "home-1",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslogan de portada, pendiente",
+      "locale": 2,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home-1/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslogan de portada, pendiente",
+      "content_type": 5,
+      "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+      "live_revision": 4,
+      "overlay_image": 1,
+      "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": null,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:59:15Z",
+      "collection_1_image": null,
+      "collection_1_title": "",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": null,
+      "overlay_button_text": "Ver colección",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:59:14.983Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 6,
+  "fields": {
+    "page": 4,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T08:55:15.227Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 4,
+      "pdf": 1,
+      "live": true,
+      "path": "000100010001",
+      "slug": "nova-collecció-àrea",
+      "depth": 3,
+      "owner": 1,
+      "title": "Nova col·lecció Àrea",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/nova-collecció-àrea/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "items_list": "[{\"type\": \"item\", \"value\": {\"title\": \"Serenitat, calidesa i benestar\", \"image\": 2, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\"}], \"finishings\": [{\"type\": \"item\", \"value\": 15, \"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\"}], \"model\": 1}, \"id\": \"2a999263-797c-4aa9-af68-0dfb31caca09\"}, {\"type\": \"item\", \"value\": {\"title\": \"Serenitat, calidesa i benestar\", \"image\": 3, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\"}], \"finishings\": [{\"type\": \"item\", \"value\": 15, \"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\"}], \"model\": 1}, \"id\": \"fc5c012a-1994-437f-8ac3-d2253c22da7f\"}, {\"type\": \"item\", \"value\": {\"title\": \"Els cl\\u00e0ssics renovats\", \"image\": 4, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\"}], \"finishings\": [{\"type\": \"item\", \"value\": 26, \"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\"}], \"model\": 2}, \"id\": \"fa4e623e-4ed5-48f2-a342-99dcc03c39cf\"}, {\"type\": \"item\", \"value\": {\"title\": \"Els cl\\u00e0ssics renovats\", \"image\": 5, \"item_types\": [{\"type\": \"item\", \"value\": 1, \"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\"}], \"finishings\": [{\"type\": \"item\", \"value\": 7, \"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\"}], \"model\": 2}, \"id\": \"51da2d8a-1df7-40f4-a427-3301eeb42c78\"}]",
+      "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
+      "draft_title": "Nova col·lecció Àrea",
+      "content_type": 54,
+      "live_revision": null,
+      "show_in_menus": false,
+      "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 7,
+  "fields": {
+    "page": 2,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-11T08:58:01.066Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 1,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 1,
+      "overlay_image": 1,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": null,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-10T13:56:15.151Z",
+      "collection_1_image": 2,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": null,
+      "collection_2_title": "",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-10T13:56:15.122Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-10T13:56:15.140Z",
+    "uuid": "5482b55b-5fdb-4ba6-8e2e-36cc8d28e19e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 1
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:56:15.176Z",
+    "uuid": "5482b55b-5fdb-4ba6-8e2e-36cc8d28e19e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 1
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.897Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 3,
+        "title": "Eslògan de portada"
+      },
+      "source": {
+        "id": 1,
+        "title": "Root"
+      },
+      "destination": {
+        "id": 1,
+        "title": "Root"
+      }
+    },
+    "timestamp": "2022-08-10T13:58:26.901Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:26.903Z",
+    "uuid": "b22e617b-34d3-4c86-810d-40f65705d351",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.convert_alias",
+    "data": {
+      "page": {
+        "id": 3,
+        "title": "Eslògan de portada"
+      }
+    },
+    "timestamp": "2022-08-10T13:58:40.162Z",
+    "uuid": null,
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 3,
+    "revision": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:58:40.227Z",
+    "uuid": "1caffe5c-ec6e-41ea-adb1-82269809bb68",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T13:59:15.022Z",
+    "uuid": "f0190e40-e031-46ec-b3ca-ac5d6c8a9131",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslogan de portada, pendiente",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-10T14:52:12.066Z",
+    "uuid": "c9d34c60-e150-4f99-8534-a446b2dd0dce",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 3,
+    "revision": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:55:15.208Z",
+    "uuid": "316d9921-f9e8-4fca-967f-0ee0515caec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 4,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T08:55:15.289Z",
+    "uuid": "316d9921-f9e8-4fca-967f-0ee0515caec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 4,
+    "revision": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-11T08:55:15.335Z",
+    "uuid": "316d9921-f9e8-4fca-967f-0ee0515caec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 5,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 5,
+        "title": "Nova col·lecció Àrea"
+      },
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 3,
+        "title": "Eslogan de portada, pendiente"
+      }
+    },
+    "timestamp": "2022-08-11T08:55:15.339Z",
+    "uuid": "316d9921-f9e8-4fca-967f-0ee0515caec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 5,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T08:55:15.342Z",
+    "uuid": "316d9921-f9e8-4fca-967f-0ee0515caec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 5,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-08-11T08:58:01.088Z",
+    "uuid": "5973ed30-a91a-41e2-99e2-75bfa9018ddb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-11T08:58:01.143Z",
+    "uuid": "5973ed30-a91a-41e2-99e2-75bfa9018ddb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 2,
+    "revision": 7
+  }
+},
+{
+  "model": "cms_site.collection",
+  "pk": 4,
+  "fields": {
+    "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
+    "pdf": 1,
+    "items_list": "[{\"id\": \"2a999263-797c-4aa9-af68-0dfb31caca09\", \"type\": \"item\", \"value\": {\"image\": 2, \"model\": 1, \"title\": \"Serenitat, calidesa i benestar\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 15}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"fc5c012a-1994-437f-8ac3-d2253c22da7f\", \"type\": \"item\", \"value\": {\"image\": 3, \"model\": 1, \"title\": \"Serenitat, calidesa i benestar\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 15}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"fa4e623e-4ed5-48f2-a342-99dcc03c39cf\", \"type\": \"item\", \"value\": {\"image\": 4, \"model\": 2, \"title\": \"Els cl\\u00e0ssics renovats\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 26}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"51da2d8a-1df7-40f4-a427-3301eeb42c78\", \"type\": \"item\", \"value\": {\"image\": 5, \"model\": 2, \"title\": \"Els cl\\u00e0ssics renovats\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 7}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}]"
+  }
+},
+{
+  "model": "cms_site.collection",
+  "pk": 5,
+  "fields": {
+    "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
+    "pdf": 1,
+    "items_list": "[{\"id\": \"2a999263-797c-4aa9-af68-0dfb31caca09\", \"type\": \"item\", \"value\": {\"image\": 2, \"model\": 1, \"title\": \"Serenitat, calidesa i benestar\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 15}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"fc5c012a-1994-437f-8ac3-d2253c22da7f\", \"type\": \"item\", \"value\": {\"image\": 3, \"model\": 1, \"title\": \"Serenitat, calidesa i benestar\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 15}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"fa4e623e-4ed5-48f2-a342-99dcc03c39cf\", \"type\": \"item\", \"value\": {\"image\": 4, \"model\": 2, \"title\": \"Els cl\\u00e0ssics renovats\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 26}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"51da2d8a-1df7-40f4-a427-3301eeb42c78\", \"type\": \"item\", \"value\": {\"image\": 5, \"model\": 2, \"title\": \"Els cl\\u00e0ssics renovats\", \"finishings\": [{\"id\": \"b8acac0a-b852-4211-96c9-5d1c3d5c9b41\", \"type\": \"item\", \"value\": 7}], \"item_types\": [{\"id\": \"7030e735-52c4-4935-bf5e-56cddeccec82\", \"type\": \"item\", \"value\": 1}]}}]"
+  }
+},
+{
+  "model": "cms_site.homepage",
+  "pk": 2,
+  "fields": {
+    "overlay_title": "Nou disseny de llit pel teu dormitori",
+    "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+    "overlay_button_text": "Veure col·lecció",
+    "overlay_button_page": 4,
+    "overlay_image": 1,
+    "collection_1_title": "Nova col·lecció Àrea",
+    "collection_1_image": 2,
+    "collection_1_page": 4,
+    "collection_2_title": "",
+    "collection_2_image": null,
+    "collection_2_page": null,
+    "collection_3_title": "",
+    "collection_3_image": null,
+    "collection_3_page": null,
+    "custom_projects_title": "",
+    "custom_projects_image": null,
+    "custom_projects_page": null,
+    "display_instagram_feed": true,
+    "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.homepage",
+  "pk": 3,
+  "fields": {
+    "overlay_title": "Nuevo diseño de cama para tu dormitorio",
+    "overlay_body": "Está compuesta por un cabecero alistonado de diferentes grosores y una base retroiluminada para el colchón. Tienes la opción de complementarla con las mesitas de la colección new area collection.",
+    "overlay_button_text": "Ver colección",
+    "overlay_button_page": null,
+    "overlay_image": 1,
+    "collection_1_title": "",
+    "collection_1_image": null,
+    "collection_1_page": null,
+    "collection_2_title": "",
+    "collection_2_image": null,
+    "collection_2_page": null,
+    "collection_3_title": "",
+    "collection_3_image": null,
+    "collection_3_page": null,
+    "custom_projects_title": "",
+    "custom_projects_image": null,
+    "custom_projects_page": null,
+    "display_instagram_feed": true,
+    "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.collectionitemtype",
+  "pk": 1,
+  "fields": {
+    "translation_key": "9e65e943-e90e-425f-98a0-473c822cb4ff",
+    "locale": 1,
+    "name": "Menjador"
+  }
+},
+{
+  "model": "cms_site.collectionitemtype",
+  "pk": 2,
+  "fields": {
+    "translation_key": "9e65e943-e90e-425f-98a0-473c822cb4ff",
+    "locale": 2,
+    "name": "Comedor"
+  }
+},
+{
+  "model": "cms_site.collectionitemtype",
+  "pk": 3,
+  "fields": {
+    "translation_key": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
+    "locale": 1,
+    "name": "Dormitori"
+  }
+},
+{
+  "model": "cms_site.collectionitemtype",
+  "pk": 4,
+  "fields": {
+    "translation_key": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
+    "locale": 2,
+    "name": "Dormitorio"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 1,
+  "fields": {
+    "translation_key": "36659b27-e17a-4180-9750-10f7c9c7b932",
+    "locale": 1,
+    "name": "Roure 0"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 2,
+  "fields": {
+    "translation_key": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
+    "locale": 1,
+    "name": "Roure 30"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 3,
+  "fields": {
+    "translation_key": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
+    "locale": 1,
+    "name": "Roure 60"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 4,
+  "fields": {
+    "translation_key": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
+    "locale": 1,
+    "name": "Roure 90"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 5,
+  "fields": {
+    "translation_key": "be14f0fb-af71-447b-ba06-869bd202ced3",
+    "locale": 1,
+    "name": "Roure 75"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 6,
+  "fields": {
+    "translation_key": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
+    "locale": 1,
+    "name": "Roure 15"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 7,
+  "fields": {
+    "translation_key": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
+    "locale": 1,
+    "name": "Roure 20"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 8,
+  "fields": {
+    "translation_key": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
+    "locale": 1,
+    "name": "Eucaliptus"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 9,
+  "fields": {
+    "translation_key": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
+    "locale": 1,
+    "name": "Noguera 06"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 10,
+  "fields": {
+    "translation_key": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
+    "locale": 1,
+    "name": "Noguera 02"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 11,
+  "fields": {
+    "translation_key": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
+    "locale": 1,
+    "name": "Noguera 07"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 12,
+  "fields": {
+    "translation_key": "576df22e-7e06-4901-a897-5b510bc9db68",
+    "locale": 1,
+    "name": "Noguera 10"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 13,
+  "fields": {
+    "translation_key": "f5e7a61e-c556-445c-90b1-1fb18440058a",
+    "locale": 1,
+    "name": "Cirerer Noguera"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 14,
+  "fields": {
+    "translation_key": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
+    "locale": 1,
+    "name": "Cirerer Natural"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 15,
+  "fields": {
+    "translation_key": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
+    "locale": 1,
+    "name": "Blanc pur"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 16,
+  "fields": {
+    "translation_key": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
+    "locale": 1,
+    "name": "Blanc Marfil"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 17,
+  "fields": {
+    "translation_key": "8dfcadbd-7181-4642-9f69-340d6196cd86",
+    "locale": 1,
+    "name": "Beix Natural"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 18,
+  "fields": {
+    "translation_key": "1d10dca5-a4af-4a15-85b8-a9996436c568",
+    "locale": 1,
+    "name": "Beix Pastel"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 19,
+  "fields": {
+    "translation_key": "82ddb93a-2345-471d-a61e-9b6ffc771889",
+    "locale": 1,
+    "name": "Beix Sorra"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 20,
+  "fields": {
+    "translation_key": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
+    "locale": 1,
+    "name": "Beix Sílex"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 21,
+  "fields": {
+    "translation_key": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
+    "locale": 1,
+    "name": "Gris Nòrdic"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 22,
+  "fields": {
+    "translation_key": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
+    "locale": 1,
+    "name": "Gris Terra"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 23,
+  "fields": {
+    "translation_key": "4085381f-340c-408a-baa5-6f275de73fd2",
+    "locale": 1,
+    "name": "Gris Antracita"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 24,
+  "fields": {
+    "translation_key": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
+    "locale": 1,
+    "name": "Negre Infinit"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 25,
+  "fields": {
+    "translation_key": "47ab542c-12b8-491d-be40-acc4e35f4cae",
+    "locale": 1,
+    "name": "Gris Perla"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 26,
+  "fields": {
+    "translation_key": "8fe7c215-eb80-4a83-ac46-0c652873db16",
+    "locale": 1,
+    "name": "Gris Pedra"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 27,
+  "fields": {
+    "translation_key": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
+    "locale": 1,
+    "name": "Gris Plom"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 28,
+  "fields": {
+    "translation_key": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
+    "locale": 1,
+    "name": "Taronja Terracota"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 29,
+  "fields": {
+    "translation_key": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
+    "locale": 1,
+    "name": "Groc Mostassa"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 30,
+  "fields": {
+    "translation_key": "7721b947-9334-4315-b8aa-efff03bb8fee",
+    "locale": 1,
+    "name": "Blau Fosc"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 31,
+  "fields": {
+    "translation_key": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
+    "locale": 1,
+    "name": "Blau Acer"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 32,
+  "fields": {
+    "translation_key": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
+    "locale": 1,
+    "name": "Blau Turquesa"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 33,
+  "fields": {
+    "translation_key": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
+    "locale": 1,
+    "name": "Blau Clar"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 34,
+  "fields": {
+    "translation_key": "17d0583c-f397-4de4-938d-4bfe28c958c0",
+    "locale": 1,
+    "name": "Blau Cel"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 35,
+  "fields": {
+    "translation_key": "dad5f225-030c-4f37-8430-bfdb635cbb00",
+    "locale": 1,
+    "name": "Morat Albergínia"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 36,
+  "fields": {
+    "translation_key": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
+    "locale": 1,
+    "name": "Vermell Òxid"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 37,
+  "fields": {
+    "translation_key": "4a084b27-1269-4d7d-9255-05b489c522c0",
+    "locale": 1,
+    "name": "Vermell Cirera"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 38,
+  "fields": {
+    "translation_key": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
+    "locale": 1,
+    "name": "Rosa Fosc"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 39,
+  "fields": {
+    "translation_key": "d248523f-c7c8-429b-9a4e-5c477f769010",
+    "locale": 1,
+    "name": "Rosa Palo"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 40,
+  "fields": {
+    "translation_key": "49ffb7e2-b924-4bf1-923a-a5238caaf13a",
+    "locale": 1,
+    "name": "Calacatta"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 41,
+  "fields": {
+    "translation_key": "a9d322e6-0497-40b8-879f-0411399b84e6",
+    "locale": 1,
+    "name": "Atzabeja"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 42,
+  "fields": {
+    "translation_key": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
+    "locale": 1,
+    "name": "Bronze Daurat"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 43,
+  "fields": {
+    "translation_key": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
+    "locale": 1,
+    "name": "Bronze Torrat"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 44,
+  "fields": {
+    "translation_key": "36659b27-e17a-4180-9750-10f7c9c7b932",
+    "locale": 2,
+    "name": "Roble 0"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 45,
+  "fields": {
+    "translation_key": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
+    "locale": 2,
+    "name": "Roble 30"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 46,
+  "fields": {
+    "translation_key": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
+    "locale": 2,
+    "name": "Roble 60"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 47,
+  "fields": {
+    "translation_key": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
+    "locale": 2,
+    "name": "Roble 90"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 48,
+  "fields": {
+    "translation_key": "be14f0fb-af71-447b-ba06-869bd202ced3",
+    "locale": 2,
+    "name": "Roble 75"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 49,
+  "fields": {
+    "translation_key": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
+    "locale": 2,
+    "name": "Roble 15"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 50,
+  "fields": {
+    "translation_key": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
+    "locale": 2,
+    "name": "Roble 20"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 51,
+  "fields": {
+    "translation_key": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
+    "locale": 2,
+    "name": "Eucalipto"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 52,
+  "fields": {
+    "translation_key": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
+    "locale": 2,
+    "name": "Nogal 06"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 53,
+  "fields": {
+    "translation_key": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
+    "locale": 2,
+    "name": "Nogal 02"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 54,
+  "fields": {
+    "translation_key": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
+    "locale": 2,
+    "name": "Nogal 07"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 55,
+  "fields": {
+    "translation_key": "576df22e-7e06-4901-a897-5b510bc9db68",
+    "locale": 2,
+    "name": "Nogal 10"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 56,
+  "fields": {
+    "translation_key": "f5e7a61e-c556-445c-90b1-1fb18440058a",
+    "locale": 2,
+    "name": "Cerezo Nogal"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 57,
+  "fields": {
+    "translation_key": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
+    "locale": 2,
+    "name": "Cerezo Natural"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 58,
+  "fields": {
+    "translation_key": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
+    "locale": 2,
+    "name": "Blanco Puro"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 59,
+  "fields": {
+    "translation_key": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
+    "locale": 2,
+    "name": "Blanco Marfil"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 60,
+  "fields": {
+    "translation_key": "8dfcadbd-7181-4642-9f69-340d6196cd86",
+    "locale": 2,
+    "name": "Beige Natural"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 61,
+  "fields": {
+    "translation_key": "1d10dca5-a4af-4a15-85b8-a9996436c568",
+    "locale": 2,
+    "name": "Beige Pastel"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 62,
+  "fields": {
+    "translation_key": "82ddb93a-2345-471d-a61e-9b6ffc771889",
+    "locale": 2,
+    "name": "Beige Arena"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 63,
+  "fields": {
+    "translation_key": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
+    "locale": 2,
+    "name": "Beige Sílex"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 64,
+  "fields": {
+    "translation_key": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
+    "locale": 2,
+    "name": "Gris Nórdico"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 65,
+  "fields": {
+    "translation_key": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
+    "locale": 2,
+    "name": "Gris Tierra"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 66,
+  "fields": {
+    "translation_key": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
+    "locale": 2,
+    "name": "Negro Infinito"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 67,
+  "fields": {
+    "translation_key": "8fe7c215-eb80-4a83-ac46-0c652873db16",
+    "locale": 2,
+    "name": "Gris Piedra"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 68,
+  "fields": {
+    "translation_key": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
+    "locale": 2,
+    "name": "Gris Plomo"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 69,
+  "fields": {
+    "translation_key": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
+    "locale": 2,
+    "name": "Naranja Terracota"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 70,
+  "fields": {
+    "translation_key": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
+    "locale": 2,
+    "name": "Amarillo Mostaza"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 71,
+  "fields": {
+    "translation_key": "7721b947-9334-4315-b8aa-efff03bb8fee",
+    "locale": 2,
+    "name": "Azul Oscuro"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 72,
+  "fields": {
+    "translation_key": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
+    "locale": 2,
+    "name": "Azul Acero"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 73,
+  "fields": {
+    "translation_key": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
+    "locale": 2,
+    "name": "Azul Turquesa"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 74,
+  "fields": {
+    "translation_key": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
+    "locale": 2,
+    "name": "Azul Claro"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 75,
+  "fields": {
+    "translation_key": "17d0583c-f397-4de4-938d-4bfe28c958c0",
+    "locale": 2,
+    "name": "Azul Cielo"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 76,
+  "fields": {
+    "translation_key": "dad5f225-030c-4f37-8430-bfdb635cbb00",
+    "locale": 2,
+    "name": "Morado Berenjena"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 77,
+  "fields": {
+    "translation_key": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
+    "locale": 2,
+    "name": "Rojo Óxido"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 78,
+  "fields": {
+    "translation_key": "4a084b27-1269-4d7d-9255-05b489c522c0",
+    "locale": 2,
+    "name": "Rojo Cereza"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 79,
+  "fields": {
+    "translation_key": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
+    "locale": 2,
+    "name": "Rosa Oscuro"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 80,
+  "fields": {
+    "translation_key": "a9d322e6-0497-40b8-879f-0411399b84e6",
+    "locale": 2,
+    "name": "Azabache"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 81,
+  "fields": {
+    "translation_key": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
+    "locale": 2,
+    "name": "Bronce Dorado"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 82,
+  "fields": {
+    "translation_key": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
+    "locale": 2,
+    "name": "Bronce Tostado"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 1,
+  "fields": {
+    "translation_key": "56f318b7-58ed-4bbf-9630-3c50c821476d",
+    "locale": 1,
+    "name": "Area One MN1"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 2,
+  "fields": {
+    "translation_key": "0ff3eb3a-392f-49ad-90ab-a470179d368a",
+    "locale": 1,
+    "name": "Area One MN2"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 3,
+  "fields": {
+    "translation_key": "5d550635-b37d-4579-b4ce-61f236bfdb45",
+    "locale": 1,
+    "name": "Area One MN3"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 4,
+  "fields": {
+    "translation_key": "05ec47cc-3fcf-485a-868d-e80bee569012",
+    "locale": 1,
+    "name": "Area Single Net"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 5,
+  "fields": {
+    "translation_key": "22d8240e-a2c5-418b-bb40-027a4eda9c6f",
+    "locale": 1,
+    "name": "Area One MN8"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 6,
+  "fields": {
+    "translation_key": "fbe3c3e6-172c-41e2-8b0a-4856a18602a0",
+    "locale": 1,
+    "name": "Area One MN4"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 7,
+  "fields": {
+    "translation_key": "aae60720-07de-402e-98ef-9852e324bbae",
+    "locale": 1,
+    "name": "Taga"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 8,
+  "fields": {
+    "translation_key": "681e94b5-d275-46b4-aab7-8e09ef03d8fe",
+    "locale": 1,
+    "name": "Volda"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 9,
+  "fields": {
+    "translation_key": "c40d1921-40f2-44f5-b5ea-2ce01613f7c7",
+    "locale": 1,
+    "name": "Tanit"
+  }
+},
+{
+  "model": "cms_site.socialmediaiconssettings",
+  "pk": 1,
+  "fields": {
+    "site": [
+      "localhost",
+      80
+    ],
+    "facebook": "https://www.facebook.com/moblesciurans",
+    "youtube": "http://www.youtube.com/user/ciuransmobles",
+    "instagram": "https://www.instagram.com/ciuransmobles",
+    "vimeo": "https://vimeo.com/moblesciurans"
+  }
+},
+{
+  "model": "cms_site.contactdetailssettings",
+  "pk": 1,
+  "fields": {
+    "site": [
+      "localhost",
+      80
+    ],
+    "email": "info@moblesciurans.com",
+    "address": "C/ Priora Xixilona, 14<br>\n        08530 La Garriga<br>\n        Barcelona",
+    "phone": "93 871 80 07"
+  }
+},
+{
+  "model": "wagtailcore.groupapprovaltask",
+  "pk": 1,
+  "fields": {
+    "groups": [
+      [
+        "Moderators"
+      ]
+    ]
+  }
+}
+]

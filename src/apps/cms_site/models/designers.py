@@ -23,6 +23,7 @@ class DesignersPage(BasePage):
 
     template = "cms_site/collections/designers.html"
     max_count = 1
+    parent_page_types = ["cms_site.HomePage"]
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)

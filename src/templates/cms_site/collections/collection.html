@@ -3,8 +3,7 @@
 
 {% block content %}
 
-<p>Page title (diria que aquesta dada és la que va al tag del header): {{ page.title }}</p>
-<p>Name: {{ page.name }}</p>
+<p>Títol (ha d'apareixer damunt la imatge del header): {{ page.title }}</p>
 {% if page.pdf.file %}
   <p>PDF: <a href="{{ page.pdf.file.url }}" target="_blank">Catàleg</a></p>
 {% endif %}

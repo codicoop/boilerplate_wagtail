@@ -35,7 +35,8 @@ services:
     volumes:
       - ../src:/srv
     depends_on:
-      -   develop_wagtail_boilerplate_app
+      - develop_wagtail_boilerplate_db
+      - develop_wagtail_boilerplate_app
     networks:
       - develop_wagtail_boilerplate_network
 

@@ -23,7 +23,7 @@ class SocialMediaIconsSettings(BaseSetting):
         blank=True,
         null=True,
         help_text=_("Instagram URL"),
-        default="https://www.instagram.com/moblesciurans",
+        default="https://www.instagram.com/ciuransmobles",
     )
     vimeo = models.URLField(
         blank=True,
