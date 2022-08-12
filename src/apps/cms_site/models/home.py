@@ -4,8 +4,10 @@ from wagtail.admin.panels import MultiFieldPanel
 from wagtail.images.edit_handlers import FieldPanel
 from wagtail.models import Page
 
+from apps.base.models import BasePage
 
-class HomePage(Page):
+
+class HomePage(BasePage):
     header_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Header image"),
@@ -204,7 +206,6 @@ class HomePage(Page):
     template = "cms_site/home.html"
     parent_page_types = ["wagtailcore.Page"]
     max_count = 1
-    show_in_menus_default = True
 
     @property
     def display_collection_1(self):
