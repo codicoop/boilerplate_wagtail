@@ -53,7 +53,7 @@ class Collection(BasePage):
     ]
 
     template = "cms_site/collections/collection.html"
-    parent_page_types = ["cms_site.HomePage", "CollectionsPage", ]
+    parent_page_types = ["CollectionsPage"]
     max_count = 3
 
     def get_context(self, request, *args, **kwargs):
