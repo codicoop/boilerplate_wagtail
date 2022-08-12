@@ -1,8 +1,8 @@
 from django.db import models
-from wagtail.admin.panels import MultiFieldPanel, FieldPanel
+from django.utils.translation import gettext_lazy as _
+from wagtail.admin.panels import FieldPanel, MultiFieldPanel
 from wagtail.contrib.settings.models import BaseSetting
 from wagtail.contrib.settings.registry import register_setting
-from django.utils.translation import gettext_lazy as _
 
 
 @register_setting
@@ -33,12 +33,15 @@ class SocialMediaIconsSettings(BaseSetting):
     )
 
     panels = [
-        MultiFieldPanel([
-            FieldPanel("facebook"),
-            FieldPanel("youtube"),
-            FieldPanel("instagram"),
-            FieldPanel("vimeo"),
-        ], heading=_("Social Media URLs"))
+        MultiFieldPanel(
+            [
+                FieldPanel("facebook"),
+                FieldPanel("youtube"),
+                FieldPanel("instagram"),
+                FieldPanel("vimeo"),
+            ],
+            heading=_("Social Media URLs"),
+        )
     ]
 
 
@@ -67,9 +70,12 @@ class ContactDetailsSettings(BaseSetting):
     )
 
     panels = [
-        MultiFieldPanel([
-            FieldPanel("email"),
-            FieldPanel("address"),
-            FieldPanel("phone"),
-        ], heading=_("Contact Details"))
+        MultiFieldPanel(
+            [
+                FieldPanel("email"),
+                FieldPanel("address"),
+                FieldPanel("phone"),
+            ],
+            heading=_("Contact Details"),
+        )
     ]
