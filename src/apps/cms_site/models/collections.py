@@ -14,6 +14,7 @@ class CollectionsPage(BasePage):
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
     max_count = 1
+    template = "pages/collections_page.html"
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
