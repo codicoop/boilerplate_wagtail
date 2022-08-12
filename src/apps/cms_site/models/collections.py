@@ -9,6 +9,24 @@ from apps.base.models import BasePage
 from apps.cms_site.blocks import CollectionItem
 
 
+class CollectionsPage(BasePage):
+    parent_page_types = ["cms_site.HomePage"]
+    subpage_types = ["cms_site.Collection"]
+    page_description = _("Main catalog page.")
+
+    def get_context(self, request, *args, **kwargs):
+        context = super().get_context(request, *args, **kwargs)
+        collection_page_model = apps.get_model("cms_site", "Collection")
+        collection_pages = collection_page_model.objects.live()
+        print(collection_pages)
+        context.update(
+            {
+                "collections": collection_pages,
+            }
+        )
+        return context
+
+
 class Collection(BasePage):
     description = models.TextField(_("Description"), default="", blank=True)
     pdf = models.ForeignKey(
@@ -34,7 +52,7 @@ class Collection(BasePage):
     ]
 
     template = "cms_site/collections/collection.html"
-    parent_page_types = ["cms_site.HomePage"]
+    parent_page_types = ["cms_site.HomePage", "CollectionsPage", ]
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
