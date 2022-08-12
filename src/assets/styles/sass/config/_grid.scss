@@ -20,6 +20,10 @@ html, body {
   padding: 0 var(--padding-sm);
   gap: var(--padding-sm);
 }
+.grid-main {
+  display: flex;
+  flex-direction: column;
+}
 
 // Element col·locat
 // Lone items
@@ -81,6 +85,13 @@ html, body {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(90px,1fr));
     grid-template-columns: repeat(12, minmax(auto, 1fr));
+    justify-content: center;
+    align-items: start;
+    grid-auto-rows: auto;
+  }
+  .grid-main {
+    display: grid;
+    grid-template-columns: 64px repeat(12, minmax(auto, 1fr)) 64px;
     justify-content: center;
     align-items: start;
     grid-auto-rows: auto;
