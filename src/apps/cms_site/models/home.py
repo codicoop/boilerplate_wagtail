@@ -204,6 +204,7 @@ class HomePage(Page):
     template = "cms_site/home.html"
     parent_page_types = ["wagtailcore.Page"]
     max_count = 1
+    show_in_menus_default = True
 
     @property
     def display_collection_1(self):
