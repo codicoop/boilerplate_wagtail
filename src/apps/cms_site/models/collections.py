@@ -13,6 +13,7 @@ class CollectionsPage(BasePage):
     parent_page_types = ["cms_site.HomePage"]
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
+    max_count = 1
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
