@@ -10,6 +10,18 @@ from apps.cms_site.blocks import CollectionItem
 
 
 class CollectionsPage(BasePage):
+    menu_label = models.CharField(
+        _("Menu title"),
+        max_length=15,
+        null=True,
+        blank=True,
+        help_text=_("If not set, the menu title will be the page title."),
+    )
+
+    promote_panels = Page.promote_panels + [
+        FieldPanel("menu_label"),
+    ]
+
     parent_page_types = ["cms_site.HomePage"]
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
