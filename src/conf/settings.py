@@ -96,8 +96,8 @@ INSTALLED_APPS = [
     "wagtail.admin",
     "wagtail",
     "wagtail.contrib.styleguide",
-    'wagtail.contrib.modeladmin',  # Don't repeat if it's there already
-    'wagtailmenus',
+    "wagtail.contrib.modeladmin",  # Don't repeat if it's there already
+    "wagtailmenus",
     "modelcluster",
     "taggit",
     "apps.base",

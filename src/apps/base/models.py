@@ -1,8 +1,8 @@
-from wagtail.models import Page
 from django.db import models
 from modelcluster.fields import ParentalKey
-from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
+from wagtail.models import Page
 from wagtailmenus.conf import settings as wagtail_settings
+from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
 
 
 class BasePage(Page):
@@ -14,10 +14,9 @@ class BasePage(Page):
 
 
 class LocalizedMainMenu(AbstractMainMenu):
-
     def get_pages_for_display(self):
         """Returns a queryset of all pages needed to render the menu."""
-        if hasattr(self, '_raw_menu_items'):
+        if hasattr(self, "_raw_menu_items"):
             # get_top_level_items() may have set this
             menu_items = self._raw_menu_items
         else:
@@ -27,7 +26,7 @@ class LocalizedMainMenu(AbstractMainMenu):
         queryset = Page.objects.none()
 
         for item in (item for item in menu_items if item.link_page):
-            """ Workaround:
+            """Workaround:
             The trick of extending AbstactMainMenuItem to change
             its self.link_page to self.link_page.localized introduces a bug
             that prevents menu items with subpages to be displayed.
@@ -64,9 +63,9 @@ class LocalizedMainMenu(AbstractMainMenu):
             if item.link_page.localized:
                 item.link_page = item.link_page.localized
 
-            if(
-                item.allow_subnav and
-                item.link_page.depth >= wagtail_settings.SECTION_ROOT_DEPTH
+            if (
+                item.allow_subnav
+                and item.link_page.depth >= wagtail_settings.SECTION_ROOT_DEPTH
             ):
                 # Add this branch to the overall `queryset`
                 queryset = queryset | Page.objects.filter(
@@ -108,7 +107,7 @@ class LocalizedMainMenuItem(AbstractMainMenuItem):
     def menu_text(self):
         if (
             self.link_page
-            and hasattr(self.link_page, 'menu_label')
+            and hasattr(self.link_page, "menu_label")
             and self.link_page.menu_label is not None
         ):
             return self.link_page.menu_label
