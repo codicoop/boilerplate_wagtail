@@ -172,6 +172,19 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-cogwheels"
+version = "0.3"
+description = "A consistent, user-friendly solution for adding app-specific settings your Django package, reusable app or framework."
+category = "main"
+optional = false
+python-versions = ">=3.4"
+
+[package.extras]
+testing = ["coverage"]
+docs = ["sphinx-rtd-theme (>=0.3)", "sphinxcontrib-spelling (>=1.4)", "Sphinx (>=1.7.4)", "pyenchant (>=2.0)"]
+development = ["django-extensions", "werkzeug", "ipdb", "Django (>=2.0,<2.1)"]
+
+[[package]]
 name = "django-environ"
 version = "0.8.1"
 description = "A package that allows you to utilize 12factor inspired environment variables to configure your Django application."
@@ -911,6 +924,22 @@ google = ["google-cloud-translate (>=3.0.0)"]
 documentation = ["pygments (==2.11.2)", "mkdocs-include-markdown-plugin (==2.8.0)", "mkdocstrings (==0.14.0)", "mkdocs-mermaid2-plugin (==0.5.1)", "mkdocs-material (==6.2.8)", "mkdocs (==1.1.2)"]
 
 [[package]]
+name = "wagtailmenus"
+version = "3.1.2"
+description = "An app to help you manage menus in your Wagtail projects more consistently."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+django-cogwheels = "0.3"
+
+[package.extras]
+testing = ["django-webtest (>=1.9,<1.10)", "coverage (>=4.5)", "beautifulsoup4 (>=4.8,<4.10)"]
+docs = ["sphinx-rtd-theme (>=0.3)", "sphinxcontrib-spelling (>=1.4)", "Sphinx (>=1.7.4)", "pyenchant (>=2.0)"]
+development = ["django-webtest (>=1.9,<1.10)", "coverage (>=4.5)", "beautifulsoup4 (>=4.8,<4.10)", "werkzeug", "ipdb", "django-extensions", "django-debug-toolbar", "wagtail (>=2.15)"]
+
+[[package]]
 name = "webencodings"
 version = "0.5.1"
 description = "Character encoding aliases for legacy web content"
@@ -972,7 +1001,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9.5"
-content-hash = "308fe50ae5e2d9c2dedd4133907f39ba3eb738874804d4b9f631222b7e28d992"
+content-hash = "47a3b4d066748fdb69c47d9b24877e3af71623eb5e75640ac2092de98c172c06"
 
 [metadata.files]
 anyascii = []
@@ -989,6 +1018,7 @@ click = []
 colorama = []
 distlib = []
 django = []
+django-cogwheels = []
 django-environ = []
 django-extensions = []
 django-filter = []
@@ -1050,6 +1080,7 @@ urllib3 = []
 virtualenv = []
 wagtail = []
 wagtail-localize = []
+wagtailmenus = []
 webencodings = []
 whitenoise = []
 willow = []

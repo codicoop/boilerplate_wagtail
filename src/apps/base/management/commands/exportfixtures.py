@@ -25,9 +25,7 @@ class Command(BaseCommand):
             f"-o={path}",
         )
         call_command("dumpdata", *parameters, verbosity=2)
-        self.stdout.write(
-            f"Fixtures updated at {path}."
-        )
+        self.stdout.write(f"Fixtures updated at {path}.")
 
     def dump_content(self):
         path = "apps/base/fixtures/content.json"
@@ -56,6 +54,4 @@ class Command(BaseCommand):
             f"-o={path}",
         )
         call_command("dumpdata", *parameters, verbosity=2)
-        self.stdout.write(
-            f"Fixtures updated at {path}."
-        )
+        self.stdout.write(f"Fixtures updated at {path}.")

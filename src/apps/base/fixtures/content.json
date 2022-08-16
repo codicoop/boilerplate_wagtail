@@ -5883,7 +5883,7 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 3,
+    "numchild": 2,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
     "title": "Eslògan de portada",
@@ -5919,7 +5919,7 @@
   "fields": {
     "path": "00010002",
     "depth": 2,
-    "numchild": 3,
+    "numchild": 4,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 2,
     "title": "Eslogan de portada, pendiente",
@@ -5953,8 +5953,8 @@
   "model": "wagtailcore.page",
   "pk": 4,
   "fields": {
-    "path": "000100010001",
-    "depth": 3,
+    "path": "0001000100040002",
+    "depth": 4,
     "numchild": 0,
     "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
     "locale": 1,
@@ -5967,7 +5967,7 @@
     ],
     "live": true,
     "has_unpublished_changes": false,
-    "url_path": "/home/nova-collecció-àrea/",
+    "url_path": "/home/cataleg/nova-collecció-àrea/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6029,8 +6029,8 @@
   "model": "wagtailcore.page",
   "pk": 6,
   "fields": {
-    "path": "000100010002",
-    "depth": 3,
+    "path": "0001000100040001",
+    "depth": 4,
     "numchild": 0,
     "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
     "locale": 1,
@@ -6043,7 +6043,7 @@
     ],
     "live": true,
     "has_unpublished_changes": false,
-    "url_path": "/home/collecció-nordic/",
+    "url_path": "/home/cataleg/collecció-nordic/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6175,6 +6175,82 @@
     "latest_revision_created_at": "2022-08-11T10:56:41.608Z",
     "live_revision": 11,
     "alias_of": 8
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 10,
+  "fields": {
+    "path": "000100010004",
+    "depth": 3,
+    "numchild": 2,
+    "translation_key": "08aa1288-2d83-433f-b156-38a24e7b1853",
+    "locale": 1,
+    "title": "Catàleg",
+    "draft_title": "Catàleg",
+    "slug": "cataleg",
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/cataleg/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-12T15:24:32.594Z",
+    "last_published_at": "2022-08-12T15:24:32.594Z",
+    "latest_revision_created_at": "2022-08-12T15:24:32.580Z",
+    "live_revision": 12,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 11,
+  "fields": {
+    "path": "000100020004",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "08aa1288-2d83-433f-b156-38a24e7b1853",
+    "locale": 2,
+    "title": "Catàleg",
+    "draft_title": "Catàleg",
+    "slug": "cataleg",
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home-1/cataleg/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-08-12T15:24:32.594Z",
+    "last_published_at": "2022-08-12T15:24:32.594Z",
+    "latest_revision_created_at": "2022-08-12T15:24:32.580Z",
+    "live_revision": 12,
+    "alias_of": 10
   }
 },
 {
@@ -6812,6 +6888,50 @@
       "show_in_menus": false,
       "designers_list": "[{\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 11}, \"id\": \"1b138be3-9080-4500-b634-6326946153cb\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 11}, \"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\"}]",
       "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 12,
+  "fields": {
+    "page": 10,
+    "submitted_for_moderation": false,
+    "created_at": "2022-08-12T15:24:32.580Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 10,
+      "live": true,
+      "path": "000100010004",
+      "slug": "cataleg",
+      "depth": 3,
+      "owner": 1,
+      "title": "Catàleg",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Catàleg",
+      "content_type": 60,
+      "live_revision": null,
+      "show_in_menus": true,
+      "translation_key": "08aa1288-2d83-433f-b156-38a24e7b1853",
       "last_published_at": null,
       "first_published_at": null,
       "search_description": "",
@@ -7540,6 +7660,191 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "label": "Catàleg",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-12T15:24:32.571Z",
+    "uuid": "60e2145f-9289-4c85-9884-285e3092bf73",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 10,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "label": "Catàleg",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-12T15:24:32.614Z",
+    "uuid": "60e2145f-9289-4c85-9884-285e3092bf73",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 10,
+    "revision": 12
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "label": "Catàleg",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-08-12T15:24:32.644Z",
+    "uuid": "60e2145f-9289-4c85-9884-285e3092bf73",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 11,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "label": "Catàleg",
+    "action": "wagtail.create_alias",
+    "data": {
+      "page": {
+        "id": 11,
+        "title": "Catàleg"
+      },
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 3,
+        "title": "Eslogan de portada, pendiente"
+      }
+    },
+    "timestamp": "2022-08-12T15:24:32.646Z",
+    "uuid": "60e2145f-9289-4c85-9884-285e3092bf73",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 11,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "label": "Catàleg",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-08-12T15:24:32.648Z",
+    "uuid": "60e2145f-9289-4c85-9884-285e3092bf73",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 11,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.move",
+    "data": {
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 10,
+        "title": "Catàleg"
+      }
+    },
+    "timestamp": "2022-08-12T15:24:49.033Z",
+    "uuid": "8be3e0ff-064f-4668-b92e-414548391111",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 6,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.move",
+    "data": {
+      "source": {
+        "id": 2,
+        "title": "Eslògan de portada"
+      },
+      "destination": {
+        "id": 10,
+        "title": "Catàleg"
+      }
+    },
+    "timestamp": "2022-08-12T15:25:01.110Z",
+    "uuid": "54ef12f5-c77e-45f0-b536-914d5045a61c",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 4,
+    "revision": null
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -7598,6 +7903,16 @@
     ],
     "object_id": 11
   }
+},
+{
+  "model": "cms_site.collectionspage",
+  "pk": 10,
+  "fields": {}
+},
+{
+  "model": "cms_site.collectionspage",
+  "pk": 11,
+  "fields": {}
 },
 {
   "model": "cms_site.collection",
@@ -8774,6 +9089,40 @@
         "Moderators"
       ]
     ]
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 1,
+  "fields": {
+    "old_path": "/ca/collecci%C3%B3-nordic",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 6,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2022-08-12T15:24:49.031Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 2,
+  "fields": {
+    "old_path": "/ca/nova-collecci%C3%B3-%C3%A0rea",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 4,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2022-08-12T15:25:01.109Z"
   }
 }
 ]

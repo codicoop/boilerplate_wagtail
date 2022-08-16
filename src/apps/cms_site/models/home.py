@@ -4,8 +4,10 @@ from wagtail.admin.panels import MultiFieldPanel
 from wagtail.images.edit_handlers import FieldPanel
 from wagtail.models import Page
 
+from apps.base.models import BasePage
 
-class HomePage(Page):
+
+class HomePage(BasePage):
     header_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Header image"),

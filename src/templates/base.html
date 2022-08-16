@@ -1,4 +1,4 @@
-{% load i18n wagtailcore_tags static %}
+{% load i18n wagtailcore_tags static menu_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@
   <link rel="icon" type="image/x-icon" href="/asssets/images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
   <title>Mobles Ciurans | {% block page_title %}{% endblock %}</title>
 </head>
@@ -33,6 +33,7 @@
           <img class="menu__close" onclick="closeMenu()" src="{% static './images/icons/icon_close.svg' %}" alt="Icona per tancar el menú">
         </div>
       </div>
+      {% main_menu template="components/main_menu.html" %}
       <div class="menu__bottom">
         <nav class="menu__nav title-3">
           {% include './elements/nav.html' %}
