@@ -1,28 +1,37 @@
 // Dynamic variables
 .heading {
+  --height: 640px;
+
   &__title {
-    --padding-bottom: var(--padding-xxlg);
+    --padding-bottom: 150px;
   }
 }
 
 @media (min-width: 1024px) {
   .heading {
+  --height: 764px;
+
     &__title {
-      --padding-bottom: 114px;
+      --padding-bottom: 300px;
     }
   }
 }
 
 // Layout
 .heading {
-  background-image: var(--bg-heading);
+  display: flex;
+  align-items: flex-end;
+  height: var(--height);
+  margin-top: -6px;
+  // background-image: var(--bg-heading);
+  background-image: url('/static/images/imatge_prova.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  margin-top: -6px;
   z-index: 1;
   
   &__title {
     padding-bottom: var(--padding-bottom);
+    color: var(--white);
   }
 }

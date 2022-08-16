@@ -1,11 +1,11 @@
 {% load static %}
 
-{% if self.header_image %}
-  {% image self.header_image width-1900 as bg_heading %}
-{% endif %}
+{# {% if self.header_image %} #}
+{#   {% image self.header_image width-1900 as bg_heading %} #}
+{# {% endif %} #}
 
-<section class="heading" 
-        {% if bg_heading %} 
+<section class="heading"
+        {% if bg_heading %}
           style="--bg-heading: url('{{ bg_heading.url }}')"
         {% endif %}
 >

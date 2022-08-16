@@ -65,7 +65,8 @@
   height: var(--height-header);
   width: 100%;
   background-color: var(--background-color);
-  padding: var(--padding-header)
+  padding: var(--padding-header);
+  z-index: 100;
 }
 
 .topbar {
@@ -76,6 +77,7 @@
   &__action {
     width: var(--width);
     height: auto;
+    cursor: pointer;
   }
 }
 

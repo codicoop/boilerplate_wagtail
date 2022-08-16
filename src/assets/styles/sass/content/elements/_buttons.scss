@@ -2,13 +2,19 @@
 
 // Layout
 .btn {
-  padding: 12px 40px;
+  padding: var(--padding-xsm) var(--padding-lg);
   text-align: center;
 }
 .btn--primary {
   background-color: var(--black);
 }
-.btn--second {
+.btn--dark {
   background-color: transparent;
   border: 2px solid var(--blackish);
+  color: var(--blackish);
+}
+.btn--light {
+  background-color: transparent;
+  border: 2px solid var(--white);
+  color: var(--white);
 }
