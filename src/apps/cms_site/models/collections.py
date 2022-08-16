@@ -27,6 +27,7 @@ class CollectionsPage(BasePage):
     page_description = _("Main catalog page.")
     max_count = 1
     template = "pages/collections_page.html"
+    show_in_menus_default = True
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
