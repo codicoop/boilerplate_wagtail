@@ -1,0 +1,106 @@
+// Dynamic variables
+.empty-box {
+  height: 80px;
+}
+.header {
+  --height-header: auto;
+  --padding-header: 23px var(--padding-lg);
+  --display-header: flex;
+  --background-color: transparent;
+  --display-menu: none;
+  --display-topbar: flex;
+
+  // Changes in header when menu opens
+  &.is-open {
+    --background-color: $white;
+    --height-header: 100vh;
+    --display-menu: flex;
+    --display-topbar: none;
+  }
+  // Changes in header when we scroll down
+  &.is-scrolled {
+    --background-color: $white;
+  }
+}
+.topbar {
+  &__action {
+    --width: var(--padding-md);
+  }
+}
+
+@media (min-width: 1024px) {
+  .empty-box {
+    height: 120px;
+  }
+  .header {
+    --height-header: auto;
+    --padding-header: var(--padding-xlg) var(--padding-xxlg);
+
+    &.is-open {
+      --height-header: auto;
+    }
+  }
+  .topbar {
+    &__action {
+      --width: var(--padding-lg);
+    }
+  }
+}
+
+// Layout
+
+.empty-box {
+  height: var(--height);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: var(--display-header);
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: var(--height-header);
+  width: 100%;
+  background-color: var(--background-color);
+  padding: var(--padding-header)
+}
+
+.topbar {
+  display: var(--display-topbar);
+  justify-content: space-between;
+
+  // &__logo { }
+  &__action {
+    width: var(--width);
+    height: auto;
+  }
+}
+
+.menu {
+  display: var(--display-menu);
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--padding-sm) var(--padding-lg);
+    padding-bottom: var(--padding-lg);
+  }
+  // &__logo { }
+  &__nav {
+  }
+  // &__btn { }
+  &__lang {  }
+  &__lang-item {
+  }
+}

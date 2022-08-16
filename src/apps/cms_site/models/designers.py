@@ -1,3 +1,4 @@
+from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel
 from wagtail.fields import StreamField
@@ -9,6 +10,14 @@ from apps.cms_site.models import Collection
 
 
 class DesignersPage(BasePage):
+    header_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Header image"),
+        on_delete=models.PROTECT,
+        related_name="+",
+        null=True,
+        blank=True,
+    )
     designers_list = StreamField(
         [
             ("item", DesignerItem()),
@@ -18,6 +27,7 @@ class DesignersPage(BasePage):
     )
 
     content_panels = Page.content_panels + [
+        FieldPanel("header_image"),
         FieldPanel("designers_list"),
     ]
 

@@ -1,0 +1,41 @@
+// Dynamic variables                                                                                                                                                                                                                                     
+.social {
+  --padding-top: var(--padding-md);
+
+  &__icons {
+    --max-width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social {
+    --padding-top: var(--padding-xxlg);
+
+    &__icons {
+      --max-width: 50%;
+    }
+  }
+}
+
+// Layout
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--blackish);
+  padding-top: var(--padding-top);
+
+  &__text {
+    padding-bottom: 20px;
+  }
+  &__icons {
+    display: flex;
+    gap: var(--padding-md);
+    justify-content: center;
+    max-width: var(--max-width);
+  }
+  &__icon {
+    width: var(--padding-md);
+    height: auto;
+  }
+}

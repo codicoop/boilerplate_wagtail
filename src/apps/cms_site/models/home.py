@@ -4,8 +4,18 @@ from wagtail.admin.panels import MultiFieldPanel
 from wagtail.images.edit_handlers import FieldPanel
 from wagtail.models import Page
 
+from apps.base.models import BasePage
 
-class HomePage(Page):
+
+class HomePage(BasePage):
+    header_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Header image"),
+        on_delete=models.PROTECT,
+        related_name="+",
+        null=True,
+        blank=True,
+    )
     overlay_title = models.CharField(
         _("Title"),
         max_length=80,
@@ -133,6 +143,7 @@ class HomePage(Page):
     )
 
     content_panels = Page.content_panels + [
+        FieldPanel("header_image"),
         MultiFieldPanel(
             children=[
                 FieldPanel("overlay_title", classname="title"),

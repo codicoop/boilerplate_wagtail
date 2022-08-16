@@ -1,0 +1,37 @@
+{% load i18n static %}
+
+<section class="social">
+  <div class="social__text">
+    <p>Segueix-nos a les xarxes</p>
+  </div>
+  <ul class="social__icons">
+    {% if settings.cms_site.SocialMediaIconsSettings.facebook %}
+    <li>
+      <a href="">
+        <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}" class="social__icon">
+      </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.youtube %}
+    <li>
+      <a href="">
+        <img src="{% static 'images/icons/icon_youtube.svg' %}" alt="{% translate 'Youtube Icon' %}" class="social__icon">
+      </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.instagram %}
+    <li>
+      <a href="">
+        <img src="{% static 'images/icons/icon_instagram.svg' %}" alt="{% translate 'Instagram Icon' %}" class="social__icon">
+      </a>
+    </li>
+    {% endif %}
+    {% if settings.cms_site.SocialMediaIconsSettings.vimeo %}
+    <li>
+      <a href="">
+        <img src="{% static 'images/icons/icon_vimeo.svg' %}" alt="{% translate 'Vimeo Icon' %}" class="social__icon">
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</section>

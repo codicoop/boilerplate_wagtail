@@ -1,0 +1,40 @@
+// Dynamic variables
+.header {
+  .nav {
+    --flex-direction: column;
+    --justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    .nav {
+      --flex-direction: row;
+      --justify-content: space-between;
+    }
+  }
+}
+
+// Layout
+
+// Navegador del header
+.header {
+  .nav {
+    display: flex;
+    flex-direction: var(--flex-direction);
+    gap: var(--padding-sm) var(--padding-lg);
+    justify-content: var(--justify-content);
+  }
+}
+// Navegador del footer
+.footer {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-xsm) 0;
+
+    &__link {
+      text-transform: uppercase;
+    }
+  }
+}

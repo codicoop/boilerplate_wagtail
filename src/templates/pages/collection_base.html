@@ -1,0 +1,35 @@
+{% extends from './base.html' %}
+{% load %}
+
+{% block content %}
+<main class="main collection {% block collection_page %}{% endblock %}">
+  {% include '../components/heading.html' %}
+  <section class="collection__nav">
+    <div class="grid-1">
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>New Area Collection</p>
+        </div>
+      </a>
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>New Area Collection</p>
+        </div>
+      </a>
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>New Area Collection</p>
+        </div>
+      </a>
+      <button class="collection__nav-btn grid-item-3">
+        <p>New Area Collection</p>
+      </button>
+    </div>
+  </section>
+
+  {% block collection_content %}
+  {% endblock %}
+
+  {% include '../components/social.html' %}
+</main>
+{% endblock %}

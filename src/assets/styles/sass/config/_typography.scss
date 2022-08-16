@@ -1,0 +1,73 @@
+// Dynamic variables
+body {
+  --font-size: 14px;
+  --line-height: 22px;
+}
+.title-1 {
+  --font-size: 40px;
+  --line-height: 48px;
+}
+.title-1--light {
+  --font-size: 40px;
+  --line-height: 52px;
+}
+.title-2 {
+  --font-size: 24px;
+  --line-height: 32px;
+}
+.title-3 {
+  --font-size: 17px;
+  --line-height: 22px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    --font-size: 16px;
+    --line-height: 22px;
+  }
+  .title-1 {
+    --font-size: 48px;
+    --line-height: 60px;
+  }
+  .title-1--light {
+    --font-size: 48px;
+    --line-height: 60px;
+  }
+  .title-2 {
+    --font-size: 28px;
+    --line-height: 36px;
+  }
+  .title-3 {
+    --font-size: 18px;
+    --line-height: 24px;
+  }
+}
+
+// Layout
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: var(--blackish);
+}
+.title-1 {
+  font-weight: 700;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+.title-1--light {
+  font-weight: 300;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+.title-2 {
+  font-weight: 400;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+.title-3 {
+  font-weight: 500;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+.is-bold {
+  font-weight: 700;
+}

@@ -1,58 +1,116 @@
-{% load i18n wagtailcore_tags static %}
+{% load i18n wagtailcore_tags static menu_tags %}
 
-{% if page %}
-    {% for translation in page.get_translations.live %}
-        {% get_language_info for translation.locale.language_code as lang %}
-        <a href="{% pageurl translation %}" rel="alternate" hreflang="{{ lang.code }}">
-            {{ lang.name_local }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/asssets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+  <title>Mobles Ciurans | {% block page_title %}{% endblock %}</title>
+</head>
+<body>
+  <div class="empty-box"></div>
+  <header class="header">
+    <div class="topbar">
+      <div class="topbar__logo">
+        <img class="logo" src="{% static 'images/logo--dark.svg' %}" alt="Logo de l'Empresa">
+      </div>
+      <div class="topbar__action">
+        <img class="topbar__open" onclick="openMenu()" src="{% static './images/icons/icon_menu.svg' %}" alt="Icona per obrir el menú">
+      </div>
+    </div>
+    <div class="menu">
+      <div class="menu__top">
+        <div class="menu__logo">
+          <img class="logo" src="{% static 'images/logo.svg' %}" alt="Logo de l'Empresa">
+        </div>
+        <div class="menu__action">
+          <img class="menu__close" onclick="closeMenu()" src="{% static './images/icons/icon_close.svg' %}" alt="Icona per tancar el menú">
+        </div>
+      </div>
+      {% main_menu template="components/main_menu.html" %}
+      <div class="menu__bottom">
+        <nav class="menu__nav title-3">
+          {% include './elements/nav.html' %}
+        </nav>
+        <div class="menu__btn">
+          <button class="btn btn--second">Àrea client</button>
+        </div>
+        {% if page %}
+        <div class="menu__lang">
+          <ul>
+            {% for translation in page.get_translations.live %}
+              {% get_language_info for translation.locale.language_code as lang %}
+              <li>
+                <a href="{% pageurl translation %}" rel="alternate" hreflang="{{ lang.code }}">
+                  <p class="menu__lang-item">{{ lang.name_local }}</p>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% block content %}
+  {% endblock %}
+
+  <div class="prefooter">
+    {% include './elements/social.html' %}
+  </div>
+  <footer class="footer">
+    <div class="footer__top grid-1">
+      <div class="footer__nav grid-item-1-4">
+        {% include './elements/nav.html' %}
+      </div>
+      {% if settings.cms_site.ContactDetailsSettings.address %}
+      <div class="footer-info grid-item-5-8">
+        <div class="footer-info__heading title-3">
+          <p>On Som</p>
+        </div>
+        <div class="footer-info__text">
+          <p>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</p>
+        </div>
+      </div>
+    {% endif %}
+    {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
+    <div class="footer-info grid-item-9-12">
+      <div class="footer-info__heading title-3">
+        <p>Contacte</p>
+      </div>
+      <div class="footer-info__text">
+        {% if settings.cms_site.ContactDetailsSettings.phone %}
+        <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
+        {% endif %}
+          {% if settings.cms_site.ContactDetailsSettings.email %}
+            <a href="mailto:{{ settings.cms_site.ContactDetailsSettings.email }}">
+              <p>{{ settings.cms_site.ContactDetailsSettings.email }}</p>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__legal">
+        <p>©2022 Mobles Ciurans.</p>
+        <p>Tots els drets reservats</p>
+      </span>
+      <span class="footer__legal">
+        <a href="">
+          <p>Avís legal</p>
         </a>
-    {% endfor %}
-{% endif %}
+      </span>
+    </div>
+  </footer>
 
-{% block content %}
-{% endblock %}
-
-<h3>Segueix-nos a les xarxes</h3>
-<ul>
-    {% if settings.cms_site.SocialMediaIconsSettings.facebook %}
-      <li>
-          <a href="{{ settings.cms_site.SocialMediaIconsSettings.facebook }}">
-              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}">
-          </a>
-      </li>
-    {% endif %}
-    {% if settings.cms_site.SocialMediaIconsSettings.youtube %}
-      <li>
-          <a href="{{ settings.cms_site.SocialMediaIconsSettings.youtube }}">
-              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Youtube Icon' %}">
-          </a>
-      </li>
-    {% endif %}
-    {% if settings.cms_site.SocialMediaIconsSettings.instagram %}
-      <li>
-          <a href="{{ settings.cms_site.SocialMediaIconsSettings.instagram }}">
-              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Instagram Icon' %}">
-          </a>
-      </li>
-    {% endif %}
-    {% if settings.cms_site.SocialMediaIconsSettings.vimeo %}
-      <li>
-          <a href="{{ settings.cms_site.SocialMediaIconsSettings.vimeo }}">
-              <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Vimeo Icon' %}">
-          </a>
-      </li>
-    {% endif %}
-</ul>
-
-<h3>Contacte</h3>
-<ul>
-    {% if settings.cms_site.ContactDetailsSettings.email %}
-      <li>{{ settings.cms_site.ContactDetailsSettings.email }}</li>
-    {% endif %}
-    {% if settings.cms_site.ContactDetailsSettings.address %}
-      <li>{{ settings.cms_site.ContactDetailsSettings.address|richtext }}</li>
-    {% endif %}
-    {% if settings.cms_site.ContactDetailsSettings.phone %}
-      <li>{{ settings.cms_site.ContactDetailsSettings.phone }}</li>
-    {% endif %}
-</ul>
+<!--  <script src="/assets/js/scripts.js"></script>-->
+</body>
+</html>

@@ -96,6 +96,8 @@ INSTALLED_APPS = [
     "wagtail.admin",
     "wagtail",
     "wagtail.contrib.styleguide",
+    "wagtail.contrib.modeladmin",  # Don't repeat if it's there already
+    "wagtailmenus",
     "modelcluster",
     "taggit",
     "apps.base",
@@ -219,3 +221,6 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 # LOGIN_URL = reverse_lazy('login')
 # LOGIN_REDIRECT_URL = reverse_lazy('profile')
 # LOGOUT_REDIRECT_URL = '/'
+
+# Wagtailmenus
+WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"

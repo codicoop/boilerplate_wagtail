@@ -1,0 +1,34 @@
+// Especificitats de les pàgines de la col·lecció
+// Dynamic variables
+.collection {
+  &__nav-link {
+    p {
+      --padding-text: 11px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .collection {
+    &__nav-link {
+      p {
+        --padding-text: var(--padding-sm);
+      }
+    }
+  }
+}
+
+// Layout
+.collection {
+  // &__nav {  }
+  &__nav-link {
+    p {
+      padding: var(--padding-text);
+      border-bottom: 2px solid var(--blackish);
+    }
+  }
+  &__nav-btn {
+    width: 100%;
+    border: 2px solid var(--blackish);
+  }
+}

@@ -204,6 +204,9 @@ Run this command:
 
     python manage.py importfixtures
 
+> To be able to load the fixtures, the `DJANGO_SUPERUSER_EMAIL` setting must be
+> set to `hola@codi.coop`.
+
 # TO DO: Different phases of developing
 
 ## Initial phase
