@@ -9,17 +9,23 @@
   --background-color: transparent;
   --display-menu: none;
   --display-topbar: flex;
+  --stroke-color: var(--white);
+  --fill-logo: var(--white);
 
   // Changes in header when menu opens
   &.is-open {
-    --background-color: $white;
+    --background-color: var(--white);
     --height-header: 100vh;
     --display-menu: flex;
     --display-topbar: none;
+    --stroke-color: var(--blackish);
+    --fill-logo: var(--blackish);
   }
   // Changes in header when we scroll down
   &.is-scrolled {
-    --background-color: $white;
+    --background-color: var(--white);
+    --stroke-color: var(--blackish);
+    --fill-logo: var(--blackish);
   }
 }
 .topbar {
@@ -73,11 +79,27 @@
   display: var(--display-topbar);
   justify-content: space-between;
 
-  // &__logo { }
+  &__logo svg { 
+    fill: none;
+
+    path, rect {
+      fill: var(--fill-logo);
+    }
+  }
   &__action {
     width: var(--width);
     height: auto;
     cursor: pointer;
+  }
+  &__open {
+    fill: none;
+  
+    path {
+      stroke: var(--stroke-color);
+      stroke-width: 3;
+      stroke-linecap: square;
+      stroke-linejoin: round;
+    }
   }
 }
 
@@ -98,11 +120,19 @@
     gap: var(--padding-sm) var(--padding-lg);
     padding-bottom: var(--padding-lg);
   }
+  &__close {
+    fill: none;
+  
+    path {
+      stroke: var(--stroke-color);
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  }
   // &__logo { }
-  &__nav {
-  }
+  // &__nav {  }
   // &__btn { }
-  &__lang {  }
-  &__lang-item {
-  }
+  // &__lang {  }
+  // &__lang-item {  }
 }

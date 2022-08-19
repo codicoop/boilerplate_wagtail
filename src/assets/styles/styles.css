@@ -520,31 +520,14 @@ html, body {
   width: var(--width);
 }
 
-.product-card__label {
-  --padding: 14px 18px;
+.icon-24 {
+  width: 24px;
+  height: 24px;
 }
 
-@media (min-width: 1024px) {
-  .product-card__label {
-    --padding: var(--padding-sm) var(--padding-md);
-  }
-}
-.product-card {
-  display: flex;
-  flex-direction: column;
-}
-.product-card__image {
-  width: 100%;
-}
-.product-card__image img {
-  object-fit: cover;
-}
-.product-card__label {
-  background-color: var(--blackish);
-  padding: var(--padding);
-}
-.product-card__title, .product-card__text {
-  text-transform: uppercase;
+.icon-32 {
+  width: 32px;
+  height: 32px;
 }
 
 .empty-box {
@@ -558,15 +541,21 @@ html, body {
   --background-color: transparent;
   --display-menu: none;
   --display-topbar: flex;
+  --stroke-color: var(--white);
+  --fill-logo: var(--white);
 }
 .header.is-open {
-  --background-color: $white;
+  --background-color: var(--white);
   --height-header: 100vh;
   --display-menu: flex;
   --display-topbar: none;
+  --stroke-color: var(--blackish);
+  --fill-logo: var(--blackish);
 }
 .header.is-scrolled {
-  --background-color: $white;
+  --background-color: var(--white);
+  --stroke-color: var(--blackish);
+  --fill-logo: var(--blackish);
 }
 
 .topbar__action {
@@ -613,10 +602,25 @@ html, body {
   display: var(--display-topbar);
   justify-content: space-between;
 }
+.topbar__logo svg {
+  fill: none;
+}
+.topbar__logo svg path, .topbar__logo svg rect {
+  fill: var(--fill-logo);
+}
 .topbar__action {
   width: var(--width);
   height: auto;
   cursor: pointer;
+}
+.topbar__open {
+  fill: none;
+}
+.topbar__open path {
+  stroke: var(--stroke-color);
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: round;
 }
 
 .menu {
@@ -636,6 +640,16 @@ html, body {
   gap: var(--padding-sm) var(--padding-lg);
   padding-bottom: var(--padding-lg);
 }
+.menu__close {
+  fill: none;
+}
+.menu__close path {
+  stroke: var(--stroke-color);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .prefooter {
   --margin: 0 var(--padding-sm) var(--padding-lg) var(--padding-sm);
 }
