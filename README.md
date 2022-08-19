@@ -191,7 +191,7 @@ testing `debug = False` locally.
 #### To create or update the fixtures with the current data, do the following:
 
 1. Create the desired data through the admin site.
-2. Use the `python manage.py updatefixtures` command.
+2. Use the `python manage.py importfixtures` command.
 
 #### Loading the fixtures
 
