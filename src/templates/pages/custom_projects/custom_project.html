@@ -6,8 +6,10 @@
 {% include '../../components/heading.html' %}
 
 <h3>Items/fotos de la galeria</h3>
-<items_block>
-  {{ page.items_list }}
-</items_block>
+<image_gallery>
+  {% for image_block in page.images %}
+    <p>Imatge: {% image image_block.value max-200x200 %}</p>
+  {% endfor %}
+</image_gallery>
 
 {% endblock %}
