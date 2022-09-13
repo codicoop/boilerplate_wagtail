@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from wagtail.admin.panels import MultiFieldPanel
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.fields import StreamField
 from wagtail.images.blocks import ImageChooserBlock
@@ -24,8 +25,13 @@ class CustomProject(BasePage):
     )
 
     content_panels = BasePage.content_panels + [
-        FieldPanel("description"),
-        FieldPanel("images"),
+        FieldPanel("description", classname="full"),
+        MultiFieldPanel(
+            [
+                FieldPanel("images"),
+            ],
+            heading=_("Image gallery"),
+        ),
     ]
 
     parent_page_types = ["cms_site.CustomProjectsPage"]
