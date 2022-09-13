@@ -16,8 +16,6 @@ class BasePage(Page):
         # Needs to be true for initial migrations to work, given that we're
         # programatically creating a HomePage instance.
         null=True,
-        # TODO: Should be False, but it's difficult to change it and keep the
-        # fixtures working.
         blank=False,
     )
 
