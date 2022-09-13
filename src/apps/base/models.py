@@ -6,7 +6,6 @@ from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
 
 
 class BasePage(Page):
-    subpage_types = []
     show_in_menus_default = False
 
     class Meta:
