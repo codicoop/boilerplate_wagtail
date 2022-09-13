@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+{% include '../../components/heading.html' %}
+
+<h3>Items/fotos de la galeria</h3>
+<items_block>
+  {{ page.items_list }}
+</items_block>
+
+{% endblock %}
