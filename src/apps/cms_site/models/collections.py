@@ -33,7 +33,6 @@ class CollectionsPage(BasePage):
         context = super().get_context(request, *args, **kwargs)
         collection_page_model = apps.get_model("cms_site", "Collection")
         collection_pages = collection_page_model.objects.live()
-        print(collection_pages)
         context.update(
             {
                 "collections": collection_pages,
