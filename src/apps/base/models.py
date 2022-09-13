@@ -16,7 +16,7 @@ class BasePage(Page):
         # Needs to be true for initial migrations to work, given that we're
         # programatically creating a HomePage instance.
         null=True,
-        blank=False,
+        blank=True,
     )
 
     content_panels = Page.content_panels + [
