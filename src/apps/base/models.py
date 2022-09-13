@@ -13,6 +13,8 @@ class BasePage(Page):
         verbose_name=_("Header image"),
         on_delete=models.PROTECT,
         related_name="+",
+        # Needs to be true for initial migrations to work, given that we're
+        # programatically creating a HomePage instance.
         null=True,
         blank=False,
     )
