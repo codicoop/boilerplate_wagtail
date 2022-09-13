@@ -7,23 +7,18 @@ Put the settings in /conf/.env
 import os
 
 import environ
+from django.core.management.utils import get_random_secret_key
 
-env = environ.Env(
-    # set casting, default value
-    DEBUG=(bool, False)
-)
-# reading .env file
-environ.Env.read_env()
+env = environ.Env()
 
 # False if not in os.environ
-DEBUG = env("DEBUG")
-
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS")
+DEBUG = env("DEBUG", default=False)
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
 # Instance's absolute URL (given we're not using Sites framework)
 WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL")
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
-SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY = env.str("SECRET_KEY", default=get_random_secret_key())
 
 # Variables for non-interactive superuser creation
 DJANGO_SUPERUSER_EMAIL = env("DJANGO_SUPERUSER_EMAIL", default=None)
@@ -34,11 +29,11 @@ DJANGO_SUPERUSER_PASSWORD = env("DJANGO_SUPERUSER_PASSWORD", default=None)
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": env("DB_NAME"),
-        "USER": env("DB_USER"),
-        "PASSWORD": env("DB_PASSWORD"),
-        "HOST": env("DB_HOST"),
-        "PORT": env("DB_PORT"),
+        "NAME": env("DB_NAME", default=""),
+        "USER": env("DB_USER", default=""),
+        "PASSWORD": env("DB_PASSWORD", default=""),
+        "HOST": env("DB_HOST", default=""),
+        "PORT": env("DB_PORT", default=5432),
     }
 }
 # If you enable this try a makemigrations to make sure the third party
@@ -46,14 +41,18 @@ DATABASES = {
 # DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # SMTP
-EMAIL_HOST = env("EMAIL_HOST")
-EMAIL_PORT = env("EMAIL_PORT")
-EMAIL_HOST_USER = env("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
-EMAIL_USE_TLS = env("EMAIL_USE_TLS", bool)
-EMAIL_USE_SSL = env("EMAIL_USE_SSL", bool)
-EMAIL_BACKEND = env("EMAIL_BACKEND")
-DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")  # MailingManager setting.
+EMAIL_HOST = env.str("EMAIL_HOST", default="")
+EMAIL_PORT = env.int("EMAIL_PORT", default="")
+EMAIL_HOST_USER = env.str("EMAIL_HOST_USER", default="")
+EMAIL_HOST_PASSWORD = env.str("EMAIL_HOST_PASSWORD", default="")
+EMAIL_USE_TLS = env.bool("EMAIL_USE_TLS", default=False)
+EMAIL_USE_SSL = env.bool("EMAIL_USE_SSL", default=False)
+EMAIL_BACKEND = env.str(
+    "EMAIL_BACKEND",
+    default="django.core.mail.backends.console.EmailBackend",
+)
+DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="")  # MailingManager setting.
+
 
 # Wagtail
 WAGTAIL_SITE_NAME = env("WAGTAIL_SITE_NAME", default="Gestor de continguts")
