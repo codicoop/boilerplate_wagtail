@@ -1,12 +1,31 @@
 from django.db import models
 from modelcluster.fields import ParentalKey
+from wagtail.admin.panels import FieldPanel
 from wagtail.models import Page
 from wagtailmenus.conf import settings as wagtail_settings
 from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
+from django.utils.translation import gettext_lazy as _
 
 
 class BasePage(Page):
     show_in_menus_default = False
+
+    class Meta:
+        abstract = True
+
+
+class MenuLabelMixin(models.Model):
+    menu_label = models.CharField(
+        _("Menu title"),
+        max_length=15,
+        null=True,
+        blank=True,
+        help_text=_("If not set, the menu title will be the page title."),
+    )
+
+    promote_panels = Page.promote_panels + [
+        FieldPanel("menu_label"),
+    ]
 
     class Meta:
         abstract = True
