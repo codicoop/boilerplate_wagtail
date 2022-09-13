@@ -15,6 +15,9 @@ class BasePage(Page):
 
 
 class MenuLabelMixin(models.Model):
+    """
+    Mixin for BasePage.
+    """
     menu_label = models.CharField(
         _("Menu title"),
         max_length=15,
@@ -23,9 +26,11 @@ class MenuLabelMixin(models.Model):
         help_text=_("If not set, the menu title will be the page title."),
     )
 
-    promote_panels = Page.promote_panels + [
+    promote_panels = BasePage.promote_panels + [
         FieldPanel("menu_label"),
     ]
+
+    show_in_menus_default = True
 
     class Meta:
         abstract = True

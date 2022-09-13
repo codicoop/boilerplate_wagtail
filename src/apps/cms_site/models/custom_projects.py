@@ -13,7 +13,6 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
     page_description = _("Main page for custom projects section.")
     max_count = 1
     template = "pages/custom_projects_page.html"
-    show_in_menus_default = True
 
 
 class CustomProject(BasePage):
