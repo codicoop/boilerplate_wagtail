@@ -191,7 +191,7 @@ testing `debug = False` locally.
 #### To create or update the fixtures with the current data, do the following:
 
 1. Create the desired data through the admin site.
-2. Use the `python manage.py updatefixtures` command.
+2. Use the `python manage.py exportfixtures` command.
 
 #### Loading the fixtures
 
@@ -206,7 +206,7 @@ Run this command:
 
 > To be able to load the fixtures, the `DJANGO_SUPERUSER_EMAIL` setting must be
 > set to `hola@codi.coop`.
-
+1
 # TO DO: Different phases of developing
 
 ## Initial phase
