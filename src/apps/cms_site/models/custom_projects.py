@@ -24,7 +24,7 @@ class CustomProject(BasePage):
         ],
         use_json_field=True,
     )
-s pàgine
+
     content_panels = Page.content_panels + [
         FieldPanel("description"),
         FieldPanel("images"),
