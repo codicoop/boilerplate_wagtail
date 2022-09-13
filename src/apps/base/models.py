@@ -14,7 +14,7 @@ class BasePage(Page):
         on_delete=models.PROTECT,
         related_name="+",
         null=True,
-        blank=True,
+        blank=False,
     )
 
     content_panels = Page.content_panels + [
