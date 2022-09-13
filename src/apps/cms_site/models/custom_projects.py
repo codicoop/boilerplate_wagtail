@@ -3,7 +3,6 @@ from django.utils.translation import gettext_lazy as _
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.fields import StreamField
 from wagtail.images.blocks import ImageChooserBlock
-from wagtail.models import Page
 
 from apps.base.models import BasePage, MenuLabelMixin
 
@@ -24,7 +23,7 @@ class CustomProject(BasePage):
         use_json_field=True,
     )
 
-    content_panels = Page.content_panels + [
+    content_panels = BasePage.content_panels + [
         FieldPanel("description"),
         FieldPanel("images"),
     ]
