@@ -8,6 +8,18 @@ from django.utils.translation import gettext_lazy as _
 
 
 class BasePage(Page):
+    header_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Header image"),
+        on_delete=models.PROTECT,
+        related_name="+",
+        null=True,
+        blank=True,
+    )
+
+    content_panels = Page.content_panels + [
+        FieldPanel("header_image"),
+    ]
     show_in_menus_default = False
 
     class Meta:
@@ -29,7 +41,6 @@ class MenuLabelMixin(models.Model):
     promote_panels = BasePage.promote_panels + [
         FieldPanel("menu_label"),
     ]
-
     show_in_menus_default = True
 
     class Meta:
