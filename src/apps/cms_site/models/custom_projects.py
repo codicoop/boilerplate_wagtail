@@ -1,15 +1,22 @@
 from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.panels import MultiFieldPanel
+from modelcluster.fields import ParentalKey
+from wagtail.admin.panels import InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.fields import StreamField
-from wagtail.images.blocks import ImageChooserBlock
+from wagtail.models import Collection, Orderable
 
 from apps.base.models import BasePage, MenuLabelMixin
 
 
 class CustomProjectsPage(MenuLabelMixin, BasePage):
+    content_panels = BasePage.content_panels + [
+        InlinePanel(
+            "custom_projects",
+            heading="Custom projects",
+            label="Project",
+        ),
+    ]
     parent_page_types = ["cms_site.HomePage"]
     page_description = _("Main page for custom projects section.")
     max_count = 1
@@ -27,34 +34,29 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
         return context
 
 
-class CustomProject(BasePage):
-    description = models.TextField(_("Description"), default="", blank=True)
-    main_section_image = models.ForeignKey(
-        "wagtailimages.Image",
-        verbose_name=_("Main section image"),
-        on_delete=models.PROTECT,
-        related_name="+",
-        null=False,
-        blank=False,
-        help_text="This image will be used in the Custom Projects section, "
-        "when displaying the list of projects."
+class CustomProject(Orderable):
+    page = ParentalKey(
+        CustomProjectsPage,
+        on_delete=models.CASCADE,
+        related_name="custom_projects",
     )
-    images = StreamField(
-        [
-            ("image", ImageChooserBlock()),
-        ],
-        use_json_field=True,
+    title = models.CharField(
+        verbose_name=_("title"),
+        max_length=255,
+        help_text=_("The page title as you'd like it to be seen by the public"),
+    )
+    description = models.TextField(_("description"), default="", blank=True)
+    images_collection = models.ForeignKey(
+        Collection,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        editable=False,
     )
 
-    content_panels = BasePage.content_panels + [
+    panels = [
+        FieldPanel("title", classname="title"),
         FieldPanel("description", classname="full"),
-        FieldPanel("main_section_image"),
-        MultiFieldPanel(
-            [
-                FieldPanel("images"),
-            ],
-            heading=_("Image gallery"),
-        ),
     ]
 
     parent_page_types = ["cms_site.CustomProjectsPage"]
