@@ -8,14 +8,6 @@ from apps.base.models import BasePage
 
 
 class HomePage(BasePage):
-    header_image = models.ForeignKey(
-        "wagtailimages.Image",
-        verbose_name=_("Header image"),
-        on_delete=models.PROTECT,
-        related_name="+",
-        null=True,
-        blank=True,
-    )
     overlay_title = models.CharField(
         _("Title"),
         max_length=80,
@@ -142,12 +134,11 @@ class HomePage(BasePage):
         default=True,
     )
 
-    content_panels = Page.content_panels + [
-        FieldPanel("header_image"),
+    content_panels = BasePage.content_panels + [
         MultiFieldPanel(
             children=[
                 FieldPanel("overlay_title", classname="title"),
-                FieldPanel("overlay_body", classname="ful"),
+                FieldPanel("overlay_body", classname="full"),
                 FieldPanel(
                     "overlay_button_text",
                 ),

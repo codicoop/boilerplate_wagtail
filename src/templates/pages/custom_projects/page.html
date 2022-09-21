@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+    {% include '../../components/heading.html' %}
+
+<section>
+  {% for custom_project in custom_projects %}
+    <a href="{% pageurl custom_project %}">
+      <p>{{ custom_project.specific.title }}</p>
+      {% image custom_project.main_section_image max-200x200 %}
+    </a>
+  {% endfor %}
+</section>
+
+{% endblock %}

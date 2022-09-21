@@ -1,13 +1,50 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
+from wagtail.admin.panels import FieldPanel
 from wagtail.models import Page
 from wagtailmenus.conf import settings as wagtail_settings
 from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
 
 
 class BasePage(Page):
-    subpage_types = []
+    header_image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Header image"),
+        on_delete=models.SET_NULL,
+        related_name="+",
+        # Needs to be true for initial migrations to work, given that we're
+        # programatically creating a HomePage instance.
+        null=True,
+        blank=False,
+    )
+
+    content_panels = Page.content_panels + [
+        FieldPanel("header_image"),
+    ]
     show_in_menus_default = False
+
+    class Meta:
+        abstract = True
+
+
+class MenuLabelMixin(models.Model):
+    """
+    Mixin for BasePage.
+    """
+
+    menu_label = models.CharField(
+        _("Menu title"),
+        max_length=15,
+        null=True,
+        blank=True,
+        help_text=_("If not set, the menu title will be the page title."),
+    )
+
+    promote_panels = BasePage.promote_panels + [
+        FieldPanel("menu_label"),
+    ]
+    show_in_menus_default = True
 
     class Meta:
         abstract = True
