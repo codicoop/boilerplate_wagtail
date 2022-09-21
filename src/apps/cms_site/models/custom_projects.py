@@ -72,11 +72,6 @@ class CustomProject(BasePage):
         self.create_or_update_collection()
         return super().save(clean, user, log_action, **kwargs)
 
-    def delete(self, *args, **kwargs):
-        print("inside delete 1")
-        self.delete_collection()
-        super().delete(self, *args, **kwargs)
-
     def create_or_update_collection(self):
         """
         Each Custom Project needs to have a Collection linked through the
@@ -98,12 +93,6 @@ class CustomProject(BasePage):
         else:
             self.images_collection.name = collection_name
             self.images_collection.save()
-
-    def delete_collection(self):
-        print(self.images_collection)
-        print("inside delete")
-        if self.images_collection:
-            Collection.objects.get(id=self.images_collection.id).delete()
 
     def get_context(self, request, *args, **kwargs):
         ct = super().get_context(request, *args, **kwargs)
