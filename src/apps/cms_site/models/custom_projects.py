@@ -32,7 +32,7 @@ class CustomProject(BasePage):
     main_section_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Main section image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=False,
         blank=False,
@@ -85,14 +85,24 @@ class CustomProject(BasePage):
         If deleted, the collection will be deleted as well (we don't have to
         handled that as the on_delete property is CASCADE)
         """
-        collection_name = f"[Projecte a mida] {self.title}"
+        collection_name = self.title
         if not self.images_collection:
-            root_node = Collection.objects.get(id=get_root_collection_id())
-            new_collection = root_node.add_child(name=collection_name)
+            category_node = self.get_or_create_collection_category(
+                "Projectes a mida",
+            )
+            new_collection = category_node.add_child(name=collection_name)
             self.images_collection = new_collection
         else:
             self.images_collection.name = collection_name
             self.images_collection.save()
+
+    @staticmethod
+    def get_or_create_collection_category(name):
+        root_node = Collection.objects.get(id=get_root_collection_id())
+        collection = root_node.get_children().filter(name=name).first()
+        if not collection:
+            collection = root_node.add_child(name=name)
+        return collection
 
     def get_context(self, request, *args, **kwargs):
         ct = super().get_context(request, *args, **kwargs)
