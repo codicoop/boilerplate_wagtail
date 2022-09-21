@@ -34,7 +34,7 @@ class CustomProject(BasePage):
         verbose_name=_("Main section image"),
         on_delete=models.SET_NULL,
         related_name="+",
-        null=False,
+        null=True,
         blank=False,
         help_text="This image will be used in the Custom Projects section, "
                   "when displaying the list of projects."

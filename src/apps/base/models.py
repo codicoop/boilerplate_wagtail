@@ -11,7 +11,7 @@ class BasePage(Page):
     header_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Header image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         # Needs to be true for initial migrations to work, given that we're
         # programatically creating a HomePage instance.
