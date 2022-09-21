@@ -2816,6 +2816,132 @@
   }
 },
 {
+  "model": "wagtailimages.image",
+  "pk": 13,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr1",
+    "file": "original_images/ciurans_projecte_cr1.jpg",
+    "width": 401,
+    "height": 600,
+    "created_at": "2022-09-21T11:18:29.217Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 137363,
+    "file_hash": "a82baf09d26712399310084c8cc86bbac1e35a9f"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 14,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr2",
+    "file": "original_images/ciurans_projecte_cr2.jpg",
+    "width": 401,
+    "height": 600,
+    "created_at": "2022-09-21T11:18:29.868Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 151720,
+    "file_hash": "7c654846ef7ec94c9ec8f5586384d1115d368ceb"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 15,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr3",
+    "file": "original_images/ciurans_projecte_cr3.jpg",
+    "width": 402,
+    "height": 600,
+    "created_at": "2022-09-21T11:18:30.452Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 127736,
+    "file_hash": "3efd86c6cf62b2a6b377ef40ac9e3213652f48ba"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 16,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr4",
+    "file": "original_images/ciurans_projecte_cr4.jpg",
+    "width": 800,
+    "height": 534,
+    "created_at": "2022-09-21T11:18:31.191Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165905,
+    "file_hash": "592856a1b70dc7b6258e77d6efa4ce35483dfc0b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 17,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr5",
+    "file": "original_images/ciurans_projecte_cr5.jpg",
+    "width": 800,
+    "height": 535,
+    "created_at": "2022-09-21T11:18:32.002Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 208162,
+    "file_hash": "ea9e81f0fcd5f8bf30a639d47982ca2959fc7708"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 18,
+  "fields": {
+    "collection": 2,
+    "title": "ciurans_projecte_cr6",
+    "file": "original_images/ciurans_projecte_cr6.jpg",
+    "width": 800,
+    "height": 535,
+    "created_at": "2022-09-21T11:18:32.629Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 197044,
+    "file_hash": "8ccb8096f6faa153f38e6f2acf189c1bbfc5ddd1"
+  }
+},
+{
   "model": "wagtailcore.modellogentry",
   "pk": 1,
   "fields": {
@@ -5336,6 +5462,26 @@
   }
 },
 {
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "name": "Root"
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 2,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 0,
+    "name": "[Projecte a mida] Projecte CR"
+  }
+},
+{
   "model": "wagtailcore.page",
   "pk": 1,
   "fields": {
@@ -5565,7 +5711,7 @@
   "fields": {
     "path": "000100010005",
     "depth": 3,
-    "numchild": 0,
+    "numchild": 1,
     "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
     "locale": 1,
     "title": "Projectes a mida",
@@ -5594,6 +5740,44 @@
     "last_published_at": "2022-09-15T10:19:24.144Z",
     "latest_revision_created_at": "2022-09-15T10:19:24.120Z",
     "live_revision": 16,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 12,
+  "fields": {
+    "path": "0001000100050001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "423eebc1-4d4b-43eb-ab3e-0eb0b4984ccd",
+    "locale": 1,
+    "title": "Projecte CR",
+    "draft_title": "Projecte CR",
+    "slug": "projecte-cr",
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/projectes-a-mida/projecte-cr/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "first_published_at": "2022-09-21T11:18:11.571Z",
+    "last_published_at": "2022-09-21T11:18:11.571Z",
+    "latest_revision_created_at": "2022-09-21T11:18:11.551Z",
+    "live_revision": 17,
     "alias_of": null
   }
 },
@@ -6214,6 +6398,54 @@
       "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
       "last_published_at": null,
       "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 17,
+  "fields": {
+    "page": 12,
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-21T11:18:11.551Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 12,
+      "live": true,
+      "path": "0001000100050001",
+      "slug": "projecte-cr",
+      "depth": 4,
+      "owner": 1,
+      "title": "Projecte CR",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/projectes-a-mida/projecte-cr/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+      "draft_title": "Projecte CR",
+      "content_type": 68,
+      "header_image": 12,
+      "live_revision": null,
+      "show_in_menus": false,
+      "translation_key": "423eebc1-4d4b-43eb-ab3e-0eb0b4984ccd",
+      "images_collection": 2,
+      "last_published_at": null,
+      "first_published_at": null,
+      "main_section_image": 9,
       "search_description": "",
       "wagtail_admin_comments": [],
       "has_unpublished_changes": false,
@@ -7539,6 +7771,50 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 56,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-09-21T11:18:11.534Z",
+    "uuid": "d2dfdaf9-a43c-41aa-8a9a-5e12819a5d2b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 12,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 57,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-21T11:18:11.595Z",
+    "uuid": "d2dfdaf9-a43c-41aa-8a9a-5e12819a5d2b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 12,
+    "revision": 17
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -8370,6 +8646,16 @@
   "fields": {
     "header_image": 12,
     "menu_label": null
+  }
+},
+{
+  "model": "cms_site.customproject",
+  "pk": 12,
+  "fields": {
+    "header_image": 12,
+    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+    "main_section_image": 9,
+    "images_collection": 2
   }
 },
 {
