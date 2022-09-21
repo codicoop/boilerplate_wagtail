@@ -2817,14 +2817,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 13,
+  "pk": 19,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr1",
     "file": "original_images/ciurans_projecte_cr1.jpg",
     "width": 401,
     "height": 600,
-    "created_at": "2022-09-21T11:18:29.217Z",
+    "created_at": "2022-09-21T14:41:46.860Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2838,14 +2838,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 14,
+  "pk": 20,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr2",
     "file": "original_images/ciurans_projecte_cr2.jpg",
     "width": 401,
     "height": 600,
-    "created_at": "2022-09-21T11:18:29.868Z",
+    "created_at": "2022-09-21T14:41:47.444Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2859,14 +2859,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 15,
+  "pk": 21,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr3",
     "file": "original_images/ciurans_projecte_cr3.jpg",
     "width": 402,
     "height": 600,
-    "created_at": "2022-09-21T11:18:30.452Z",
+    "created_at": "2022-09-21T14:41:47.939Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2880,14 +2880,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 16,
+  "pk": 22,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr4",
     "file": "original_images/ciurans_projecte_cr4.jpg",
     "width": 800,
     "height": 534,
-    "created_at": "2022-09-21T11:18:31.191Z",
+    "created_at": "2022-09-21T14:41:48.999Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2901,14 +2901,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 17,
+  "pk": 23,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr5",
     "file": "original_images/ciurans_projecte_cr5.jpg",
     "width": 800,
     "height": 535,
-    "created_at": "2022-09-21T11:18:32.002Z",
+    "created_at": "2022-09-21T14:41:49.600Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2922,14 +2922,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 18,
+  "pk": 24,
   "fields": {
-    "collection": 2,
+    "collection": 4,
     "title": "ciurans_projecte_cr6",
     "file": "original_images/ciurans_projecte_cr6.jpg",
     "width": 800,
     "height": 535,
-    "created_at": "2022-09-21T11:18:32.629Z",
+    "created_at": "2022-09-21T14:41:50.371Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -5473,12 +5473,22 @@
 },
 {
   "model": "wagtailcore.collection",
-  "pk": 2,
+  "pk": 3,
   "fields": {
     "path": "00010001",
     "depth": 2,
+    "numchild": 1,
+    "name": "Projectes a mida"
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 4,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
     "numchild": 0,
-    "name": "[Projecte a mida] Projecte CR"
+    "name": "Projecte CR"
   }
 },
 {
@@ -5745,12 +5755,12 @@
 },
 {
   "model": "wagtailcore.page",
-  "pk": 12,
+  "pk": 13,
   "fields": {
     "path": "0001000100050001",
     "depth": 4,
     "numchild": 0,
-    "translation_key": "423eebc1-4d4b-43eb-ab3e-0eb0b4984ccd",
+    "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
     "locale": 1,
     "title": "Projecte CR",
     "draft_title": "Projecte CR",
@@ -5774,10 +5784,10 @@
     "locked": false,
     "locked_at": null,
     "locked_by": null,
-    "first_published_at": "2022-09-21T11:18:11.571Z",
-    "last_published_at": "2022-09-21T11:18:11.571Z",
-    "latest_revision_created_at": "2022-09-21T11:18:11.551Z",
-    "live_revision": 17,
+    "first_published_at": "2022-09-21T14:43:12.994Z",
+    "last_published_at": "2022-09-21T14:43:12.994Z",
+    "latest_revision_created_at": "2022-09-21T14:43:12.971Z",
+    "live_revision": 20,
     "alias_of": null
   }
 },
@@ -6408,17 +6418,17 @@
 },
 {
   "model": "wagtailcore.pagerevision",
-  "pk": 17,
+  "pk": 18,
   "fields": {
-    "page": 12,
+    "page": 13,
     "submitted_for_moderation": false,
-    "created_at": "2022-09-21T11:18:11.551Z",
+    "created_at": "2022-09-21T14:41:33.466Z",
     "user": [
       "hola@codi.coop"
     ],
     "content": {
-      "pk": 12,
-      "live": true,
+      "pk": 13,
+      "live": false,
       "path": "0001000100050001",
       "slug": "projecte-cr",
       "depth": 4,
@@ -6441,15 +6451,111 @@
       "header_image": 12,
       "live_revision": null,
       "show_in_menus": false,
-      "translation_key": "423eebc1-4d4b-43eb-ab3e-0eb0b4984ccd",
-      "images_collection": 2,
+      "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
+      "images_collection": 4,
       "last_published_at": null,
       "first_published_at": null,
-      "main_section_image": 9,
+      "main_section_image": 12,
       "search_description": "",
       "wagtail_admin_comments": [],
       "has_unpublished_changes": false,
       "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 19,
+  "fields": {
+    "page": 13,
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-21T14:42:09.584Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 13,
+      "live": false,
+      "path": "0001000100050001",
+      "slug": "projecte-cr",
+      "depth": 4,
+      "owner": 1,
+      "title": "Projecte CR",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/projectes-a-mida/projecte-cr/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+      "draft_title": "Projecte CR",
+      "content_type": 68,
+      "header_image": 12,
+      "live_revision": null,
+      "show_in_menus": false,
+      "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
+      "images_collection": 4,
+      "last_published_at": null,
+      "first_published_at": null,
+      "main_section_image": 24,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "latest_revision_created_at": "2022-09-21T14:41:33.466Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 20,
+  "fields": {
+    "page": 13,
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-21T14:43:12.971Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content": {
+      "pk": 13,
+      "live": false,
+      "path": "0001000100050001",
+      "slug": "projecte-cr",
+      "depth": 4,
+      "owner": 1,
+      "title": "Projecte CR",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/projectes-a-mida/projecte-cr/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+      "draft_title": "Projecte CR",
+      "content_type": 68,
+      "header_image": 12,
+      "live_revision": null,
+      "show_in_menus": false,
+      "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
+      "images_collection": 4,
+      "last_published_at": null,
+      "first_published_at": null,
+      "main_section_image": 24,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "latest_revision_created_at": "2022-09-21T14:42:09.584Z"
     },
     "approved_go_live_at": null
   }
@@ -7815,6 +7921,116 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 58,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2022-09-21T14:40:51.446Z",
+    "uuid": "e5cacd71-3cfa-46b3-8508-5d99fe67da9f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": true,
+    "page": 12,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 59,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2022-09-21T14:41:33.448Z",
+    "uuid": "e8c4bd1e-be7f-482a-8f72-4bf4c7082c1d",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 13,
+    "revision": null
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 60,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-21T14:42:09.596Z",
+    "uuid": "586864cf-1737-4f6d-bdc2-89e9b90ee550",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 13,
+    "revision": 19
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 61,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-21T14:43:12.984Z",
+    "uuid": "26d85ffa-5930-45b3-9338-02f7a5863fb6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": true,
+    "deleted": false,
+    "page": 13,
+    "revision": 20
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 62,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-21T14:43:13.028Z",
+    "uuid": "26d85ffa-5930-45b3-9338-02f7a5863fb6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "content_changed": false,
+    "deleted": false,
+    "page": 13,
+    "revision": 20
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -8650,12 +8866,12 @@
 },
 {
   "model": "cms_site.customproject",
-  "pk": 12,
+  "pk": 13,
   "fields": {
     "header_image": 12,
     "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
-    "main_section_image": 9,
-    "images_collection": 2
+    "main_section_image": 24,
+    "images_collection": 4
   }
 },
 {
