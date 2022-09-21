@@ -14,6 +14,7 @@ class Command(BaseCommand):
     )
 
     def handle(self, *args, **options):
+        call_command("fixtree")
         self.dump_locales()
         self.dump_content()
 
@@ -46,7 +47,7 @@ class Command(BaseCommand):
             "-e=wagtailcore.task",
             "-e=wagtailcore.workflowtask",
             "-e=wagtailcore.workflowpage",
-            "-e=wagtailcore.collection",  # ????????????
+            # "-e=wagtailcore.collection",  # ????????????
             "-e=wagtailcore.site",
             "-e=wagtailcore.locale",
             "-e=wagtailsearch.indexentry",
