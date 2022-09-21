@@ -5,11 +5,17 @@
 
 {% include '../../components/heading.html' %}
 
-<h3>Items/fotos de la galeria</h3>
-<image_gallery>
-  {% for image_block in page.images %}
-    <p>Imatge: {% image image_block.value max-200x200 %}</p>
-  {% endfor %}
-</image_gallery>
+{% if page.description %}
+  <p>{{ page.description }}</p>
+{% endif %}
+
+{% if images %}
+  <h3>Items/fotos de la galeria</h3>
+  <image_gallery>
+    {% for item in images %}
+      <p>Imatge: {% image item max-200x200 %}</p>
+    {% endfor %}
+  </image_gallery>
+{% endif %}
 
 {% endblock %}

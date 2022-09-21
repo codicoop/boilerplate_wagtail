@@ -1,8 +1,9 @@
 from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.panels import InlinePanel, HelpPanel
+from wagtail.admin.panels import HelpPanel
 from wagtail.documents.edit_handlers import FieldPanel
+from wagtail.images.models import Image
 from wagtail.models import Collection, get_root_collection_id
 
 from apps.base.models import BasePage, MenuLabelMixin
@@ -103,3 +104,12 @@ class CustomProject(BasePage):
         print("inside delete")
         if self.images_collection:
             Collection.objects.get(id=self.images_collection.id).delete()
+
+    def get_context(self, request, *args, **kwargs):
+        ct = super().get_context(request, *args, **kwargs)
+        ct["images"] = []
+        if self.images_collection:
+            ct["images"] = Image.objects.filter(
+                collection=self.images_collection,
+            )
+        return ct
