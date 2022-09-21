@@ -10,7 +10,7 @@ def after_delete_custom_project(request, page):
     """Delete CustomProject's linked Collection."""
 
     if (
-        request.method == 'POST'
+        request.method == "POST"
         and page.specific_class is CustomProject
         and page.images_collection
     ):

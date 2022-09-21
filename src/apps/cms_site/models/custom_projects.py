@@ -37,7 +37,7 @@ class CustomProject(BasePage):
         null=True,
         blank=False,
         help_text="This image will be used in the Custom Projects section, "
-                  "when displaying the list of projects."
+        "when displaying the list of projects.",
     )
     images_collection = models.ForeignKey(
         Collection,
@@ -50,18 +50,21 @@ class CustomProject(BasePage):
     content_panels = BasePage.content_panels + [
         FieldPanel("description", classname="full"),
         FieldPanel("main_section_image"),
-        HelpPanel(_(
-            "To manage the project's photos, firstly save this page's changes "
-            "(either as Draft or Published) and then go to the "
-            "<a href=\"/cms/images\">%(url_label)s</a>, "
-            "select the collection with the same namne as this project and "
-            "there add the images."
-            # "Per gestionar les fotos del projecte, val que desis (com a "
-            # "Esborrany o Publicat) els canvis que estiguis fent i després anar"
-            # " al <a href=\"/cms/images\">%(url_label)</a>, seleccionar la "
-            # "col·lecció amb el mateix nom que el projecte, i allà afegir "
-            # "les imatges."
-        ) % {"url_label": "Images section"}),
+        HelpPanel(
+            _(
+                "To manage the project's photos, firstly save this page's changes "
+                "(either as Draft or Published) and then go to the "
+                '<a href="/cms/images">%(url_label)s</a>, '
+                "select the collection with the same namne as this project and "
+                "there add the images."
+                # "Per gestionar les fotos del projecte, val que desis (com a "
+                # "Esborrany o Publicat) els canvis que estiguis fent i després anar"
+                # " al <a href=\"/cms/images\">%(url_label)</a>, seleccionar la "
+                # "col·lecció amb el mateix nom que el projecte, i allà afegir "
+                # "les imatges."
+            )
+            % {"url_label": "Images section"}
+        ),
     ]
 
     parent_page_types = ["cms_site.CustomProjectsPage"]

@@ -1,10 +1,10 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from wagtail.admin.panels import FieldPanel
 from wagtail.models import Page
 from wagtailmenus.conf import settings as wagtail_settings
 from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
-from django.utils.translation import gettext_lazy as _
 
 
 class BasePage(Page):
@@ -32,6 +32,7 @@ class MenuLabelMixin(models.Model):
     """
     Mixin for BasePage.
     """
+
     menu_label = models.CharField(
         _("Menu title"),
         max_length=15,
