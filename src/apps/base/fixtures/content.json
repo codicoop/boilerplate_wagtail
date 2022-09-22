@@ -2957,6 +2957,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -2978,6 +2979,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "1"
@@ -2999,6 +3001,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -3020,6 +3023,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "3"
@@ -3041,6 +3045,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "4"
@@ -3062,6 +3067,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "5"
@@ -3083,6 +3089,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "6"
@@ -3104,6 +3111,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "7"
@@ -3125,6 +3133,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "8"
@@ -3146,6 +3155,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "9"
@@ -3167,6 +3177,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "10"
@@ -3188,6 +3199,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "11"
@@ -3209,6 +3221,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "12"
@@ -3230,6 +3243,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "13"
@@ -3251,6 +3265,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "14"
@@ -3272,6 +3287,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "15"
@@ -3293,6 +3309,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "16"
@@ -3314,6 +3331,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "17"
@@ -3335,6 +3353,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "18"
@@ -3356,6 +3375,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "19"
@@ -3377,6 +3397,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "20"
@@ -3398,6 +3419,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "21"
@@ -3419,6 +3441,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "22"
@@ -3440,6 +3463,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "23"
@@ -3461,6 +3485,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "24"
@@ -3482,6 +3507,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "25"
@@ -3503,6 +3529,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "26"
@@ -3524,6 +3551,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "27"
@@ -3545,6 +3573,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "28"
@@ -3566,6 +3595,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "29"
@@ -3587,6 +3617,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "30"
@@ -3608,6 +3639,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "31"
@@ -3629,6 +3661,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "32"
@@ -3650,6 +3683,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "33"
@@ -3671,6 +3705,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "34"
@@ -3692,6 +3727,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "35"
@@ -3713,6 +3749,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "36"
@@ -3734,6 +3771,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "37"
@@ -3755,6 +3793,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "38"
@@ -3776,6 +3815,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "39"
@@ -3797,6 +3837,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "40"
@@ -3818,6 +3859,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "41"
@@ -3839,6 +3881,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "42"
@@ -3860,6 +3903,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "43"
@@ -3881,6 +3925,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "1"
@@ -3902,6 +3947,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "3"
@@ -3923,6 +3969,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "1"
@@ -3944,6 +3991,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -3965,6 +4013,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "3"
@@ -3986,6 +4035,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "4"
@@ -4007,6 +4057,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "1"
@@ -4028,6 +4079,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -4049,6 +4101,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "3"
@@ -4070,6 +4123,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "5"
@@ -4091,6 +4145,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "6"
@@ -4112,6 +4167,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "7"
@@ -4133,6 +4189,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "8"
@@ -4154,6 +4211,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "9"
@@ -4175,6 +4233,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "10"
@@ -4196,6 +4255,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "11"
@@ -4217,6 +4277,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "12"
@@ -4238,6 +4299,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "13"
@@ -4259,6 +4321,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "14"
@@ -4280,6 +4343,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "15"
@@ -4301,6 +4365,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "16"
@@ -4322,6 +4387,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "17"
@@ -4343,6 +4409,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "18"
@@ -4364,6 +4431,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "19"
@@ -4385,6 +4453,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "20"
@@ -4406,6 +4475,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "21"
@@ -4427,6 +4497,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "22"
@@ -4448,6 +4519,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "23"
@@ -4469,6 +4541,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "24"
@@ -4490,6 +4563,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "25"
@@ -4511,6 +4585,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "26"
@@ -4532,6 +4607,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "27"
@@ -4553,6 +4629,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "28"
@@ -4574,6 +4651,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "29"
@@ -4595,6 +4673,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "44"
@@ -4616,6 +4695,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "45"
@@ -4637,6 +4717,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "46"
@@ -4658,6 +4739,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "47"
@@ -4679,6 +4761,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "48"
@@ -4700,6 +4783,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "49"
@@ -4721,6 +4805,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "50"
@@ -4742,6 +4827,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "51"
@@ -4763,6 +4849,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "52"
@@ -4784,6 +4871,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "53"
@@ -4805,6 +4893,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "54"
@@ -4826,6 +4915,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "55"
@@ -4847,6 +4937,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "56"
@@ -4868,6 +4959,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "57"
@@ -4889,6 +4981,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "58"
@@ -4910,6 +5003,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "59"
@@ -4931,6 +5025,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "60"
@@ -4952,6 +5047,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "61"
@@ -4973,6 +5069,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "62"
@@ -4994,6 +5091,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "63"
@@ -5015,6 +5113,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "64"
@@ -5036,6 +5135,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "65"
@@ -5057,6 +5157,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "66"
@@ -5078,6 +5179,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "67"
@@ -5099,6 +5201,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "68"
@@ -5120,6 +5223,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "69"
@@ -5141,6 +5245,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "70"
@@ -5162,6 +5267,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "71"
@@ -5183,6 +5289,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "72"
@@ -5204,6 +5311,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "73"
@@ -5225,6 +5333,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "74"
@@ -5246,6 +5355,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "75"
@@ -5267,6 +5377,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "76"
@@ -5288,6 +5399,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "77"
@@ -5309,6 +5421,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "78"
@@ -5330,6 +5443,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "79"
@@ -5351,6 +5465,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "80"
@@ -5372,6 +5487,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "81"
@@ -5393,6 +5509,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "82"
@@ -5414,6 +5531,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -5435,6 +5553,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "4"
@@ -5456,6 +5575,7 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
     "object_id": "2"
@@ -5500,6 +5620,18 @@
     "numchild": 1,
     "translation_key": "8de012ef-93aa-4dc4-a16f-1c815806e7c0",
     "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Root",
     "draft_title": "Root",
     "slug": "root",
@@ -5507,23 +5639,12 @@
       "wagtailcore",
       "page"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/",
     "owner": null,
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": null,
-    "last_published_at": null,
     "latest_revision_created_at": null,
-    "live_revision": null,
     "alias_of": null
   }
 },
@@ -5536,6 +5657,18 @@
     "numchild": 3,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
+    "latest_revision": 10,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-08-10T13:56:15.151Z",
+    "last_published_at": "2022-08-11T10:37:14.923Z",
+    "live_revision": 10,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Eslògan de portada",
     "draft_title": "Eslògan de portada",
     "slug": "home",
@@ -5543,23 +5676,12 @@
       "cms_site",
       "homepage"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/",
     "owner": null,
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-11T10:37:14.923Z",
     "latest_revision_created_at": "2022-08-11T10:37:14.852Z",
-    "live_revision": 10,
     "alias_of": null
   }
 },
@@ -5572,6 +5694,18 @@
     "numchild": 0,
     "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
     "locale": 1,
+    "latest_revision": 15,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-08-11T08:55:15.251Z",
+    "last_published_at": "2022-09-13T14:53:19.169Z",
+    "live_revision": 15,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Nova col·lecció Àrea",
     "draft_title": "Nova col·lecció Àrea",
     "slug": "nova-collecció-àrea",
@@ -5579,8 +5713,6 @@
       "cms_site",
       "collection"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/cataleg/nova-collecció-àrea/",
     "owner": [
       "hola@codi.coop"
@@ -5588,16 +5720,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-08-11T08:55:15.251Z",
-    "last_published_at": "2022-09-13T14:53:19.169Z",
     "latest_revision_created_at": "2022-09-13T14:53:19.133Z",
-    "live_revision": 15,
     "alias_of": null
   }
 },
@@ -5610,6 +5733,18 @@
     "numchild": 0,
     "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
     "locale": 1,
+    "latest_revision": 14,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-08-11T09:55:55.433Z",
+    "last_published_at": "2022-09-13T14:53:04.271Z",
+    "live_revision": 14,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Col·lecció Nordic",
     "draft_title": "Col·lecció Nordic",
     "slug": "collecció-nordic",
@@ -5617,8 +5752,6 @@
       "cms_site",
       "collection"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/cataleg/collecció-nordic/",
     "owner": [
       "hola@codi.coop"
@@ -5626,16 +5759,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-08-11T09:55:55.433Z",
-    "last_published_at": "2022-09-13T14:53:04.271Z",
     "latest_revision_created_at": "2022-09-13T14:53:04.234Z",
-    "live_revision": 14,
     "alias_of": null
   }
 },
@@ -5648,6 +5772,18 @@
     "numchild": 0,
     "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
     "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-08-11T10:56:41.639Z",
+    "last_published_at": "2022-08-11T10:56:41.639Z",
+    "live_revision": 11,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Els nostres dissenyadors",
     "draft_title": "Els nostres dissenyadors",
     "slug": "els-nostres-dissenyadors",
@@ -5655,8 +5791,6 @@
       "cms_site",
       "designerspage"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/els-nostres-dissenyadors/",
     "owner": [
       "hola@codi.coop"
@@ -5664,16 +5798,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-08-11T10:56:41.639Z",
-    "last_published_at": "2022-08-11T10:56:41.639Z",
     "latest_revision_created_at": "2022-08-11T10:56:41.608Z",
-    "live_revision": 11,
     "alias_of": null
   }
 },
@@ -5686,6 +5811,18 @@
     "numchild": 2,
     "translation_key": "08aa1288-2d83-433f-b156-38a24e7b1853",
     "locale": 1,
+    "latest_revision": 13,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-08-12T15:24:32.594Z",
+    "last_published_at": "2022-09-13T14:52:47.168Z",
+    "live_revision": 13,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Catàleg",
     "draft_title": "Catàleg",
     "slug": "cataleg",
@@ -5693,8 +5830,6 @@
       "cms_site",
       "collectionspage"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/cataleg/",
     "owner": [
       "hola@codi.coop"
@@ -5702,16 +5837,7 @@
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-08-12T15:24:32.594Z",
-    "last_published_at": "2022-09-13T14:52:47.168Z",
     "latest_revision_created_at": "2022-09-13T14:52:47.136Z",
-    "live_revision": 13,
     "alias_of": null
   }
 },
@@ -5724,6 +5850,18 @@
     "numchild": 1,
     "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
     "locale": 1,
+    "latest_revision": 16,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-09-15T10:19:24.144Z",
+    "last_published_at": "2022-09-15T10:19:24.144Z",
+    "live_revision": 16,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Projectes a mida",
     "draft_title": "Projectes a mida",
     "slug": "projectes-a-mida",
@@ -5731,8 +5869,6 @@
       "cms_site",
       "customprojectspage"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/projectes-a-mida/",
     "owner": [
       "hola@codi.coop"
@@ -5740,16 +5876,7 @@
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-09-15T10:19:24.144Z",
-    "last_published_at": "2022-09-15T10:19:24.144Z",
     "latest_revision_created_at": "2022-09-15T10:19:24.120Z",
-    "live_revision": 16,
     "alias_of": null
   }
 },
@@ -5762,6 +5889,18 @@
     "numchild": 0,
     "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
     "locale": 1,
+    "latest_revision": 20,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2022-09-21T14:43:12.994Z",
+    "last_published_at": "2022-09-21T14:43:12.994Z",
+    "live_revision": 20,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
     "title": "Projecte CR",
     "draft_title": "Projecte CR",
     "slug": "projecte-cr",
@@ -5769,8 +5908,6 @@
       "cms_site",
       "customproject"
     ],
-    "live": true,
-    "has_unpublished_changes": false,
     "url_path": "/home/projectes-a-mida/projecte-cr/",
     "owner": [
       "hola@codi.coop"
@@ -5778,29 +5915,29 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "go_live_at": null,
-    "expire_at": null,
-    "expired": false,
-    "locked": false,
-    "locked_at": null,
-    "locked_by": null,
-    "first_published_at": "2022-09-21T14:43:12.994Z",
-    "last_published_at": "2022-09-21T14:43:12.994Z",
     "latest_revision_created_at": "2022-09-21T14:43:12.971Z",
-    "live_revision": 20,
     "alias_of": null
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 1,
   "fields": {
-    "page": 2,
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
     "submitted_for_moderation": false,
     "created_at": "2022-08-10T13:56:15.122Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Eslògan de portada\"",
     "content": {
       "pk": 2,
       "live": true,
@@ -5855,15 +5992,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 6,
   "fields": {
-    "page": 4,
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T08:55:15.227Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Nova col·lecció Àrea\"",
     "content": {
       "pk": 4,
       "pdf": 1,
@@ -5902,15 +6048,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 7,
   "fields": {
-    "page": 2,
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T08:58:01.066Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Eslògan de portada\"",
     "content": {
       "pk": 2,
       "live": true,
@@ -5965,15 +6120,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 8,
   "fields": {
-    "page": 6,
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T09:55:55.401Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Col·lecció Nordic\"",
     "content": {
       "pk": 6,
       "pdf": 2,
@@ -6012,15 +6176,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 9,
   "fields": {
-    "page": 2,
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T09:56:45.583Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Eslògan de portada\"",
     "content": {
       "pk": 2,
       "live": true,
@@ -6075,15 +6248,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 10,
   "fields": {
-    "page": 2,
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T10:37:14.852Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Eslògan de portada\"",
     "content": {
       "pk": 2,
       "live": true,
@@ -6139,15 +6321,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 11,
   "fields": {
-    "page": 8,
+    "content_type": [
+      "wagtailmenus",
+      "mainmenuitem"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
     "submitted_for_moderation": false,
     "created_at": "2022-08-11T10:56:41.608Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Els nostres dissenyadors\"",
     "content": {
       "pk": 8,
       "live": true,
@@ -6185,15 +6376,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 12,
   "fields": {
-    "page": 10,
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "10",
     "submitted_for_moderation": false,
     "created_at": "2022-08-12T15:24:32.580Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Catàleg\"",
     "content": {
       "pk": 10,
       "live": true,
@@ -6229,15 +6429,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 13,
   "fields": {
-    "page": 10,
+    "content_type": [
+      "cms_site",
+      "collectionspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "10",
     "submitted_for_moderation": false,
     "created_at": "2022-09-13T14:52:47.136Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Catàleg\"",
     "content": {
       "pk": 10,
       "live": true,
@@ -6275,15 +6484,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 14,
   "fields": {
-    "page": 6,
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
     "submitted_for_moderation": false,
     "created_at": "2022-09-13T14:53:04.234Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Col·lecció Nordic\"",
     "content": {
       "pk": 6,
       "pdf": 2,
@@ -6323,15 +6541,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 15,
   "fields": {
-    "page": 4,
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
     "submitted_for_moderation": false,
     "created_at": "2022-09-13T14:53:19.133Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Nova col·lecció Àrea\"",
     "content": {
       "pk": 4,
       "pdf": 1,
@@ -6371,15 +6598,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 16,
   "fields": {
-    "page": 11,
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "11",
     "submitted_for_moderation": false,
     "created_at": "2022-09-15T10:19:24.120Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Projectes a mida\"",
     "content": {
       "pk": 11,
       "live": true,
@@ -6417,15 +6653,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 18,
   "fields": {
-    "page": 13,
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
     "submitted_for_moderation": false,
     "created_at": "2022-09-21T14:41:33.466Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Projecte CR\"",
     "content": {
       "pk": 13,
       "live": false,
@@ -6465,15 +6710,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 19,
   "fields": {
-    "page": 13,
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
     "submitted_for_moderation": false,
     "created_at": "2022-09-21T14:42:09.584Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Projecte CR\"",
     "content": {
       "pk": 13,
       "live": false,
@@ -6513,15 +6767,24 @@
   }
 },
 {
-  "model": "wagtailcore.pagerevision",
+  "model": "wagtailcore.revision",
   "pk": 20,
   "fields": {
-    "page": 13,
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
     "submitted_for_moderation": false,
     "created_at": "2022-09-21T14:43:12.971Z",
     "user": [
       "hola@codi.coop"
     ],
+    "object_str": "\"Projecte CR\"",
     "content": {
       "pk": 13,
       "live": false,
@@ -6576,10 +6839,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 1,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 1
+    "page": 2
   }
 },
 {
@@ -6598,10 +6861,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 1,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 1
+    "page": 2
   }
 },
 {
@@ -6620,10 +6883,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 3,
-    "revision": null
+    "page": 3
   }
 },
 {
@@ -6655,10 +6918,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 3,
-    "revision": null
+    "page": 3
   }
 },
 {
@@ -6677,10 +6940,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 3,
-    "revision": null
+    "page": 3
   }
 },
 {
@@ -6704,10 +6967,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 2,
     "content_changed": false,
     "deleted": false,
-    "page": 3,
-    "revision": 2
+    "page": 3
   }
 },
 {
@@ -6726,10 +6989,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 3,
     "content_changed": true,
     "deleted": false,
-    "page": 3,
-    "revision": 3
+    "page": 3
   }
 },
 {
@@ -6748,10 +7011,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 4,
     "content_changed": true,
     "deleted": false,
-    "page": 3,
-    "revision": 4
+    "page": 3
   }
 },
 {
@@ -6770,10 +7033,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 5,
     "content_changed": true,
     "deleted": false,
-    "page": 3,
-    "revision": 5
+    "page": 3
   }
 },
 {
@@ -6792,10 +7055,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 4,
-    "revision": null
+    "page": 4
   }
 },
 {
@@ -6814,10 +7077,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 6,
     "content_changed": true,
     "deleted": false,
-    "page": 4,
-    "revision": 6
+    "page": 4
   }
 },
 {
@@ -6836,10 +7099,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -6871,10 +7134,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -6893,10 +7156,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -6915,10 +7178,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 7,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 7
+    "page": 2
   }
 },
 {
@@ -6937,10 +7200,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 7,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 7
+    "page": 2
   }
 },
 {
@@ -6959,10 +7222,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 6,
-    "revision": null
+    "page": 6
   }
 },
 {
@@ -6981,10 +7244,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 8,
     "content_changed": true,
     "deleted": false,
-    "page": 6,
-    "revision": 8
+    "page": 6
   }
 },
 {
@@ -7003,10 +7266,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7038,10 +7301,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7060,10 +7323,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7082,10 +7345,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 9,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 9
+    "page": 2
   }
 },
 {
@@ -7104,10 +7367,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 9,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 9
+    "page": 2
   }
 },
 {
@@ -7126,10 +7389,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 10,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 10
+    "page": 2
   }
 },
 {
@@ -7148,10 +7411,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 10,
     "content_changed": true,
     "deleted": false,
-    "page": 2,
-    "revision": 10
+    "page": 2
   }
 },
 {
@@ -7170,10 +7433,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 8,
-    "revision": null
+    "page": 8
   }
 },
 {
@@ -7192,10 +7455,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 11,
     "content_changed": true,
     "deleted": false,
-    "page": 8,
-    "revision": 11
+    "page": 8
   }
 },
 {
@@ -7214,10 +7477,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 9,
-    "revision": null
+    "page": 9
   }
 },
 {
@@ -7249,10 +7512,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 9,
-    "revision": null
+    "page": 9
   }
 },
 {
@@ -7271,10 +7534,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 9,
-    "revision": null
+    "page": 9
   }
 },
 {
@@ -7293,10 +7556,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 10,
-    "revision": null
+    "page": 10
   }
 },
 {
@@ -7315,10 +7578,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 12,
     "content_changed": true,
     "deleted": false,
-    "page": 10,
-    "revision": 12
+    "page": 10
   }
 },
 {
@@ -7337,10 +7600,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7372,10 +7635,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7394,10 +7657,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7425,10 +7688,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 6,
-    "revision": null
+    "page": 6
   }
 },
 {
@@ -7456,10 +7719,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 4,
-    "revision": null
+    "page": 4
   }
 },
 {
@@ -7487,10 +7750,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -7518,10 +7781,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7540,10 +7803,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 13,
     "content_changed": true,
     "deleted": false,
-    "page": 10,
-    "revision": 13
+    "page": 10
   }
 },
 {
@@ -7562,10 +7825,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7584,10 +7847,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 13,
     "content_changed": true,
     "deleted": false,
-    "page": 10,
-    "revision": 13
+    "page": 10
   }
 },
 {
@@ -7606,10 +7869,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 14,
     "content_changed": true,
     "deleted": false,
-    "page": 6,
-    "revision": 14
+    "page": 6
   }
 },
 {
@@ -7628,10 +7891,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7650,10 +7913,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 14,
     "content_changed": true,
     "deleted": false,
-    "page": 6,
-    "revision": 14
+    "page": 6
   }
 },
 {
@@ -7672,10 +7935,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 15,
     "content_changed": true,
     "deleted": false,
-    "page": 4,
-    "revision": 15
+    "page": 4
   }
 },
 {
@@ -7694,10 +7957,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": false,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -7716,10 +7979,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 15,
     "content_changed": true,
     "deleted": false,
-    "page": 4,
-    "revision": 15
+    "page": 4
   }
 },
 {
@@ -7738,10 +8001,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 9,
-    "revision": null
+    "page": 9
   }
 },
 {
@@ -7760,10 +8023,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7782,10 +8045,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 5,
-    "revision": null
+    "page": 5
   }
 },
 {
@@ -7804,10 +8067,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 7,
-    "revision": null
+    "page": 7
   }
 },
 {
@@ -7826,10 +8089,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 3,
-    "revision": null
+    "page": 3
   }
 },
 {
@@ -7848,10 +8111,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 11,
-    "revision": null
+    "page": 11
   }
 },
 {
@@ -7870,10 +8133,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 16,
     "content_changed": true,
     "deleted": false,
-    "page": 11,
-    "revision": 16
+    "page": 11
   }
 },
 {
@@ -7892,10 +8155,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 12,
-    "revision": null
+    "page": 12
   }
 },
 {
@@ -7914,10 +8177,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 17,
     "content_changed": true,
     "deleted": false,
-    "page": 12,
-    "revision": 17
+    "page": 12
   }
 },
 {
@@ -7936,10 +8199,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": false,
     "deleted": true,
-    "page": 12,
-    "revision": null
+    "page": 12
   }
 },
 {
@@ -7958,10 +8221,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 13,
-    "revision": null
+    "page": 13
   }
 },
 {
@@ -7980,10 +8243,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 19,
     "content_changed": true,
     "deleted": false,
-    "page": 13,
-    "revision": 19
+    "page": 13
   }
 },
 {
@@ -8002,10 +8265,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 20,
     "content_changed": true,
     "deleted": false,
-    "page": 13,
-    "revision": 20
+    "page": 13
   }
 },
 {
@@ -8024,10 +8287,10 @@
     "user": [
       "hola@codi.coop"
     ],
+    "revision": 20,
     "content_changed": false,
     "deleted": false,
-    "page": 13,
-    "revision": 20
+    "page": 13
   }
 },
 {
@@ -8127,6 +8390,24 @@
     "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
     "pdf": 2,
     "items_list": "[{\"id\": \"811a1adf-c664-46c6-aac1-51546373ea35\", \"type\": \"item\", \"value\": {\"image\": 6, \"model\": 11, \"title\": \"Moble televisi\\u00f3 J\\u00f6rn i Bufet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"66ddcfb8-310d-47f8-8499-57fc8347bf17\", \"type\": \"item\", \"value\": {\"image\": 7, \"model\": 11, \"title\": \"Moble J\\u00f6rn, Dora i Brei\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 3}, {\"id\": \"e6bccf66-0f71-431d-99ce-da5d718c1bd1\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"e9d20165-05e0-4ae6-b2ce-130e735d6c02\", \"type\": \"item\", \"value\": {\"image\": 8, \"model\": 14, \"title\": \"Buffet Sovik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 1}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 1}]}}, {\"id\": \"078d966c-2938-4bdf-b565-50baa1bc2032\", \"type\": \"item\", \"value\": {\"image\": 9, \"model\": 15, \"title\": \"Llit Brevik\", \"finishings\": [{\"id\": \"baa218bd-1c10-47b2-918b-6ffef7a00bad\", \"type\": \"item\", \"value\": 2}, {\"id\": \"6c0aba94-ac4f-4647-bad9-d2ea43770670\", \"type\": \"item\", \"value\": 24}], \"item_types\": [{\"id\": \"fe84a222-8a39-4516-8052-77cc38b0fca9\", \"type\": \"item\", \"value\": 3}]}}]"
+  }
+},
+{
+  "model": "cms_site.customprojectspage",
+  "pk": 11,
+  "fields": {
+    "header_image": 12,
+    "menu_label": null
+  }
+},
+{
+  "model": "cms_site.customproject",
+  "pk": 13,
+  "fields": {
+    "header_image": 12,
+    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+    "main_section_image": 24,
+    "images_collection": 4
   }
 },
 {
@@ -8854,24 +9135,6 @@
     "translation_key": "bac8fb9c-ee6e-42ce-8a29-0e2a93dd72fc",
     "locale": 1,
     "name": "Göta"
-  }
-},
-{
-  "model": "cms_site.customprojectspage",
-  "pk": 11,
-  "fields": {
-    "header_image": 12,
-    "menu_label": null
-  }
-},
-{
-  "model": "cms_site.customproject",
-  "pk": 13,
-  "fields": {
-    "header_image": 12,
-    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
-    "main_section_image": 24,
-    "images_collection": 4
   }
 },
 {
