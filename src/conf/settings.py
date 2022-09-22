@@ -15,7 +15,7 @@ env = environ.Env()
 DEBUG = env("DEBUG", default=False)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
 # Instance's absolute URL (given we're not using Sites framework)
-WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL")
+WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL", default="")
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
 SECRET_KEY = env.str("SECRET_KEY", default=get_random_secret_key())
