@@ -1,0 +1,40 @@
+version: "3.5"
+
+networks:
+  develop-ciurans-network:
+    name: develop-ciurans-network
+
+services:
+  develop-ciurans-app:
+    restart: on-failure
+    container_name: develop-ciurans-app
+    image: registry.digitalocean.com/codihub/ciurans:preproduction
+    env_file: ./settings/preproduction.env
+    command: gunicorn conf.wsgi:application --bind 0.0.0.0:8000 --reload --threads=10
+    depends_on:
+      - develop-ciurans-db
+    networks:
+      - develop-ciurans-network
+    ports:
+      - 7001:8000
+
+  develop-ciurans-startup-commands:
+    container_name: develop-ciurans-startup-commands
+    image: registry.digitalocean.com/codihub/ciurans:preproduction
+    env_file: ./settings/preproduction.env
+    command: python manage.py migrate
+    depends_on:
+      - develop-ciurans-app
+      - develop-ciurans-db
+    networks:
+      - develop-ciurans-network
+
+  develop-ciurans-db:
+    container_name: develop-ciurans-db
+    image: postgres:14
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - ../dumps:/dumps
+    networks:
+      - develop-ciurans-network
