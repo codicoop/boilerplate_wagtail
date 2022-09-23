@@ -64,7 +64,9 @@ Si només vols els noms, el codi de cada llista es pot simplificar i quedaria ai
 <h3>Items/fotos de la col·lecció</h3>
 <em>L'HTML de cada block és a cms_site/collections/block_item.html</em>
 <items_block>
-  {{ page.collection_items }}
+  {% for item in page.collection_items.all %}
+    {% include "./block_item.html" with item=item %}
+  {% endfor %}
 </items_block>
 
 {% endblock %}

@@ -16,7 +16,7 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
     max_count = 1
-    template = "pages/collections_page.html"
+    template = "pages/collections/page.html"
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
@@ -51,7 +51,7 @@ class Collection(BasePage):
         ),
     ]
 
-    template = "cms_site/collections/collection.html"
+    template = "pages/collections/collection.html"
     parent_page_types = ["CollectionsPage"]
     max_count = 3
 
@@ -99,7 +99,7 @@ class Collection(BasePage):
 
     def get_available_models(self):
         """
-        See get_available_types comment.
+        See get_available_types comment
         """
         available_models = {
             item.model.id:item.model.name
