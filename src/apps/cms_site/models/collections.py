@@ -71,25 +71,40 @@ class Collection(BasePage):
         return context
 
     def get_available_types(self):
-        available_types = set()
-        for item in self.items_list:
-            available_types = {
-                item_type for item_type in dict(item.__dict__["value"])["item_types"]
-            }
+        """
+        The Collection is going to have N items (the photo gallery), and we
+        want the front to offer filters by Type, Finishing and Model.
+        In order to limit the list of options in those filters to the ones that
+        at least one of the CollectionItem contains, we loop through all of
+        them.
+        :return: { id: name }
+        """
+        available_types = {
+            item_type.item_type.id: item_type.item_type.name
+            for item in self.collection_items.all()
+            for item_type in item.types.all()
+        }
         return available_types
 
     def get_available_finishings(self):
-        available_finishings = set()
-        for item in self.items_list:
-            available_finishings = {
-                finishing for finishing in dict(item.__dict__["value"])["finishings"]
-            }
+        """
+        See get_available_types comment.
+        """
+        available_finishings = {
+            finishing.finishing.id: finishing.finishing.name
+            for item in self.collection_items.all()
+            for finishing in item.finishings.all()
+        }
         return available_finishings
 
     def get_available_models(self):
-        available_models = set()
-        for item in self.items_list:
-            available_models.add(dict(item.__dict__["value"])["model"])
+        """
+        See get_available_types comment.
+        """
+        available_models = {
+            item.model.id:item.model.name
+            for item in self.collection_items.all()
+        }
         return available_models
 
 
@@ -134,6 +149,9 @@ class CollectionItem(Orderable, ClusterableModel):
         ),
     ]
 
+    def __str__(self):
+        return self.title
+
 
 class ItemFinishings(Orderable, models.Model):
     page = ParentalKey(CollectionItem, related_name="finishings")
@@ -153,6 +171,9 @@ class ItemFinishings(Orderable, models.Model):
         FieldPanel("finishing"),
     ]
 
+    def __str__(self):
+        return self.finishing.name
+
 
 class ItemTypes(Orderable, models.Model):
     page = ParentalKey(CollectionItem, related_name="types")
@@ -171,3 +192,6 @@ class ItemTypes(Orderable, models.Model):
     panels = [
         FieldPanel("item_type"),
     ]
+
+    def __str__(self):
+        return self.item_type.name
