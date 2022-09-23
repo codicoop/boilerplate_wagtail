@@ -107,6 +107,9 @@ class Collection(BasePage):
         }
         return available_models
 
+    def __str__(self):
+        return self.title
+
 
 class CollectionItem(Orderable, ClusterableModel):
     page = ParentalKey(

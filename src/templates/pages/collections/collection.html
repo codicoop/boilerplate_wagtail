@@ -11,7 +11,7 @@
 
 <p>Links a altres col·leccions per muntar el submenú:
 {% for collection in collections %}
-  <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+  <a href="{% pageurl collection %}">{{ collection.specific.title }}</a>
 {% empty %}
   No hi ha cap altra col·lecció.
 {% endfor %}
