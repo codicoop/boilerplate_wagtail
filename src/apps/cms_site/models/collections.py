@@ -1,11 +1,14 @@
 from django.apps import apps
 from django.db import models
+from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
+from modelcluster.fields import ParentalKey
+from modelcluster.models import ClusterableModel
+from wagtail.admin.panels import InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.fields import StreamField
+from wagtail.models import Orderable
 
 from apps.base.models import BasePage, MenuLabelMixin
-from apps.cms_site.blocks import CollectionItem
 
 
 class CollectionsPage(MenuLabelMixin, BasePage):
@@ -37,18 +40,15 @@ class Collection(BasePage):
         on_delete=models.SET_NULL,
         related_name="+",
     )
-    items_list = StreamField(
-        [
-            ("item", CollectionItem()),
-        ],
-        verbose_name=_("Compositions, renders and photos"),
-        use_json_field=True,
-    )
 
     content_panels = BasePage.content_panels + [
         FieldPanel("description"),
         FieldPanel("pdf"),
-        FieldPanel("items_list"),
+        InlinePanel(
+            "collection_items",
+            heading=_("Collection items"),
+            label=_("Collection item"),
+        ),
     ]
 
     template = "cms_site/collections/collection.html"
@@ -91,3 +91,83 @@ class Collection(BasePage):
         for item in self.items_list:
             available_models.add(dict(item.__dict__["value"])["model"])
         return available_models
+
+
+class CollectionItem(Orderable, ClusterableModel):
+    page = ParentalKey(
+        Collection,
+        on_delete=models.CASCADE,
+        related_name="collection_items",
+    )
+    title = models.CharField(_("Title"), max_length=80)
+    image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Image"),
+        on_delete=models.CASCADE,
+        related_name="+",
+    )
+    model = models.ForeignKey(
+        "cms_site.CollectionItemModel",
+        verbose_name=_("Model"),
+        on_delete=models.CASCADE,
+        help_text=mark_safe(
+            _(
+                "The model is not in the list? To add more, go to "
+                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
+            ) % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
+        ),
+    )
+
+    panels = [
+        FieldPanel("title"),
+        FieldPanel("image"),
+        FieldPanel("model"),
+        InlinePanel(
+            "finishings",
+            heading=_("Finishings"),
+            label=_("Finishing"),
+        ),
+        InlinePanel(
+            "types",
+            heading=_("Types"),
+            label=_("Type"),
+        ),
+    ]
+
+
+class ItemFinishings(Orderable, models.Model):
+    page = ParentalKey(CollectionItem, related_name="finishings")
+    finishing = models.ForeignKey(
+        "cms_site.CollectionItemFinishing",
+        verbose_name=_("Finishing"),
+        on_delete=models.CASCADE,
+        help_text=mark_safe(
+            _(
+                "The finishing is not in the list? To add more, go to "
+                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
+            ) % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
+        ),
+    )
+
+    panels = [
+        FieldPanel("finishing"),
+    ]
+
+
+class ItemTypes(Orderable, models.Model):
+    page = ParentalKey(CollectionItem, related_name="types")
+    item_type = models.ForeignKey(
+        "cms_site.CollectionItemType",
+        verbose_name=_("Type"),
+        on_delete=models.CASCADE,
+        help_text=mark_safe(
+            _(
+                "The type is not in the list? To add more, go to "
+                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
+            ) % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
+        ),
+    )
+
+    panels = [
+        FieldPanel("item_type"),
+    ]
