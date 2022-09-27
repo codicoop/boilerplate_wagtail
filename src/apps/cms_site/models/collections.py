@@ -102,8 +102,7 @@ class Collection(BasePage):
         See get_available_types comment
         """
         available_models = {
-            item.model.id:item.model.name
-            for item in self.collection_items.all()
+            item.model.id: item.model.name for item in self.collection_items.all()
         }
         return available_models
 
@@ -131,8 +130,9 @@ class CollectionItem(Orderable, ClusterableModel):
         help_text=mark_safe(
             _(
                 "The model is not in the list? To add more, go to "
-                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
-            ) % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
+                '<a href="%(url)s" target="_blank">Snippets</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
         ),
     )
 
@@ -165,8 +165,9 @@ class ItemFinishings(Orderable, models.Model):
         help_text=mark_safe(
             _(
                 "The finishing is not in the list? To add more, go to "
-                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
-            ) % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
+                '<a href="%(url)s" target="_blank">Snippets</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
         ),
     )
 
@@ -187,8 +188,9 @@ class ItemTypes(Orderable, models.Model):
         help_text=mark_safe(
             _(
                 "The type is not in the list? To add more, go to "
-                "<a href=\"%(url)s\" target=\"_blank\">Snippets</a>."
-            ) % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
+                '<a href="%(url)s" target="_blank">Snippets</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
         ),
     )
 
