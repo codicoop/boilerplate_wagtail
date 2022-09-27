@@ -20,11 +20,15 @@ class CollectionsPage(MenuLabelMixin, BasePage):
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
-        collection_page_model = apps.get_model("cms_site", "Collection")
-        collection_pages = collection_page_model.objects.live()
+        """
+        Passing the home page to the view because for the list of collections
+        we'll be using the configuration set there.
+        """
+        home_page_model = apps.get_model("cms_site", "HomePage")
+        home_page_obj = home_page_model.objects.first()
         context.update(
             {
-                "collections": collection_pages,
+                "home_page": home_page_obj or None,
             }
         )
         return context

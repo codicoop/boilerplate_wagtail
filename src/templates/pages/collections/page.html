@@ -1,5 +1,49 @@
 {% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
 
 {% block content %}
+
 <h1>{{ page.title }}</h1>
+
+<!--Tot això és copiat i enganxat de la Home.-->
+{% if home_page.display_collections_section %}
+  <h3>Catàleg</h3>
+  {% if home_page.display_collection_1 %}
+    <a href="{% pageurl home_page.collection_1_page %}">
+      <div>
+        <p>{{ home_page.collection_1_title }}</p>
+        <!--Canvia la mida de la imatge per la que toqui!-->
+        {% image home_page.collection_1_image width-400 %}
+      </div>
+    </a>
+  {% else %}
+    <br><em>A la col·lecció 1 li falta alguna dada.</em>
+  {% endif %}
+  {% if home_page.display_collection_2 %}
+    <a href="{% pageurl home_page.collection_2_page %}">
+      <div>
+        <p>{{ home_page.collection_2_title }}</p>
+        <!--Canvia la mida de la imatge per la que toqui!-->
+        {% image home_page.collection_2_image width-400 %}
+      </div>
+    </a>
+  {% else %}
+    <br><em>A la col·lecció 2 li falta alguna dada.</em>
+  {% endif %}
+  {% if home_page.display_collection_3 %}
+    <a href="{% pageurl home_page.collection_3_page %}">
+      <div>
+        <p>{{ home_page.collection_3_title }}</p>
+        <!--Canvia la mida de la imatge per la que toqui!-->
+        {% image home_page.collection_3_image width-400 %}
+      </div>
+    </a>
+  {% else %}
+    <br><em>A la col·lecció 3 li falta alguna dada.</em>
+  {% endif %}
+{% else %}
+  <br><em>Cap de les 3 col·leccions té totes les dades, per tant no es mostra
+  la secció Catàleg.</em>
+{% endif %}
+
 {% endblock %}
