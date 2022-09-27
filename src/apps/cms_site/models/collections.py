@@ -4,7 +4,7 @@ from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
-from wagtail.admin.panels import InlinePanel
+from wagtail.admin.panels import InlinePanel, HelpPanel
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.models import Orderable
 
@@ -17,6 +17,16 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     page_description = _("Main catalog page.")
     max_count = 1
     template = "pages/collections/page.html"
+
+    content_panels = BasePage.content_panels + [
+        HelpPanel(
+            _(
+                "To manage the list of collections that appear in this section"
+                " you must edit the Home page, as the information is taken "
+                "from there."
+            )
+        ),
+    ]
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
