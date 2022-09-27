@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+{% include '../../components/heading.html' %}
+
+{% if page.description %}
+  <p>{{ page.description }}</p>
+{% endif %}
+
+{% if images %}
+  <h3>Items/fotos de la galeria</h3>
+  <image_gallery>
+    {% for item in images %}
+      <p>Imatge: {% image item max-200x200 %}</p>
+    {% endfor %}
+  </image_gallery>
+{% endif %}
+
+{% endblock %}

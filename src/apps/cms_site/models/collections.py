@@ -3,37 +3,22 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.fields import StreamField
-from wagtail.models import Page
 
-from apps.base.models import BasePage
+from apps.base.models import BasePage, MenuLabelMixin
 from apps.cms_site.blocks import CollectionItem
 
 
-class CollectionsPage(BasePage):
-    menu_label = models.CharField(
-        _("Menu title"),
-        max_length=15,
-        null=True,
-        blank=True,
-        help_text=_("If not set, the menu title will be the page title."),
-    )
-
-    promote_panels = Page.promote_panels + [
-        FieldPanel("menu_label"),
-    ]
-
+class CollectionsPage(MenuLabelMixin, BasePage):
     parent_page_types = ["cms_site.HomePage"]
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
     max_count = 1
     template = "pages/collections_page.html"
-    show_in_menus_default = True
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
         collection_page_model = apps.get_model("cms_site", "Collection")
         collection_pages = collection_page_model.objects.live()
-        print(collection_pages)
         context.update(
             {
                 "collections": collection_pages,
@@ -60,7 +45,7 @@ class Collection(BasePage):
         use_json_field=True,
     )
 
-    content_panels = Page.content_panels + [
+    content_panels = BasePage.content_panels + [
         FieldPanel("description"),
         FieldPanel("pdf"),
         FieldPanel("items_list"),

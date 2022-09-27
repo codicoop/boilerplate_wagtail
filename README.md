@@ -206,7 +206,7 @@ Run this command:
 
 > To be able to load the fixtures, the `DJANGO_SUPERUSER_EMAIL` setting must be
 > set to `hola@codi.coop`.
-
+1
 # TO DO: Different phases of developing
 
 ## Initial phase
@@ -232,3 +232,142 @@ extremely important requires to break it.
 Then, the frontend developer can work with this branch until the content is
 ready, and ask the backend devs. to create a data migration that will load
 all the database to that point.
+
+# Releasing new versions to pre-production and production.
+
+The docker image is stored at Digital Ocean's (from now on: DO) Container Registry.
+
+The latest version of the general instructions for deployments in DO will be
+[here](http://docus.codi.coop:3000/en/knowledge-base/deploy-do):
+
+There's a VPS for pre-production releases, and at this time the project is not
+yet released to production but it's
+expected to deploy it at DO. For this reason, this documentation only covers
+pre-production.
+
+**Steps overview**
+
+When we finish a sprint, it will go through thorough testing until the new
+release it's ready to be presented to the
+consumer (that is: TandemMarianao) in order to have them test and verify the
+changes before going to production.
+
+The current version at `develop` will be deployed at the pre-production server
+and the consumer will be informed along
+with a changelog.
+
+For this deployment we'll generate the docker image and upload it to DO, then
+connect to the server and make necessary
+adjustments if any, start the containers using docker-compose and run `migrate`
+and any other necessary commands.
+
+Once we have the feedback and we fix the potential bugs they find, we'll be
+ready to move it to `main` and make a new
+release to pre-production that this time will only be tested by us, and if
+everything is OK, will be released to
+production.
+
+## Deploying to develop (pre-production)
+
+### Building the docker image
+
+Before deploying to pre-production, you'll need to update the image at DO.
+
+From the root folder run:
+
+    docker build -t ciurans:preproduction -f docker/Dockerfile .
+
+For the next steps, you should check the instructions directly at the DO's
+control panel, by going to Container Registry
+and using the *Push images using Docker CLI* link at the footer. Nonetheless,
+we're copying below those instructions:
+
+After having set up the `doctl` command in your system according to the
+aforementioned documentation, copy the generated
+image to another tag that will include the DO prefix:
+
+    docker tag ciurans:preproduction registry.digitalocean.com/codihub/ciurans:preproduction
+
+Then push it:
+
+    docker push registry.digitalocean.com/codihub/ciurans:preproduction
+
+Now check the DO's Container Registry page and that new release should appear.
+
+### First time deployment
+
+To allow for faster releases in pre-production, we'll be using the same
+dockerization than for your local development
+environment, with the difference of using the `docker/preproduction.yml`
+docker-compose file instead of the default one.
+
+The main differences between the default `docker-compose.yml` and
+`preproduction.yml` are:
+- Nginx opens a different port.
+- The app image points to the remote image uploaded to DO, instead of a `build`
+command.
+- The app points to a different settings file (`docker/settings/preproduction.env`).
+
+> Keep in mind that most of the changes in the dockerization will usually need
+> to be replicated in `preproduction.yml`,
+> as well as adding or changing the settings variables in `preproduction.env`
+> when necessary.
+
+Steps for setting up the pre-production in a server for the first time:
+
+1. Build and upload the new docker image as described above.
+2. Update the `preproduction.yml`, for instance, changing the docker image tag
+3. name for the latest one, and push changes.
+3. Clone the [repository](git@github.com:codicoop/ciurans.git) in a folder.
+In our case, inside `/srv/develop/`.
+4. In `docker/settings/`, copy `settings.env.example` to `preproduction.env`
+and edit the variables.
+5. Your server will need to be authenticated with DO to be able to pull the
+image. To find out, try to pull it manually,
+i.e. `docker pull registry.digitalocean.com/codihub/ciurans:preproduction`.
+6. To set up the DO's client and authorize, follow
+[this instructions](https://docs.digitalocean.com/reference/doctl/how-to/install/)
+until you have the `doctl` installed and logged in, and then do
+`doctl registry login` to specifically authenticate to
+be able to interact with the Container Registry.
+7. Go to `docker/` and run `docker-compose -f preproduction.yml up -d`.
+
+Migrations should've run automatically already and, with them, you should have
+the superuser account created with the
+credentials specified in the settings file.
+
+### Updating
+
+Deploying a new pre-production release is as easy as updating the docker image
+to DO, and in the server pull the repo's
+changes and start the dockerization.
+
+Detailed steps:
+
+1. Build and upload the new docker image as described above.
+2. Update `preproduction.yml` so the docker image name is the new one. You can create a branch or just use `develop`.
+Beware that the image name may appear in different containers (startup-commands, celery...).
+3. In the server, make sure you're in the right branch and `git pull` the changes.
+4. If the dockerization was modified, you might need to stop any running containers before proceeding.
+5. Update the settings at `/docker/settings/preproduction.env` if necessary.
+6. At `/docker/`, start the dockerization with `docker-compose -f preproduction.yml up -d`. Remember that the compose
+already runs `migrate` in the process.
+
+## Deploying to production
+
+### Building the docker image
+
+Before deploying to production, you'll need to update the image at DO.
+
+Follow the same steps as described in *Building the docker image* for preproduction,
+but instead of using the tag `ciurans:preproduction`, use:
+
+    ciurans:release-YY.MM.001
+
+### First time deployment
+
+TO DO
+
+### Updating
+
+TO DO
