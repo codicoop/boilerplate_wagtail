@@ -56,6 +56,10 @@
     }
     &__button {
       align-self: flex-start;
+      a {
+        color: var(--white);
+        font-weight: 500;
+      }
     }
     &__image {
       order: 2;
@@ -71,4 +75,31 @@
     }
   }
 
+  .collections {
+    &__title {
+      grid-column: 2;
+      font-weight: 400;
+      padding-bottom: var(--padding-lg)
+    }
+    &__item {
+      grid-column: 1 / -1;
+      position: relative;
+    }
+    &__item-image {
+      img {
+        margin-bottom: -5px;
+      }
+    }
+    &__item-shade {
+      height: 100%;
+      width: 100%;
+      background-color: hsla(0, 0, 0, 0.3);
+    }
+    &__item-title {
+      position: absolute;
+      bottom: 0;
+      left: var(--padding-lg);
+      color: var(--white);
+    }
+  }
 }

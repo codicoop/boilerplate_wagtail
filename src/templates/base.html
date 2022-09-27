@@ -76,13 +76,12 @@
           </svg>
         </div>
       </div>
-      {% main_menu template="components/main_menu.html" %}
       <div class="menu__bottom">
         <nav class="menu__nav title-3">
-          {% include './elements/nav.html' %}
+          {% main_menu template="components/main_menu.html" %}
         </nav>
         <div class="menu__btn">
-          <button class="btn btn--second">Àrea client</button>
+          <button class="btn btn--dark">Àrea client</button>
         </div>
         {% if page %}
         <div class="menu__lang">
@@ -91,7 +90,7 @@
               {% get_language_info for translation.locale.language_code as lang %}
               <li>
                 <a href="{% pageurl translation %}" rel="alternate" hreflang="{{ lang.code }}">
-                  <p class="menu__lang-item">{{ lang.name_local }}</p>
+                  <p class="menu__lang-item">{{ lang.code }}</p>
                 </a>
               </li>
             {% endfor %}
@@ -111,7 +110,7 @@
   <footer class="footer">
     <div class="footer__top grid-1">
       <div class="footer__nav grid-item-1-4">
-        {% include './elements/nav.html' %}
+        {% main_menu template="components/main_menu.html" %}
       </div>
       {% if settings.cms_site.ContactDetailsSettings.address %}
       <div class="footer-info grid-item-5-8">
@@ -141,7 +140,7 @@
       </div>
     {% endif %}
     </div>
-    <div class="footer__bottom">
+    <div class="footer__bottom grid-1">
       <span class="footer__legal">
         <p>©2022 Mobles Ciurans.</p>
         <p>Tots els drets reservats</p>

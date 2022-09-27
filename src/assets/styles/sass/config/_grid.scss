@@ -20,6 +20,11 @@ html, body {
   padding: 0 var(--padding-sm);
   gap: var(--padding-sm);
 }
+// Grid sense padding
+.grid-3 {
+  display: grid;
+  grid-template-columns: var(--padding-lg) 1fr var(--padding-lg);
+}
 .grid-main {
   display: flex;
   flex-direction: column;
@@ -81,7 +86,7 @@ html, body {
 
 // Versió laptop i desktop
 @media (min-width: 1024px) {
-  .grid-1, .grid-2 {
+  .grid-1, .grid-2, .grid-3 {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(90px,1fr));
     grid-template-columns: repeat(12, minmax(auto, 1fr));

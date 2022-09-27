@@ -302,6 +302,11 @@ html, body {
   gap: var(--padding-sm);
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: var(--padding-lg) 1fr var(--padding-lg);
+}
+
 .grid-main {
   display: flex;
   flex-direction: column;
@@ -372,7 +377,7 @@ html, body {
 }
 
 @media (min-width: 1024px) {
-  .grid-1, .grid-2 {
+  .grid-1, .grid-2, .grid-3 {
     display: grid;
     grid-template-columns: repeat(12, minmax(auto, 1fr));
     justify-content: center;
@@ -442,8 +447,13 @@ html, body {
 .header .nav {
   display: flex;
   flex-direction: var(--flex-direction);
-  gap: var(--padding-sm) var(--padding-lg);
+  gap: 0 var(--padding-lg);
   justify-content: var(--justify-content);
+}
+.header .nav__link {
+  padding: var(--padding-sm) var(--padding-xlg);
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .footer .nav {
@@ -627,6 +637,7 @@ html, body {
   display: var(--display-menu);
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 .menu__top {
   display: flex;
@@ -648,6 +659,19 @@ html, body {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+.menu__btn button {
+  font-weight: 500;
+}
+.menu__lang-item {
+  text-transform: uppercase;
+}
+.menu__lang-item.is-active {
+  font-weight: bold;
+}
+.menu__lang-item + .menu__lang-item::before {
+  content: "|";
+  padding-right: var(--padding-xxsm);
 }
 
 .prefooter {
@@ -851,6 +875,10 @@ html, body {
 .home .overlay__button {
   align-self: flex-start;
 }
+.home .overlay__button a {
+  color: var(--white);
+  font-weight: 500;
+}
 .home .overlay__image {
   order: 2;
   grid-column: 9/span 3;
@@ -860,6 +888,29 @@ html, body {
 .home .overlay__image img {
   width: 100%;
   height: auto;
+}
+.home .collections__title {
+  grid-column: 2;
+  font-weight: 400;
+  padding-bottom: var(--padding-lg);
+}
+.home .collections__item {
+  grid-column: 1/-1;
+  position: relative;
+}
+.home .collections__item-image img {
+  margin-bottom: -5px;
+}
+.home .collections__item-shade {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0deg, 0%, 0%, 0.3);
+}
+.home .collections__item-title {
+  position: absolute;
+  bottom: 0;
+  left: var(--padding-lg);
+  color: var(--white);
 }
 
 /*# sourceMappingURL=styles.css.map */

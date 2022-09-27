@@ -30,28 +30,34 @@
     {% endif %}
 
     {% if page.display_collections_section %}
-      <h3>Catàleg</h3>
+    <section class="collections grid-3">
+      <h3 class="collections__title title-1--light">Catàleg</h3>
         {% if page.display_collection_1 %}
+        <div class="collections__item">
           <a href="{% pageurl page.collection_1_page %}">
-            <div>
-              <p>{{ page.collection_1_title }}</p>
+            <div class="collections__item-image">
               <!--Canvia la mida de la imatge per la que toqui!-->
-              {% image page.collection_1_image width-400 %}
+              {% image page.collection_1_image width-700 %}
+            </div>
+            <div class="collections__item-title title-1">
+              <p>{{ page.collection_1_title }}</p>
             </div>
           </a>
-        {% else %}
-            <br><em>A la col·lecció 1 li falta alguna dada.</em>
+        </div>
         {% endif %}
         {% if page.display_collection_2 %}
+        <div class="collections__item">
           <a href="{% pageurl page.collection_2_page %}">
-            <div>
-              <p>{{ page.collection_2_title }}</p>
+            <div class="collections__item-image">
               <!--Canvia la mida de la imatge per la que toqui!-->
-              {% image page.collection_2_image width-400 %}
+              {% image page.collection_2_image width-700 %}
+            </div>
+            <div class="collection__item-shade"></div>
+            <div class="collections__item-title title-1">
+              <p>{{ page.collection_2_title }}</p>
             </div>
           </a>
-        {% else %}
-            <br><em>A la col·lecció 2 li falta alguna dada.</em>
+        </div>
         {% endif %}
         {% if page.display_collection_3 %}
           <a href="{% pageurl page.collection_3_page %}">
@@ -68,6 +74,7 @@
         <br><em>Cap de les 3 col·leccions té totes les dades, per tant no es mostra
         la secció Catàleg.</em>
       {% endif %}
+    </section>
 
     {% if page.display_custom_projects_section %}
       <h3>Projectes a mida</h3>
