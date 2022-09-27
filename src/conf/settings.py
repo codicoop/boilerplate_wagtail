@@ -133,6 +133,17 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "conf.urls"
 
+develop_loaders = [
+    "django.template.loaders.filesystem.Loader",
+    "django.template.loaders.app_directories.Loader",
+]
+production_loaders = [
+    ("django.template.loaders.cached.Loader", [
+        "django.template.loaders.filesystem.Loader",
+        "django.template.loaders.app_directories.Loader",
+        "path.to.custom.Loader",
+    ])
+]
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -148,10 +159,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "wagtail.contrib.settings.context_processors.settings",
             ],
-            "loaders": [
-                'django.template.loaders.filesystem.Loader',
-                "django.template.loaders.app_directories.Loader",
-            ],
+            "loaders": develop_loaders if DEBUG else production_loaders,
         },
     },
 ]
