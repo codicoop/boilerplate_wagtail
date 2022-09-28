@@ -5694,12 +5694,12 @@
     "numchild": 0,
     "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
     "locale": 1,
-    "latest_revision": 26,
+    "latest_revision": 29,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-11T08:55:15.251Z",
-    "last_published_at": "2022-09-23T12:52:44.569Z",
-    "live_revision": 26,
+    "last_published_at": "2022-09-28T09:44:24.835Z",
+    "live_revision": 29,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5720,7 +5720,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-23T12:52:44.516Z",
+    "latest_revision_created_at": "2022-09-28T09:44:24.793Z",
     "alias_of": null
   }
 },
@@ -5733,12 +5733,12 @@
     "numchild": 0,
     "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
     "locale": 1,
-    "latest_revision": 25,
+    "latest_revision": 28,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-11T09:55:55.433Z",
-    "last_published_at": "2022-09-23T12:52:29.989Z",
-    "live_revision": 25,
+    "last_published_at": "2022-09-28T09:43:29.275Z",
+    "live_revision": 28,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5759,7 +5759,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-23T12:52:29.930Z",
+    "latest_revision_created_at": "2022-09-28T09:43:29.228Z",
     "alias_of": null
   }
 },
@@ -7770,6 +7770,433 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:36:32.309Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Nordic",
+    "content": {
+      "pk": 6,
+      "pdf": 2,
+      "live": true,
+      "path": "0001000100040001",
+      "slug": "collecció-nordic",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Nordic",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/collecció-nordic/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+      "draft_title": "Col·lecció Nordic",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 25,
+      "show_in_menus": false,
+      "latest_revision": 25,
+      "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+      "collection_items": [
+        {
+          "pk": 1,
+          "page": 6,
+          "image": 8,
+          "model": 11,
+          "title": "Moble televisió Jörn i Bufet Sovik",
+          "types": [
+            {
+              "pk": 1,
+              "page": 1,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            15,
+            16,
+            30,
+            33
+          ],
+          "sort_order": 0
+        },
+        {
+          "pk": 2,
+          "page": 6,
+          "image": 7,
+          "model": 11,
+          "title": "Moble Jörn, Dora i Brei",
+          "types": [
+            {
+              "pk": 2,
+              "page": 2,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1
+          ],
+          "sort_order": 1
+        },
+        {
+          "pk": 3,
+          "page": 6,
+          "image": 8,
+          "model": 14,
+          "title": "Buffet Sovik",
+          "types": [
+            {
+              "pk": 3,
+              "page": 3,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1
+          ],
+          "sort_order": 2
+        },
+        {
+          "pk": 4,
+          "page": 6,
+          "image": 9,
+          "model": 15,
+          "title": "Llit Brevik",
+          "types": [
+            {
+              "pk": 4,
+              "page": 4,
+              "item_type": 3,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1
+          ],
+          "sort_order": 3
+        }
+      ],
+      "last_published_at": "2022-09-23T12:52:29.989Z",
+      "first_published_at": "2022-08-11T09:55:55.433Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-23T12:52:29.930Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:43:29.228Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Nordic",
+    "content": {
+      "pk": 6,
+      "pdf": 2,
+      "live": true,
+      "path": "0001000100040001",
+      "slug": "collecció-nordic",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Nordic",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/collecció-nordic/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+      "draft_title": "Col·lecció Nordic",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 25,
+      "show_in_menus": false,
+      "latest_revision": 27,
+      "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+      "collection_items": [
+        {
+          "pk": 1,
+          "page": 6,
+          "image": 8,
+          "model": 11,
+          "title": "Moble televisió Jörn i Bufet Sovik",
+          "types": [
+            {
+              "pk": 1,
+              "page": 1,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            15,
+            16,
+            30,
+            33
+          ],
+          "sort_order": 0
+        },
+        {
+          "pk": 2,
+          "page": 6,
+          "image": 7,
+          "model": 11,
+          "title": "Moble Jörn, Dora i Brei",
+          "types": [
+            {
+              "pk": 2,
+              "page": 2,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sort_order": 1
+        },
+        {
+          "pk": 3,
+          "page": 6,
+          "image": 8,
+          "model": 14,
+          "title": "Buffet Sovik",
+          "types": [
+            {
+              "pk": 3,
+              "page": 3,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1,
+            8,
+            9,
+            10
+          ],
+          "sort_order": 2
+        },
+        {
+          "pk": 4,
+          "page": 6,
+          "image": 9,
+          "model": 15,
+          "title": "Llit Brevik",
+          "types": [
+            {
+              "pk": 4,
+              "page": 4,
+              "item_type": 3,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1,
+            23,
+            33
+          ],
+          "sort_order": 3
+        }
+      ],
+      "last_published_at": "2022-09-23T12:52:29.989Z",
+      "first_published_at": "2022-08-11T09:55:55.433Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "latest_revision_created_at": "2022-09-28T09:36:32.309Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:44:24.793Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Nova col·lecció Àrea",
+    "content": {
+      "pk": 4,
+      "pdf": 1,
+      "live": true,
+      "path": "0001000100040002",
+      "slug": "nova-collecció-àrea",
+      "depth": 4,
+      "owner": 1,
+      "title": "Nova col·lecció Àrea",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/nova-collecció-àrea/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
+      "draft_title": "Nova col·lecció Àrea",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 26,
+      "show_in_menus": false,
+      "latest_revision": 26,
+      "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
+      "collection_items": [
+        {
+          "pk": 5,
+          "page": 4,
+          "image": 2,
+          "model": 1,
+          "title": "Serenitat, calidesa i benestar",
+          "types": [
+            {
+              "pk": 5,
+              "page": 5,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            1,
+            2
+          ],
+          "sort_order": 0
+        },
+        {
+          "pk": 6,
+          "page": 4,
+          "image": 3,
+          "model": 1,
+          "title": "Serenitat, calidesa i benestar",
+          "types": [
+            {
+              "pk": 6,
+              "page": 6,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            3,
+            4
+          ],
+          "sort_order": 1
+        },
+        {
+          "pk": 7,
+          "page": 4,
+          "image": 4,
+          "model": 2,
+          "title": "Els clàssics renovats",
+          "types": [
+            {
+              "pk": 7,
+              "page": 7,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            15,
+            16
+          ],
+          "sort_order": 2
+        },
+        {
+          "pk": 8,
+          "page": 4,
+          "image": 5,
+          "model": 2,
+          "title": "Els clàssics renovats",
+          "types": [
+            {
+              "pk": 8,
+              "page": 8,
+              "item_type": 1,
+              "sort_order": 0
+            }
+          ],
+          "finishings": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "sort_order": 3
+        }
+      ],
+      "last_published_at": "2022-09-23T12:52:44.569Z",
+      "first_published_at": "2022-08-11T08:55:15.251Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-23T12:52:44.516Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -9416,6 +9843,116 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 71,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:36:32.325Z",
+    "uuid": "4facaf0c-007c-43ef-b5ca-82d0042c1389",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 27,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 72,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:43:29.245Z",
+    "uuid": "c29588ed-10be-4dcc-a1a5-0c634c4ead3b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 28,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 73,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-28T09:43:29.314Z",
+    "uuid": "c29588ed-10be-4dcc-a1a5-0c634c4ead3b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 28,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 74,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:44:24.805Z",
+    "uuid": "08da6513-da02-4c83-aa56-d9ab96b30ed8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 29,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 75,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-28T09:44:24.876Z",
+    "uuid": "08da6513-da02-4c83-aa56-d9ab96b30ed8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 29,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -9520,7 +10057,13 @@
     "page": 6,
     "title": "Moble televisió Jörn i Bufet Sovik",
     "image": 8,
-    "model": 11
+    "model": 11,
+    "finishings": [
+      15,
+      16,
+      30,
+      33
+    ]
   }
 },
 {
@@ -9531,7 +10074,14 @@
     "page": 6,
     "title": "Moble Jörn, Dora i Brei",
     "image": 7,
-    "model": 11
+    "model": 11,
+    "finishings": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   }
 },
 {
@@ -9542,7 +10092,13 @@
     "page": 6,
     "title": "Buffet Sovik",
     "image": 8,
-    "model": 14
+    "model": 14,
+    "finishings": [
+      1,
+      8,
+      9,
+      10
+    ]
   }
 },
 {
@@ -9553,7 +10109,12 @@
     "page": 6,
     "title": "Llit Brevik",
     "image": 9,
-    "model": 15
+    "model": 15,
+    "finishings": [
+      1,
+      23,
+      33
+    ]
   }
 },
 {
@@ -9564,7 +10125,11 @@
     "page": 4,
     "title": "Serenitat, calidesa i benestar",
     "image": 2,
-    "model": 1
+    "model": 1,
+    "finishings": [
+      1,
+      2
+    ]
   }
 },
 {
@@ -9575,7 +10140,11 @@
     "page": 4,
     "title": "Serenitat, calidesa i benestar",
     "image": 3,
-    "model": 1
+    "model": 1,
+    "finishings": [
+      3,
+      4
+    ]
   }
 },
 {
@@ -9586,7 +10155,11 @@
     "page": 4,
     "title": "Els clàssics renovats",
     "image": 4,
-    "model": 2
+    "model": 2,
+    "finishings": [
+      15,
+      16
+    ]
   }
 },
 {
@@ -9597,7 +10170,14 @@
     "page": 4,
     "title": "Els clàssics renovats",
     "image": 5,
-    "model": 2
+    "model": 2,
+    "finishings": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
   }
 },
 {
@@ -9775,7 +10355,7 @@
   "fields": {
     "translation_key": "36659b27-e17a-4180-9750-10f7c9c7b932",
     "locale": 1,
-    "name": "Roure 0"
+    "title": "Roure 0"
   }
 },
 {
@@ -9784,7 +10364,7 @@
   "fields": {
     "translation_key": "e35734f9-8050-44e8-bf07-aa8bde8ff4af",
     "locale": 1,
-    "name": "Roure 30"
+    "title": "Roure 30"
   }
 },
 {
@@ -9793,7 +10373,7 @@
   "fields": {
     "translation_key": "6095c5cd-ddd7-4ef6-b73a-b2712db863cb",
     "locale": 1,
-    "name": "Roure 60"
+    "title": "Roure 60"
   }
 },
 {
@@ -9802,7 +10382,7 @@
   "fields": {
     "translation_key": "e182d5ab-cd32-4832-9760-43b6cc174cd0",
     "locale": 1,
-    "name": "Roure 90"
+    "title": "Roure 90"
   }
 },
 {
@@ -9811,7 +10391,7 @@
   "fields": {
     "translation_key": "be14f0fb-af71-447b-ba06-869bd202ced3",
     "locale": 1,
-    "name": "Roure 75"
+    "title": "Roure 75"
   }
 },
 {
@@ -9820,7 +10400,7 @@
   "fields": {
     "translation_key": "1ee9a4ab-b2f0-4139-8016-0ccd92e7f450",
     "locale": 1,
-    "name": "Roure 15"
+    "title": "Roure 15"
   }
 },
 {
@@ -9829,7 +10409,7 @@
   "fields": {
     "translation_key": "7c72987d-bf00-44cc-a5aa-3f1589b2da68",
     "locale": 1,
-    "name": "Roure 20"
+    "title": "Roure 20"
   }
 },
 {
@@ -9838,7 +10418,7 @@
   "fields": {
     "translation_key": "1aef47c1-bd58-4601-a029-213a8c51d3bb",
     "locale": 1,
-    "name": "Eucaliptus"
+    "title": "Eucaliptus"
   }
 },
 {
@@ -9847,7 +10427,7 @@
   "fields": {
     "translation_key": "44a87b72-1e3b-4efc-8a35-143a47328a1f",
     "locale": 1,
-    "name": "Noguera 06"
+    "title": "Noguera 06"
   }
 },
 {
@@ -9856,7 +10436,7 @@
   "fields": {
     "translation_key": "9cb54c5b-48b9-455f-b4b5-63d7563fd96e",
     "locale": 1,
-    "name": "Noguera 02"
+    "title": "Noguera 02"
   }
 },
 {
@@ -9865,7 +10445,7 @@
   "fields": {
     "translation_key": "b567edfa-f59b-4f82-b12f-889504f1f6b6",
     "locale": 1,
-    "name": "Noguera 07"
+    "title": "Noguera 07"
   }
 },
 {
@@ -9874,7 +10454,7 @@
   "fields": {
     "translation_key": "576df22e-7e06-4901-a897-5b510bc9db68",
     "locale": 1,
-    "name": "Noguera 10"
+    "title": "Noguera 10"
   }
 },
 {
@@ -9883,7 +10463,7 @@
   "fields": {
     "translation_key": "f5e7a61e-c556-445c-90b1-1fb18440058a",
     "locale": 1,
-    "name": "Cirerer Noguera"
+    "title": "Cirerer Noguera"
   }
 },
 {
@@ -9892,7 +10472,7 @@
   "fields": {
     "translation_key": "50b03c86-7e9d-4873-8df8-49cbd3f0f4d6",
     "locale": 1,
-    "name": "Cirerer Natural"
+    "title": "Cirerer Natural"
   }
 },
 {
@@ -9901,7 +10481,7 @@
   "fields": {
     "translation_key": "ceb9dbd2-49aa-4667-be90-cc88d93cd4fe",
     "locale": 1,
-    "name": "Blanc pur"
+    "title": "Blanc pur"
   }
 },
 {
@@ -9910,7 +10490,7 @@
   "fields": {
     "translation_key": "4808f2d4-e966-4b08-8646-60eeb5e13c8b",
     "locale": 1,
-    "name": "Blanc Marfil"
+    "title": "Blanc Marfil"
   }
 },
 {
@@ -9919,7 +10499,7 @@
   "fields": {
     "translation_key": "8dfcadbd-7181-4642-9f69-340d6196cd86",
     "locale": 1,
-    "name": "Beix Natural"
+    "title": "Beix Natural"
   }
 },
 {
@@ -9928,7 +10508,7 @@
   "fields": {
     "translation_key": "1d10dca5-a4af-4a15-85b8-a9996436c568",
     "locale": 1,
-    "name": "Beix Pastel"
+    "title": "Beix Pastel"
   }
 },
 {
@@ -9937,7 +10517,7 @@
   "fields": {
     "translation_key": "82ddb93a-2345-471d-a61e-9b6ffc771889",
     "locale": 1,
-    "name": "Beix Sorra"
+    "title": "Beix Sorra"
   }
 },
 {
@@ -9946,7 +10526,7 @@
   "fields": {
     "translation_key": "c2697a21-157a-4c0d-bf47-13ee0f9a82f0",
     "locale": 1,
-    "name": "Beix Sílex"
+    "title": "Beix Sílex"
   }
 },
 {
@@ -9955,7 +10535,7 @@
   "fields": {
     "translation_key": "b9273aa3-3982-4314-98ae-0a72d7b6ffa2",
     "locale": 1,
-    "name": "Gris Nòrdic"
+    "title": "Gris Nòrdic"
   }
 },
 {
@@ -9964,7 +10544,7 @@
   "fields": {
     "translation_key": "222fdc19-7cfb-4139-87ee-124bb49d0cf5",
     "locale": 1,
-    "name": "Gris Terra"
+    "title": "Gris Terra"
   }
 },
 {
@@ -9973,7 +10553,7 @@
   "fields": {
     "translation_key": "4085381f-340c-408a-baa5-6f275de73fd2",
     "locale": 1,
-    "name": "Gris Antracita"
+    "title": "Gris Antracita"
   }
 },
 {
@@ -9982,7 +10562,7 @@
   "fields": {
     "translation_key": "8b8ce4f1-c669-4823-b7ad-1fc2867be6ad",
     "locale": 1,
-    "name": "Negre Infinit"
+    "title": "Negre Infinit"
   }
 },
 {
@@ -9991,7 +10571,7 @@
   "fields": {
     "translation_key": "47ab542c-12b8-491d-be40-acc4e35f4cae",
     "locale": 1,
-    "name": "Gris Perla"
+    "title": "Gris Perla"
   }
 },
 {
@@ -10000,7 +10580,7 @@
   "fields": {
     "translation_key": "8fe7c215-eb80-4a83-ac46-0c652873db16",
     "locale": 1,
-    "name": "Gris Pedra"
+    "title": "Gris Pedra"
   }
 },
 {
@@ -10009,7 +10589,7 @@
   "fields": {
     "translation_key": "e1e5bdc6-23a7-4bf8-a535-958db776e532",
     "locale": 1,
-    "name": "Gris Plom"
+    "title": "Gris Plom"
   }
 },
 {
@@ -10018,7 +10598,7 @@
   "fields": {
     "translation_key": "d8626d4a-bb6c-4216-819d-0e58a8b540a6",
     "locale": 1,
-    "name": "Taronja Terracota"
+    "title": "Taronja Terracota"
   }
 },
 {
@@ -10027,7 +10607,7 @@
   "fields": {
     "translation_key": "8aff345e-ae13-48c6-b04a-80cfe1f60bc1",
     "locale": 1,
-    "name": "Groc Mostassa"
+    "title": "Groc Mostassa"
   }
 },
 {
@@ -10036,7 +10616,7 @@
   "fields": {
     "translation_key": "7721b947-9334-4315-b8aa-efff03bb8fee",
     "locale": 1,
-    "name": "Blau Fosc"
+    "title": "Blau Fosc"
   }
 },
 {
@@ -10045,7 +10625,7 @@
   "fields": {
     "translation_key": "abf4e6c7-1c2c-468a-914c-c5a1246d6057",
     "locale": 1,
-    "name": "Blau Acer"
+    "title": "Blau Acer"
   }
 },
 {
@@ -10054,7 +10634,7 @@
   "fields": {
     "translation_key": "a882ffd7-83c7-4bb3-a137-33ed2ce78074",
     "locale": 1,
-    "name": "Blau Turquesa"
+    "title": "Blau Turquesa"
   }
 },
 {
@@ -10063,7 +10643,7 @@
   "fields": {
     "translation_key": "8ebaf4da-8371-4a93-b21b-a8da2762f469",
     "locale": 1,
-    "name": "Blau Clar"
+    "title": "Blau Clar"
   }
 },
 {
@@ -10072,7 +10652,7 @@
   "fields": {
     "translation_key": "17d0583c-f397-4de4-938d-4bfe28c958c0",
     "locale": 1,
-    "name": "Blau Cel"
+    "title": "Blau Cel"
   }
 },
 {
@@ -10081,7 +10661,7 @@
   "fields": {
     "translation_key": "dad5f225-030c-4f37-8430-bfdb635cbb00",
     "locale": 1,
-    "name": "Morat Albergínia"
+    "title": "Morat Albergínia"
   }
 },
 {
@@ -10090,7 +10670,7 @@
   "fields": {
     "translation_key": "c1ff24e8-685b-4d1a-98fa-c4eb2afa0f2d",
     "locale": 1,
-    "name": "Vermell Òxid"
+    "title": "Vermell Òxid"
   }
 },
 {
@@ -10099,7 +10679,7 @@
   "fields": {
     "translation_key": "4a084b27-1269-4d7d-9255-05b489c522c0",
     "locale": 1,
-    "name": "Vermell Cirera"
+    "title": "Vermell Cirera"
   }
 },
 {
@@ -10108,7 +10688,7 @@
   "fields": {
     "translation_key": "fd244d3e-8f9b-4683-9f1b-b8666b1e58e5",
     "locale": 1,
-    "name": "Rosa Fosc"
+    "title": "Rosa Fosc"
   }
 },
 {
@@ -10117,7 +10697,7 @@
   "fields": {
     "translation_key": "d248523f-c7c8-429b-9a4e-5c477f769010",
     "locale": 1,
-    "name": "Rosa Palo"
+    "title": "Rosa Palo"
   }
 },
 {
@@ -10126,7 +10706,7 @@
   "fields": {
     "translation_key": "49ffb7e2-b924-4bf1-923a-a5238caaf13a",
     "locale": 1,
-    "name": "Calacatta"
+    "title": "Calacatta"
   }
 },
 {
@@ -10135,7 +10715,7 @@
   "fields": {
     "translation_key": "a9d322e6-0497-40b8-879f-0411399b84e6",
     "locale": 1,
-    "name": "Atzabeja"
+    "title": "Atzabeja"
   }
 },
 {
@@ -10144,7 +10724,7 @@
   "fields": {
     "translation_key": "f66f4846-7110-4b20-9db9-1cd76c3ef006",
     "locale": 1,
-    "name": "Bronze Daurat"
+    "title": "Bronze Daurat"
   }
 },
 {
@@ -10153,7 +10733,7 @@
   "fields": {
     "translation_key": "6c80da38-a532-4845-86e5-1a8bdb20ed97",
     "locale": 1,
-    "name": "Bronze Torrat"
+    "title": "Bronze Torrat"
   }
 },
 {

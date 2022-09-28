@@ -2,11 +2,12 @@ from django.apps import apps
 from django.db import models
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
-from modelcluster.fields import ParentalKey
+from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import InlinePanel, HelpPanel
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.models import Orderable
+from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from apps.base.models import BasePage, MenuLabelMixin
 
@@ -144,9 +145,20 @@ class CollectionItem(Orderable, ClusterableModel):
         help_text=mark_safe(
             _(
                 "The model is not in the list? To add more, go to "
-                '<a href="%(url)s" target="_blank">Snippets</a>.'
+                '<a href="%(url)s" target="_blank">Models</a>.'
             )
             % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
+        ),
+    )
+    finishings = ParentalManyToManyField(
+        "cms_site.CollectionItemFinishing",
+        related_name="finishings",
+        help_text=mark_safe(
+            _(
+                "The finishing is not in the list? To add more, go to "
+                '<a href="%(url)s" target="_blank">Finishings</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
         ),
     )
 
@@ -155,42 +167,18 @@ class CollectionItem(Orderable, ClusterableModel):
         FieldPanel("image"),
         FieldPanel("model"),
         InlinePanel(
-            "finishings",
-            heading=_("Finishings"),
-            label=_("Finishing"),
-        ),
-        InlinePanel(
             "types",
-            heading=_("Types"),
-            label=_("Type"),
+            heading=_("Typologies"),
+            label=_("Typology"),
+        ),
+        AutocompletePanel(
+            "finishings",
+            target_model="cms_site.CollectionItemFinishing",
         ),
     ]
 
     def __str__(self):
         return self.title
-
-
-class ItemFinishings(Orderable, models.Model):
-    page = ParentalKey(CollectionItem, related_name="finishings")
-    finishing = models.ForeignKey(
-        "cms_site.CollectionItemFinishing",
-        verbose_name=_("Finishing"),
-        on_delete=models.CASCADE,
-        help_text=mark_safe(
-            _(
-                "The finishing is not in the list? To add more, go to "
-                '<a href="%(url)s" target="_blank">Snippets</a>.'
-            )
-            % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
-        ),
-    )
-
-    panels = [
-        FieldPanel("finishing"),
-    ]
-
-    def __str__(self):
-        return self.finishing.name
 
 
 class ItemTypes(Orderable, models.Model):
@@ -202,7 +190,7 @@ class ItemTypes(Orderable, models.Model):
         help_text=mark_safe(
             _(
                 "The type is not in the list? To add more, go to "
-                '<a href="%(url)s" target="_blank">Snippets</a>.'
+                '<a href="%(url)s" target="_blank">Typologies</a>.'
             )
             % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
         ),

@@ -27,8 +27,8 @@ class FinishingsModelAdmin(ModelAdmin):
     model = CollectionItemFinishing
     menu_label = _("Finishings")
     menu_icon = "plus-inverse"
-    list_display = ("name", )
-    search_fields = ("name", )
+    list_display = ("title", )
+    search_fields = ("title", )
     inspect_view_enabled = True
 
 
