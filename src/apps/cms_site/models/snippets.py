@@ -5,10 +5,10 @@ from wagtail.models import TranslatableMixin
 
 
 class CollectionItemType(TranslatableMixin):
-    name = models.CharField(_("name"), max_length=255)
+    title = models.CharField(_("name"), max_length=255)
 
     panels = [
-        FieldPanel("name"),
+        FieldPanel("title"),
     ]
 
     class Meta(TranslatableMixin.Meta):
@@ -16,7 +16,7 @@ class CollectionItemType(TranslatableMixin):
         verbose_name_plural = _("Collection item types")
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
 class CollectionItemFinishing(TranslatableMixin):

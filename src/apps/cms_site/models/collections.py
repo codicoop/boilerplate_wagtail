@@ -161,32 +161,9 @@ class CollectionItem(Orderable, ClusterableModel):
             % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
         ),
     )
-
-    panels = [
-        FieldPanel("title"),
-        FieldPanel("image"),
-        FieldPanel("model"),
-        InlinePanel(
-            "types",
-            heading=_("Typologies"),
-            label=_("Typology"),
-        ),
-        AutocompletePanel(
-            "finishings",
-            target_model="cms_site.CollectionItemFinishing",
-        ),
-    ]
-
-    def __str__(self):
-        return self.title
-
-
-class ItemTypes(Orderable, models.Model):
-    page = ParentalKey(CollectionItem, related_name="types")
-    item_type = models.ForeignKey(
+    typologies = ParentalManyToManyField(
         "cms_site.CollectionItemType",
-        verbose_name=_("Type"),
-        on_delete=models.CASCADE,
+        related_name="typologies",
         help_text=mark_safe(
             _(
                 "The type is not in the list? To add more, go to "
@@ -197,8 +174,18 @@ class ItemTypes(Orderable, models.Model):
     )
 
     panels = [
-        FieldPanel("item_type"),
+        FieldPanel("title"),
+        FieldPanel("image"),
+        FieldPanel("model"),
+        AutocompletePanel(
+            "typologies",
+            target_model="cms_site.CollectionItemType",
+        ),
+        AutocompletePanel(
+            "finishings",
+            target_model="cms_site.CollectionItemFinishing",
+        ),
     ]
 
     def __str__(self):
-        return self.item_type.name
+        return self.title

@@ -36,8 +36,8 @@ class CollectionItemTypeModelAdmin(ModelAdmin):
     model = CollectionItemType
     menu_label = _("Types")
     menu_icon = "plus-inverse"
-    list_display = ("name", )
-    search_fields = ("name", )
+    list_display = ("title", )
+    search_fields = ("title", )
     inspect_view_enabled = True
 
 

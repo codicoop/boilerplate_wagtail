@@ -5694,12 +5694,12 @@
     "numchild": 0,
     "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
     "locale": 1,
-    "latest_revision": 29,
+    "latest_revision": 32,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-11T08:55:15.251Z",
-    "last_published_at": "2022-09-28T09:44:24.835Z",
-    "live_revision": 29,
+    "last_published_at": "2022-09-28T09:54:25.680Z",
+    "live_revision": 32,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5720,7 +5720,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-28T09:44:24.793Z",
+    "latest_revision_created_at": "2022-09-28T09:54:25.642Z",
     "alias_of": null
   }
 },
@@ -5733,12 +5733,12 @@
     "numchild": 0,
     "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
     "locale": 1,
-    "latest_revision": 28,
+    "latest_revision": 31,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-11T09:55:55.433Z",
-    "last_published_at": "2022-09-28T09:43:29.275Z",
-    "live_revision": 28,
+    "last_published_at": "2022-09-28T09:54:00.054Z",
+    "live_revision": 31,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5759,7 +5759,7 @@
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-28T09:43:29.228Z",
+    "latest_revision_created_at": "2022-09-28T09:54:00.017Z",
     "alias_of": null
   }
 },
@@ -8197,6 +8197,382 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:53:57.333Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Nordic",
+    "content": {
+      "pk": 6,
+      "pdf": 2,
+      "live": true,
+      "path": "0001000100040001",
+      "slug": "collecció-nordic",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Nordic",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/collecció-nordic/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+      "draft_title": "Col·lecció Nordic",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 28,
+      "show_in_menus": false,
+      "latest_revision": 28,
+      "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+      "collection_items": [
+        {
+          "pk": 1,
+          "page": 6,
+          "image": 8,
+          "model": 11,
+          "title": "Moble televisió Jörn i Bufet Sovik",
+          "finishings": [
+            15,
+            16,
+            30,
+            33
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 2,
+          "page": 6,
+          "image": 7,
+          "model": 11,
+          "title": "Moble Jörn, Dora i Brei",
+          "finishings": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sort_order": 1,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 3,
+          "page": 6,
+          "image": 8,
+          "model": 14,
+          "title": "Buffet Sovik",
+          "finishings": [
+            1,
+            8,
+            9,
+            10
+          ],
+          "sort_order": 2,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 4,
+          "page": 6,
+          "image": 9,
+          "model": 15,
+          "title": "Llit Brevik",
+          "finishings": [
+            1,
+            23,
+            33
+          ],
+          "sort_order": 3,
+          "typologies": [
+            3
+          ]
+        }
+      ],
+      "last_published_at": "2022-09-28T09:43:29.275Z",
+      "first_published_at": "2022-08-11T09:55:55.433Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-28T09:43:29.228Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:54:00.017Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Nordic",
+    "content": {
+      "pk": 6,
+      "pdf": 2,
+      "live": true,
+      "path": "0001000100040001",
+      "slug": "collecció-nordic",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Nordic",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/collecció-nordic/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
+      "draft_title": "Col·lecció Nordic",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 28,
+      "show_in_menus": false,
+      "latest_revision": 30,
+      "translation_key": "b7c45ee9-0db6-47e8-be55-b3d1847cf1fc",
+      "collection_items": [
+        {
+          "pk": 1,
+          "page": 6,
+          "image": 8,
+          "model": 11,
+          "title": "Moble televisió Jörn i Bufet Sovik",
+          "finishings": [
+            15,
+            16,
+            30,
+            33
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 2,
+          "page": 6,
+          "image": 7,
+          "model": 11,
+          "title": "Moble Jörn, Dora i Brei",
+          "finishings": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sort_order": 1,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 3,
+          "page": 6,
+          "image": 8,
+          "model": 14,
+          "title": "Buffet Sovik",
+          "finishings": [
+            1,
+            8,
+            9,
+            10
+          ],
+          "sort_order": 2,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 4,
+          "page": 6,
+          "image": 9,
+          "model": 15,
+          "title": "Llit Brevik",
+          "finishings": [
+            1,
+            23,
+            33
+          ],
+          "sort_order": 3,
+          "typologies": [
+            3
+          ]
+        }
+      ],
+      "last_published_at": "2022-09-28T09:43:29.275Z",
+      "first_published_at": "2022-08-11T09:55:55.433Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "latest_revision_created_at": "2022-09-28T09:53:57.333Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "submitted_for_moderation": false,
+    "created_at": "2022-09-28T09:54:25.642Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Nova col·lecció Àrea",
+    "content": {
+      "pk": 4,
+      "pdf": 1,
+      "live": true,
+      "path": "0001000100040002",
+      "slug": "nova-collecció-àrea",
+      "depth": 4,
+      "owner": 1,
+      "title": "Nova col·lecció Àrea",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/cataleg/nova-collecció-àrea/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
+      "draft_title": "Nova col·lecció Àrea",
+      "content_type": 60,
+      "header_image": 10,
+      "live_revision": 29,
+      "show_in_menus": false,
+      "latest_revision": 29,
+      "translation_key": "5bc4a38e-eb4e-4f8a-b038-a71ca0065438",
+      "collection_items": [
+        {
+          "pk": 5,
+          "page": 4,
+          "image": 2,
+          "model": 1,
+          "title": "Serenitat, calidesa i benestar",
+          "finishings": [
+            1,
+            2
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 6,
+          "page": 4,
+          "image": 3,
+          "model": 1,
+          "title": "Serenitat, calidesa i benestar",
+          "finishings": [
+            3,
+            4
+          ],
+          "sort_order": 1,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 7,
+          "page": 4,
+          "image": 4,
+          "model": 2,
+          "title": "Els clàssics renovats",
+          "finishings": [
+            15,
+            16
+          ],
+          "sort_order": 2,
+          "typologies": [
+            1
+          ]
+        },
+        {
+          "pk": 8,
+          "page": 4,
+          "image": 5,
+          "model": 2,
+          "title": "Els clàssics renovats",
+          "finishings": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "sort_order": 3,
+          "typologies": [
+            1
+          ]
+        }
+      ],
+      "last_published_at": "2022-09-28T09:44:24.835Z",
+      "first_published_at": "2022-08-11T08:55:15.251Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-28T09:44:24.793Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -9953,6 +10329,116 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 76,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:53:57.346Z",
+    "uuid": "5ec1025c-509d-4e31-86f9-53aed4025a1c",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 30,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 77,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:54:00.029Z",
+    "uuid": "49f4a66a-6de4-4a9b-bfb2-4e83c15fc65f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 31,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 78,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Nordic",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-28T09:54:00.091Z",
+    "uuid": "49f4a66a-6de4-4a9b-bfb2-4e83c15fc65f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 31,
+    "content_changed": false,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 79,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2022-09-28T09:54:25.652Z",
+    "uuid": "e3569911-b7af-46a7-9868-d4e44c6e97c5",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 32,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 80,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Nova col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2022-09-28T09:54:25.714Z",
+    "uuid": "e3569911-b7af-46a7-9868-d4e44c6e97c5",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 32,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -10063,6 +10549,9 @@
       16,
       30,
       33
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10081,6 +10570,9 @@
       3,
       4,
       5
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10098,6 +10590,9 @@
       8,
       9,
       10
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10114,6 +10609,9 @@
       1,
       23,
       33
+    ],
+    "typologies": [
+      3
     ]
   }
 },
@@ -10129,6 +10627,9 @@
     "finishings": [
       1,
       2
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10144,6 +10645,9 @@
     "finishings": [
       3,
       4
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10159,6 +10663,9 @@
     "finishings": [
       15,
       16
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10177,6 +10684,9 @@
       32,
       33,
       34
+    ],
+    "typologies": [
+      1
     ]
   }
 },
@@ -10265,7 +10775,7 @@
   "fields": {
     "translation_key": "9e65e943-e90e-425f-98a0-473c822cb4ff",
     "locale": 1,
-    "name": "Menjador"
+    "title": "Menjador"
   }
 },
 {
@@ -10274,7 +10784,7 @@
   "fields": {
     "translation_key": "ee934808-bee8-4a3d-8eee-d7eebb3fc8ab",
     "locale": 1,
-    "name": "Dormitori"
+    "title": "Dormitori"
   }
 },
 {
