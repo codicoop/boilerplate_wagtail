@@ -95,9 +95,9 @@ class Collection(BasePage):
         :return: { id: name }
         """
         available_types = {
-            item_type.item_type.id: item_type.item_type.name
+            item_type.id: item_type.title
             for item in self.collection_items.all()
-            for item_type in item.types.all()
+            for item_type in item.typologies.all()
         }
         return available_types
 
@@ -106,7 +106,7 @@ class Collection(BasePage):
         See get_available_types comment.
         """
         available_finishings = {
-            finishing.finishing.id: finishing.finishing.name
+            finishing.id: finishing.title
             for item in self.collection_items.all()
             for finishing in item.finishings.all()
         }
