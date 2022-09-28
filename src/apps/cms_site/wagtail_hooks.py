@@ -1,13 +1,15 @@
+from django.utils.translation import gettext_lazy as _
 from wagtail import hooks
-from wagtail.contrib.modeladmin.options import ModelAdmin, \
-    modeladmin_register
+from wagtail.contrib.modeladmin.options import ModelAdmin, modeladmin_register
 from wagtail.images.models import Image
 from wagtail.models import Collection
 
-from apps.cms_site.models import CustomProject, CollectionItemFinishing, \
-    CollectionItemType
+from apps.cms_site.models import (
+    CollectionItemFinishing,
+    CollectionItemType,
+    CustomProject,
+)
 from apps.cms_site.models.snippets import CollectionItemModel
-from django.utils.translation import gettext_lazy as _
 
 
 @hooks.register("after_delete_page")
@@ -27,8 +29,8 @@ class FinishingsModelAdmin(ModelAdmin):
     model = CollectionItemFinishing
     menu_label = _("Finishings")
     menu_icon = "plus-inverse"
-    list_display = ("title", )
-    search_fields = ("title", )
+    list_display = ("title",)
+    search_fields = ("title",)
     inspect_view_enabled = True
 
 
@@ -36,8 +38,8 @@ class CollectionItemTypeModelAdmin(ModelAdmin):
     model = CollectionItemType
     menu_label = _("Types")
     menu_icon = "plus-inverse"
-    list_display = ("title", )
-    search_fields = ("title", )
+    list_display = ("title",)
+    search_fields = ("title",)
     inspect_view_enabled = True
 
 
@@ -45,8 +47,8 @@ class CollectionItemModelModelAdmin(ModelAdmin):
     model = CollectionItemModel
     menu_label = _("Models")
     menu_icon = "plus-inverse"
-    list_display = ("name", )
-    search_fields = ("name", )
+    list_display = ("name",)
+    search_fields = ("name",)
     inspect_view_enabled = True
 
 
