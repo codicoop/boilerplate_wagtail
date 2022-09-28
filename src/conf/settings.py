@@ -80,6 +80,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Application definition
 INSTALLED_APPS = [
     "maintenance_mode",
+    "wagtailautocomplete",
     "wagtail_localize",
     "wagtail_localize.locales",
     "wagtail.contrib.forms",

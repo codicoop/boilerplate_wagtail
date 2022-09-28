@@ -1,11 +1,15 @@
 from django.apps import apps
 from django.db import models
+from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
+from modelcluster.fields import ParentalKey, ParentalManyToManyField
+from modelcluster.models import ClusterableModel
+from wagtail.admin.panels import HelpPanel, InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.fields import StreamField
+from wagtail.models import Orderable
+from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from apps.base.models import BasePage, MenuLabelMixin
-from apps.cms_site.blocks import CollectionItem
 
 
 class CollectionsPage(MenuLabelMixin, BasePage):
@@ -13,15 +17,29 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
     max_count = 1
-    template = "pages/collections_page.html"
+    template = "pages/collections/page.html"
+
+    content_panels = BasePage.content_panels + [
+        HelpPanel(
+            _(
+                "To manage the list of collections that appear in this section"
+                " you must edit the Home page, as the information is taken "
+                "from there."
+            )
+        ),
+    ]
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
-        collection_page_model = apps.get_model("cms_site", "Collection")
-        collection_pages = collection_page_model.objects.live()
+        """
+        Passing the home page to the view because for the list of collections
+        we'll be using the configuration set there.
+        """
+        home_page_model = apps.get_model("cms_site", "HomePage")
+        home_page_obj = home_page_model.objects.first()
         context.update(
             {
-                "collections": collection_pages,
+                "home_page": home_page_obj or None,
             }
         )
         return context
@@ -37,21 +55,18 @@ class Collection(BasePage):
         on_delete=models.SET_NULL,
         related_name="+",
     )
-    items_list = StreamField(
-        [
-            ("item", CollectionItem()),
-        ],
-        verbose_name=_("Compositions, renders and photos"),
-        use_json_field=True,
-    )
 
     content_panels = BasePage.content_panels + [
         FieldPanel("description"),
         FieldPanel("pdf"),
-        FieldPanel("items_list"),
+        InlinePanel(
+            "collection_items",
+            heading=_("Collection items"),
+            label=_("Collection item"),
+        ),
     ]
 
-    template = "cms_site/collections/collection.html"
+    template = "pages/collections/collection.html"
     parent_page_types = ["CollectionsPage"]
     max_count = 3
 
@@ -71,23 +86,106 @@ class Collection(BasePage):
         return context
 
     def get_available_types(self):
-        available_types = set()
-        for item in self.items_list:
-            available_types = {
-                item_type for item_type in dict(item.__dict__["value"])["item_types"]
-            }
+        """
+        The Collection is going to have N items (the photo gallery), and we
+        want the front to offer filters by Type, Finishing and Model.
+        In order to limit the list of options in those filters to the ones that
+        at least one of the CollectionItem contains, we loop through all of
+        them.
+        :return: { id: name }
+        """
+        available_types = {
+            item_type.item_type.id: item_type.item_type.name
+            for item in self.collection_items.all()
+            for item_type in item.types.all()
+        }
         return available_types
 
     def get_available_finishings(self):
-        available_finishings = set()
-        for item in self.items_list:
-            available_finishings = {
-                finishing for finishing in dict(item.__dict__["value"])["finishings"]
-            }
+        """
+        See get_available_types comment.
+        """
+        available_finishings = {
+            finishing.finishing.id: finishing.finishing.name
+            for item in self.collection_items.all()
+            for finishing in item.finishings.all()
+        }
         return available_finishings
 
     def get_available_models(self):
-        available_models = set()
-        for item in self.items_list:
-            available_models.add(dict(item.__dict__["value"])["model"])
+        """
+        See get_available_types comment
+        """
+        available_models = {
+            item.model.id: item.model.name for item in self.collection_items.all()
+        }
         return available_models
+
+    def __str__(self):
+        return self.title
+
+
+class CollectionItem(Orderable, ClusterableModel):
+    page = ParentalKey(
+        Collection,
+        on_delete=models.CASCADE,
+        related_name="collection_items",
+    )
+    title = models.CharField(_("Title"), max_length=80)
+    image = models.ForeignKey(
+        "wagtailimages.Image",
+        verbose_name=_("Image"),
+        on_delete=models.CASCADE,
+        related_name="+",
+    )
+    model = models.ForeignKey(
+        "cms_site.CollectionItemModel",
+        verbose_name=_("Model"),
+        on_delete=models.CASCADE,
+        help_text=mark_safe(
+            _(
+                "The model is not in the list? To add more, go to "
+                '<a href="%(url)s" target="_blank">Models</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
+        ),
+    )
+    finishings = ParentalManyToManyField(
+        "cms_site.CollectionItemFinishing",
+        related_name="finishings",
+        help_text=mark_safe(
+            _(
+                "The finishing is not in the list? To add more, go to "
+                '<a href="%(url)s" target="_blank">Finishings</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
+        ),
+    )
+    typologies = ParentalManyToManyField(
+        "cms_site.CollectionItemType",
+        related_name="typologies",
+        help_text=mark_safe(
+            _(
+                "The type is not in the list? To add more, go to "
+                '<a href="%(url)s" target="_blank">Typologies</a>.'
+            )
+            % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
+        ),
+    )
+
+    panels = [
+        FieldPanel("title"),
+        FieldPanel("image"),
+        FieldPanel("model"),
+        AutocompletePanel(
+            "typologies",
+            target_model="cms_site.CollectionItemType",
+        ),
+        AutocompletePanel(
+            "finishings",
+            target_model="cms_site.CollectionItemFinishing",
+        ),
+    ]
+
+    def __str__(self):
+        return self.title

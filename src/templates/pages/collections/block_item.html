@@ -1,17 +1,17 @@
 {% load wagtailimages_tags %}
 
-<p>Item title: {{ value.title }}</p>
+<p>Item title: {{ item.title }}</p>
 <!--Canvia la mida de la imatge per la que toqui!-->
-<p>Image: {% image value.image width-400 %}</p>
-<p>Model: {{ value.model }}</p>
+<p>Image: {% image item.image width-400 %}</p>
+<p>Model: {{ item.model }}</p>
 
-{% for item_type in value.item_types %}
+{% for item_type in item.types.all %}
   <p>Item type: {{ item_type }}</p>
 {% empty %}
 <p>This item don't have any type</p>
 {% endfor %}
 
-{% for finishing in value.finishings %}
+{% for finishing in item.finishings.all %}
   <p>Item type: {{ finishing }}</p>
 {% empty %}
 <p>This item don't have any finishing</p>
