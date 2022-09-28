@@ -11,7 +11,7 @@
 
 <p>Links a altres col·leccions per muntar el submenú:
 {% for collection in collections %}
-  <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+  <a href="{% pageurl collection %}">{{ collection.specific.title }}</a>
 {% empty %}
   No hi ha cap altra col·lecció.
 {% endfor %}
@@ -31,29 +31,42 @@ disponibles caldrà passar-les a través de variables JS, però de moment
 ho poso com a HTML per tenir un punt de partida.</p>
 <p>Llistat dels Models:</p>
 <ul>
-  {% for model in available_models %}
-  <li>{{ model }}</li>
+  {% for id, name in available_models.items %}
+  <li>ID: {{ id }}, nom: {{ name }}</li>
   {% endfor %}
 </ul>
 
 <p>Llistat dels Tipus:</p>
 <ul>
-  {% for item_type in available_types %}
-  <li>{{ item_type }}</li>
+  {% for id, name in available_types.items %}
+  <li>ID: {{ id }}, nom: {{ name }}</li>
   {% endfor %}
 </ul>
 
 <p>Llistat dels Acabats:</p>
 <ul>
-  {% for finishing in available_finishings %}
-  <li>{{ finishing }}</li>
+  {% for id, name in available_finishings.items %}
+  <li>ID: {{ id }}, nom: {{ name }}</li>
   {% endfor %}
 </ul>
+<!--
+En tots aquests llistats ho he posat de manera que disposis de la ID, per si de
+cas la necessites per fer funcionar els filtres.
+Si només vols els noms, el codi de cada llista es pot simplificar i quedaria així:
+<ul>
+  {% for name in available_models.values %}
+  <li>{{ name }}</li>
+  {% endfor %}
+</ul>
+
+-->
 
 <h3>Items/fotos de la col·lecció</h3>
 <em>L'HTML de cada block és a cms_site/collections/block_item.html</em>
 <items_block>
-  {{ page.items_list }}
+  {% for item in page.collection_items.all %}
+    {% include "./block_item.html" with item=item %}
+  {% endfor %}
 </items_block>
 
 {% endblock %}

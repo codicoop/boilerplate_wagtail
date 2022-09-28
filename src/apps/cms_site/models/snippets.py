@@ -2,15 +2,13 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel
 from wagtail.models import TranslatableMixin
-from wagtail.snippets.models import register_snippet
 
 
-@register_snippet
 class CollectionItemType(TranslatableMixin):
-    name = models.CharField(_("name"), max_length=255)
+    title = models.CharField(_("name"), max_length=255)
 
     panels = [
-        FieldPanel("name"),
+        FieldPanel("title"),
     ]
 
     class Meta(TranslatableMixin.Meta):
@@ -18,15 +16,14 @@ class CollectionItemType(TranslatableMixin):
         verbose_name_plural = _("Collection item types")
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
-@register_snippet
 class CollectionItemFinishing(TranslatableMixin):
-    name = models.CharField(_("name"), max_length=255)
+    title = models.CharField(_("name"), max_length=255)
 
     panels = [
-        FieldPanel("name"),
+        FieldPanel("title"),
     ]
 
     class Meta(TranslatableMixin.Meta):
@@ -34,10 +31,9 @@ class CollectionItemFinishing(TranslatableMixin):
         verbose_name_plural = _("Collection item finishings")
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
-@register_snippet
 class CollectionItemModel(TranslatableMixin):
     name = models.CharField(_("name"), max_length=255)
 
