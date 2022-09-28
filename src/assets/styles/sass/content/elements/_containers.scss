@@ -1,0 +1,26 @@
+// Dynamic variables
+
+// Layout
+
+.container-square-image {
+  aspect-ratio: 1 / 1;
+
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+// Això manté la imatge quadrada amb un <img> però no
+// funciona tan bé com l'altre
+// .container-square-image {
+//   aspect-ratio: 1 / 1;
+
+//   img {
+//     object-fit: cover;
+//     object-position: 50% 50%;
+//     max-width: none;
+//     max-height: 100%;
+//     margin-bottom: -6px;
+//   }
+// }

@@ -283,6 +283,7 @@ body {
   --padding-lg: calc(var(--padding-base) * 2);
   --padding-xlg: calc(var(--padding-base) * 3);
   --padding-xxlg: calc(var(--padding-base) * 4);
+  --padding-xxxlg: calc(var(--padding-base) * 5);
 }
 
 html, body {
@@ -538,6 +539,14 @@ html, body {
 .icon-32 {
   width: 32px;
   height: 32px;
+}
+
+.container-square-image {
+  aspect-ratio: 1/1;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .empty-box {
@@ -833,6 +842,30 @@ html, body {
 .home .overlay__image {
   --max-height: 260px;
 }
+.home .collections__title {
+  --grid-column: 2;
+}
+.home .collections__item {
+  --grid-column: 1 / -1;
+}
+.home .collections__placeholder {
+  --grid-column: 2;
+}
+.home .custom-projects__title {
+  --grid-column: 2;
+}
+.home .custom-projects__placeholder {
+  --grid-column: 2;
+}
+.home .custom-projects__item-placeholder {
+  --grid-column: 2;
+}
+.home .instagram-feed__title {
+  --grid-column: 2;
+}
+.home .instagram-feed__placeholder {
+  --grid-column: 2;
+}
 
 @media (min-width: 1024px) {
   .home .overlay {
@@ -842,6 +875,30 @@ html, body {
   }
   .home .overlay__image {
     --max-height: auto;
+  }
+  .home .collections__title {
+    --grid-column: 2 / -2 ;
+  }
+  .home .collections__item {
+    --grid-column: span 4;
+  }
+  .home .collections__item-placeholder {
+    --grid-column: span 4;
+  }
+  .home .collections__placeholder {
+    --grid-column: 2 / -2;
+  }
+  .home .custom-projects__title {
+    --grid-column: 2 / -2;
+  }
+  .home .custom-projects__placeholder {
+    --grid-column: 2 / -2;
+  }
+  .home .instagram-feed__title {
+    --grid-column: 2 / -2;
+  }
+  .home .instagram-feed__placeholder {
+    --grid-column: 2 / -2;
   }
 }
 .home .heading {
@@ -885,23 +942,24 @@ html, body {
   grid-row: 1;
   overflow: clip;
 }
-.home .overlay__image img {
-  width: 100%;
-  height: auto;
+.home .collections {
+  grid-column: 1/-1;
 }
 .home .collections__title {
-  grid-column: 2;
+  grid-column: var(--grid-column);
   font-weight: 400;
   padding-bottom: var(--padding-lg);
 }
 .home .collections__item {
-  grid-column: 1/-1;
+  grid-column: var(--grid-column);
   position: relative;
 }
 .home .collections__item-image img {
   margin-bottom: -5px;
 }
 .home .collections__item-shade {
+  position: absolute;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: hsla(0deg, 0%, 0%, 0.3);
@@ -910,7 +968,43 @@ html, body {
   position: absolute;
   bottom: 0;
   left: var(--padding-lg);
+  max-width: 300px;
   color: var(--white);
+}
+.home .collections__item-placeholder {
+  grid-column: var(--grid-column);
+  padding: var(--padding-md);
+}
+.home .collections__placeholder {
+  grid-column: 2;
+  margin-top: var(--padding-xlg);
+}
+.home .custom-projects {
+  grid-column: 1/-1;
+  margin-top: var(--padding-xxxlg);
+}
+.home .custom-projects__title {
+  grid-column: var(--grid-column);
+}
+.home .custom-projects__image {
+  background-image: url("https://s3.eu-central-1.wasabisys.com/codi-cooperatiu-web-develop/media/images/llit_ciurans.width-700.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.home .custom-projects__placeholder {
+  grid-column: var(--grid-column);
+}
+.home .instagram-feed {
+  grid-column: 1/-1;
+  margin-top: var(--padding-xxxlg);
+  margin-bottom: var(--padding-xxlg);
+}
+.home .instagram-feed__title {
+  grid-column: var(--grid-column);
+}
+.home .instagram-feed__placeholder {
+  grid-column: var(--grid-column);
 }
 
 /*# sourceMappingURL=styles.css.map */
