@@ -194,7 +194,7 @@ class HomePage(BasePage):
         ),
     ] + Page.settings_panels
 
-    template = "cms_site/home.html"
+    template = "pages/home.html"
     parent_page_types = ["wagtailcore.Page"]
     max_count = 1
 

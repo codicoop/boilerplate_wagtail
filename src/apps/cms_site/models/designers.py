@@ -22,7 +22,7 @@ class DesignersPage(BasePage):
         FieldPanel("designers_list"),
     ]
 
-    template = "cms_site/collections/designers.html"
+    template = "pages/collections/designers.html"
     max_count = 1
     parent_page_types = ["cms_site.HomePage"]
 
