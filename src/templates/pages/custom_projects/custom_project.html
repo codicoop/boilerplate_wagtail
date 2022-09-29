@@ -2,20 +2,23 @@
 {% load wagtailcore_tags wagtailimages_tags %}
 
 {% block content %}
+{% image custom_project.main_section_image width-700 as bg_project_card %}
 
-{% include '../../components/heading.html' %}
+<main class="main project-detail">
 
-{% if page.description %}
-  <p>{{ page.description }}</p>
-{% endif %}
+  {% include '../../components/heading.html' %}
 
-{% if images %}
-  <h3>Items/fotos de la galeria</h3>
-  <image_gallery>
+  {% if page.description %}
+    {% include '../../components/block_text_center.html' %}
+    <p>{{ page.description }}</p>
+  {% endif %} 
+
+  {% if images %}
+  <section class="projects-detail__list grid-2">
     {% for item in images %}
       <p>Imatge: {% image item max-200x200 %}</p>
     {% endfor %}
-  </image_gallery>
-{% endif %}
+  </section>
+  {% endif %}
 
 {% endblock %}

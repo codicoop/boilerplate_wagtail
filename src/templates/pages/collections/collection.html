@@ -3,70 +3,109 @@
 
 {% block content %}
 
-<p>Títol (ha d'apareixer damunt la imatge del header): {{ page.title }}</p>
-{% if page.pdf.file %}
-  <p>PDF: <a href="{{ page.pdf.file.url }}" target="_blank">Catàleg</a></p>
-{% endif %}
-<p>Description: {{ page.description }}</p>
+<main class="main collection collection-detail">
 
-<p>Links a altres col·leccions per muntar el submenú:
-{% for collection in collections %}
-  <a href="{% pageurl collection %}">{{ collection.specific.title }}</a>
-{% empty %}
-  No hi ha cap altra col·lecció.
-{% endfor %}
-</p>
+  {% include '../components/heading.html' %}
+  
+  <p>Links a altres col·leccions per muntar el menú:
+    {% for collection in collections %}
+      <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+    {% empty %}
+      No hi ha cap altra col·lecció.
+    {% endfor %}
+    </p>
 
-<p>Link a la pàgina Dissenyadors, pel submenú:
-{% if designers_page %}
-  <a href="{% pageurl designers_page %}">Dissenyadors</a>
-{% else %}
-  <p><em>No hi ha pàgina de dissenyadors creada.</em></p>
-{% endif %}
-</p>
+  <section class="collection__nav">
+    <div class="grid-1">
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>New Area Collection</p>
+        </div>
+      </a>
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>Nordic Collection</p>
+        </div>
+      </a>
+      <a class="collection__nav-link grid-item-3">
+        <div>
+          <p>Armaris Collection</p>
+        </div>
+      </a>
+      <button class="collection__nav-btn grid-item-3">
+        <p>Els dissenyadors</p>
+      </button>
+    </div>
+  </section>
 
-<h3>Filtres</h3>
-<p>Idealment els filtres funcionaran amb react i per tant les opcions
-disponibles caldrà passar-les a través de variables JS, però de moment
-ho poso com a HTML per tenir un punt de partida.</p>
-<p>Llistat dels Models:</p>
-<ul>
-  {% for id, name in available_models.items %}
-  <li>ID: {{ id }}, nom: {{ name }}</li>
+  <p>Títol (ha d'apareixer damunt la imatge del header): {{ page.title }}</p>
+  {% if page.pdf.file %}
+    <p>PDF: <a href="{{ page.pdf.file.url }}" target="_blank">Catàleg</a></p>
+  {% endif %}
+  <p>Description: {{ page.description }}</p>
+
+  <p>Links a altres col·leccions per muntar el submenú:
+  {% for collection in collections %}
+    <a href="{% pageurl collection %}">{{ collection.specific.title }}</a>
+  {% empty %}
+    No hi ha cap altra col·lecció.
   {% endfor %}
-</ul>
+  </p>
 
-<p>Llistat dels Tipus:</p>
-<ul>
-  {% for id, name in available_types.items %}
-  <li>ID: {{ id }}, nom: {{ name }}</li>
-  {% endfor %}
-</ul>
+  <p>Link a la pàgina Dissenyadors, pel submenú:
+  {% if designers_page %}
+    <a href="{% pageurl designers_page %}">Dissenyadors</a>
+  {% else %}
+    <p><em>No hi ha pàgina de dissenyadors creada.</em></p>
+  {% endif %}
+  </p>
 
-<p>Llistat dels Acabats:</p>
-<ul>
-  {% for id, name in available_finishings.items %}
-  <li>ID: {{ id }}, nom: {{ name }}</li>
-  {% endfor %}
-</ul>
-<!--
-En tots aquests llistats ho he posat de manera que disposis de la ID, per si de
-cas la necessites per fer funcionar els filtres.
-Si només vols els noms, el codi de cada llista es pot simplificar i quedaria així:
-<ul>
-  {% for name in available_models.values %}
-  <li>{{ name }}</li>
-  {% endfor %}
-</ul>
+  <h3>Filtres</h3>
+  <p>Idealment els filtres funcionaran amb react i per tant les opcions
+  disponibles caldrà passar-les a través de variables JS, però de moment
+  ho poso com a HTML per tenir un punt de partida.</p>
+  <p>Llistat dels Models:</p>
+  <ul>
+    {% for id, name in available_models.items %}
+    <li>ID: {{ id }}, nom: {{ name }}</li>
+    {% endfor %}
+  </ul>
 
--->
+  <p>Llistat dels Tipus:</p>
+  <ul>
+    {% for id, name in available_types.items %}
+    <li>ID: {{ id }}, nom: {{ name }}</li>
+    {% endfor %}
+  </ul>
 
-<h3>Items/fotos de la col·lecció</h3>
-<em>L'HTML de cada block és a cms_site/collections/block_item.html</em>
-<items_block>
-  {% for item in page.collection_items.all %}
-    {% include "./block_item.html" with item=item %}
-  {% endfor %}
-</items_block>
+  <p>Llistat dels Acabats:</p>
+  <ul>
+    {% for id, name in available_finishings.items %}
+    <li>ID: {{ id }}, nom: {{ name }}</li>
+    {% endfor %}
+  </ul>
+  <!--
+  En tots aquests llistats ho he posat de manera que disposis de la ID, per si de
+  cas la necessites per fer funcionar els filtres.
+  Si només vols els noms, el codi de cada llista es pot simplificar i quedaria així:
+  <ul>
+    {% for name in available_models.values %}
+    <li>{{ name }}</li>
+    {% endfor %}
+  </ul>
+
+  -->
+
+  <h3>Items/fotos de la col·lecció</h3>
+  <em>L'HTML de cada block és a cms_site/collections/block_item.html</em>
+  <items_block>
+    {% for item in page.collection_items.all %}
+      {% include "./block_item.html" with item=item %}
+    {% endfor %}
+  </items_block>  
+
+  {% include '../components/social.html' %}
+
+</main>
 
 {% endblock %}

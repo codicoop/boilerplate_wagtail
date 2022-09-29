@@ -3,15 +3,48 @@
 
 {% block content %}
 
-    {% include '../../components/heading.html' %}
+{% image custom_project.main_section_image width-700 as bg_project_card %}
 
-<section>
+<main class="main custom-projects">
+
+  {% include '../../components/heading.html' %}
+
+  {% include '../../components/block_text_center.html' %}
+
+  <section class="custom-projects__list grid-2">
+    {% for custom_project in custom_projects %}
+
+    <a href="{% pageurl custom_project %}">
+      <div class="project-card grid-item-4">
+        <div class="project-card__image">
+          <div class="container-square-image" style="--bg-image: url('{{ bg_project_card.url }}')">
+          </div>
+        </div>
+        <div class="project-card__label">
+          <div class="project-card__title title-2">
+            <p>{{ custom_project.specific.title }}</p>
+          </div>
+          <div class="project-card__arrow">
+            <img src="{% static './images/arrow_right.svg' %}" alt="{% translate 'Icon of an arrow to access the detaisl of the project' %}">
+          </div>
+        </div>
+      </div>
+    </a>
+
+    {% endfor %}
+  </section>
+
+  {% include '../../components/social.html' %}
+
+</main>
+
+<!-- <section>
   {% for custom_project in custom_projects %}
     <a href="{% pageurl custom_project %}">
       <p>{{ custom_project.specific.title }}</p>
       {% image custom_project.main_section_image max-200x200 %}
     </a>
   {% endfor %}
-</section>
+</section> -->
 
 {% endblock %}

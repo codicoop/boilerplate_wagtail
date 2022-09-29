@@ -1,9 +1,20 @@
-{% extends from './base.html' %}
-{% load %}
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
 
 {% block content %}
-<main class="main collection {% block collection_page %}{% endblock %}">
+
+<main class="main collection collection-designers">
+
   {% include '../components/heading.html' %}
+  
+  <p>Links a altres col·leccions per muntar el menú:
+    {% for collection in collections %}
+      <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
+    {% empty %}
+      No hi ha cap altra col·lecció.
+    {% endfor %}
+    </p>
+
   <section class="collection__nav">
     <div class="grid-1">
       <a class="collection__nav-link grid-item-3">
@@ -13,23 +24,26 @@
       </a>
       <a class="collection__nav-link grid-item-3">
         <div>
-          <p>New Area Collection</p>
+          <p>Nordic Collection</p>
         </div>
       </a>
       <a class="collection__nav-link grid-item-3">
         <div>
-          <p>New Area Collection</p>
+          <p>Armaris Collection</p>
         </div>
       </a>
       <button class="collection__nav-btn grid-item-3">
-        <p>New Area Collection</p>
+        <p>Els dissenyadors</p>
       </button>
     </div>
   </section>
 
-  {% block collection_content %}
-  {% endblock %}
+  <items_block>
+    {{ page.designers_list }}
+  </items_block>
 
   {% include '../components/social.html' %}
+
 </main>
+
 {% endblock %}
