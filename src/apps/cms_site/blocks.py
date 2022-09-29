@@ -14,5 +14,5 @@ class DesignerItem(blocks.StructBlock):
     photo = ImageChooserBlock(label=_("Photo"))
 
     class Meta:
-        template = "cms_site/collections/block_designer.html"
+        template = "pages/collections/block_designer.html"
         icon = "doc-full"

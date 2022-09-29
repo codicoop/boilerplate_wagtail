@@ -1,0 +1,145 @@
+// Especificitats de les pàgines de la col·lecció
+// Dynamic variables
+
+// Pàgina de portada de colleccions
+.collections {
+  --display: flex;
+  --height: auto;
+
+  &__item-title {
+    --color: var(--white);
+    --font-weight: 700;
+  }
+  .container-square-fullheight-image {
+    --background-image-custom: var(--bg-image);
+  }
+  &__item-shade {
+    --background-color-shade: black;
+  }
+  &__item {
+    &:hover {
+      .collections__item-title {
+        --color: var(--white);
+        --font-weight: 700;
+      }
+    }
+    .container-square-fullheight-image {
+      --background-image-custom: var(--bg-image);
+    }
+    &__item-shade {
+      --background-color-shade: black;
+    }
+  }
+}
+.collection {
+  &__nav-link {
+    p {
+      --padding-text: 11px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  // Pàgina de portada de colleccions
+  .collections {
+    --display: grid;
+    --height: 100vh;
+
+    .container-square-fullheight-image {
+      --background-image-custom: none;
+    }
+
+    &__item-title {
+      --color: var(--blackish);
+      --font-weight: 300;
+    }
+    &__item-shade {
+      --background-color-shade: white;
+    }
+    &__item {
+      // Distributing the columns
+      --grid-column: span 12;
+  
+      &.item-2 {
+        --grid-column: span 6;
+        
+        &.item-3 {
+          --grid-column: span 4;
+        }
+      }
+      // Dealing with hover behaviour
+      &:hover {
+        .collections__item-title {
+          --color: var(--white);
+          --font-weight: 700;
+        }
+        .container-square-fullheight-image {
+          --background-image-custom: var(--bg-image);
+        }
+        .collections__item-shade {
+          --background-color-shade: black;
+        }
+      }
+    }
+  }
+  .collection {
+    &__nav-link {
+      p {
+        --padding-text: var(--padding-sm);
+      }
+    }
+  }
+}
+
+// Layout
+
+.collections {
+  display: var(--display);
+  flex-direction: column;
+  grid-template-columns: repeat(12, minmax(auto, 1fr));
+  height: var(--height);
+
+  &__item {
+    grid-column: var(--grid-column);
+    position: relative;
+    overflow: clip;
+  }
+  &__item-image {
+    img {
+      margin-bottom: -5px;
+    }
+  }
+  .container-square-fullheight-image {
+    background-image: var(--background-image-custom);
+  }
+  &__item-shade {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color-shade);
+    opacity: 0.3;
+  }
+  &__item-title {
+    position: absolute;
+    bottom: 0;
+    left: var(--padding-lg);
+    color: var(--color);
+    max-width: 300px;
+    font-weight: var(--font-weight);
+  }
+}
+
+.collection {
+  // &__nav {  }
+  &__nav-link {
+    p {
+      padding: var(--padding-text);
+      border-bottom: 2px solid var(--blackish);
+    }
+  }
+  &__nav-btn {
+    width: 100%;
+    border: 2px solid var(--blackish);
+  }
+}

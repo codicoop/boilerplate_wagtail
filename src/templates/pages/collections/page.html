@@ -1,73 +1,73 @@
 {% extends "base.html" %}
 {% load wagtailcore_tags wagtailimages_tags %}
 
+{% block body_classes %} no-prefooter no-desktop-footer no-desktop-header {% endblock %}
+{% block page_title %}{{ page.title }}{% endblock %}
+
 {% block content %}
 
 {% image home_page.collection_1_image width-1024 as bg_collection_1 %}
 {% image home_page.collection_2_image width-1024 as bg_collection_2 %}
 {% image home_page.collection_3_image width-1024 as bg_collection_3 %}
 
-<h1>{{ page.title }}</h1>
-
-<!--Tot això és copiat i enganxat de la Home.-->
-  <section class="collections grid-3">
-    {% if home_page.display_collections_section %}
-      {% if home_page.display_collection_1 %}
-      <div class="collections__item 
-        {% if home_page.display_collection_2 or home_page.display_collection_3 %} item-2 {% endif %}
-        {% if home_page.display_collection_2 and home_page.display_collection_3 %} item-3 {% endif %}
-      ">
-        <a href="{% pageurl home_page.collection_1_page %}">
-          <div class="collections__item-image">
-            <div class="container-square-image" 
-                style="--bg-image: url('{{ bg_collection_1.url }}')"
-            ></div>
-          </div>
-          <div class="collections__item-shade"></div>
-          <div class="collections__item-title title-1">
-            <p>{{ home_page.collection_1_title }}</p>
-          </div>
-        </a>
-      </div>
-      {% endif %}
-      {% if home_page.display_collection_2 %}
-      <div class="collections__item
-        {% if home_page.display_collection_1 or home_page.display_collection_3 %} item-2 {% endif %}
-        {% if home_page.display_collection_1 and home_page.display_collection_3 %} item-3 {% endif %}
-      ">
-        <a href="{% pageurl page.collection_2_page %}">
-          <div class="collections__item-image">
-            <div class="container-square-image" 
-                style="--bg-image: url('{{ bg_collection_2.url }}')"
-            >
-            <div class="collections__item-shade"></div>
-            </div>
-          </div>
-          <div class="collections__item-title title-1">
-            <p>{{ home_page.collection_2_title }}</p>
-          </div>
-        </a>
-      </div>
-      {% endif %}
-      {% if home_page.display_collection_3 %}
-      <div class="collections__item
-        {% if home_page.display_collection_1 or home_page.display_collection_2 %} item-2 {% endif %}
-        {% if home_page.display_collection_1 and home_page.display_collection_2 %} item-3 {% endif %}
-      ">
-        <a href="{% pageurl home_page.collection_3_page %}">
-          <div class="collections__item-image">
-            <div class="container-square-image" 
-                style="--bg-image: url('{{ bg_collection_3.url }}')"
-            ></div>
-          </div>
-          <div class="collections__item-shade"></div>
-          <div class="collections__item-title title-1">
-            <p>{{ home_page.collection_3_title }}</p>
-          </div>
-        </a>
-      </div>
-      {% endif %}
+<main class="main collections">
+  {% if home_page.display_collections_section %}
+    {% if home_page.display_collection_1 %}
+    <div class="collections__item 
+      {% if home_page.display_collection_2 or home_page.display_collection_3 %} item-2 {% endif %}
+      {% if home_page.display_collection_2 and home_page.display_collection_3 %} item-3 {% endif %}
+    ">
+      <a href="{% pageurl home_page.collection_1_page %}">
+        <div class="collections__item-image">
+          <div class="container-square-fullheight-image" 
+              style="--bg-image: url('{{ bg_collection_1.url }}')"
+          ></div>
+        </div>
+        <div class="collections__item-shade"></div>
+        <div class="collections__item-title title-1">
+          <p>{{ home_page.collection_1_title }}</p>
+        </div>
+      </a>
+    </div>
     {% endif %}
-  </section>
+    {% if home_page.display_collection_2 %}
+    <div class="collections__item
+      {% if home_page.display_collection_1 or home_page.display_collection_3 %} item-2 {% endif %}
+      {% if home_page.display_collection_1 and home_page.display_collection_3 %} item-3 {% endif %}
+    ">
+      <a href="{% pageurl home_page.collection_2_page %}">
+        <div class="collections__item-image">
+          <div class="container-square-fullheight-image" 
+              style="--bg-image: url('{{ bg_collection_2.url }}')"
+          >
+          <div class="collections__item-shade"></div>
+          </div>
+        </div>
+        <div class="collections__item-title title-1">
+          <p>{{ home_page.collection_2_title }}</p>
+        </div>
+      </a>
+    </div>
+    {% endif %}
+    {% if home_page.display_collection_3 %}
+    <div class="collections__item
+      {% if home_page.display_collection_1 or home_page.display_collection_2 %} item-2 {% endif %}
+      {% if home_page.display_collection_1 and home_page.display_collection_2 %} item-3 {% endif %}
+    ">
+      <a href="{% pageurl home_page.collection_3_page %}">
+        <div class="collections__item-image">
+          <div class="container-square-fullheight-image" 
+              style="--bg-image: url('{{ bg_collection_3.url }}')"
+          ></div>
+        </div>
+        <div class="collections__item-shade"></div>
+        <div class="collections__item-title title-1">
+          <p>{{ home_page.collection_3_title }}</p>
+        </div>
+      </a>
+    </div>
+    {% endif %}
+  {% endif %}
+</main>
 
 {% endblock %}

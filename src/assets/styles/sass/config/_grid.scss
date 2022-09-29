@@ -6,6 +6,12 @@ html, body {
   height: 100%;
 }
 
+body.no-prefooter {
+  .prefooter {
+    display: none;
+  }
+}
+
 // Versió mòbil i tablet
 // Grid amb més padding
 .grid-1 {
@@ -86,6 +92,16 @@ html, body {
 
 // Versió laptop i desktop
 @media (min-width: 1024px) {
+  body.no-desktop-footer {
+    .footer {
+      display: none;
+    }
+  }
+  body.no-desktop-header {
+    .header {
+      display: none;
+    }
+  }
   .grid-1, .grid-2, .grid-3 {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(90px,1fr));

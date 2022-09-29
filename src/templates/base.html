@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
   <title>Mobles Ciurans | {% block page_title %}{% endblock %}</title>
 </head>
-<body>
+<body class="{% block body_classes %}{% endblock %}">
   <div class="empty-box"></div>
   <header class="header">
     <div class="topbar">

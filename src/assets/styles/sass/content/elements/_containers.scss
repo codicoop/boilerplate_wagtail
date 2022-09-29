@@ -3,11 +3,19 @@
   --aspect-ratio: 1 / 1;
   --height: auto;
 }
+.container-square-fullheight-image {
+  --aspect-ratio: 1 / 1;
+  --height: auto;
+}
 
 @media (min-width: 1024px) {
   .container-square-fullwidth-image {
     --aspect-ratio: auto;
     --height: 450px;
+  }
+  .container-square-fullheight-image {
+    --aspect-ratio: auto;
+    --height: 100vh;
   }
 }
 
@@ -23,6 +31,16 @@
 }
 
 .container-square-fullwidth-image {
+  aspect-ratio: var(--aspect-ratio);
+  height: var(--height);
+
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-square-fullheight-image {
   aspect-ratio: var(--aspect-ratio);
   height: var(--height);
 
