@@ -22,8 +22,14 @@
   .nav {
     display: flex;
     flex-direction: var(--flex-direction);
-    gap: var(--padding-sm) var(--padding-lg);
+    gap: 0 var(--padding-lg);
     justify-content: var(--justify-content);
+
+    &__link {
+      padding: var(--padding-sm) var(--padding-xlg);
+      width: 100%;
+      margin-bottom: 0;
+    }
   }
 }
 // Navegador del footer

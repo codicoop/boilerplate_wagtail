@@ -1,7 +1,15 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags wagtailimages_tags %}
+{% load wagtailcore_tags wagtailimages_tags i18n %}
+
 
 {% block content %}
+
+{% image page.overlay_image width-700 as bg_overlay %}
+{% image page.collection_1_image width-700 as bg_collection_1 %}
+{% image page.collection_2_image width-700 as bg_collection_2 %}
+{% image page.collection_3_image width-700 as bg_collection_3 %}
+{% image page.custom_projects_image width-700 as bg_custom %}
+
   <main class="main home grid-main">
     {% include '../components/heading.html' %}
 
@@ -23,68 +31,96 @@
         </div>
       </div>
       <div class="overlay__image">
-        <!--Canvia la mida de la imatge per la que toqui!-->
-        {% image page.overlay_image width-700 %}
+        <div class="container-square-image" 
+            style="--bg-image: url('{{ bg_overlay.url }}')"
+        ></div>
       </div>
     </section>
     {% endif %}
 
-    {% if page.display_collections_section %}
-      <h3>Catàleg</h3>
+    <section class="collections grid-3">
+      {% if page.display_collections_section %}
+        <h3 class="collections__title title-1--light">{% translate "Catalogue" %}</h3>
         {% if page.display_collection_1 %}
+        <div class="collections__item 
+          {% if page.display_collection_2 or page.display_collection_3 %} item-2 {% endif %}
+          {% if page.display_collection_2 and page.display_collection_3 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_1_page %}">
-            <div>
+            <div class="collections__item-image">
+              <div class="container-square-image" 
+                  style="--bg-image: url('{{ bg_collection_1.url }}')"
+              ></div>
+            </div>
+            <div class="collections__item-shade"></div>
+            <div class="collections__item-title title-1">
               <p>{{ page.collection_1_title }}</p>
-              <!--Canvia la mida de la imatge per la que toqui!-->
-              {% image page.collection_1_image width-400 %}
             </div>
           </a>
-        {% else %}
-            <br><em>A la col·lecció 1 li falta alguna dada.</em>
+        </div>
         {% endif %}
         {% if page.display_collection_2 %}
+        <div class="collections__item
+          {% if page.display_collection_1 or page.display_collection_3 %} item-2 {% endif %}
+          {% if page.display_collection_1 and page.display_collection_3 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_2_page %}">
-            <div>
+            <div class="collections__item-image">
+              <div class="container-square-image" 
+                  style="--bg-image: url('{{ bg_collection_2.url }}')"
+              >
+              <div class="collections__item-shade"></div>
+              </div>
+            </div>
+            <div class="collections__item-title title-1">
               <p>{{ page.collection_2_title }}</p>
-              <!--Canvia la mida de la imatge per la que toqui!-->
-              {% image page.collection_2_image width-400 %}
             </div>
           </a>
-        {% else %}
-            <br><em>A la col·lecció 2 li falta alguna dada.</em>
+        </div>
         {% endif %}
         {% if page.display_collection_3 %}
+        <div class="collections__item
+          {% if page.display_collection_1 or page.display_collection_2 %} item-2 {% endif %}
+          {% if page.display_collection_1 and page.display_collection_2 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_3_page %}">
-            <div>
+            <div class="collections__item-image">
+              <div class="container-square-image" 
+                  style="--bg-image: url('{{ bg_collection_3.url }}')"
+              ></div>
+            </div>
+            <div class="collections__item-shade"></div>
+            <div class="collections__item-title title-1">
               <p>{{ page.collection_3_title }}</p>
-              <!--Canvia la mida de la imatge per la que toqui!-->
-              {% image page.collection_3_image width-400 %}
             </div>
           </a>
-        {% else %}
-            <br><em>A la col·lecció 3 li falta alguna dada.</em>
-        {% endif %}
-      {% else %}
-        <br><em>Cap de les 3 col·leccions té totes les dades, per tant no es mostra
-        la secció Catàleg.</em>
-      {% endif %}
-
-    {% if page.display_custom_projects_section %}
-      <h3>Projectes a mida</h3>
-      <a href="{% pageurl page.custom_projects_page %}">
-        <div>
-          <p>{{ custom_projects_title }}</p>
-          <!--Canvia la mida de la imatge per la que toqui!-->
-          <p>Image: {% image page.custom_projects_image width-400 %}</p>
         </div>
-      </a>
-    {% else %}
-      <br><em>El bloc "projectes a mida" no té totes les dades, per tant no el mostrem.</em>
-    {% endif %}
+        {% endif %}
+      {% endif %}
+    </section>
 
-    {% if page.display_instagram_feed %}
-      <p>TO DO: script que inscrusti el feed d'instagram aquí.</p>
+    <section class="custom-projects grid-3">
+    {% if page.display_custom_projects_section %}
+      <h3 class="custom-projects__title title-1--light">{% translate "Custom projects" %}</h3>
+      <div class="custom-projects__item">
+        <a href="{% pageurl page.custom_projects_page %}">
+          <div class="container-square-fullwidth-image" style="--bg-image: url('{{ bg_custom.url }}')">
+          </div>
+          <div class="custom-projects__item-title title-1">
+            <p>{{ custom_projects_title }}</p>
+          </div>
+        </a>
+      </div>
     {% endif %}
+    </section>
+
+    <section class="instagram-feed grid-1">
+      {% if page.display_instagram_feed %}
+        <h3 class="instagram-feed__title title-1--light">{% translate "News" %}</h3>
+        <!-- TODO: Configure the instagram feed here -->
+      {% endif %}
+      </section>
+
   </main>
 
 {% endblock %}

@@ -107,6 +107,7 @@
   display: var(--display-menu);
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 
   &__top {
     display: flex;
@@ -130,9 +131,22 @@
       stroke-linejoin: round;
     }
   }
+  &__btn button { 
+    font-weight: 500;
+  }
   // &__logo { }
-  // &__nav {  }
-  // &__btn { }
   // &__lang {  }
-  // &__lang-item {  }
+  &__lang-item { 
+    text-transform: uppercase;
+    
+    &.is-active {
+      font-weight: bold;
+    }
+  }
+  &__lang-item + .menu__lang-item {
+    &::before {
+      content: "|";
+      padding-right: var(--padding-xxsm);
+    }
+  }
 }

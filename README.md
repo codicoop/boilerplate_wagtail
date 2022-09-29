@@ -206,7 +206,7 @@ Run this command:
 
 > To be able to load the fixtures, the `DJANGO_SUPERUSER_EMAIL` setting must be
 > set to `hola@codi.coop`.
-1
+
 # TO DO: Different phases of developing
 
 ## Initial phase
