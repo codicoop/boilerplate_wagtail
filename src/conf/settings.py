@@ -139,11 +139,14 @@ develop_loaders = [
     "django.template.loaders.app_directories.Loader",
 ]
 production_loaders = [
-    ("django.template.loaders.cached.Loader", [
-        "django.template.loaders.filesystem.Loader",
-        "django.template.loaders.app_directories.Loader",
-        "path.to.custom.Loader",
-    ])
+    (
+        "django.template.loaders.cached.Loader",
+        [
+            "django.template.loaders.filesystem.Loader",
+            "django.template.loaders.app_directories.Loader",
+            "path.to.custom.Loader",
+        ],
+    )
 ]
 TEMPLATES = [
     {
