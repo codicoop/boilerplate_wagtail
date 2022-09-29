@@ -42,7 +42,10 @@
       {% if page.display_collections_section %}
         <h3 class="collections__title title-1--light">{% translate "Catalogue" %}</h3>
         {% if page.display_collection_1 %}
-        <div class="collections__item">
+        <div class="collections__item 
+          {% if page.display_collection_2 or page.display_collection_3 %} item-2 {% endif %}
+          {% if page.display_collection_2 and page.display_collection_3 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_1_page %}">
             <div class="collections__item-image">
               <div class="container-square-image" 
@@ -57,7 +60,10 @@
         </div>
         {% endif %}
         {% if page.display_collection_2 %}
-        <div class="collections__item">
+        <div class="collections__item
+          {% if page.display_collection_1 or page.display_collection_3 %} item-2 {% endif %}
+          {% if page.display_collection_1 and page.display_collection_3 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_2_page %}">
             <div class="collections__item-image">
               <div class="container-square-image" 
@@ -73,7 +79,10 @@
         </div>
         {% endif %}
         {% if page.display_collection_3 %}
-        <div class="collections__item">
+        <div class="collections__item
+          {% if page.display_collection_1 or page.display_collection_2 %} item-2 {% endif %}
+          {% if page.display_collection_1 and page.display_collection_2 %} item-3 {% endif %}
+        ">
           <a href="{% pageurl page.collection_3_page %}">
             <div class="collections__item-image">
               <div class="container-square-image" 
@@ -86,11 +95,7 @@
             </div>
           </a>
         </div>
-        {% else %}
-          <div class="collections__item-placeholder title-3">{% translate "One collection is missing some data, that's why we can't show it here. Go to the admin to fix it." %}</div>
         {% endif %}
-        {% else %}
-        <div class="collections__placeholder title-3">{% translate "None of the three collections have all the necessary data, that's why we can't show it here. Go to the admin to fix it." %}</div>
       {% endif %}
     </section>
 
@@ -99,22 +104,19 @@
       <h3 class="custom-projects__title title-1--light">{% translate "Custom projects" %}</h3>
       <div class="custom-projects__item">
         <a href="{% pageurl page.custom_projects_page %}">
-          <div class="custom-projects__image" style="--bg-image: url('{{ bg_custom.url }}')"></div>
+          <div class="container-square-fullwidth-image" style="--bg-image: url('{{ bg_custom.url }}')">
+          </div>
           <div class="custom-projects__item-title title-1">
             <p>{{ custom_projects_title }}</p>
           </div>
-          <p>Image: {% image page.custom_projects_image width-700 %}</p>
         </a>
       </div>
-    {% else %}
-      <div class="custom-projects__placeholder title-3">{% translate "The block 'Custom projects' doesn't have all the necessary data, that's why we can't show it here. Go to the admin to fix it." %}</div>
     {% endif %}
     </section>
 
     <section class="instagram-feed grid-1">
       {% if page.display_instagram_feed %}
         <h3 class="instagram-feed__title title-1--light">{% translate "News" %}</h3>
-        <div class="instagram-feed__placeholder title-3">{% translate "Configure the instagram feed in the admin so it is shown here" %}</div>
         <!-- TODO: Configure the instagram feed here -->
       {% endif %}
       </section>

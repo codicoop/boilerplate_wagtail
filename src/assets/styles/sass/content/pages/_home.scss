@@ -15,26 +15,14 @@
     &__item  {
       --grid-column: 1 / -1;
     }
-    &__placeholder {
-      --grid-column: 2;
-    }
   }
   .custom-projects {
     &__title {
       --grid-column: 2;
     }
-    &__placeholder {
-      --grid-column: 2;
-    }
-    &__item-placeholder {
-      --grid-column: 2;
-    }
   }
   .instagram-feed {
     &__title {
-      --grid-column: 2;
-    }
-    &__placeholder {
       --grid-column: 2;
     }
   }
@@ -54,29 +42,27 @@
       &__title {
         --grid-column: 2 / -2
       }
-      &__item  {
-        --grid-column: span 4;
-      }
-      &__item-placeholder {
-        --grid-column: span 4;
-      }
-      &__placeholder {
-        --grid-column: 2 / -2;
+      &__item {
+        --grid-column: span 12;
+        --max-height: 450px;
+
+        &.item-2 {
+          --grid-column: span 6;
+          
+          &.item-3 {
+            --grid-column: span 4;
+            --max-height: auto;
+          }
+        }
       }
     }
     .custom-projects {
       &__title {
         --grid-column: 2 / -2;
       }
-      &__placeholder {
-        --grid-column: 2 / -2;
-      }
     }
     .instagram-feed {
       &__title {
-        --grid-column: 2 / -2;
-      }
-      &__placeholder {
         --grid-column: 2 / -2;
       }
     }
@@ -88,7 +74,6 @@
   .heading {
     grid-column: 1 / -1;
   }
-
   .overlay {
     grid-column: 2 / -2;
     position: relative;
@@ -128,7 +113,6 @@
       overflow: clip;
     }
   }
-
   .collections {
     grid-column: 1 / -1;
 
@@ -140,6 +124,8 @@
     &__item {
       grid-column: var(--grid-column);
       position: relative;
+      max-height: var(--max-height);
+      overflow: clip;
     }
     &__item-image {
       img {
@@ -160,14 +146,6 @@
       max-width: 300px;
       color: var(--white);
     }
-    &__item-placeholder {
-      grid-column: var(--grid-column);
-      padding: var(--padding-md);
-    }
-    &__placeholder {
-      grid-column: 2;
-      margin-top: var(--padding-xlg);
-    }
   }
   .custom-projects {
     grid-column: 1 / -1;
@@ -175,16 +153,10 @@
 
     &__title {
       grid-column: var(--grid-column);
+      padding-bottom: var(--padding-lg);
     }
-    &__image {
-      // background-image: var(--bg-image);
-      background-image: url("https://s3.eu-central-1.wasabisys.com/codi-cooperatiu-web-develop/media/images/llit_ciurans.width-700.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    &__placeholder {
-      grid-column: var(--grid-column);
+    &__item {
+      grid-column: 1 / -1;
     }
   }
 
@@ -194,10 +166,6 @@
     margin-bottom: var(--padding-xxlg);
 
     &__title {
-      grid-column: var(--grid-column);
-    }
-
-    &__placeholder {
       grid-column: var(--grid-column);
     }
   }

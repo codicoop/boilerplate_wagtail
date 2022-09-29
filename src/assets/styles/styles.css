@@ -541,8 +541,28 @@ html, body {
   height: 32px;
 }
 
+.container-square-fullwidth-image {
+  --aspect-ratio: 1 / 1;
+  --height: auto;
+}
+
+@media (min-width: 1024px) {
+  .container-square-fullwidth-image {
+    --aspect-ratio: auto;
+    --height: 450px;
+  }
+}
 .container-square-image {
   aspect-ratio: 1/1;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-square-fullwidth-image {
+  aspect-ratio: var(--aspect-ratio);
+  height: var(--height);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
@@ -848,22 +868,10 @@ html, body {
 .home .collections__item {
   --grid-column: 1 / -1;
 }
-.home .collections__placeholder {
-  --grid-column: 2;
-}
 .home .custom-projects__title {
   --grid-column: 2;
 }
-.home .custom-projects__placeholder {
-  --grid-column: 2;
-}
-.home .custom-projects__item-placeholder {
-  --grid-column: 2;
-}
 .home .instagram-feed__title {
-  --grid-column: 2;
-}
-.home .instagram-feed__placeholder {
   --grid-column: 2;
 }
 
@@ -880,24 +888,20 @@ html, body {
     --grid-column: 2 / -2 ;
   }
   .home .collections__item {
-    --grid-column: span 4;
+    --grid-column: span 12;
+    --max-height: 450px;
   }
-  .home .collections__item-placeholder {
-    --grid-column: span 4;
+  .home .collections__item.item-2 {
+    --grid-column: span 6;
   }
-  .home .collections__placeholder {
-    --grid-column: 2 / -2;
+  .home .collections__item.item-2.item-3 {
+    --grid-column: span 4;
+    --max-height: auto;
   }
   .home .custom-projects__title {
     --grid-column: 2 / -2;
   }
-  .home .custom-projects__placeholder {
-    --grid-column: 2 / -2;
-  }
   .home .instagram-feed__title {
-    --grid-column: 2 / -2;
-  }
-  .home .instagram-feed__placeholder {
     --grid-column: 2 / -2;
   }
 }
@@ -953,6 +957,8 @@ html, body {
 .home .collections__item {
   grid-column: var(--grid-column);
   position: relative;
+  max-height: var(--max-height);
+  overflow: clip;
 }
 .home .collections__item-image img {
   margin-bottom: -5px;
@@ -971,29 +977,16 @@ html, body {
   max-width: 300px;
   color: var(--white);
 }
-.home .collections__item-placeholder {
-  grid-column: var(--grid-column);
-  padding: var(--padding-md);
-}
-.home .collections__placeholder {
-  grid-column: 2;
-  margin-top: var(--padding-xlg);
-}
 .home .custom-projects {
   grid-column: 1/-1;
   margin-top: var(--padding-xxxlg);
 }
 .home .custom-projects__title {
   grid-column: var(--grid-column);
+  padding-bottom: var(--padding-lg);
 }
-.home .custom-projects__image {
-  background-image: url("https://s3.eu-central-1.wasabisys.com/codi-cooperatiu-web-develop/media/images/llit_ciurans.width-700.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.home .custom-projects__placeholder {
-  grid-column: var(--grid-column);
+.home .custom-projects__item {
+  grid-column: 1/-1;
 }
 .home .instagram-feed {
   grid-column: 1/-1;
@@ -1001,9 +994,6 @@ html, body {
   margin-bottom: var(--padding-xxlg);
 }
 .home .instagram-feed__title {
-  grid-column: var(--grid-column);
-}
-.home .instagram-feed__placeholder {
   grid-column: var(--grid-column);
 }
 
