@@ -1,5 +1,8 @@
 // Dynamic variables
 .home {
+  .heading__title {
+    --padding-bottom: 150px;
+  }
   .overlay {
     --top: -96px;
     --display-overlay: flex;
@@ -30,6 +33,9 @@
 
 @media (min-width: 1024px) {
   .home {
+    .heading__title {
+      --padding-bottom: 300px;
+    }
     .overlay {
       --top: -192px;
       --display-overlay: grid;
@@ -73,6 +79,10 @@
 .home {
   .heading {
     grid-column: 1 / -1;
+
+    &__title {
+      padding-bottom: var(--padding-bottom);
+    }
   }
   .overlay {
     grid-column: 2 / -2;
