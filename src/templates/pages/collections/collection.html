@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags wagtailimages_tags i18n %}
 
 {% block content %}
 
-<main class="main collection collection-detail">
+<main class="main collections-detail">
 
-  {% include '../components/heading.html' %}
+  {% include '../../components/heading.html' %}
   
   <p>Links a altres col·leccions per muntar el menú:
     {% for collection in collections %}
@@ -15,24 +15,24 @@
     {% endfor %}
     </p>
 
-  <section class="collection__nav">
+  <section class="collections-detail__nav">
     <div class="grid-1">
-      <a class="collection__nav-link grid-item-3">
+      <a class="collections-detail__nav-link grid-item-3">
         <div>
           <p>New Area Collection</p>
         </div>
       </a>
-      <a class="collection__nav-link grid-item-3">
+      <a class="collection-detail__nav-link grid-item-3">
         <div>
           <p>Nordic Collection</p>
         </div>
       </a>
-      <a class="collection__nav-link grid-item-3">
+      <a class="collection-detail__nav-link grid-item-3">
         <div>
           <p>Armaris Collection</p>
         </div>
       </a>
-      <button class="collection__nav-btn grid-item-3">
+      <button class="collection-detail__nav-btn grid-item-3">
         <p>Els dissenyadors</p>
       </button>
     </div>
@@ -104,7 +104,7 @@
     {% endfor %}
   </items_block>  
 
-  {% include '../components/social.html' %}
+  {% include '../../elements/social.html' %}
 
 </main>
 
