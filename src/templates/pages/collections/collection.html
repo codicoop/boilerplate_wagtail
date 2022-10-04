@@ -7,58 +7,37 @@
 
   {% include '../../components/heading.html' %}
   
-  <p>Links a altres col·leccions per muntar el menú:
-    {% for collection in collections %}
-      <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
-    {% empty %}
-      No hi ha cap altra col·lecció.
-    {% endfor %}
-    </p>
-
   <section class="collections-detail__nav">
     <div class="grid-1">
-      <a class="collections-detail__nav-link grid-item-3">
-        <div>
-          <p>New Area Collection</p>
-        </div>
+    {# A l'enllaç actiu se li afegeix "is-active" #}
+    {% for collection in collections %}
+      <a class="collections-detail__nav-link grid-item-3" href="{% pageurl collection %}">
+        <p>{{ collection.specific.title }}</p>
       </a>
-      <a class="collection-detail__nav-link grid-item-3">
-        <div>
-          <p>Nordic Collection</p>
-        </div>
+    {% endfor %}
+    {% if designers_page %}
+      <a class="collections-detail__nav-link grid-item-3 is-active" href="{% pageurl designers_page %}">
+        <p>{% translate 'The designers' %}</p>
       </a>
-      <a class="collection-detail__nav-link grid-item-3">
-        <div>
-          <p>Armaris Collection</p>
-        </div>
-      </a>
-      <button class="collection-detail__nav-btn grid-item-3">
-        <p>Els dissenyadors</p>
-      </button>
+    {% endif %}
     </div>
   </section>
 
-  <p>Títol (ha d'apareixer damunt la imatge del header): {{ page.title }}</p>
-  {% if page.pdf.file %}
-    <p>PDF: <a href="{{ page.pdf.file.url }}" target="_blank">Catàleg</a></p>
-  {% endif %}
-  <p>Description: {{ page.description }}</p>
+  <section class="collections-detail__intro">
+    <div class="grid-1">
+      <div class="grid-item-4-9">
+        <p>{{ page.description }}</p>
 
-  <p>Links a altres col·leccions per muntar el submenú:
-  {% for collection in collections %}
-    <a href="{% pageurl collection %}">{{ collection.specific.title }}</a>
-  {% empty %}
-    No hi ha cap altra col·lecció.
-  {% endfor %}
-  </p>
-
-  <p>Link a la pàgina Dissenyadors, pel submenú:
-  {% if designers_page %}
-    <a href="{% pageurl designers_page %}">Dissenyadors</a>
-  {% else %}
-    <p><em>No hi ha pàgina de dissenyadors creada.</em></p>
-  {% endif %}
-  </p>
+        {% if page.pdf.file %}
+        <a href="{{ page.pdf.file.url }}" target="_blank">
+          <div class="btn btn--dark">
+            {% translate 'Download PDF catalogue' %}
+          </div>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
 
   <h3>Filtres</h3>
   <p>Idealment els filtres funcionaran amb react i per tant les opcions

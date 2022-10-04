@@ -31,11 +31,10 @@
     }
   }
 }
-.collection {
+// Pàgina de cada col·lecció
+.collections-detail {
   &__nav-link {
-    p {
-      --padding-text: 11px;
-    }
+    --padding: 0 var(--padding-sm) 11px var(--padding-sm);
   }
 }
 
@@ -82,11 +81,10 @@
       }
     }
   }
-  .collection {
+  // Pàgina de cada col·leccióç
+  .collections-detail {
     &__nav-link {
-      p {
-        --padding-text: var(--padding-sm);
-      }
+      --padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
     }
   }
 }
@@ -130,16 +128,33 @@
   }
 }
 
-.collection {
-  // &__nav {  }
-  &__nav-link {
-    p {
-      padding: var(--padding-text);
-      border-bottom: 2px solid var(--blackish);
+.collections-detail {
+  &__nav {
+    padding-top: var(--padding-xlg);
+    padding-bottom: var(--padding-lg);
+
+    .grid-1 {
+      gap: var(--padding-sm);
     }
   }
-  &__nav-btn {
+  &__nav-link {
     width: 100%;
-    border: 2px solid var(--blackish);
+    text-align: center;
+    font-weight: 500;
+
+    p {
+      display: inline-block;
+      padding: var(--padding);
+      margin-bottom: 0;
+    }
+
+    &.is-active {
+      p {
+        border-bottom: 2px solid var(--blackish);
+      }
+    }
+  }
+  &__intro {
+    
   }
 }
