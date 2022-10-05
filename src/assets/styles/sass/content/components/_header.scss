@@ -45,11 +45,11 @@
 
 @media (min-width: 1024px) {
   .empty-box {
-    --height: 120px;
+    --height: 110px;
   }
   .header {
     --height-header: auto;
-    --padding-header: var(--padding-xlg) var(--padding-xxlg);
+    --padding-header: var(--padding-lg) var(--padding-xxlg);
     --display-menu: none;
     --flex-direction-menu: column;
 

@@ -118,6 +118,7 @@ body.no-prefooter {
     justify-content: center;
     align-items: start;
     grid-auto-rows: auto;
+    padding: 0 var(--padding-xxlg);
   }
   .grid-main {
     display: grid;
