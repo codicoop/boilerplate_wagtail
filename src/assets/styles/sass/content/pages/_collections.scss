@@ -194,6 +194,9 @@
   &__filters-title {
     text-transform: uppercase;
     padding-bottom: var(--padding-bottom);
+    p {
+      margin-bottom: 0;
+    }
   }
   &__product-list {
     margin-bottom: var(--margin-bottom-card);
