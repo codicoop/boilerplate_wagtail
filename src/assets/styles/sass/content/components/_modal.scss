@@ -11,7 +11,7 @@
     --pointer-events-modal: all;
   }
   &__icon {
-    --position-icon-top: 30px;
+    --padding: var(--padding-xsm);
   }
 }
 
@@ -20,7 +20,7 @@
     --padding-modal: var(--padding-xlg);
 
     &__icon {
-      --position-icon-top: 0;
+      --padding: var(--padding-lg);
     }
   }
 }
@@ -41,11 +41,16 @@
   padding: var(--padding-modal);
   background-color: hsla(0, 100%, 100%, 0.9);
   pointer-events: var(--pointer-events-modal);
+  z-index: 100;
 
-  &__icon {
-    align-self: flex-end;
+  &__container {
     position: relative;
-    top: var(--position-icon-top);
+  }
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: var(--padding);
     cursor: pointer;
 
     svg {

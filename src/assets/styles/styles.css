@@ -958,7 +958,7 @@ body.no-prefooter .prefooter {
   --pointer-events-modal: all;
 }
 .modal__icon {
-  --position-icon-top: 30px;
+  --padding: var(--padding-xsm);
 }
 
 @media (min-width: 1024px) {
@@ -966,7 +966,7 @@ body.no-prefooter .prefooter {
     --padding-modal: var(--padding-xlg);
   }
   .modal__icon {
-    --position-icon-top: 0;
+    --padding: var(--padding-lg);
   }
 }
 .modal {
@@ -982,11 +982,16 @@ body.no-prefooter .prefooter {
   padding: var(--padding-modal);
   background-color: hsla(0deg, 100%, 100%, 0.9);
   pointer-events: var(--pointer-events-modal);
+  z-index: 100;
+}
+.modal__container {
+  position: relative;
 }
 .modal__icon {
-  align-self: flex-end;
-  position: relative;
-  top: var(--position-icon-top);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: var(--padding);
   cursor: pointer;
 }
 .modal__icon svg {
