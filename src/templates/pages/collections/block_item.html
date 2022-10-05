@@ -1,18 +1,50 @@
-{% load wagtailimages_tags %}
+{% load wagtailimages_tags i18n %}
 
-<p>Item title: {{ item.title }}</p>
-<!--Canvia la mida de la imatge per la que toqui!-->
-<p>Image: {% image item.image width-400 %}</p>
-<p>Model: {{ item.model }}</p>
+{% image item.image width-700 as item_image %}
+{% image item.image original as full_size_image %}
 
-{% for item_type in item.types.all %}
-  <p>Item type: {{ item_type }}</p>
-{% empty %}
-<p>This item don't have any type</p>
-{% endfor %}
+<div class="product-card grid-item-4">
+  <div 
+    class="product-card__image container-square-image" 
+    style="--bg-image: url('{{ item_image.url }}')"
+    onclick="openFullImage(event)"
+  ></div>
+  <div class="product-card__label">
+    <div class="product-card__title">
+      <p>{{ item.model }}</p>
+    </div>
+    <div class="product-card__text">
+      {% for finishing in item.finishings.all %}
+      <p>{{ finishing }}</p>
+      {% endfor %}
+    </div>
+    <div class="product-card__text">
+      {% for item_type in item.types.all %}
+      <p>Item type: {{ item_type }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal__icon" onclick="closeFullImage(event)">
+      <svg 
+      title="{% translate 'Icon to close the image overlay' %}"
+      class="icon-close icon-24" 
+      viewbox="0 0 24 24" 
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M17.7556 6L6.02222 18" />
+      <path d="M6.02222 6L17.7556 18" />
+    </svg>
+    </div>
+    <div class="modal__image">
+      {% image item.image original %}
+    </div>
+    <div class="modal__title title-3">
+      <p>{{ item.model }}</p>
+    </div>
+  </div>
+</div>
 
-{% for finishing in item.finishings.all %}
-  <p>Item type: {{ finishing }}</p>
-{% empty %}
-<p>This item don't have any finishing</p>
-{% endfor %}
+<!-- {# Modal que s'obrirà al fer click a la imatge #} -->
+
+

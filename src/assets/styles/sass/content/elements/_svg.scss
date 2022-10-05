@@ -8,3 +8,14 @@
   width: 32px;
   height: 32px;
 } 
+
+.icon-close {
+  fill: none;
+
+  path {
+    stroke: var(--blackish);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}

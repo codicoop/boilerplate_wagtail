@@ -36,6 +36,16 @@
   &__nav-link {
     --padding: 0 var(--padding-sm) 11px var(--padding-sm);
   }
+  &__intro-btn {
+    --max-width: 350px;
+  }
+  &__filters { 
+    --margin-top: var(--padding-xxlg);
+    --margin-bottom: var(--padding-md);
+  }
+  &__filters-title {
+    --padding-bottom: var(--padding-xsm);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -81,10 +91,20 @@
       }
     }
   }
-  // Pàgina de cada col·leccióç
+  // Pàgina de cada col·lecció
   .collections-detail {
     &__nav-link {
       --padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
+    }
+    &__intro-btn {
+      --max-width: none;
+    }
+    &__filters { 
+      --margin-top: 126px;
+      --margin-bottom: var(--padding-xxlg);
+    }
+    &__filters-title {
+      --padding-bottom: 0;
     }
   }
 }
@@ -154,7 +174,19 @@
       }
     }
   }
-  &__intro {
-    
+  // &__intro { }
+  // &__intro-text {}
+  &__intro-btn {
+    margin-top: var(--padding-xsm);
+    align-self: center;
+    max-width: var(--max-width);
+  }
+  &__filters { 
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom)
+  }
+  &__filters-title {
+    text-transform: uppercase;
+    padding-bottom: var(--padding-bottom);
   }
 }

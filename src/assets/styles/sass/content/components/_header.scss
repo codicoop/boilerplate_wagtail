@@ -144,16 +144,6 @@
   &__action {
     display: var(--menu-action);
   }
-  &__close {
-    fill: none;
-  
-    path {
-      stroke: var(--stroke-color);
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-  }
   &__btn button { 
     font-weight: 500;
   }
@@ -170,6 +160,11 @@
     &::before {
       content: "|";
       padding-right: var(--padding-xxsm);
+    }
+  }
+  &__close {
+    path {
+      stroke: var(--stroke-color);
     }
   }
 }
