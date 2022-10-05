@@ -371,3 +371,7 @@ TO DO
 ### Updating
 
 TO DO
+
+## React Setup
+
+Consultar [els docus](http://docus.codi.coop:3000/e/en/knowledge-base/front/react_setup)
