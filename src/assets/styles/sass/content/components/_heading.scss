@@ -1,18 +1,18 @@
 // Dynamic variables
 .heading {
-  --height: 640px;
+  --height: 440px;
 
   &__title {
-    --padding-bottom: 150px;
+    --padding-bottom: var(--padding-lg);
   }
 }
 
 @media (min-width: 1024px) {
   .heading {
-  --height: 764px;
+  --height: 584px;
 
     &__title {
-      --padding-bottom: 300px;
+      --padding-bottom: 114px;
     }
   }
 }
@@ -23,8 +23,7 @@
   align-items: flex-end;
   height: var(--height);
   margin-top: -6px;
-  // background-image: var(--bg-heading);
-  background-image: url('/static/images/imatge_prova.png');
+  background-image: var(--bg-heading);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

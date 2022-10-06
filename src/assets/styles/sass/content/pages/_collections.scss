@@ -31,11 +31,26 @@
     }
   }
 }
-.collection {
+// Pàgina de cada col·lecció
+.collections-detail {
   &__nav-link {
-    p {
-      --padding-text: 11px;
-    }
+    --padding: 0 var(--padding-sm) 11px var(--padding-sm);
+  }
+  &__intro-btn {
+    --max-width: 350px;
+  }
+  &__filters { 
+    --margin-top: var(--padding-xxlg);
+    --margin-bottom: var(--padding-md);
+  }
+  &__filters-title {
+    --padding-bottom: var(--padding-xsm);
+  }
+  &__product-list {
+    --margin-bottom-card: var(--padding-xlg);
+  }
+  &__anchor {
+    --display: block; 
   }
 }
 
@@ -82,11 +97,26 @@
       }
     }
   }
-  .collection {
+  // Pàgina de cada col·lecció
+  .collections-detail {
     &__nav-link {
-      p {
-        --padding-text: var(--padding-sm);
-      }
+      --padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
+    }
+    &__intro-btn {
+      --max-width: none;
+    }
+    &__filters { 
+      --margin-top: 126px;
+      --margin-bottom: var(--padding-xxlg);
+    }
+    &__filters-title {
+      --padding-bottom: 0;
+    }
+    &__product-list {
+      --margin-bottom-card: var(--padding-xxlg);
+    }
+    &__anchor {
+      --display: none; 
     }
   }
 }
@@ -130,16 +160,59 @@
   }
 }
 
-.collection {
-  // &__nav {  }
-  &__nav-link {
-    p {
-      padding: var(--padding-text);
-      border-bottom: 2px solid var(--blackish);
+.collections-detail {
+  position: relative;
+  &__nav {
+    padding-top: var(--padding-xlg);
+    padding-bottom: var(--padding-lg);
+
+    .grid-1 {
+      gap: var(--padding-sm);
     }
   }
-  &__nav-btn {
+  &__nav-link {
     width: 100%;
-    border: 2px solid var(--blackish);
+    text-align: center;
+    font-weight: 500;
+
+    p {
+      display: inline-block;
+      padding: var(--padding);
+      margin-bottom: 0;
+    }
+
+    &.is-active {
+      p {
+        border-bottom: 2px solid var(--blackish);
+      }
+    }
+  }
+  // &__intro { }
+  // &__intro-text {}
+  &__intro-btn {
+    margin-top: var(--padding-xsm);
+    align-self: center;
+    max-width: var(--max-width);
+  }
+  &__filters { 
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom)
+  }
+  &__filters-title {
+    text-transform: uppercase;
+    padding-bottom: var(--padding-bottom);
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__product-list {
+    margin-bottom: var(--margin-bottom-card);
+  }
+  &__anchor {
+    position: fixed;
+    bottom: var(--padding-lg);
+    right: var(--padding-lg);
+
+    display: var(--display);
   }
 }

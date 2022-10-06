@@ -1,6 +1,6 @@
 // Dynamic variables
 .empty-box {
-  height: 80px;
+  --height: 80px;
 }
 .header {
   --height-header: auto;
@@ -8,24 +8,33 @@
   --display-header: flex;
   --background-color: transparent;
   --display-menu: none;
+  --flex-direction-menu: column;
   --display-topbar: flex;
   --stroke-color: var(--white);
   --fill-logo: var(--white);
-
+  
   // Changes in header when menu opens
   &.is-open {
     --background-color: var(--white);
     --height-header: 100vh;
     --display-menu: flex;
+    --flex-direction-menu: column;
     --display-topbar: none;
     --stroke-color: var(--blackish);
     --fill-logo: var(--blackish);
+    --menu-action: block;
   }
   // Changes in header when we scroll down
   &.is-scrolled {
     --background-color: var(--white);
     --stroke-color: var(--blackish);
     --fill-logo: var(--blackish);
+  }
+}
+.menu {
+  &__bottom {
+    --padding-bottom: var(--padding-lg);
+    --flex-direction: column;
   }
 }
 .topbar {
@@ -36,19 +45,30 @@
 
 @media (min-width: 1024px) {
   .empty-box {
-    height: 120px;
+    --height: 110px;
   }
   .header {
     --height-header: auto;
-    --padding-header: var(--padding-xlg) var(--padding-xxlg);
+    --padding-header: var(--padding-lg) var(--padding-xxlg);
+    --display-menu: none;
+    --flex-direction-menu: column;
 
     &.is-open {
       --height-header: auto;
+      --menu-action: none;
+      --display-menu: flex;
+      --flex-direction-menu: row;
     }
   }
   .topbar {
     &__action {
       --width: var(--padding-lg);
+    }
+  }
+  .menu {
+    &__bottom {
+      --padding-bottom: 0;
+      --flex-direction: row;
     }
   }
 }
@@ -105,7 +125,7 @@
 
 .menu {
   display: var(--display-menu);
-  flex-direction: column;
+  flex-direction: var(--flex-direction-menu);
   justify-content: space-between;
   height: 100%;
 
@@ -115,21 +135,14 @@
   }
   &__bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--flex-direction);
     justify-content: flex-end;
     align-items: center;
     gap: var(--padding-sm) var(--padding-lg);
-    padding-bottom: var(--padding-lg);
+    padding-bottom: var(--padding-bottom);
   }
-  &__close {
-    fill: none;
-  
-    path {
-      stroke: var(--stroke-color);
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
+  &__action {
+    display: var(--menu-action);
   }
   &__btn button { 
     font-weight: 500;
@@ -147,6 +160,11 @@
     &::before {
       content: "|";
       padding-right: var(--padding-xxsm);
+    }
+  }
+  &__close {
+    path {
+      stroke: var(--stroke-color);
     }
   }
 }

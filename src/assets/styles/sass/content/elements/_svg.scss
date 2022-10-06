@@ -8,3 +8,31 @@
   width: 32px;
   height: 32px;
 } 
+
+.icon-close {
+  fill: none;
+
+  path {
+    stroke: var(--blackish);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
+
+.icon-arrow {
+  width: 48px;
+  height: 48px;
+  fill: none;
+
+  path {
+    fill: white;
+  }
+
+  &__container {
+    width: 48px;
+    height: 48px;
+    background-color: var(--blackish);
+    border-radius: 7px;
+  }
+}

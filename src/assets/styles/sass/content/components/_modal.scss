@@ -1,0 +1,62 @@
+// Dynamic variables
+.modal {
+  --position-modal: relative;
+  --padding-modal: var(--padding-md);
+  --display-modal: none;
+  --pointer-events-modal: none;
+
+  &.is-open {
+    --position-modal: fixed;
+    --display-modal: flex;
+    --pointer-events-modal: all;
+  }
+  &__icon {
+    --padding: var(--padding-xsm);
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal {
+    --padding-modal: var(--padding-xlg);
+
+    &__icon {
+      --padding: var(--padding-lg);
+    }
+  }
+}
+// Layout
+
+.modal {
+  position: var(--position-modal);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: var(--display-modal);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: var(--padding-modal);
+  background-color: hsla(0, 100%, 100%, 0.9);
+  pointer-events: var(--pointer-events-modal);
+  z-index: 100;
+
+  &__container {
+    position: relative;
+  }
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: var(--padding);
+    cursor: pointer;
+
+    svg {
+      pointer-events: none;
+    }
+  }
+  // &__image { }
+  // &__title { }
+}

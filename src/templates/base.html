@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
   <title>Mobles Ciurans | {% block page_title %}{% endblock %}</title>
 </head>
 <body class="{% block body_classes %}{% endblock %}">
@@ -61,13 +60,13 @@
     <div class="menu">
       <div class="menu__top">
         <div class="menu__logo">
-          <img class="logo" src="{% static 'images/logo.svg' %}" alt="Logo de l'Empresa">
+          <img class="logo" src="{% static 'images/logo.svg' %}" alt="{% translate 'Logo of Ciurans' %}">
         </div>
         <div class="menu__action">
           <svg 
-            title="Icona per tancar el menú"
+            title="{% translate 'Icon to close the menu' %}"
             onclick="closeMenu()"
-            class="menu__close icon-24" 
+            class="menu__close icon-close icon-24" 
             viewbox="0 0 24 24" 
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -81,7 +80,7 @@
           {% main_menu template="components/main_menu.html" %}
         </nav>
         <div class="menu__btn">
-          <button class="btn btn--dark">Àrea client</button>
+          <button class="btn btn--dark">{% translate 'Client Area' %}</button>
         </div>
         {% if page %}
         <div class="menu__lang">
@@ -154,5 +153,12 @@
   </footer>
 
   <script src="{% static 'js/scripts.js' %}"></script>
+
+  {% block extra_js %}
+  {% endblock %}
+
+  <!-- Referencing webpack bundle file -->
+  <script src="{% static 'js/index-bundle.js' %}"></script>
+  
 </body>
 </html>

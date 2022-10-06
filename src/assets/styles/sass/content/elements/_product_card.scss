@@ -1,5 +1,6 @@
 // Dynamic variables
 .product-card {
+
   &__label {
     --padding: 14px 18px;
   }
@@ -7,6 +8,7 @@
 
 @media (min-width: 1024px) {
   .product-card {
+
     &__label {
       --padding: var(--padding-sm) var(--padding-md);
     }
@@ -20,15 +22,34 @@
   flex-direction: column;
 
   &__image {
-    width: 100%;
-
-    img {
-      object-fit: cover;
-    }
+    cursor: pointer;
   }
   &__label {
     background-color: var(--blackish);
     padding: var(--padding);
+    color: var(--white);
+  }
+  &__title {
+    font-weight: 700;
+    p {
+      margin-bottom: var(--padding-xxsm);
+    }
+  }
+  &__text {
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    p + p {
+      position: relative;
+      padding-left: var(--padding-sm);
+
+      &:before {
+        content: "/";
+        position: absolute;
+        left: 2px;
+      }
+    }
   }
   &__title,
   &__text {
