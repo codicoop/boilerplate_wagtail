@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import '../../styles/sass/styles.scss';
 
 import FilterApp from './FilterComponent/FilterApp';
@@ -7,5 +7,6 @@ import FilterApp from './FilterComponent/FilterApp';
 let myFilterApp = document.getElementById('myFilterApp');
 
 if (myFilterApp) {
-  ReactDOM.render(<FilterApp />, myFilterApp);
+      const root = createRoot(myFilterApp);
+    root.render(<FilterApp />);
 }

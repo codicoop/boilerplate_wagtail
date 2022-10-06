@@ -89,3 +89,13 @@
 </main>
 
 {% endblock %}
+
+{% block extra_js %}
+  <script id="data_for_react">
+    const backData = { 
+      type: [{% for id, name in available_types.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
+      model: [{% for id, name in available_models.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
+      submodel: [{% for id, name in finishings.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
+    }
+  </script>
+{% endblock %}

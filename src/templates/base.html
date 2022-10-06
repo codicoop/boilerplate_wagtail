@@ -154,6 +154,9 @@
 
   <script src="{% static 'js/scripts.js' %}"></script>
 
+  {% block extra_js %}
+  {% endblock %}
+
   <!-- Referencing webpack bundle file -->
   <script src="{% static 'js/index-bundle.js' %}"></script>
   
