@@ -19,3 +19,20 @@
     stroke-linejoin: round;
   }
 }
+
+.icon-arrow {
+  width: 48px;
+  height: 48px;
+  fill: none;
+
+  path {
+    fill: white;
+  }
+
+  &__container {
+    width: 48px;
+    height: 48px;
+    background-color: var(--blackish);
+    border-radius: 7px;
+  }
+}

@@ -49,6 +49,9 @@
   &__product-list {
     --margin-bottom-card: var(--padding-xlg);
   }
+  &__anchor {
+    --display: block; 
+  }
 }
 
 @media (min-width: 1024px) {
@@ -112,6 +115,9 @@
     &__product-list {
       --margin-bottom-card: var(--padding-xxlg);
     }
+    &__anchor {
+      --display: none; 
+    }
   }
 }
 
@@ -155,6 +161,7 @@
 }
 
 .collections-detail {
+  position: relative;
   &__nav {
     padding-top: var(--padding-xlg);
     padding-bottom: var(--padding-lg);
@@ -200,5 +207,12 @@
   }
   &__product-list {
     margin-bottom: var(--margin-bottom-card);
+  }
+  &__anchor {
+    position: fixed;
+    bottom: var(--padding-lg);
+    right: var(--padding-lg);
+
+    display: var(--display);
   }
 }
