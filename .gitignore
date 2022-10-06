@@ -12,4 +12,5 @@ docker/settings/
 # Using this for pyenv in development environment.
 .python-version
 docker/compose-*
-node_modules
+
+node_modules/
