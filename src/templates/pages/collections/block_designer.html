@@ -1,7 +1,23 @@
 {% load wagtailimages_tags %}
 
-<quote>{{ value.quote }}</quote>
-<p>Name: {{ value.name }}</p>
-<p>Rol: {{ value.title }}</p>
-<p>Descripció: {{ value.description }}</p>
-<p>Image: {% image value.photo width-400 %}</p>
+<div class="designer grid-3">
+  {% if value.quote %}
+  <div class="designer__quote">
+    <quote>"{{ value.quote }}"</quote>
+  </div>
+  {% endif %}
+  <div class="designer__image">
+    {% image value.photo width-1000 %}
+  </div>
+  <div class="designer__info">
+    <div class="designer__name title-1--light">
+      <p>{{ value.name }}</p>
+    </div>
+    <div class="designer__role title-3">
+      <p>{{ value.role }}</p>
+    </div>
+    <div class="designer__description">
+      <p>{{ value.description }}</p>
+    </div>
+  </div>
+</div>

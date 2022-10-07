@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags  wagtailimages_tags i18n %}
 
 {% block content %}
 
@@ -7,43 +7,32 @@
 
   {% include '../../components/heading.html' %}
   
-  <p>Links a altres col·leccions per muntar el menú:
-    {% for collection in collections %}
-      <a href="{% pageurl collection %}">{{ collection.specific.name }}</a>
-    {% empty %}
-      No hi ha cap altra col·lecció.
-    {% endfor %}
-    </p>
-
-  <section class="collection__nav">
+  <section class="collections-detail__nav">
     <div class="grid-1">
-      <a class="collection__nav-link grid-item-3">
-        <div>
-          <p>New Area Collection</p>
-        </div>
+    {# A l'enllaç actiu se li afegeix "is-active" #}
+    {% for collection in collections %}
+      <a class="collections-detail__nav-link grid-item-3" href="{% pageurl collection %}">
+        <p>{{ collection.specific.title }}</p>
       </a>
-      <a class="collection__nav-link grid-item-3">
-        <div>
-          <p>Nordic Collection</p>
-        </div>
+    {% endfor %}
+    {% if designers_page %}
+      <a class="collections-detail__nav-link grid-item-3 is-active" href="{% pageurl designers_page %}">
+        <p>{% translate 'The designers' %}</p>
       </a>
-      <a class="collection__nav-link grid-item-3">
-        <div>
-          <p>Armaris Collection</p>
-        </div>
-      </a>
-      <button class="collection__nav-btn grid-item-3">
-        <p>Els dissenyadors</p>
-      </button>
+    {% endif %}
     </div>
   </section>
+<!-- 
+  <section class="collections-designers__list">
+    {% for item in page.designers_list.all %}
+      {% include "./block_designer.html" with item=item %}
+    {% endfor %}  
+  </section> -->
 
-  <items_block>
+  <section class="collections-designers__list">
     {{ page.designers_list }}
-  </items_block>
-
-  {% include '../../elements/social.html' %}
-
+  </section>
+  
 </main>
 
 {% endblock %}

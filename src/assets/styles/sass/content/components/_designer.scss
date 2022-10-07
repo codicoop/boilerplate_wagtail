@@ -1,0 +1,86 @@
+// Dynamic variables
+.designer {
+  --margin-bottom-designer: var(--padding-xxlg);
+
+  &__quote {
+    --grid-column: 2;
+    --padding-bottom: var(--padding-xlg);
+    --text-align: left;
+  }
+  &__role {
+    --padding-bottom: 10px;
+  }
+  &__info {
+    --grid-row: 3;
+  }
+  &__image {
+    --padding-bottom: var(--padding-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .designer {
+    --margin-bottom-designer: 150px;
+
+    &__quote {
+      --grid-column: 4 / span 6;
+      --padding-bottom: 125px;
+      --text-align: center;
+    }
+    &__role {
+      --padding-bottom: var(--padding-md);
+    }
+    &__info {
+      --grid-row: 2;
+    }
+    &__image {
+      --padding-bottom: 0;
+    }
+  }
+}
+// Layout
+
+// The differences between odd and even elements are 
+// dealt with at the parent element in _collections.scss
+
+.designer {
+  margin-bottom: var(--margin-bottom-designer);
+
+  &__quote {
+    grid-column: var(--grid-column);
+    grid-row: 1;
+
+    font-weight: 500;
+    padding-bottom: var(--padding-bottom);
+    text-align: var(--text-align);
+  }
+  &__info {
+    grid-row: var(--grid-row);
+  }
+  &__name {
+    text-transform: uppercase;
+    padding-bottom: var(--padding-xsm);
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__role {
+    margin-top: -16px;
+    padding-bottom: var(--padding-bottom);
+    text-transform: uppercase;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+  // &__description {  }
+  &__image {
+    grid-row: 2;
+    padding-bottom: var(--padding-bottom);
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
