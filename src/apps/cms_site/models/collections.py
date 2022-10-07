@@ -5,6 +5,7 @@ from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import HelpPanel, InlinePanel
+from wagtail.api import APIField
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.models import Orderable
 from wagtailautocomplete.edit_handlers import AutocompletePanel
@@ -64,6 +65,10 @@ class Collection(BasePage):
             heading=_("Collection items"),
             label=_("Collection item"),
         ),
+    ]
+
+    api_fields = [
+        APIField('collection_items'),
     ]
 
     template = "pages/collections/collection.html"
@@ -185,6 +190,11 @@ class CollectionItem(Orderable, ClusterableModel):
             "finishings",
             target_model="cms_site.CollectionItemFinishing",
         ),
+    ]
+
+    api_fields = [
+        APIField("title"),
+        APIField("finishings"),
     ]
 
     def __str__(self):

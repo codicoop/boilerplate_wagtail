@@ -21,6 +21,8 @@ from wagtail.admin import urls as wagtailadmin_urls
 from wagtail.documents import urls as wagtaildocs_urls
 from wagtailautocomplete.urls.admin import urlpatterns as autocomplete_admin_urls
 
+from apps.cms_site.api import api_router
+
 urlpatterns = [
     # Standard Django Admin URLs.
     path("admin/", admin.site.urls),
@@ -35,6 +37,7 @@ urlpatterns = [
     # omitted if you do not intend to use Wagtail’s document management
     # features.
     path("documents/", include(wagtaildocs_urls)),
+    path('api/v2/', api_router.urls),
 ]
 
 urlpatterns += i18n_patterns(
