@@ -33,6 +33,9 @@
 }
 // Pàgina de cada col·lecció
 .collections-detail {
+  &__nav {
+    --padding-bottom: var(--padding-xlg);
+  }
   &__nav-link {
     --padding: 0 var(--padding-sm) 11px var(--padding-sm);
   }
@@ -51,6 +54,16 @@
   }
   &__anchor {
     --display: block; 
+  }
+}
+.collection-designers {
+  .designer__info {
+    --grid-column-odd: 2;
+    --grid-column-even: 2;
+  }
+  .designer__image {
+    --grid-column-odd: 1 / -1;
+    --grid-column-even: 1 / -1;
   }
 }
 
@@ -99,6 +112,9 @@
   }
   // Pàgina de cada col·lecció
   .collections-detail {
+    &__nav {
+      --padding-bottom: 105px;
+    }
     &__nav-link {
       --padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
     }
@@ -117,6 +133,16 @@
     }
     &__anchor {
       --display: none; 
+    }
+  }
+  .collection-designers {
+    .designer__info {
+      --grid-column-odd:  2 / span 5;
+      --grid-column-even: 8 / span 5;
+    }
+    .designer__image {
+      --grid-column-odd:  7 / span 6;
+      --grid-column-even: 1 / span 6;
     }
   }
 }
@@ -162,9 +188,10 @@
 
 .collections-detail {
   position: relative;
+
   &__nav {
     padding-top: var(--padding-xlg);
-    padding-bottom: var(--padding-lg);
+    padding-bottom: var(--padding-bottom);
 
     .grid-1 {
       gap: var(--padding-sm);
@@ -214,5 +241,28 @@
     right: var(--padding-lg);
 
     display: var(--display);
+  }
+}
+
+.collection-designers {
+  // Odd number elements are aligned differently than even ones
+  & div.block-item:nth-child(odd) {
+    .designer__info {
+      grid-column: var(--grid-column-odd);
+    }
+    .designer__image {
+      grid-column: var(--grid-column-odd);
+    }
+  }
+  & div.block-item:nth-child(even) {
+    .designer__info {
+      grid-column: var(--grid-column-even);
+    }
+    .designer__image {
+      grid-column: var(--grid-column-even);
+    }
+  }
+  .grid-3 {
+    align-items: center;
   }
 }
