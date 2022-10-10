@@ -13,3 +13,9 @@ resumeixi els endpoints ja que -de moment- només hi ha aquest.
 
 Al navegador hauria d'aparèixer un botó Filters i allà en pots seleccionar diversos,
 i veure com modifica la URL.
+
+La imatge de cada article es genera en dues mides diferents, configurades així:
+
+    image_thumbnail = "width-700"
+    image_maximized = "width-1500"
+

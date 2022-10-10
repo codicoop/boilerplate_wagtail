@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from wagtail.images.api.fields import ImageRenditionField
 
 from apps.cms_site.models import CollectionItem, CollectionItemFinishing, \
     CollectionItemType
@@ -31,13 +32,16 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
         many=True,
         read_only=True,
     )
+    image_thumbnail = ImageRenditionField("width-700", source="image")
+    image_maximized = ImageRenditionField("width-1500", source="image")
 
     class Meta:
         model = CollectionItem
         fields = [
             "id",
             "title",
-            "image",
+            "image_thumbnail",
+            "image_maximized",
             "model",
             "finishings",
             "typologies",
