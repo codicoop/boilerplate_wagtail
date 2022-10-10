@@ -1,8 +1,11 @@
 from rest_framework import serializers
 from wagtail.images.api.fields import ImageRenditionField
 
-from apps.cms_site.models import CollectionItem, CollectionItemFinishing, \
-    CollectionItemType
+from apps.cms_site.models import (
+    CollectionItem,
+    CollectionItemFinishing,
+    CollectionItemType,
+)
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
