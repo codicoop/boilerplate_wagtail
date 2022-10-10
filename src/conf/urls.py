@@ -35,6 +35,10 @@ urlpatterns = [
     # omitted if you do not intend to use Wagtail’s document management
     # features.
     path("documents/", include(wagtaildocs_urls)),
+    path(
+        "api/",
+        include("apps.cms_api.urls"),
+    ),
 ]
 
 urlpatterns += i18n_patterns(
