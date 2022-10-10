@@ -81,7 +81,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INSTALLED_APPS = [
     "maintenance_mode",
     "wagtailautocomplete",
-    "wagtail.api.v2",
+    # "wagtail.api.v2",
     "rest_framework",
     "wagtail_localize",
     "wagtail_localize.locales",
@@ -241,5 +241,5 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 # Wagtailmenus
 WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"
 
-WAGTAILAPI_LIMIT_MAX = env.int("WAGTAILAPI_LIMIT_MAX", default=100)
-WAGTAILAPI_SEARCH_ENABLED = env.bool("WAGTAILAPI_SEARCH_ENABLED", default=True)
+# WAGTAILAPI_LIMIT_MAX = env.int("WAGTAILAPI_LIMIT_MAX", default=100)
+# WAGTAILAPI_SEARCH_ENABLED = env.bool("WAGTAILAPI_SEARCH_ENABLED", default=True)

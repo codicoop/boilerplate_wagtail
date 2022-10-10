@@ -67,10 +67,6 @@ class Collection(BasePage):
         ),
     ]
 
-    api_fields = [
-        APIField('collection_items'),
-    ]
-
     template = "pages/collections/collection.html"
     parent_page_types = ["CollectionsPage"]
     max_count = 3

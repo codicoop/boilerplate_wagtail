@@ -37,7 +37,6 @@ urlpatterns = [
     # omitted if you do not intend to use Wagtail’s document management
     # features.
     path("documents/", include(wagtaildocs_urls)),
-    path('api/v2/', api_router.urls),
 ]
 
 urlpatterns += i18n_patterns(
