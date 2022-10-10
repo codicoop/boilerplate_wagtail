@@ -188,10 +188,5 @@ class CollectionItem(Orderable, ClusterableModel):
         ),
     ]
 
-    api_fields = [
-        APIField("title"),
-        APIField("finishings"),
-    ]
-
     def __str__(self):
         return self.title
