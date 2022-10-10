@@ -5,7 +5,6 @@ from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import HelpPanel, InlinePanel
-from wagtail.api import APIField
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.models import Orderable
 from wagtailautocomplete.edit_handlers import AutocompletePanel
