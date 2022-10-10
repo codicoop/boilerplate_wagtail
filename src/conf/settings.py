@@ -105,6 +105,7 @@ INSTALLED_APPS = [
     "apps.base",
     "apps.users",
     "apps.cms_site",
+    "apps.cms_api",
     "apps.blog",
     "django.contrib.postgres",
     "django.contrib.admin",
