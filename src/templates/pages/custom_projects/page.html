@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags wagtailimages_tags %}
+{% load wagtailcore_tags wagtailimages_tags static i18n %}
 
 {% block content %}
 
@@ -9,16 +9,19 @@
 
   {% include '../../components/heading.html' %}
 
-  {% include '../../components/block_text_center.html' %}
+  <div class="custom-projects__intro">
+    {% include '../../components/block_text_center.html' %}
+  </div>
 
   <section class="custom-projects__list grid-2">
-    {% for custom_project in custom_projects %}
 
+    {% for custom_project in custom_projects %}
     <a href="{% pageurl custom_project %}">
       <div class="project-card grid-item-4">
         <div class="project-card__image">
           <div class="container-square-image" style="--bg-image: url('{{ bg_project_card.url }}')">
           </div>
+          {% image custom_project.main_section_image width-700 %}
         </div>
         <div class="project-card__label">
           <div class="project-card__title title-2">
@@ -30,21 +33,9 @@
         </div>
       </div>
     </a>
-
     {% endfor %}
+
   </section>
-
-  {% include '../../components/social.html' %}
-
 </main>
-
-<!-- <section>
-  {% for custom_project in custom_projects %}
-    <a href="{% pageurl custom_project %}">
-      <p>{{ custom_project.specific.title }}</p>
-      {% image custom_project.main_section_image max-200x200 %}
-    </a>
-  {% endfor %}
-</section> -->
 
 {% endblock %}

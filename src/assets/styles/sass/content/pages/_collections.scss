@@ -245,6 +245,9 @@
 }
 
 .collection-designers {
+  .grid-3 {
+    align-items: center;
+  }
   // Odd number elements are aligned differently than even ones
   & div.block-item:nth-child(odd) {
     .designer__info {
@@ -261,8 +264,5 @@
     .designer__image {
       grid-column: var(--grid-column-even);
     }
-  }
-  .grid-3 {
-    align-items: center;
   }
 }

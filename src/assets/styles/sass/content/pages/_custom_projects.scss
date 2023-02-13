@@ -1,0 +1,31 @@
+// Dynamica variables
+.custom-projects {
+  &__intro {
+    --padding-top: var(--padding-xlg);
+    .grid-1 {
+      --padding: 0 var(--padding-lg);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-projects {
+    &__intro {
+      --padding-top: 120px;
+
+      .grid-1 {
+        --padding: 0;
+      }
+    }
+  }  
+}
+// Layout
+.custom-projects {
+  &__intro {
+    padding-top: var(--padding-top);
+
+    .grid-1 {
+      padding: var(--padding);
+    }
+  }
+}

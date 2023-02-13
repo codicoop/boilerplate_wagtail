@@ -4,16 +4,17 @@
 
   &__quote {
     --grid-column: 2;
+    --grid-row-quote: 2;
     --padding-bottom: var(--padding-xlg);
-    --text-align: left;
   }
   &__role {
     --padding-bottom: 10px;
   }
   &__info {
-    --grid-row: 3;
+    --grid-row-info: 3;
   }
   &__image {
+    --grid-row-image: 1;
     --padding-bottom: var(--padding-lg);
   }
 }
@@ -24,16 +25,17 @@
 
     &__quote {
       --grid-column: 4 / span 6;
+      --grid-row-quote: 1;
       --padding-bottom: 125px;
-      --text-align: center;
     }
     &__role {
       --padding-bottom: var(--padding-md);
     }
     &__info {
-      --grid-row: 2;
+      --grid-row-info: 2;
     }
     &__image {
+      --grid-row-image: 2;
       --padding-bottom: 0;
     }
   }
@@ -48,14 +50,14 @@
 
   &__quote {
     grid-column: var(--grid-column);
-    grid-row: 1;
+    grid-row: var(--grid-row-quote);
 
     font-weight: 500;
     padding-bottom: var(--padding-bottom);
-    text-align: var(--text-align);
+    text-align: center;
   }
   &__info {
-    grid-row: var(--grid-row);
+    grid-row: var(--grid-row-info);
   }
   &__name {
     text-transform: uppercase;
@@ -76,7 +78,7 @@
   }
   // &__description {  }
   &__image {
-    grid-row: 2;
+    grid-row: var(--grid-row-image);
     padding-bottom: var(--padding-bottom);
 
     img {
