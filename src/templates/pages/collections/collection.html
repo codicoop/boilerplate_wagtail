@@ -43,7 +43,7 @@
 
   <section id="myFilterApp"></section>
 
-  <section class="collections-detail__product-list">
+  <section class="collections-detail__product-list 222">
     <div class="grid-2">
       {% for item in page.collection_items.all %}
         {% include "./block_item.html" with item=item %}
@@ -63,7 +63,8 @@
 
 {% block extra_js %}
   <script id="data_for_react">
-    const backData = { 
+    const backData = {
+      csrf: "{{ csrf_token }}",
       type: [{% for id, name in available_types.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
       model: [{% for id, name in available_models.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
       finishing: [{% for id, name in finishings.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],

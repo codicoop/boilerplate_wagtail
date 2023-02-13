@@ -39,9 +39,6 @@
   &__nav-link {
     --padding: 0 var(--padding-sm) 11px var(--padding-sm);
   }
-  &__intro-btn {
-    --max-width: 350px;
-  }
   &__filters { 
     --margin-top: var(--padding-xxlg);
     --margin-bottom: var(--padding-md);
@@ -117,9 +114,6 @@
     }
     &__nav-link {
       --padding: 0 var(--padding-sm) var(--padding-sm) var(--padding-sm);
-    }
-    &__intro-btn {
-      --max-width: none;
     }
     &__filters { 
       --margin-top: 126px;
@@ -219,7 +213,7 @@
   &__intro-btn {
     margin-top: var(--padding-xsm);
     align-self: center;
-    max-width: var(--max-width);
+    width: 100%;
   }
   &__filters { 
     margin-top: var(--margin-top);

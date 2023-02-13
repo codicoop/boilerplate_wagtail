@@ -15,11 +15,11 @@
         <p>{{ collection.specific.title }}</p>
       </a>
     {% endfor %}
-    <!-- {% if designers_page %} -->
+    {% if designers_page %}
       <a class="collections-detail__nav-link grid-item-3 is-active" href="{% pageurl designers_page %}">
         <p>{% translate 'The designers' %}</p>
       </a>
-    <!-- {% endif %} -->
+    {% endif %}
     </div>
   </section>
 

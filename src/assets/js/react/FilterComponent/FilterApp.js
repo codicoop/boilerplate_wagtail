@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import Select from 'react-select'
 
 export default function FilterApp(){
-  console.log("backData", backData)
   const initialFormData = {
     type: "",
     model: "",
     finishing: ""
   }
   const [formData, setFormData] = useState(initialFormData)
-  console.log(formData);
+  const [imagesArray, setImagesArray] = useState([])
   const filterTitle = "Filtra els models"
   const filterTypeLabel = "Tipus"
   const filterModelLabel = "Model"
@@ -17,16 +17,46 @@ export default function FilterApp(){
   const filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
+  // console.log("backData", backData)
+  // console.log("formData", formData);
 
-  function handleFilterChange(option){
+  function getNewImages() {
+    const imagesUrl = ""
+    axios({
+      method: 'get',
+      url: imagesUrl,
+      headers: {'X-CSRFToken': backData.csrf}
+    })
+    .then(resp => {
+      console.log("resposta images", resp)
+    })
+  }
+  useEffect(()=>{getNewImages}, [formData])
+
+  function handleTypeChange(option){
     setFormData(prevData => {
       return {
         ...prevData,
-        [option.filter]: option.value
+        type: option.value
       }
     })
   }
-
+  function handleModelChange(option){
+    setFormData(prevData => {
+      return {
+        ...prevData,
+        model: option.value
+      }
+    })
+  }
+  function handleSubmodelChange(option){
+    setFormData(prevData => {
+      return {
+        ...prevData,
+        submodel: option.value
+      }
+    })
+  }
   const customStyles = {
     control: (provided) => ({
       ...provided,
@@ -69,7 +99,7 @@ export default function FilterApp(){
               options={filterTypeData} 
               name="type"
               placeholder={filterTypeLabel}
-              onChange={handleFilterChange}
+              onChange={handleTypeChange}
             />
           </div>
           <div className="collections-detail__filters-select grid-item-7-9">
@@ -78,7 +108,7 @@ export default function FilterApp(){
               options={filterModelData} 
               name="model"
               placeholder={filterModelLabel}
-              onChange={handleFilterChange}
+              onChange={handleModelChange}
             />
           </div>
           <div className="collections-detail__filters-select grid-item-10-12">
@@ -87,15 +117,14 @@ export default function FilterApp(){
               options={filterFinishingData} 
               name="finishing"
               placeholder={filterFinishingLabel}
-              onChange={handleFilterChange}
+              onChange={handleSubmodelChange}
             />
           </div>
         </form>
       </section>
       <section className="collections-detail__product-list">
         <div className="grid-2">
-          {/* Quan tinguem el llistat de items, es mapejaran aquí */}
-          {/* Així segons els filtres activats aquest llistat anirà canviant */}
+          👵🌼🌻🌷🥀
         </div>
       </section>
     </>
