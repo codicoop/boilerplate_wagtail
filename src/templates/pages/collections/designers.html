@@ -11,7 +11,7 @@
     <div class="grid-1">
     {# A l'enllaç actiu se li afegeix "is-active" #}
     {% for collection in collections %}
-      <a class="collections-detail__nav-link grid-item-3 PET" href="{% pageurl collection %}">
+      <a class="collections-detail__nav-link grid-item-3" href="{% pageurl collection %}">
         <p>{{ collection.specific.title }}</p>
       </a>
     {% endfor %}
@@ -22,11 +22,17 @@
     {% endif %}
     </div>
   </section>
+<!-- 
+  <section class="collections-designers__list">
+    {% for item in page.designers_list.all %}
+      {% include "./block_designer.html" with item=item %}
+    {% endfor %}  
+  </section> -->
 
   <section class="collections-designers__list">
     {{ page.designers_list }}
   </section>
-
+  
 </main>
 
 {% endblock %}

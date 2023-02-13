@@ -81,6 +81,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INSTALLED_APPS = [
     "maintenance_mode",
     "wagtailautocomplete",
+    # "wagtail.api.v2",
+    "rest_framework",
     "wagtail_localize",
     "wagtail_localize.locales",
     "wagtail.contrib.forms",
@@ -103,6 +105,7 @@ INSTALLED_APPS = [
     "apps.base",
     "apps.users",
     "apps.cms_site",
+    "apps.cms_api",
     "apps.blog",
     "django.contrib.postgres",
     "django.contrib.admin",
@@ -111,6 +114,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_filters",
     "storages",
     "django_extensions",
 ]
@@ -238,3 +242,6 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 # Wagtailmenus
 WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"
+
+# WAGTAILAPI_LIMIT_MAX = env.int("WAGTAILAPI_LIMIT_MAX", default=100)
+# WAGTAILAPI_SEARCH_ENABLED = env.bool("WAGTAILAPI_SEARCH_ENABLED", default=True)

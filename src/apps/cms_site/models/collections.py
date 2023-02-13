@@ -79,7 +79,7 @@ class Collection(BasePage):
                 "available_types": self.get_available_types(),
                 "available_finishings": self.get_available_finishings(),
                 "available_models": self.get_available_models(),
-                "collections": self.get_siblings(False),
+                "collections": self.get_siblings(True),
                 "designers_page": designers_page,
             }
         )
