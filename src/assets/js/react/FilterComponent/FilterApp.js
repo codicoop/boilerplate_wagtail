@@ -2,6 +2,8 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select'
 
+import ProductCard from './ProductCard'
+
 export default function FilterApp(){
   const initialFormData = {
     type: "",
@@ -17,46 +19,13 @@ export default function FilterApp(){
   const filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
-  // console.log("backData", backData)
+  console.log("backData", backData)
   // console.log("formData", formData);
 
-  function getNewImages() {
-    const imagesUrl = ""
-    axios({
-      method: 'get',
-      url: imagesUrl,
-      headers: {'X-CSRFToken': backData.csrf}
-    })
-    .then(resp => {
-      console.log("resposta images", resp)
-    })
-  }
-  useEffect(()=>{getNewImages}, [formData])
-
-  function handleTypeChange(option){
-    setFormData(prevData => {
-      return {
-        ...prevData,
-        type: option.value
-      }
-    })
-  }
-  function handleModelChange(option){
-    setFormData(prevData => {
-      return {
-        ...prevData,
-        model: option.value
-      }
-    })
-  }
-  function handleSubmodelChange(option){
-    setFormData(prevData => {
-      return {
-        ...prevData,
-        submodel: option.value
-      }
-    })
-  }
+  useEffect(()=>{
+    getNewImages()
+  }, [formData])
+  
   const customStyles = {
     control: (provided) => ({
       ...provided,
@@ -124,10 +93,64 @@ export default function FilterApp(){
       </section>
       <section className="collections-detail__product-list">
         <div className="grid-2">
-          👵🌼🌻🌷🥀
+          {
+            imagesArray.map(printImages)
+          }
         </div>
       </section>
     </>
   )
+
+  function printImages(image) {
+    return <ProductCard image={image} />
+  }
+  function getNewImages() {
+    let parameters = []
+    if (formData.finishing) {
+      parameters.push(`finishing=${formData.finishing}`)
+    }
+    if (formData.model) {
+      parameters.push(`model=${formData.model}`)
+    }
+    if (formData.type) {
+      parameters.push(`type=${formData.type}`)
+    }
+    let imagesUrl = `/api/collection_items/?${parameters.join('&')}`
+
+    axios({
+      method: 'get',
+      url: imagesUrl,
+      headers: {'X-CSRFToken': backData.csrf}
+    })
+    .then(resp => {
+      console.log("resposta images", resp)
+      setImagesArray(resp.data)
+    })
+  }
+  function handleTypeChange(option){
+    setFormData(prevData => {
+      return {
+        ...prevData,
+        type: option.value
+      }
+    })
+    getNewImages()
+  }
+  function handleModelChange(option){
+    setFormData(prevData => {
+      return {
+        ...prevData,
+        model: option.value
+      }
+    })
+  }
+  function handleSubmodelChange(option){
+    setFormData(prevData => {
+      return {
+        ...prevData,
+        submodel: option.value
+      }
+    })
+  }
 }
 
