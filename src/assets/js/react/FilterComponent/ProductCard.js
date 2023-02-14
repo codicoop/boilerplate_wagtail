@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function ProductCard({ image }){
-  const imageUrl = image.image_thumbnail
+  const imageUrl = image.image_thumbnail.url
   const modelName = translateModel(image.model)
 
   function openFullImage(event) {
@@ -13,7 +13,6 @@ export default function ProductCard({ image }){
     function listenerFunction(e){
         const object = thisCard.querySelector('.modal__image')
         if (!object.contains(e.target)) {
-            console.log("you are clicking outside the image!");
             thisModal.classList.remove('is-open');
         }
         window.removeEventListener("click", listenerFunction)
@@ -33,7 +32,6 @@ export default function ProductCard({ image }){
     function listenerFunction(e){
         const object = thisCard.querySelector('.modal__image')
         if (!object.contains(e.target)) {
-            console.log("you are clicking outside the image!");
             thisModal.classList.remove('is-open');
         }
         window.removeEventListener("click", listenerFunction)
@@ -50,7 +48,7 @@ export default function ProductCard({ image }){
         style={
           {"backgroundImage": `url(${imageUrl})`}
         }
-        // onClick={openFullImage}
+        onClick={openFullImage}
       ></div>
       <div className="product-card__label">
         <div className="product-card__title">
@@ -71,7 +69,7 @@ export default function ProductCard({ image }){
         <div className="modal__container">
           <div 
             className="modal__icon" 
-            // onClick={closeFullImage}
+            onClick={closeFullImage}
           >
             <svg 
             title="{% translate 'Icon to close the image overlay' %}"
@@ -84,7 +82,7 @@ export default function ProductCard({ image }){
           </svg>
           </div>
           <div className="modal__image">
-            <img src={image.image_maximized} alt={image.title} />
+            <img src={image.image_maximized.url} alt={image.image_maximized.alt} />
           </div>
         </div>
         <div className="modal__title title-3">
