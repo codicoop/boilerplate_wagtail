@@ -22,7 +22,6 @@ export default function ProductCard({ image }){
         window.addEventListener('click', listenerFunction);
     }, 100)
   }
-
   function closeFullImage(event) {
     const thisItem = event.target
     const thisModal = thisItem.parentElement
@@ -72,7 +71,6 @@ export default function ProductCard({ image }){
             onClick={closeFullImage}
           >
             <svg 
-            title="{% translate 'Icon to close the image overlay' %}"
             className="icon-close icon-24" 
             viewBox="0 0 24 24" 
             xmlns="http://www.w3.org/2000/svg"

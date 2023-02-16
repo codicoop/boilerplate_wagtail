@@ -87,3 +87,38 @@ const mainObserver = new IntersectionObserver(function (entries, observer) {
 
 // Executing the observer
 mainObserver.observe(emptyBox);
+
+function openFullImageTemplate(event) {
+    const thisItem = event.target
+    const thisCard = thisItem.parentElement
+    const thisModal = thisCard.querySelector(".modal")
+    thisModal.classList.add("is-open")
+
+    function listenerFunction(e){
+        const object = thisCard.querySelector('.modal__image')
+        if (!object.contains(e.target)) {
+            thisModal.classList.remove('is-open');
+        }
+        window.removeEventListener("click", listenerFunction)
+    }
+
+    setTimeout(function(){
+        window.addEventListener('click', listenerFunction);
+    }, 100)
+}
+function closeFullImageTemplate(event) {
+    const thisItem = event.target
+    const thisModal = thisItem.parentElement
+    const thisCard = thisModal.parentElement
+    thisModal.classList.remove("is-open")
+
+    function listenerFunction(e){
+        const object = thisCard.querySelector('.modal__image')
+        if (!object.contains(e.target)) {
+            thisModal.classList.remove('is-open');
+        }
+        window.removeEventListener("click", listenerFunction)
+    }
+
+    window.removeEventListener("click", listenerFunction)
+  }

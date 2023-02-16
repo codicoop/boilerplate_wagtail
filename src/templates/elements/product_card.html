@@ -1,15 +1,55 @@
 {% load static %}
+{% load wagtailcore_tags wagtailimages_tags i18n %}
 
-<div class="project-card grid-item-4">
-  <div class="project-card__image">
-    <img src="" alt="Imatge de projecte">
-  </div>
-  <div class="project-card__label">
-    <div class="project-card__title is-bold">
-      <p>Projecte d'interiorisme d'exemple</p>
+{% image item.image width-700 as bg_product_card %}
+
+<div class="product-card grid-item-4">
+  <div 
+    class="product-card__image container-square-image"
+    style="--bg-image: url('{{ bg_product_card.url }}')"
+    onClick="openFullImageTemplate()"
+    ></div>
+  <div class="product-card__label">
+    <div class="product-card__title is-bold">
+      <p>{{ item.title }}</p>
     </div>
-    <div class="project-card__text">
-      <p>Projecte d'interiorisme d'exemple</p>
+    {% if item.model %}
+    <div class="product-card__text">
+      <p>{{ item.model }}</p>
+    </div>
+    {% else %}
+    <div class="product-card__text">
+      <p>Sense model</p>
+    </div>
+    {% endif %}
+    {% for finishing in item.finishings %}
+      <p>{{ finishing.title }}</p>
+    {% endfor %}
+  </div>
+  <div class="modal">
+    <div class="modal__container">
+      <div 
+        class="modal__icon" 
+        onclick="closeFullImageTemplate()"
+      >
+        <svg 
+        class="icon-close icon-24" 
+        viewbox="0 0 24 24" 
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M17.7556 6L6.02222 18" />
+        <path d="M6.02222 6L17.7556 18" />
+      </svg>
+      </div>
+      <div class="modal__image">
+        <img 
+          src="{{ item.image_maximized.url }}"
+          alt="{{ item.image_maximized.alt }}"
+        />
+      </div>
+    </div>
+    <div class="modal__title title-3">
+      <p>{{ item.title }}</p>
     </div>
   </div>
 </div>
