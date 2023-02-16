@@ -19,6 +19,9 @@ body {
   --font-size: 17px;
   --line-height: 22px;
 }
+.text-sm {
+  --font-size: 14px;
+}
 
 @media (min-width: 1024px) {
   body {
@@ -40,6 +43,9 @@ body {
   .title-3 {
     --font-size: 18px;
     --line-height: 24px;
+  }
+  .text-sm {
+    --font-size: 16px;
   }
 }
 
@@ -69,6 +75,11 @@ body {
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
+.text-sm {
+  font-size: var(--font-size);
+  line-height: 22px;
+}
 .is-bold {
+  font-weight: 400;
   font-weight: 700;
 }

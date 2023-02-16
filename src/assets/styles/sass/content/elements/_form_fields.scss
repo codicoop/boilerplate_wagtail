@@ -1,3 +1,162 @@
 // Dynamic variables
+.field {
+
+  .field__input--big {
+    --min-height: 138px;
+  }
+}
+.field-checkbox {
+  &__custom {
+    --size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .field {
+
+    .field__input--big {
+      --min-height: 109px;
+    }
+  }
+  .field.error {
+    .field__input--big {
+      --min-height: 122px;
+    }
+  }
+  .field-checkbox {
+    &__custom {
+      --size: var(--padding-sm);
+    }
+  }
+}
 
 // Layout
+.field {
+  width: 100%;
+
+  // Si està deshabilitat
+  &.is-disabled {
+    .field__input {
+      cursor: not-allowed;
+    }
+  }
+  &__input {
+    height: 36px;
+    width: 100%;
+    padding: 5px var(--padding-sm);
+    background-color: var(--white);
+    border: 2px solid var(--blackish);
+    text-align: left;
+    color: var(--blackish);
+
+    &::placeholder {
+      color: var(--blackish);
+      opacity: 1;
+    }
+    
+    &.is-disabled {
+      background-color: var(--grey);
+      background-color: var(--grey-light);
+      cursor: not-allowed;
+    }
+  }
+  .field__input--big {
+    min-height: 144px;
+  }
+  // The field error for each input that has an error
+  &__error {
+    display: block;
+    color: var(--red);
+  }
+}
+// Error styles
+.field.error,
+.select.error {
+  // The styles for the inputs with an error
+  .field__input {
+    border-color: var(--red);
+    color: var(--red);
+
+    &::placeholder {
+      color: var(--red);
+    }
+  }
+  .select__arrow {
+    top: auto;
+    bottom: 6px;
+
+    path {
+      stroke: var(--red);
+    }
+  }
+}
+
+// Textarea
+.textarea {
+  grid-row: 2 / span 3;
+  margin-bottom: var(--padding-sm);
+}
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  appearance: none;
+  resize: vertical;
+  outline: none;
+  overflow: auto;
+}
+
+// Select
+select {
+  appearance: none;
+}
+.select {
+  position: relative;
+
+  &__arrow {
+    position: absolute;
+    bottom: 6px;
+    right: 15px;
+    transition: transform 200ms ease-in;
+    pointer-events: none;
+  }
+  & + textarea {
+    margin-top: var(--margin-mobile);
+  }
+  // Quan està deshabilitat
+  &__input.is-disabled {
+    background-color: var(--grey-light);
+    color: var(--grey-light);
+  }
+}
+
+// Checkbox
+.field-checkbox {
+  position: relative;
+  display: flex;
+  align-items: first baseline;
+
+  &__label {
+    padding-left: var(--padding-lg);
+  }
+  &__custom {
+    position: absolute;
+    left: 0;
+    width: var(--size);
+    height: var(--size);
+    border: 2px solid var(--blackish);
+    pointer-events: none;
+  }
+  // Amaguem completament l'input
+  input {
+    display: none;
+  }
+  // Com es marca checkejat
+  input:checked ~ .field-checkbox__custom {
+    background-color: var(--blackish);
+  }
+  // Efecte de dos continus
+  & + .field-checkbox {
+    margin-top: -4px;
+  }
+}

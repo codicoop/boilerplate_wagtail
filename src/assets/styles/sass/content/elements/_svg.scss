@@ -36,3 +36,18 @@
     border-radius: 7px;
   }
 }
+.icon-1 {
+  fill: none;
+  
+  path {
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  &.icon--white path {
+    stroke: var(--white);
+  }
+  &.icon--black path {
+    stroke: var(--blackish);
+  }
+}

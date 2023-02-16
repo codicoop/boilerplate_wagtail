@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags static i18n %}
+
+{% block content %}
+
+<main class="main contact">
+
+  {% include '../components/heading.html' %}
+
+  <div class="contact__info contact__info-top grid-1">
+    <div class="contact__title title-1--light">
+      <p>{% translate 'Contact us' %}</p>
+    </div>
+    <div class="contact__text">
+      <p>93 871 80 07</p>
+    </div>
+    <div class="contact__text">
+      <a href="mailto:info@moblesciurans.com">
+        <p>info@moblesciurans.com</p>
+      </a>
+    </div>
+  </div>
+  
+  <form class="contact__form form grid-1" method="post" enctype="application/x-www-form-urlencoded">
+
+    {% csrf_token %}
+
+    <div class="field grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="lalalala"
+          name="contact_name"
+          placeholder="{% translate 'Name' %}"
+          autofocus
+      />
+    </div>
+    <div class="field grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="lalalala1"
+          name="contact_email"
+          placeholder="{% translate 'Email' %}"
+      />
+    </div>
+    <div class="field grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="lalalala3"
+          name="contact_phone"
+          placeholder="{% translate 'Phone' %}"
+      />
+    </div>
+    <div class="field select grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+      <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <select
+      class="field__input select__input text-sm"
+          name="contact_profile"
+          id="lelele"
+          autocomplete="off"
+          >
+          <option 
+          value="" 
+          id="0000"
+          selected="true"
+          disabled="true"
+          hidden="true"
+          >
+          Perfil
+        </option>
+        <option value="1" id="1">
+          Estudi d’interiorisme
+        </option>
+        <option value="2" id="2">
+          Botiga de mobiliari
+        </option>
+        <option value="3" id="3">
+          Interiorista freelance
+        </option>
+        <option value="99" id="99">
+          Altres
+        </option>
+      </select>
+      <svg class="select__arrow icon-1 icon--black icon-24" viewbox="0 0 25 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.25 9L12.5 15L18.75 9" />
+      </svg>
+    </div>
+    <div class="field grid-item-7-12 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="lalalala4"
+          name="contact_subject"
+          placeholder="{% translate 'Subject' %}"
+      />
+    </div>
+    <div class="field textarea grid-item-7-12 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <textarea
+          class="field__input field__input--big text-sm"
+          id="lalala6"
+          name="contact_message"
+          placeholder="{% translate 'Message' %}"
+        >
+      </textarea>
+    </div>
+    <div class="field-checkbox grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          type="checkbox"
+          id="contact_auth_1"
+          name="contact_auth_1"
+      />
+      <div class="field-checkbox__custom"></div>
+      <label class="field-checkbox__label text-sm" for="contact_auth_1">{% translate 'Treatment of personal data authorization' %}</label>
+    </div>
+    <div class="field-checkbox grid-item-1-6 {% if field.errors %}error{% endif %}">
+      {% if field.errors %}
+        <span class="field__error text-sm">{{ field.errors.0 }}</span>
+      {% endif %}
+      <input
+          type="checkbox"
+          id="contact_auth_2"
+          name="contact_auth_2"
+          checked="checked"
+      />
+      <div class="field-checkbox__custom"></div>
+      <label class="field-checkbox__label text-sm" for="contact_auth_2">{% translate 'Treatment of personal data authorization for comercial purposes' %}</label>
+    </div>
+
+    {% if form.non_field_errors %}
+      <span class="field__error grid-item-7-12 text-sm">{{ form.non_field_errors.0 }}</span>
+    {% endif %}
+      <input
+        class="contact__submit"
+        type="submit"
+        value="{% translate 'Send' %}"
+      />
+  </form>
+
+  <div class="contact__info contact__info-bottom grid-1">
+    <div class="contact__title title-1--light">
+      <p>{% translate 'Where we are' %}</p>
+    </div>
+    <div class="contact__text">
+      <p>Carrer Priora Xixilona, 14 <br />
+        08530 La Garriga <br />
+        Barcelona
+      </p>
+    </div>
+  </div>
+
+  
+  <div class="contact__map grid-3">
+    <iframe 
+      class="grid-item-full"
+      id="gmap_canvas" 
+      src="https://maps.google.com/maps?q=%20Ciurans%20Carrer%20de%20Priora%20Xixilona,%2014,%2008530%20La%20Garriga,%20Barcelona&t=&z=11&ie=UTF8&iwloc=&output=embed" 
+      frameborder="0" 
+      scrolling="no" marginheight="0" marginwidth="0">
+    </iframe>
+  </div>
+
+</main>
+
+{% endblock %}

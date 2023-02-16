@@ -1,0 +1,94 @@
+// Dynamica variables
+.contact {
+  --order-info-bottom: 5;
+  --order-map: 4;
+
+  &__info {
+    --padding-top: var(--padding-md);
+  }
+  &__title {
+    --padding-bottom: var(--padding-lg);
+  }
+  &__submit {
+    --padding: 12px var(--padding-xlg);
+    --width: fit-content;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    --order-info-bottom: 4;
+    --order-map: 5;
+
+    &__info {
+      --padding-top: 112px;
+    }
+    &__title {
+      --padding-bottom: var(--padding-sm);
+    }
+    &__submit {
+      --padding: 12px 0;
+      --width: 100%;
+    }
+  }  
+}
+// Layout
+.contact {
+  display: flex;
+  flex-direction: column;
+  .heading {
+    order: 1;
+  }
+  &__info-top {
+    order: 2;
+  }
+  &__form {
+    order: 3;
+  }
+  &__info-bottom {
+    order: var(--order-info-bottom);
+  }
+  &__map {
+    order: var(--order-map);
+  }
+
+  &__info {
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-xlg);
+    p {
+      margin-bottom: 0;
+    }
+    &.grid-1 {
+      gap: 0;
+    }
+  }
+  &__title {
+    grid-column: 2 / span 4;
+    text-transform: uppercase;
+    padding-bottom: var(--padding-bottom);
+    margin-bottom: 0;
+  }
+  &__text {
+    grid-column: 2 / span 3;
+  }
+  &__submit {
+    grid-column: 1 / span 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--width);
+    padding: var(--padding);
+    margin-top: var(--padding-sm);
+    border: 2px solid var(--blackish);
+  }
+  &__form {
+    grid-auto-flow: dense;
+  }
+  &__map {
+    iframe {
+      width: 100%;
+      height: 448px;
+    }
+  }
+}
