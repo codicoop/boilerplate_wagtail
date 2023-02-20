@@ -10,6 +10,12 @@ from apps.base.models import BasePage, MenuLabelMixin
 
 
 class CustomProjectsPage(MenuLabelMixin, BasePage):
+    description = models.TextField(_("description"), default="", blank=True)
+
+    content_panels = BasePage.content_panels + [
+        FieldPanel("description", classname="full"),
+    ]
+
     parent_page_types = ["cms_site.HomePage"]
     page_description = _("Main page for custom projects section.")
     max_count = 1
