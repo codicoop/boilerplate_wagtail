@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags static i18n %}
+
+{% block content %}
+
+<main class="main about-us">
+
+  {% include '../components/heading.html' %}
+
+  <section class="about-us__intro">
+    {% include '../components/block_text_center.html' with text=page.description %}
+  </section>
+  <section class="about-us__how-to">
+    <div id="mySliderApp"></div>
+  </section>
+  <section class="about-us__history">
+    <div id="myHistoryApp"></div>
+    <div class="history__title title-1--light">
+      <p>{% translate 'Our history' %}</p>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}
+
+{% block extra_js %}
+  <script id="data_for_react">
+    const backData = {
+      // textos que introduiran al wagtail
+      text_0: "ZERO!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?", 
+      text_1: "UN!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?",
+      text_2: "DOS!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?",
+      text_3: "TRES!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?",
+      text_4: "CUATRE!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?",
+      text_5: "CINC!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis officia dolore reprehenderit tempore maiores, illum unde neque excepturi quasi? Blanditiis magnam perspiciatis, modi sunt distinctio ipsa? Dolore, distinctio facere?",
+      // urls dels vídeos - hardcodejada però guardada al back ?
+      video_url_0,  
+      video_url_1,
+      video_url_2,
+      video_url_3,
+      video_url_4,
+      video_url_5,
+    }
+  </script>
+{% endblock %}

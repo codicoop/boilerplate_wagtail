@@ -1,10 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select'
+import { useTranslation } from "react-i18next"
+import './i18n';
 
 import ProductCard from './ProductCard'
 
 export default function FilterApp(){
+  const { t, i18n } = useTranslation()
   const initialFormData = {
     type: "",
     model: "",

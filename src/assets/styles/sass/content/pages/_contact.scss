@@ -13,6 +13,9 @@
     --padding: 12px var(--padding-xlg);
     --width: fit-content;
   }
+  &__map {
+    --margin-top: var(--padding-xlg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -29,6 +32,9 @@
     &__submit {
       --padding: 12px 0;
       --width: 100%;
+    }
+    &__map {
+      --margin-top: 0;
     }
   }  
 }
@@ -86,6 +92,8 @@
     grid-auto-flow: dense;
   }
   &__map {
+    margin-top: var(--margin-top);
+
     iframe {
       width: 100%;
       height: 448px;

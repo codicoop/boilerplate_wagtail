@@ -1,0 +1,97 @@
+// Dynamic variables
+.slider {
+  &__controller {
+    --margin-bottom: var(--padding-lg);
+  }
+  &__btn {
+    --margin-left: var(--padding-md);
+    --left: -26px;
+    --width: 24px;
+  }
+  &__info {
+    --padding-info: 0 var(--padding-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .slider {
+    &__controller {
+      --margin-bottom: var(--padding-xxxlg);
+    }
+    &__btn {
+      --margin-left: var(--padding-xxxlg);
+      --left: -82px;
+      --width: 80px;
+    }
+    &__info {
+      --padding-info: 0 var(--padding-xxlg) 0 116px;
+    }
+  }
+}
+
+
+// Layout
+.slider {
+  &.grid-2 {
+    padding: 0;
+  }
+
+  &__controller {
+    order: 2;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--margin-bottom);
+  }
+  &__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--blackish);
+    border-radius: 50px;
+    p, svg {
+      margin-bottom: 0;
+      pointer-events: none;
+    }
+    & + .slider__btn {
+      margin-left: var(--margin-left);
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: var(--left);
+        width: var(--width);
+        height: 2px;
+        background-color: var(--blackish);
+      }
+    }
+  }
+  &__info {
+    order: 1;
+    grid-row: 2;
+    padding: var(--padding-info);
+  }
+  &__title {
+    margin-bottom: var(--padding-lg);
+    text-transform: uppercase;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__video {
+    order: 3;
+    grid-row: 2;
+
+    width: 100%;
+    height: 340px;
+  }
+  &__iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
