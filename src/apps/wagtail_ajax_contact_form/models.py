@@ -7,10 +7,11 @@ from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel
 from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.core.fields import RichTextField
-from wagtail.core.models import Page
+
+from apps.base.models import BasePage
 
 
-class AjaxContactPage(RoutablePageMixin, Page):
+class AjaxContactPage(RoutablePageMixin, BasePage):
     # Leaving the option to create this page in admin disabled by default
     # assuming you will subclass it to your custom needs.
     is_creatable = False
@@ -65,7 +66,7 @@ class AjaxContactPage(RoutablePageMixin, Page):
         FieldPanel('notification_subject', classname="full"),
     ]
 
-    content_panels = Page.content_panels + [
+    content_panels = BasePage.content_panels + [
         MultiFieldPanel(
             field_labels,
             heading=_("Field labels"),
