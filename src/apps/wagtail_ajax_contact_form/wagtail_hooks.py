@@ -1,6 +1,6 @@
 from django.utils.translation import gettext_lazy as _
 from wagtail.contrib.modeladmin.helpers import PermissionHelper
-from wagtail.contrib.modeladmin.options import ModelAdmin, modeladmin_register
+from wagtail.contrib.modeladmin.options import ModelAdmin
 
 from .models import ContactSubmission
 
@@ -36,5 +36,7 @@ class ContactSubmissionAdmin(ModelAdmin):
     search_fields = ('name', 'email', 'message', )
     edit_view_class = None
 
-
-modeladmin_register(ContactSubmissionAdmin)
+# Only register it if you are using the original. If you are using a diferent
+# setr of fields, you might want to define or extend a different ModelAdmin
+# somewhere else and register your version.
+# modeladmin_register(ContactSubmissionAdmin)

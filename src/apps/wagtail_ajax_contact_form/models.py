@@ -120,11 +120,6 @@ class AjaxContactPage(RoutablePageMixin, BasePage):
     def get_submissions_model():
         return ContactSubmission
 
-    @route(r'^sent/$')
-    def success_page(self, request, *args, **kwargs):
-        context = self.get_context(request, *args, **kwargs)
-        return render(request, 'cms/contact_us_success.html', context)
-
 
 class ContactSubmission(models.Model):
     class Meta:

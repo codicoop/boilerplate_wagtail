@@ -9,7 +9,10 @@ from apps.cms_site.models import (
     CollectionItemType,
     CustomProject,
 )
+from apps.cms_site.models.contact import AjaxContactSubmission
 from apps.cms_site.models.snippets import CollectionItemModel
+from apps.wagtail_ajax_contact_form.wagtail_hooks import \
+    ContactSubmissionAdmin, ValidationPermissionHelper
 
 
 @hooks.register("after_delete_page")
@@ -52,6 +55,45 @@ class CollectionItemModelModelAdmin(ModelAdmin):
     inspect_view_enabled = True
 
 
+class ContactAjaxSubmissionAdmin(ContactSubmissionAdmin):
+    permission_helper_class = ValidationPermissionHelper
+    model = AjaxContactSubmission
+    # ditch this to use verbose_name_plural from model
+    # Translators: This is for Wagtail's admin menu, keep it very short.
+    menu_label = _("Form submissions")
+    menu_icon = 'mail'  # change as required
+    menu_order = 100  # will put in 3rd place (000 being 1st, 100 2nd)
+    # or True to add your model to the Settings sub-menu
+    add_to_settings_menu = False
+    # or True to exclude pages of this type from Wagtail's explorer view
+    exclude_from_explorer = True
+    list_display = (
+        "created",
+        "name",
+        "email",
+        "message",
+        "subject",
+        "phone",
+        "profile",
+        "personal_data_auth",
+        "personal_data_comercial_auth",
+    )
+    list_filter = (
+        "created",
+        "personal_data_auth",
+        "personal_data_comercial_auth",
+    )
+    search_fields = (
+        "name",
+        "email",
+        "message",
+        "subject",
+        "phone",
+    )
+    edit_view_class = None
+
+
 modeladmin_register(FinishingsModelAdmin)
 modeladmin_register(CollectionItemTypeModelAdmin)
 modeladmin_register(CollectionItemModelModelAdmin)
+modeladmin_register(ContactAjaxSubmissionAdmin)

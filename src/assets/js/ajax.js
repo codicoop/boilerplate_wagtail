@@ -116,8 +116,8 @@
         successEl.style.display = 'block';
         // Cleans up the form fields
         event.target.reset();
-        // Redirect to success page
-        window.location.href = postURL + 'sent/';
+        // Optionally, redirect to success page
+        // window.location.href = postURL + 'sent/';
       };
     })
     .catch((error) => {

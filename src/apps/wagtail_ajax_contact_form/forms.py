@@ -19,7 +19,7 @@ class ContactUsForm(forms.ModelForm):
         msg = EmailMultiAlternatives(
             self.get_formatted_subject(subject, post_data),
             strip_tags(body),
-            settings.MAILING_MANAGER_DEFAULT_FROM,  # From
+            settings.DEFAULT_FROM_EMAIL,  # From
             [to, ]  # To (iterable)
         )
         msg.attach_alternative(body, "text/html")
