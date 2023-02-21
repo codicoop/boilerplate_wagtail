@@ -1,3 +1,3 @@
 
-Documentació: https://docs.codi.coop/e/ca/coneixements_programacio/wagtail/ajax_contact_form
+Documentació: https://docs.codi.coop/ca/coneixements_programacio/wagtail/ajax_contact_form
 
