@@ -78,7 +78,11 @@ class AjaxContactPage(RoutablePageMixin, BasePage):
     ]
 
     def serve(self, request, *args, **kwargs):
-        if request.is_ajax() and request.method == 'POST':
+        # as request.is_ajax() is deprecated, checking HTTP_X_REQUESTED_WITH
+        if (
+            request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest'
+            and request.method == 'POST'
+        ):
             form_class = self.get_contact_form()
             post_from_fetch = json.loads(request.body)
             form = form_class(post_from_fetch)
