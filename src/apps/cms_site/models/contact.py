@@ -10,12 +10,6 @@ from apps.wagtail_ajax_contact_form.models import AjaxContactPage, \
     ContactSubmission
 
 
-class ContactPage(BasePage):
-    template = "pages/contact.html"
-    parent_page_types = ["cms_site.HomePage"]
-    max_count = 1
-
-
 class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
     class Meta:
         verbose_name = _("Contact page")
