@@ -6,7 +6,8 @@ from wagtail.admin.panels import (
 from django.utils.translation import gettext_lazy as _
 
 from apps.base.models import BasePage, MenuLabelMixin
-from apps.wagtail_ajax_contact_form.models import AjaxContactPage
+from apps.wagtail_ajax_contact_form.models import AjaxContactPage, \
+    ContactSubmission
 
 
 class ContactPage(BasePage):
@@ -76,3 +77,35 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
 
     max_count = 1
     template = 'pages/contact_ajax.html'
+
+    @classmethod
+    def get_contact_form(cls):
+        from apps.cms_site.forms import ContactFormAjax
+        return ContactFormAjax
+
+
+class AjaxContactSubmission(ContactSubmission):
+    subject = models.CharField(
+        _("subject"),
+        max_length=120,
+        default="",
+        blank=True,
+    )
+    phone = models.CharField(
+        _("phone"),
+        max_length=120,
+        default="",
+        blank=True,
+    )
+    profile = models.CharField(
+        _("profile"),
+        max_length=120,
+        default="",
+        blank=True,
+    )
+    personal_data_auth = models.BooleanField(
+        _("Treatment of personal data authorization"),
+    )
+    personal_data_comercial_auth = models.BooleanField(
+        _("Treatment of personal data authorization for comercial purposes"),
+    )
