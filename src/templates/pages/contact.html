@@ -20,7 +20,7 @@
       </a>
     </div>
   </div>
-  
+
   <form class="contact__form form grid-1" method="post" enctype="application/x-www-form-urlencoded">
 
     {% csrf_token %}
@@ -72,8 +72,8 @@
           id="lelele"
           autocomplete="off"
           >
-          <option 
-          value="" 
+          <option
+          value=""
           id="0000"
           selected="true"
           disabled="true"
@@ -119,8 +119,7 @@
           id="lalala6"
           name="contact_message"
           placeholder="{% translate 'Message' %}"
-        >
-      </textarea>
+        ></textarea>
     </div>
     <div class="field-checkbox grid-item-1-6 {% if field.errors %}error{% endif %}">
       {% if field.errors %}
@@ -170,13 +169,13 @@
     </div>
   </div>
 
-  
+
   <div class="contact__map grid-3">
-    <iframe 
+    <iframe
       class="grid-item-full"
-      id="gmap_canvas" 
-      src="https://maps.google.com/maps?q=%20Ciurans%20Carrer%20de%20Priora%20Xixilona,%2014,%2008530%20La%20Garriga,%20Barcelona&t=&z=11&ie=UTF8&iwloc=&output=embed" 
-      frameborder="0" 
+      id="gmap_canvas"
+      src="https://maps.google.com/maps?q=%20Ciurans%20Carrer%20de%20Priora%20Xixilona,%2014,%2008530%20La%20Garriga,%20Barcelona&t=&z=11&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
       scrolling="no" marginheight="0" marginwidth="0">
     </iframe>
   </div>

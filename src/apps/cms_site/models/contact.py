@@ -38,6 +38,20 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
         help_text=_("Label for the Profile field."),
         default=_("Profile"),
     )
+    personal_data_auth_label = models.CharField(
+        _("personal data treatment"),
+        max_length=250,
+        help_text=_("Label for the Personal data treatment checkbox."),
+        default=_("Treatment of personal data authorization"),
+    )
+    personal_data_comercial_auth_label = models.CharField(
+        _("personal data for comercial use treatment"),
+        max_length=250,
+        help_text=_("Label for the Personal data for comercial use treatment "
+                    "checkbox."),
+        default=_("Treatment of personal data authorization for comercial "
+                  "purposes"),
+    )
 
     """
     Instead of extending AjaxContactPage' panels, we override it the same way
@@ -61,4 +75,4 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
     ]
 
     max_count = 1
-    template = 'cms/contact_us.html'
+    template = 'pages/contact_ajax.html'

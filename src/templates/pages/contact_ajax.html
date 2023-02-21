@@ -1,0 +1,134 @@
+{% extends "../base.html" %}
+{% load i18n wagtailcore_tags static %}
+
+{% block content %}
+
+<main class="main__wrapper contact">
+
+  <div class="wrapper">
+    <div class="wrapper__container contact__container">
+      <div class="contact__form input">
+        <form id="contact__form" data-url="{% pageurl page %}" method="post">
+          {% csrf_token %}
+          <div class="field grid-item-1-6">
+            <input
+                class="field__input text-sm"
+                type="text"
+                id="id_name"
+                name="name"
+                placeholder="{{ page.name_label }}"
+                autofocus
+            />
+          </div>
+          <div class="field grid-item-1-6">
+            <input
+                class="field__input text-sm"
+                type="text"
+                id="id_email"
+                name="email"
+                placeholder="{{ page.email_label }}"
+            />
+          </div>
+          <div class="field grid-item-1-6">
+            <input
+                class="field__input text-sm"
+                type="text"
+                id="id_phone"
+                name="phone"
+                placeholder="{{ page.phone_label }}"
+            />
+          </div>
+          <div class="field select grid-item-1-6">
+            <select
+              class="field__input select__input text-sm"
+              name="profile"
+              id="id_profile"
+              autocomplete="off"
+            >
+              <option
+                value=""
+                id="0000"
+                selected="true"
+                disabled="true"
+                hidden="true"
+              >
+                {{ page.profile_label }}
+              </option>
+              <option value="1" id="1">
+                {% translate "Estudi d’interiorisme" %}
+              </option>
+              <option value="2" id="2">
+                {% translate "Botiga de mobiliari" %}
+              </option>
+              <option value="3" id="3">
+                {% translate "Interiorista freelance" %}
+              </option>
+              <option value="99" id="99">
+                {% translate "Altres" %}
+              </option>
+            </select>
+          </div>
+          <div class="field grid-item-7-12">
+            <input
+                class="field__input text-sm"
+                type="text"
+                id="id_subject"
+                name="subject"
+                placeholder="{{ page.subject_label }}"
+            />
+          </div>
+          <div class="field textarea grid-item-7-12">
+            <textarea
+                class="field__input field__input--big text-sm"
+                id="id_message"
+                name="message"
+                placeholder="{{ page.message_label }}"
+              >
+            </textarea>
+          </div>
+          <div class="field-checkbox grid-item-1-6">
+            <input
+                type="checkbox"
+                id="id_personal_data_auth"
+                name="personal_data_auth"
+            />
+            <div class="field-checkbox__custom"></div>
+            <label class="field-checkbox__label text-sm" for="id_personal_data_auth">
+              {{ page.personal_data_auth_label }}
+            </label>
+          </div>
+          <div class="field-checkbox grid-item-1-6">
+            <input
+                type="checkbox"
+                id="id_personal_data_comercial_auth"
+                name="personal_data_comercial_auth"
+            />
+            <div class="field-checkbox__custom"></div>
+            <label class="field-checkbox__label text-sm" for="id_personal_data_comercial_auth">
+              {{ page.personal_data_comercial_auth_label }}
+            </label>
+          </div>
+
+          <input
+            class="contact__submit"
+            type="submit"
+            value="{% translate 'Send' %}"
+            id="btn_send"
+          />
+
+          <!-- Això ho he deixat tal i com està a la nostra web però no entenc
+          com és que està aquí a la vista.
+          Aquest text només s'hauria de mostrar quan es confirma
+          que s'ha enviat el formulari.-->
+          {{ page.success_msg|richtext }}
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+{% block extra_js %}
+  <script src="{% static 'js/ajax.js' %}"></script>
+{% endblock %}
