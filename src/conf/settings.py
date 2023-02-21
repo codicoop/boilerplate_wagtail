@@ -40,6 +40,17 @@ DATABASES = {
 # packages are not generating migrations.
 # DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default=None)
+
+# Sendgrid
+SENDGRID_API_KEY = env("SENDGRID_API_KEY", default="")
+SENDGRID_SANDBOX_MODE_IN_DEBUG = env(
+    "SENDGRID_SANDBOX_MODE_IN_DEBUG", bool, default=False
+)
+SENDGRID_TRACK_EMAIL_OPENS = env("SENDGRID_TRACK_EMAIL_OPENS", bool, default=False)
+SENDGRID_TRACK_CLICKS_HTML = env("SENDGRID_TRACK_CLICKS_HTML", bool, default=False)
+SENDGRID_TRACK_CLICKS_PLAIN = env("SENDGRID_TRACK_CLICKS_PLAIN", bool, default=False)
+
 # SMTP
 EMAIL_HOST = env.str("EMAIL_HOST", default="")
 EMAIL_PORT = env.int("EMAIL_PORT", default="")
@@ -51,7 +62,6 @@ EMAIL_BACKEND = env.str(
     "EMAIL_BACKEND",
     default="django.core.mail.backends.console.EmailBackend",
 )
-DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="")  # MailingManager setting.
 
 
 # Wagtail
