@@ -121,6 +121,18 @@
           Aquest text només s'hauria de mostrar quan es confirma
           que s'ha enviat el formulari.-->
           {{ page.success_msg|richtext }}
+          <!-- Ja veig, com que aquest richtext té pinta que sempre tindrà un
+           tag p, a la web de codi el que vas fer és ocultar el tag p de dins del
+           form via css, i després al ajax.js fa això:
+           successEl = contactForm.querySelector('p');
+
+           Funciona però el codi queda una mica confús en la meva opinió, proposo
+           que en comptes de comptar amb que hi haurà un tag p, encapsulem això
+           amb alguna cosa més fàcilment identificable, tipus
+           <div id="success_msg">
+             {{ page.success_msg|richtext }}
+           </div>
+           -->
         </form>
       </div>
     </div>
