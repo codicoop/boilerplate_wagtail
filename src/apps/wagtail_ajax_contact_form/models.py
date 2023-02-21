@@ -2,16 +2,14 @@ import json
 
 from django.http import JsonResponse
 from django.db import models
-from django.shortcuts import render
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel
-from wagtail.contrib.routable_page.models import RoutablePageMixin, route
 from wagtail.core.fields import RichTextField
 
 from apps.base.models import BasePage
 
 
-class AjaxContactPage(RoutablePageMixin, BasePage):
+class AjaxContactPage(BasePage):
     # Leaving the option to create this page in admin disabled by default
     # assuming you will subclass it to your custom needs.
     is_creatable = False
