@@ -159,4 +159,10 @@ select {
   & + .field-checkbox {
     margin-top: -4px;
   }
+  &.error {
+    flex-wrap: wrap;
+  }
+  .field__error {
+    padding-left: var(--padding-lg);
+  }
 }

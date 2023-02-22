@@ -1,140 +1,160 @@
 {% extends "../base.html" %}
-{% load i18n wagtailcore_tags static %}
+{% load i18n wagtailcore_tags wagtailimages_tags static %}
 
 {% block content %}
 
-<main class="main__wrapper contact">
+<main class="main contact">
 
-  <div class="wrapper">
-    <div class="wrapper__container contact__container">
-      <div class="contact__form input">
-        <form id="contact__form" data-url="{% pageurl page %}" method="post">
-          {% csrf_token %}
-          <div class="field grid-item-1-6">
-            <input
-                class="field__input text-sm"
-                type="text"
-                id="id_name"
-                name="name"
-                placeholder="{{ page.name_label }}"
-                autofocus
-            />
-          </div>
-          <div class="field grid-item-1-6">
-            <input
-                class="field__input text-sm"
-                type="text"
-                id="id_email"
-                name="email"
-                placeholder="{{ page.email_label }}"
-            />
-          </div>
-          <div class="field grid-item-1-6">
-            <input
-                class="field__input text-sm"
-                type="text"
-                id="id_phone"
-                name="phone"
-                placeholder="{{ page.phone_label }}"
-            />
-          </div>
-          <div class="field select grid-item-1-6">
-            <select
-              class="field__input select__input text-sm"
-              name="profile"
-              id="id_profile"
-              autocomplete="off"
-            >
-              <option
-                value=""
-                id="0"
-                selected="true"
-                disabled="true"
-                hidden="true"
-              >
-                {{ page.profile_label }}
-              </option>
-              <option value="Estudi d’interiorisme" id="1">
-                {% translate "Estudi d’interiorisme" %}
-              </option>
-              <option value="Botiga de mobiliari" id="2">
-                {% translate "Botiga de mobiliari" %}
-              </option>
-              <option value="Interiorista freelance" id="3">
-                {% translate "Interiorista freelance" %}
-              </option>
-              <option value="Altres" id="99">
-                {% translate "Altres" %}
-              </option>
-            </select>
-          </div>
-          <div class="field grid-item-7-12">
-            <input
-                class="field__input text-sm"
-                type="text"
-                id="id_subject"
-                name="subject"
-                placeholder="{{ page.subject_label }}"
-            />
-          </div>
-          <div class="field textarea grid-item-7-12">
-            <textarea
-                class="field__input field__input--big text-sm"
-                id="id_message"
-                name="message"
-                placeholder="{{ page.message_label }}"
-              ></textarea>
-          </div>
-          <div class="field-checkbox grid-item-1-6">
-            <input
-                type="checkbox"
-                id="id_personal_data_auth"
-                name="personal_data_auth"
-            />
-            <div class="field-checkbox__custom"></div>
-            <label class="field-checkbox__label text-sm" for="id_personal_data_auth">
-              {{ page.personal_data_auth_label }}
-            </label>
-          </div>
-          <div class="field-checkbox grid-item-1-6">
-            <input
-                type="checkbox"
-                id="id_personal_data_comercial_auth"
-                name="personal_data_comercial_auth"
-            />
-            <div class="field-checkbox__custom"></div>
-            <label class="field-checkbox__label text-sm" for="id_personal_data_comercial_auth">
-              {{ page.personal_data_comercial_auth_label }}
-            </label>
-          </div>
+  {% include '../components/heading.html' %}
 
-          <input
-            class="contact__submit"
-            type="submit"
-            value="{% translate 'Send' %}"
-            id="btn_send"
-          />
-
-          <!-- Això ho he deixat tal i com està a la nostra web però no entenc
-          com és que està aquí a la vista.
-          Aquest text només s'hauria de mostrar quan es confirma
-          que s'ha enviat el formulari.-->
-          {{ page.success_msg|richtext }}
-          <!-- Ja veig, com que aquest richtext té pinta que sempre tindrà un
-           tag p, a la web de codi el que vas fer és ocultar el tag p de dins del
-           form via css, i després al ajax.js fa això:
-           successEl = contactForm.querySelector('p');
-
-           Funciona però el codi queda una mica confús en la meva opinió, proposo
-           que en comptes de comptar amb que hi haurà un tag p, encapsulem això
-           amb alguna cosa més fàcilment identificable, tipus
-           <div id="success_msg">
-             {{ page.success_msg|richtext }}
-           </div>
-           -->
-        </form>
-      </div>
+  <div class="contact__info contact__info-top grid-1">
+    <div class="contact__title title-1--light">
+      <p>{% translate 'Contact us' %}</p>
     </div>
+    <div class="contact__text">
+      <p>93 871 80 07</p>
+    </div>
+    <div class="contact__text">
+      <a href="mailto:info@moblesciurans.com">
+        <p>info@moblesciurans.com</p>
+      </a>
+    </div>
+  </div>
+
+  <form class="contact__form form grid-1" id="contact__form" data-url="{% pageurl page %}" method="post">
+    {% csrf_token %}
+    <div class="field grid-item-1-6">
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="id_name"
+          name="name"
+          placeholder="{{ page.name_label }}"
+          autofocus
+      />
+    </div>
+    <div class="field grid-item-1-6">
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="id_email"
+          name="email"
+          placeholder="{{ page.email_label }}"
+      />
+    </div>
+    <div class="field grid-item-1-6">
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="id_phone"
+          name="phone"
+          placeholder="{{ page.phone_label }}"
+      />
+    </div>
+    <div class="field select grid-item-1-6">
+      <select
+        class="field__input select__input text-sm"
+        name="profile"
+        id="id_profile"
+        autocomplete="off"
+      >
+        <option
+          value=""
+          id="0"
+          selected="true"
+          disabled="true"
+          hidden="true"
+        >
+          {{ page.profile_label }}
+        </option>
+        <option value="Estudi d’interiorisme" id="1">
+          {% translate "Estudi d’interiorisme" %}
+        </option>
+        <option value="Botiga de mobiliari" id="2">
+          {% translate "Botiga de mobiliari" %}
+        </option>
+        <option value="Interiorista freelance" id="3">
+          {% translate "Interiorista freelance" %}
+        </option>
+        <option value="Altres" id="99">
+          {% translate "Altres" %}
+        </option>
+      </select>
+      <svg class="select__arrow icon-1 icon--black icon-24" viewbox="0 0 25 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.25 9L12.5 15L18.75 9" />
+      </svg>
+    </div>
+    <div class="field grid-item-7-12">
+      <input
+          class="field__input text-sm"
+          type="text"
+          id="id_subject"
+          name="subject"
+          placeholder="{{ page.subject_label }}"
+      />
+    </div>
+    <div class="field textarea grid-item-7-12">
+      <textarea
+          class="field__input field__input--big text-sm"
+          id="id_message"
+          name="message"
+          placeholder="{{ page.message_label }}"
+        ></textarea>
+    </div>
+    <div class="field-checkbox grid-item-1-6">
+      <input
+          type="checkbox"
+          id="id_personal_data_auth"
+          name="personal_data_auth"
+      />
+      <div class="field-checkbox__custom"></div>
+      <label class="field-checkbox__label text-sm" for="id_personal_data_auth">
+        {{ page.personal_data_auth_label }}
+      </label>
+    </div>
+    <div class="field-checkbox grid-item-1-6">
+      <input
+          type="checkbox"
+          id="id_personal_data_comercial_auth"
+          name="personal_data_comercial_auth"
+      />
+      <div class="field-checkbox__custom"></div>
+      <label class="field-checkbox__label text-sm" for="id_personal_data_comercial_auth">
+        {{ page.personal_data_comercial_auth_label }}
+      </label>
+    </div>
+
+    <input
+      class="contact__submit"
+      type="submit"
+      value="{% translate 'Send' %}"
+      id="btn_send"
+    />
+
+    <div class="contact__success grid-item-1-6">
+      {{ page.success_msg|richtext }}
+    </div>
+  </form>
+
+  <div class="contact__info contact__info-bottom grid-1">
+    <div class="contact__title title-1--light">
+      <p>{% translate 'Where we are' %}</p>
+    </div>
+    <div class="contact__text">
+      <p>Carrer Priora Xixilona, 14 <br />
+        08530 La Garriga <br />
+        Barcelona
+      </p>
+    </div>
+  </div>
+  <div class="contact__map grid-3">
+    <iframe
+      class="grid-item-full"
+      id="gmap_canvas"
+      src="https://maps.google.com/maps?q=%20Ciurans%20Carrer%20de%20Priora%20Xixilona,%2014,%2008530%20La%20Garriga,%20Barcelona&t=&z=11&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      scrolling="no" marginheight="0" marginwidth="0">
+    </iframe>
   </div>
 </main>
 
