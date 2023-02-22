@@ -6,7 +6,7 @@ from apps.cms_site.models import (
     CollectionItemFinishing,
     CollectionItemType,
 )
-from apps.cms_site.models.about_us import VideoItem
+from apps.cms_site.models.about_us import VideoItem, HistoryItem
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
@@ -60,4 +60,16 @@ class VideoItemReadSerializer(serializers.ModelSerializer):
             "title",
             "embed",
             "description",
+        ]
+
+
+class HistoryItemReadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HistoryItem
+        fields = [
+            "id",
+            "year",
+            "title",
+            "description",
+            "image",
         ]

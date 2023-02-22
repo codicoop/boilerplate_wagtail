@@ -2,7 +2,7 @@ from django.urls import path
 from rest_framework.routers import DefaultRouter
 
 from apps.cms_api.views import CollectionItemViewSet, HistoryItemsList, \
-    VideoItemViewSet
+    VideoItemViewSet, HistoryItemViewSet
 
 router = DefaultRouter()
 router.register(
@@ -15,9 +15,10 @@ router.register(
     VideoItemViewSet,
     basename="video_item",
 )
+router.register(
+    r"history_items",
+    HistoryItemViewSet,
+    basename="history_item",
+)
 
 urlpatterns = router.urls
-
-urlpatterns += [
-    path('history_items/', HistoryItemsList.as_view()),
-]

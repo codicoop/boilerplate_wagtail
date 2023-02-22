@@ -4,9 +4,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from apps.cms_api.serializers import CollectionItemReadSerializer, \
-    VideoItemReadSerializer
+    VideoItemReadSerializer, HistoryItemReadSerializer
 from apps.cms_site.models import CollectionItem, AboutUsPage
-from apps.cms_site.models.about_us import VideoItem
+from apps.cms_site.models.about_us import VideoItem, HistoryItem
 
 
 class CollectionItemViewSet(
@@ -32,6 +32,14 @@ class VideoItemViewSet(
 ):
     queryset = VideoItem.objects.all()
     serializer_class = VideoItemReadSerializer
+
+
+class HistoryItemViewSet(
+    viewsets.GenericViewSet,
+    mixins.ListModelMixin,
+):
+    queryset = HistoryItem.objects.all()
+    serializer_class = HistoryItemReadSerializer
 
 
 class HistoryItemsList(APIView):
