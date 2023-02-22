@@ -40,15 +40,3 @@ class HistoryItemViewSet(
 ):
     queryset = HistoryItem.objects.all()
     serializer_class = HistoryItemReadSerializer
-
-
-class HistoryItemsList(APIView):
-    """
-    List all snippets, or create a new snippet.
-    """
-    def get(self, request, format=None):
-        about_us = AboutUsPage.objects.first()
-        serializer = about_us.history_items_list.stream_block.get_api_representation(
-            about_us.history_items_list
-        )
-        return Response(serializer)

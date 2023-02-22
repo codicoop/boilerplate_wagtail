@@ -1,8 +1,8 @@
-from django.urls import path
 from rest_framework.routers import DefaultRouter
 
-from apps.cms_api.views import CollectionItemViewSet, HistoryItemsList, \
-    VideoItemViewSet, HistoryItemViewSet
+from apps.cms_api.views import (
+    CollectionItemViewSet, VideoItemViewSet, HistoryItemViewSet
+)
 
 router = DefaultRouter()
 router.register(
