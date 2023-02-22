@@ -31,11 +31,10 @@ body.no-prefooter {
   padding: 0 var(--padding-sm);
   gap: var(--padding-sm);
 }
-// Grid sense padding
+// Grid amb possiblitat de no-padding
 .grid-3 {
   display: grid;
   grid-template-columns: var(--padding-lg) 1fr var(--padding-lg);
-  gap: var(--padding-sm);
 }
 .grid-main {
   display: flex;

@@ -1,97 +1,155 @@
 // Dynamic variables
-.slider {
+.history {
+  --margin-bottom: var(--padding-xlg);
+  --gap: 0;
+
+  &__title {
+    --padding: var(--padding-md) var(--padding-md) 0 0;
+    --grid-column: 2;
+    --grid-row: 3;
+  }
   &__controller {
-    --margin-bottom: var(--padding-lg);
+    --grid-column: 1 / span 3;
+    --grid-row: 1;
   }
-  &__btn {
-    --margin-left: var(--padding-md);
-    --left: -26px;
-    --width: 24px;
+  &__photo {
+    --grid-column: 1 / span 3;
+    --grid-row: 2;
+    --height: 200px;
   }
-  &__info {
-    --padding-info: 0 var(--padding-lg);
+  &__text {
+    --grid-column: 2;
+    --grid-row: 4;
+    --padding-top: var(--padding-md);
+  }
+  &__image {
+    --grid-column: 1 / span 3;
+    --grid-row: 5;
+    --height: 220px;
+    --width: auto;
   }
 }
 
 @media (min-width: 1024px) {
-  .slider {
+  .history {
+  --margin-bottom: var(--padding-xlg);
+  --gap: 0 var(--padding-xlg);
+
+    &__title {
+      --padding: var(--padding-xlg) 0 var(--padding-xlg) 116px;
+      --grid-column: 1 / span 4;
+      --grid-row: 1;
+    }
+    &__photo {
+      --grid-column: 1 / span 4;
+      --grid-row: 2;
+      --height: 100%;
+    }
     &__controller {
-      --margin-bottom: var(--padding-xxxlg);
+      --grid-column: 5 / span 4;
+      --grid-row: 1;
     }
-    &__btn {
-      --margin-left: var(--padding-xxxlg);
-      --left: -82px;
-      --width: 80px;
+    &__text {
+      --grid-column: 5 / span 4;
+      --grid-row: 2;
+      --padding-top: 0;
     }
-    &__info {
-      --padding-info: 0 var(--padding-xxlg) 0 116px;
+    &__image {
+      --grid-column: 9 / span 4;
+      --grid-row: 1 / span 2;
+      --height: auto;
+      --width: 100%;
     }
   }
 }
 
 
 // Layout
-.slider {
-  &.grid-2 {
+.history {
+  margin-bottom: var(--margin-bottom);
+  background-color: var(--brown);
+  color: var(--white);
+
+  &.grid-3 {
+    grid-template-rows: 130px auto;
+    align-items: center;
+    gap: var(--gap);
     padding: 0;
   }
 
   &__controller {
-    order: 2;
-    grid-row: 1;
+    grid-column: var(--grid-column);
 
     display: flex;
-    justify-content: center;
-    margin-bottom: var(--margin-bottom);
-  }
-  &__btn {
-    position: relative;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border: 2px solid var(--blackish);
-    border-radius: 50px;
-    p, svg {
-      margin-bottom: 0;
-      pointer-events: none;
-    }
-    & + .slider__btn {
-      margin-left: var(--margin-left);
-
-      &::before {
-        content: "";
-        position: absolute;
-        left: var(--left);
-        width: var(--width);
-        height: 2px;
-        background-color: var(--blackish);
-      }
-    }
-  }
-  &__info {
-    order: 1;
-    grid-row: 2;
-    padding: var(--padding-info);
-  }
-  &__title {
-    margin-bottom: var(--padding-lg);
-    text-transform: uppercase;
-
+    
     p {
       margin-bottom: 0;
     }
   }
-  &__video {
-    order: 3;
-    grid-row: 2;
+  &__arrow {
+    padding: var(--padding-lg);
+    cursor: pointer;
 
-    width: 100%;
-    height: 340px;
+    svg {
+      fill: none;
+      width: 11px;
+      height: 18px;
+    }
+    path {
+      fill: var(--white);
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      stroke: var(--white);
+      stroke-width: 0.5;
+    }
   }
-  &__iframe {
-    width: 100%;
-    height: 100%;
+  &__photo {
+    grid-column: var(--grid-column);
+    height: var(--height);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    img {
+      margin-bottom: -6px;
+    }
+  }
+  &__title {
+    grid-column: var(--grid-column);
+    grid-row: var(--grid-row);
+    padding: var(--padding);
+    text-transform: uppercase;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__text {
+    grid-column: var(--grid-column);
+    align-self: baseline;
+    padding-top: var(--padding-top);
+  }
+  &__image {
+    grid-column: var(--grid-column);
+    grid-row: var(--grid-row);
+    height: var(--height);
+    width: var(--width);
+    overflow: clip;
+
+    svg {
+      width: 100%;
+      height: auto;
+      fill: none;
+    
+      path {
+        fill: var(--brown);
+        stroke: white; 
+        stroke-miterlimit: 10;
+      }
+      path.is-active {
+        fill: white;
+      }
+    }
   }
 }

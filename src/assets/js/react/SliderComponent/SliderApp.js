@@ -115,9 +115,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/x_jQiV26uQc" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
           {
             currentSlide === "1" &&
@@ -125,9 +125,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/SZrLUayVYUk" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
           {
             currentSlide === "2" &&
@@ -135,9 +135,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/rdojQLWP2HU" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
           {
             currentSlide === "3" &&
@@ -145,9 +145,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/b3gyDh5tFNI" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
           {
             currentSlide === "4" &&
@@ -155,9 +155,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/rWTLrpWXNJc" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
           {
             currentSlide === "5" &&
@@ -165,9 +165,9 @@ export default function SliderApp(){
               className='slider__iframe'
               src="https://www.youtube-nocookie.com/embed/-HyxleazCKs" 
               title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
+              frameBorder="0" 
+              allow="web-share" 
+              allowFullScreen></iframe>
           }
         </div>
       </div>

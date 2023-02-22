@@ -7,6 +7,9 @@
   &__history {
     --padding-top: var(--padding-xlg);
   }
+  &__history-title {
+    --padding: 0 var(--padding-lg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -18,6 +21,9 @@
     &__history {
       --padding-top: var(--padding-xxlg);
     }
+    &__history-title {
+      --padding: 0 var(--padding-xxlg) 0 116px;
+    }
   }  
 }
 // Layout
@@ -28,5 +34,9 @@
   }
   &__history {
     padding-top: var(--padding-top);
+  }
+  &__history-title {
+    text-transform: uppercase;
+    padding: var(--padding);
   }
 }
