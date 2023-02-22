@@ -64,6 +64,9 @@ class VideoItemReadSerializer(serializers.ModelSerializer):
 
 
 class HistoryItemReadSerializer(serializers.ModelSerializer):
+    image_thumbnail = ImageRenditionField("width-700", source="image")
+    image_maximized = ImageRenditionField("width-1500", source="image")
+
     class Meta:
         model = HistoryItem
         fields = [
@@ -71,5 +74,6 @@ class HistoryItemReadSerializer(serializers.ModelSerializer):
             "year",
             "title",
             "description",
-            "image",
+            "image_thumbnail",
+            "image_maximized",
         ]
