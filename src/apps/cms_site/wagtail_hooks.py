@@ -56,17 +56,7 @@ class CollectionItemModelModelAdmin(ModelAdmin):
 
 
 class ContactAjaxSubmissionAdmin(ContactSubmissionAdmin):
-    permission_helper_class = ValidationPermissionHelper
     model = AjaxContactSubmission
-    # ditch this to use verbose_name_plural from model
-    # Translators: This is for Wagtail's admin menu, keep it very short.
-    menu_label = _("Form submissions")
-    menu_icon = 'mail'  # change as required
-    menu_order = 100  # will put in 3rd place (000 being 1st, 100 2nd)
-    # or True to add your model to the Settings sub-menu
-    add_to_settings_menu = False
-    # or True to exclude pages of this type from Wagtail's explorer view
-    exclude_from_explorer = True
     list_display = (
         "created",
         "name",
