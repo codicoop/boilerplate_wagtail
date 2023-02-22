@@ -25,3 +25,6 @@ La imatge de cada article es genera en dues mides diferents, configurades així:
 
     /api/history_items/
 
+### Vídeos a Qui Som
+
+    /api/video_items/

@@ -6,6 +6,7 @@ from apps.cms_site.models import (
     CollectionItemFinishing,
     CollectionItemType,
 )
+from apps.cms_site.models.about_us import VideoItem
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
@@ -48,4 +49,15 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             "model",
             "finishings",
             "typologies",
+        ]
+
+
+class VideoItemReadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = VideoItem
+        fields = [
+            "id",
+            "title",
+            "embed",
+            "description",
         ]
