@@ -5633,7 +5633,7 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 3,
+    "numchild": 5,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
     "latest_revision": 10,
@@ -5829,12 +5829,12 @@
     "numchild": 1,
     "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
     "locale": 1,
-    "latest_revision": 16,
+    "latest_revision": 35,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-09-15T10:19:24.144Z",
-    "last_published_at": "2022-09-15T10:19:24.144Z",
-    "live_revision": 16,
+    "last_published_at": "2023-02-20T15:00:19.457Z",
+    "live_revision": 35,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5855,7 +5855,7 @@
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-15T10:19:24.120Z",
+    "latest_revision_created_at": "2023-02-20T15:00:19.431Z",
     "alias_of": null
   }
 },
@@ -5895,6 +5895,84 @@
     "show_in_menus": false,
     "search_description": "",
     "latest_revision_created_at": "2022-09-28T10:22:32.338Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 14,
+  "fields": {
+    "path": "000100010006",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "59a861a7-4882-4fbd-bb72-f0f77b2f9365",
+    "locale": 1,
+    "latest_revision": 36,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-02-20T16:44:56.685Z",
+    "last_published_at": "2023-02-20T16:44:56.685Z",
+    "live_revision": 36,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Contacte",
+    "draft_title": "Contacte",
+    "slug": "contacte",
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "url_path": "/home/contacte/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "latest_revision_created_at": "2023-02-20T16:44:56.668Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 15,
+  "fields": {
+    "path": "000100010007",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+    "locale": 1,
+    "latest_revision": 41,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-02-22T11:10:31.368Z",
+    "last_published_at": "2023-02-22T15:57:59.596Z",
+    "live_revision": 41,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Qui som",
+    "draft_title": "Qui som",
+    "slug": "qui-som",
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "url_path": "/home/qui-som/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-02-22T15:57:59.551Z",
     "alias_of": null
   }
 },
@@ -8610,6 +8688,560 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "11",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-20T14:54:53.886Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Projectes a mida",
+    "content": {
+      "pk": 11,
+      "live": true,
+      "path": "000100010005",
+      "slug": "projectes-a-mida",
+      "depth": 3,
+      "owner": 1,
+      "title": "Projectes a mida",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 1,
+      "url_path": "/home/projectes-a-mida/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "menu_label": null,
+      "draft_title": "Projectes a mida",
+      "content_type": 67,
+      "header_image": 12,
+      "introduction": "Text introducció apartat projectes a mida.",
+      "live_revision": 16,
+      "show_in_menus": true,
+      "latest_revision": 16,
+      "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
+      "last_published_at": "2022-09-15T10:19:24.144Z",
+      "first_published_at": "2022-09-15T10:19:24.144Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-15T10:19:24.120Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "11",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-20T15:00:19.431Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Projectes a mida",
+    "content": {
+      "pk": 11,
+      "live": true,
+      "path": "000100010005",
+      "slug": "projectes-a-mida",
+      "depth": 3,
+      "owner": 1,
+      "title": "Projectes a mida",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 1,
+      "url_path": "/home/projectes-a-mida/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "menu_label": null,
+      "description": "Text de presentació de l'apartat de projectes a mida.",
+      "draft_title": "Projectes a mida",
+      "content_type": 67,
+      "header_image": 12,
+      "live_revision": 34,
+      "show_in_menus": true,
+      "latest_revision": 34,
+      "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
+      "last_published_at": "2023-02-20T14:54:53.941Z",
+      "first_published_at": "2022-09-15T10:19:24.144Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-20T14:54:53.886Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "14",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-20T16:44:56.668Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Contacte",
+    "content": {
+      "pk": 14,
+      "live": true,
+      "path": "000100010006",
+      "slug": "contacte",
+      "depth": 3,
+      "owner": 1,
+      "title": "Contacte",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/contacte/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "menu_label": null,
+      "name_label": "Nom",
+      "to_address": "p.picornell@gmail.com",
+      "draft_title": "Contacte",
+      "email_label": "Correu electrònic",
+      "phone_label": "Telèfon",
+      "success_msg": "<p data-block-key=\"rdn9t\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
+      "content_type": 83,
+      "header_image": 23,
+      "live_revision": null,
+      "message_label": "Missatge",
+      "profile_label": "Perfil",
+      "show_in_menus": true,
+      "subject_label": "Assumpte",
+      "latest_revision": null,
+      "translation_key": "59a861a7-4882-4fbd-bb72-f0f77b2f9365",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "notification_subject": "Nou missatge al formulari de contacte de la web",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-22T11:10:31.343Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "content_type": 78,
+      "header_image": 10,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": null,
+      "first_published_at": null,
+      "history_items_list": "[{\"type\": \"item\", \"value\": {\"year\": 2020, \"title\": \"Passen coses\", \"text\": \"Text de l'item Text de l'item Text de l'item Text de l'item Text de l'item\", \"photo\": 11}, \"id\": \"82b70933-2abc-4c37-81da-31ec5ec9cf58\"}]",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-22T14:49:24.163Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "content_type": 78,
+      "header_image": 10,
+      "live_revision": 37,
+      "show_in_menus": false,
+      "latest_revision": 37,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-02-22T11:10:31.368Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "history_items_list": "[{\"type\": \"item\", \"value\": {\"year\": 2020, \"title\": \"Passen coses\", \"text\": \"Text de l'item Text de l'item Text de l'item Text de l'item Text de l'item\", \"photo\": 11}, \"id\": \"82b70933-2abc-4c37-81da-31ec5ec9cf58\"}]",
+      "search_description": "",
+      "video_description_1": "Text vídeo 1",
+      "video_description_2": "Text vídeo 2",
+      "video_description_3": "Text vídeo 3",
+      "video_description_4": "Text vídeo 4",
+      "video_description_5": "Text vídeo 5",
+      "video_description_6": "Text vídeo 6",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-22T11:10:31.343Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 39,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-22T15:13:25.301Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Vídeo 1, títol",
+          "sort_order": 0,
+          "description": "A Mobles Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició.\r\nMarquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat.\r\nUn cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        }
+      ],
+      "content_type": 78,
+      "header_image": 10,
+      "live_revision": 38,
+      "show_in_menus": false,
+      "latest_revision": 38,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-02-22T14:49:24.199Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "history_items_list": "[{\"type\": \"item\", \"value\": {\"year\": 2020, \"title\": \"Passen coses\", \"text\": \"Text de l'item Text de l'item Text de l'item Text de l'item Text de l'item\", \"photo\": 11}, \"id\": \"82b70933-2abc-4c37-81da-31ec5ec9cf58\"}]",
+      "search_description": "",
+      "video_description_1": "Text vídeo 1",
+      "video_description_2": "Text vídeo 2",
+      "video_description_3": "Text vídeo 3",
+      "video_description_4": "Text vídeo 4",
+      "video_description_5": "Text vídeo 5",
+      "video_description_6": "Text vídeo 6",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-22T14:49:24.163Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 40,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-22T15:24:32.886Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Vídeo 1, títol",
+          "sort_order": 0,
+          "description": "A Mobles Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició.\r\nMarquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat.\r\nUn cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        }
+      ],
+      "content_type": 78,
+      "header_image": 10,
+      "history_items": [
+        {
+          "pk": null,
+          "page": 15,
+          "year": 2020,
+          "image": 11,
+          "title": "Cosis del 2020",
+          "sort_order": 0,
+          "description": "Prova de text"
+        }
+      ],
+      "live_revision": 39,
+      "show_in_menus": false,
+      "latest_revision": 39,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-02-22T15:13:25.345Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "history_items_list": "[{\"id\": \"82b70933-2abc-4c37-81da-31ec5ec9cf58\", \"type\": \"item\", \"value\": {\"text\": \"Text de l'item Text de l'item Text de l'item Text de l'item Text de l'item\", \"year\": 2020, \"photo\": 11, \"title\": \"Passen coses\"}}]",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-22T15:13:25.301Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-02-22T15:57:59.551Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 0,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 1,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 2,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 3,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 4,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        }
+      ],
+      "content_type": 78,
+      "header_image": 10,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 11,
+          "title": "Cosis del 2020",
+          "sort_order": 0,
+          "description": "Prova de text"
+        }
+      ],
+      "live_revision": 40,
+      "show_in_menus": false,
+      "latest_revision": 40,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-02-22T15:24:32.925Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-22T15:24:32.886Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -10520,6 +11152,358 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 83,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-20T14:54:53.920Z",
+    "uuid": "19c27d34-9a5a-4774-a180-6b14c7d5afa4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 34,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 84,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-20T14:54:53.968Z",
+    "uuid": "19c27d34-9a5a-4774-a180-6b14c7d5afa4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 34,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 85,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-20T15:00:19.444Z",
+    "uuid": "c5c47d2c-f590-4c6a-ab93-38bb2e349bc1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 35,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 86,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-20T15:00:19.479Z",
+    "uuid": "c5c47d2c-f590-4c6a-ab93-38bb2e349bc1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 35,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 87,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "label": "Contacte",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-02-20T16:44:56.657Z",
+    "uuid": "0551cdc9-7ddb-412e-8e23-ac59b61b79b6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 14
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 88,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "label": "Contacte",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-20T16:44:56.706Z",
+    "uuid": "0551cdc9-7ddb-412e-8e23-ac59b61b79b6",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 36,
+    "content_changed": true,
+    "deleted": false,
+    "page": 14
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 89,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-02-22T11:10:31.324Z",
+    "uuid": "351c550f-9cdf-4de3-853c-296ede1f81e2",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 90,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-22T11:10:31.400Z",
+    "uuid": "351c550f-9cdf-4de3-853c-296ede1f81e2",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 37,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 91,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-22T14:49:24.181Z",
+    "uuid": "166e4f2f-0911-4cb5-9f57-bbac16dcda39",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 38,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 92,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-22T14:49:24.231Z",
+    "uuid": "166e4f2f-0911-4cb5-9f57-bbac16dcda39",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 38,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 93,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-22T15:13:25.323Z",
+    "uuid": "af8c5bfc-1ca2-4214-834e-0082afb5d262",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 39,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 94,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-22T15:13:25.380Z",
+    "uuid": "af8c5bfc-1ca2-4214-834e-0082afb5d262",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 39,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 95,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-22T15:24:32.904Z",
+    "uuid": "9e263669-cd92-490d-9143-b6b87c29a570",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 40,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 96,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-22T15:24:32.959Z",
+    "uuid": "9e263669-cd92-490d-9143-b6b87c29a570",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 40,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 97,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-02-22T15:57:59.568Z",
+    "uuid": "7c8cf221-28ea-4189-a0d0-0c0c40ce4952",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 41,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 98,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-02-22T15:57:59.633Z",
+    "uuid": "7c8cf221-28ea-4189-a0d0-0c0c40ce4952",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 41,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -10776,7 +11760,8 @@
   "pk": 11,
   "fields": {
     "header_image": 12,
-    "menu_label": null
+    "menu_label": null,
+    "description": "Text de presentació de l'apartat de projectes a mida."
   }
 },
 {
@@ -10821,6 +11806,191 @@
     "custom_projects_page": null,
     "display_instagram_feed": true,
     "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.aboutuspage",
+  "pk": 15,
+  "fields": {
+    "header_image": 10
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 15,
+    "title": "Com ho fem",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 15,
+    "title": "Manipulació i mecanització",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "page": 15,
+    "title": "El vernís",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 4,
+  "fields": {
+    "sort_order": 3,
+    "page": 15,
+    "title": "El muntatge",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 5,
+  "fields": {
+    "sort_order": 4,
+    "page": 15,
+    "title": "Transport i muntatge",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 15,
+    "year": 2020,
+    "title": "Cosis del 2020",
+    "description": "Prova de text",
+    "image": 11
+  }
+},
+{
+  "model": "cms_site.customajaxcontact",
+  "pk": 14,
+  "fields": {
+    "menu_label": null,
+    "subject_label": "Assumpte",
+    "phone_label": "Telèfon",
+    "profile_label": "Perfil",
+    "personal_data_auth_label": "Treatment of personal data authorization",
+    "personal_data_comercial_auth_label": "Treatment of personal data authorization for comercial purposes"
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 2,
+  "fields": {
+    "subject": "assumpte?",
+    "phone": "",
+    "profile": "",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 3,
+  "fields": {
+    "subject": "assumpte?",
+    "phone": "",
+    "profile": "",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 4,
+  "fields": {
+    "subject": "",
+    "phone": "",
+    "profile": "",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 5,
+  "fields": {
+    "subject": "sense redirecció",
+    "phone": "76876876",
+    "profile": "2",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 6,
+  "fields": {
+    "subject": "assumpte?",
+    "phone": "76876876",
+    "profile": "2",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 7,
+  "fields": {
+    "subject": "prova amb nova config emails",
+    "phone": "76876876",
+    "profile": "3",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": true
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 8,
+  "fields": {
+    "subject": "assumpte?",
+    "phone": "76876876",
+    "profile": "Botiga de mobiliari",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 9,
+  "fields": {
+    "subject": "Faltava el normalizebasedata a noves instàncies, verificar",
+    "phone": "76876876",
+    "profile": "Estudi d’interiorisme",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": false
+  }
+},
+{
+  "model": "cms_site.ajaxcontactsubmission",
+  "pk": 10,
+  "fields": {
+    "subject": "assumpte?",
+    "phone": "76876876",
+    "profile": "Altres",
+    "personal_data_auth": true,
+    "personal_data_comercial_auth": true
   }
 },
 {
@@ -11514,6 +12684,109 @@
     "translation_key": "bac8fb9c-ee6e-42ce-8a29-0e2a93dd72fc",
     "locale": 1,
     "name": "Göta"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.ajaxcontactpage",
+  "pk": 14,
+  "fields": {
+    "header_image": 23,
+    "name_label": "Nom",
+    "email_label": "Correu electrònic",
+    "message_label": "Missatge",
+    "success_msg": "<p data-block-key=\"rdn9t\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
+    "to_address": "p.picornell@gmail.com",
+    "notification_subject": "Nou missatge al formulari de contacte de la web"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 2,
+  "fields": {
+    "created": "2023-02-21T10:47:59.975Z",
+    "name": "Pere",
+    "email": "aaaa@aa.com",
+    "message": "holaa"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 3,
+  "fields": {
+    "created": "2023-02-21T10:48:04.002Z",
+    "name": "Pere",
+    "email": "aaaa@aa.com",
+    "message": "holaa"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 4,
+  "fields": {
+    "created": "2023-02-21T10:51:16.614Z",
+    "name": "Pere",
+    "email": "aa@aa.com",
+    "message": "missatge i tal"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 5,
+  "fields": {
+    "created": "2023-02-21T10:53:32.384Z",
+    "name": "retest",
+    "email": "aaaa@aa.com",
+    "message": "testing\nsalts de línia\naa"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 6,
+  "fields": {
+    "created": "2023-02-21T10:54:11.209Z",
+    "name": "Pere",
+    "email": "aaaa@aa.com",
+    "message": "sgdfgdfgfd"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 7,
+  "fields": {
+    "created": "2023-02-21T11:22:41.679Z",
+    "name": "prova 2",
+    "email": "aaaa@aa.com",
+    "message": "El perfil es desarà..?"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 8,
+  "fields": {
+    "created": "2023-02-21T11:24:37.769Z",
+    "name": "Prova amb perfil diferent",
+    "email": "aaaa@aa.com",
+    "message": "fsdfsd"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 9,
+  "fields": {
+    "created": "2023-02-21T15:26:51.106Z",
+    "name": "Pere",
+    "email": "aaaa@aa.com",
+    "message": "fsfdfsfs"
+  }
+},
+{
+  "model": "wagtail_ajax_contact_form.contactsubmission",
+  "pk": 10,
+  "fields": {
+    "created": "2023-02-22T10:32:10.401Z",
+    "name": "Pere",
+    "email": "aaaa@aa.com",
+    "message": "msg de prova\nsalts de linia"
   }
 },
 {
