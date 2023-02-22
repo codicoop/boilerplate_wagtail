@@ -1,7 +1,10 @@
 from django.db import models
-from wagtail.admin.panels import FieldPanel
+from modelcluster.fields import ParentalKey
+from modelcluster.models import ClusterableModel
+from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.fields import StreamField
 from django.utils.translation import gettext_lazy as _
+from wagtail.models import Orderable
 
 from apps.base.models import BasePage
 from apps.cms_site.blocks import AboutUsHistoryItem
@@ -17,47 +20,36 @@ class AboutUsPage(BasePage):
         null=True,
         blank=True,
     )
-    video_description_1 = models.TextField(
-        _("Video 1 description"),
-        default="",
-        blank=True,
-    )
-    video_description_2 = models.TextField(
-        _("Video 2 description"),
-        default="",
-        blank=True,
-    )
-    video_description_3 = models.TextField(
-        _("Video 3 description"),
-        default="",
-        blank=True,
-    )
-    video_description_4 = models.TextField(
-        _("Video 4 description"),
-        default="",
-        blank=True,
-    )
-    video_description_5 = models.TextField(
-        _("Video 5 description"),
-        default="",
-        blank=True,
-    )
-    video_description_6 = models.TextField(
-        _("Video 6 description"),
-        default="",
-        blank=True,
-    )
 
     content_panels = BasePage.content_panels + [
-        FieldPanel("video_description_1"),
-        FieldPanel("video_description_2"),
-        FieldPanel("video_description_3"),
-        FieldPanel("video_description_4"),
-        FieldPanel("video_description_5"),
-        FieldPanel("video_description_6"),
+        InlinePanel(
+            "video_items",
+            heading=_("Videos"),
+            label=_("Video"),
+        ),
         FieldPanel("history_items_list"),
     ]
 
     template = "pages/about_us.html"
     parent_page_types = ["cms_site.HomePage"]
     max_count = 1
+
+
+class VideoItem(Orderable, ClusterableModel):
+    page = ParentalKey(
+        AboutUsPage,
+        on_delete=models.CASCADE,
+        related_name="video_items",
+    )
+    title = models.CharField(_("Title"), max_length=80)
+    embed = models.TextField(_("Embed code"))
+    description = models.TextField(_("Description"))
+
+    panels = [
+        FieldPanel("title"),
+        FieldPanel("embed"),
+        FieldPanel("description"),
+    ]
+
+    def __str__(self):
+        return self.title
