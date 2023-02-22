@@ -1,7 +1,8 @@
 from rest_framework.routers import DefaultRouter
 
 from apps.cms_api.views import (
-    CollectionItemViewSet, VideoItemViewSet, HistoryItemViewSet
+    CollectionItemViewSet, VideoItemViewSet, HistoryItemViewSet,
+    InstagramPostViewSet
 )
 
 router = DefaultRouter()
@@ -19,6 +20,11 @@ router.register(
     r"history_items",
     HistoryItemViewSet,
     basename="history_item",
+)
+router.register(
+    r"instagram_posts",
+    InstagramPostViewSet,
+    basename="instagram_post",
 )
 
 urlpatterns = router.urls

@@ -7,6 +7,7 @@ from apps.cms_site.models import (
     CollectionItemType,
 )
 from apps.cms_site.models.about_us import VideoItem, HistoryItem
+from apps.cms_site.models.news import InstagramPost
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
@@ -76,4 +77,14 @@ class HistoryItemReadSerializer(serializers.ModelSerializer):
             "description",
             "image_thumbnail",
             "image_maximized",
+        ]
+
+
+class InstagramPostReadSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = InstagramPost
+        fields = [
+            "id",
+            "url",
         ]

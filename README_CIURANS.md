@@ -28,3 +28,7 @@ La imatge de cada article es genera en dues mides diferents, configurades així:
 ### Vídeos a Qui Som
 
     /api/video_items/
+
+### Posts d'Instagram
+
+    /api/instagram_posts/

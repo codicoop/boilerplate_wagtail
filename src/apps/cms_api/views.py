@@ -1,12 +1,12 @@
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, mixins, viewsets
-from rest_framework.response import Response
-from rest_framework.views import APIView
 
 from apps.cms_api.serializers import CollectionItemReadSerializer, \
-    VideoItemReadSerializer, HistoryItemReadSerializer
-from apps.cms_site.models import CollectionItem, AboutUsPage
+    VideoItemReadSerializer, HistoryItemReadSerializer, \
+    InstagramPostReadSerializer
+from apps.cms_site.models import CollectionItem
 from apps.cms_site.models.about_us import VideoItem, HistoryItem
+from apps.cms_site.models.news import InstagramPost
 
 
 class CollectionItemViewSet(
@@ -40,3 +40,11 @@ class HistoryItemViewSet(
 ):
     queryset = HistoryItem.objects.all()
     serializer_class = HistoryItemReadSerializer
+
+
+class InstagramPostViewSet(
+    viewsets.GenericViewSet,
+    mixins.ListModelMixin,
+):
+    queryset = InstagramPost.objects.all()
+    serializer_class = InstagramPostReadSerializer
