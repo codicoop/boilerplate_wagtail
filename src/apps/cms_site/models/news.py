@@ -39,4 +39,4 @@ class InstagramPost(Orderable, ClusterableModel):
     ]
 
     def __str__(self):
-        return self.pk
+        return self.url
