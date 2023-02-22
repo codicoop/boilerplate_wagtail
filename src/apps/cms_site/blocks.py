@@ -16,15 +16,3 @@ class DesignerItem(blocks.StructBlock):
     class Meta:
         template = "pages/collections/block_designer.html"
         icon = "doc-full"
-
-
-class AboutUsHistoryItem(blocks.StructBlock):
-    year = blocks.IntegerBlock(label=_("Year"))
-    title = blocks.CharBlock(label=_("Títol"))
-    text = blocks.TextBlock(label=_("Text"))
-    photo = ImageChooserBlock(label=_("Photo"))
-
-    class Meta:
-        # Not using template because this is only delivered through api
-        # template = None
-        icon = "doc-full"

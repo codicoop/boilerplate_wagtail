@@ -2,25 +2,13 @@ from django.db import models
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import FieldPanel, InlinePanel
-from wagtail.fields import StreamField
 from django.utils.translation import gettext_lazy as _
 from wagtail.models import Orderable
 
 from apps.base.models import BasePage
-from apps.cms_site.blocks import AboutUsHistoryItem
 
 
 class AboutUsPage(BasePage):
-    history_items_list = StreamField(
-        [
-            ("item", AboutUsHistoryItem()),
-        ],
-        verbose_name=_("History points"),
-        use_json_field=True,
-        null=True,
-        blank=True,
-    )
-
     content_panels = BasePage.content_panels + [
         InlinePanel(
             "video_items",
