@@ -1,0 +1,25 @@
+// Dynamic variables
+.news {
+  &__container {
+    --padding: var(--padding-lg)
+  }
+}
+
+@media (min-width: 1024px) {
+  .news {
+    &__container {
+      --padding: var(--padding-xxlg)
+    }
+  }
+}
+// Layout
+.news {
+  &__container {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+
+    iframe {
+      grid-column: span 4;
+    }
+  }
+}
