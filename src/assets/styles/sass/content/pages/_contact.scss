@@ -91,6 +91,9 @@
   &__form {
     grid-auto-flow: dense;
   }
+  &__success {
+    display: none;
+  }
   &__map {
     margin-top: var(--margin-top);
 

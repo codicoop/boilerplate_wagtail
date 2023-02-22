@@ -13,7 +13,7 @@
     // This is the general error, in case is needed
     //var errorEl = event.target.getElementsByClassName('error')[0];
 
-    var postURL = event.target.getAttribute('data-url');
+    const postURL = event.target.getAttribute('data-url');
     const csrftoken = getCookie('csrftoken');
 
     const request = new Request(
@@ -34,15 +34,14 @@
     })
     .then(response => {
       if (!response.ok) {
-        throw new Error("Could not finish the request.");
+        throw new Error("No s'ha pogut realitzar la petició");
       }
       return response.json();
     })
     .then(data => {
-      successEl = contactForm.querySelector('p');
-      btn = document.getElementById('btn_send');
-      inputItems = event.target.getElementsByClassName('input__item');
-      errorSpans = event.target.getElementsByClassName('input__error');
+      const successEl = document.querySelector('.contact__success');
+      const inputItems = event.target.getElementsByClassName('field');
+      const errorSpans = event.target.getElementsByClassName('field__error');
 
       // Reset to default state
       // Eliminates any error classes
@@ -54,21 +53,9 @@
           el.remove();
       })
       // Hides any success messages
-      successEl.style.display = 'none';
-
-      // reset button styles
-      btn.classList.remove("btn--orange");
-      btn.classList.add("btn--blue");
-      btn.innerHTML = "Enviar";
-      btn.setAttribute("style", "pointer-events: auto");
+      successEl.style.display = 'none'
 
       if ('errors' in data) {
-        // Changes in the button when there's an error
-        btn.classList.remove("btn--blue");
-        btn.classList.add("btn--orange");
-        btn.innerHTML = "Error";
-        btn.setAttribute("style", "pointer-events: none");
-
         Object.entries(data['errors']).forEach(function(error_blocks) {
         /* When converting the object into an array, each property of the
         object is converted into an array in which [0] is the property name
@@ -84,45 +71,40 @@
           } else {
             // For the field-specific errors
             // Gets the field name
-            el = event.target.elements[block_name];
+            el = event.target.elements[block_name]
             if (el) {
               // Creates a new error <span>
-              errorDiv = el.parentNode;
-              inputItem = errorDiv.parentNode;
-              inputItem.classList.add('error');
+              let inputItem = el.parentNode
+              inputItem.classList.add('error')
 
-              newnode = document.createElement('span');
-              newnode.classList.add('input__error');
-              newnode.innerText = error_messages[0];
-              el.parentNode.appendChild(newnode);
+              newnode = document.createElement('div')
+              newnode.classList.add('field__error', 'text-sm')
+              newnode.innerText = error_messages[0]
+              el.parentNode.appendChild(newnode)
 
-            };
-          };
-        });
+            }
+          }
+        })
 
         // If the user writes in the textfield, the error styling is removed
         Array.from(inputItems).forEach(function(el) {
           el.addEventListener("input", function() {
-            el.classList.remove('error');
-            btn.classList.remove("btn--orange");
-            btn.classList.add("btn--blue");
-            btn.innerHTML = "Enviar";
-            btn.setAttribute("style", "pointer-events: auto");
+            el.classList.remove('error')
           })
         })
 
       } else {
         // Show success message
-        successEl.style.display = 'block';
+        successEl.style.display = 'block'
         // Cleans up the form fields
-        event.target.reset();
+        event.target.reset()
         // Optionally, redirect to success page
-        // window.location.href = postURL + 'sent/';
-      };
+        // window.location.href = postURL + 'sent/'
+      }
     })
     .catch((error) => {
-      console.error('Error:', error);
-    });
+      console.error('Error:', error)
+    })
   };
 
   function getCookie(name) {
