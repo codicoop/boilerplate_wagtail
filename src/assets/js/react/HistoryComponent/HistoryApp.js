@@ -26,7 +26,6 @@ export default function HistoryApp(){
       <div>LOADING...</div>
     )
   } else {
-    console.log("DONE!")
       return (
         <div className="history grid-3">
           <div className="history__controller">
