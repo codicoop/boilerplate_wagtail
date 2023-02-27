@@ -23,3 +23,11 @@
 </main>
 
 {% endblock %}
+
+{% block extra_js %}
+  <script id="data_for_react">
+    const backData = {
+      csrf: "{{ csrf_token }}",
+    }
+  </script>
+{% endblock %}
