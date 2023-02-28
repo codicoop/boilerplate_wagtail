@@ -36,6 +36,11 @@ body.no-prefooter {
   display: grid;
   grid-template-columns: var(--padding-lg) 1fr var(--padding-lg);
 }
+.grid-4 {
+  display: grid;
+  grid-template-columns: var(--padding-sm) 1fr var(--padding-sm);
+  gap: var(--padding-sm) 0;
+}
 .grid-main {
   display: flex;
   flex-direction: column;
@@ -110,7 +115,7 @@ body.no-prefooter {
   .main {
     margin-top: -120px;
   }
-  .grid-1, .grid-2, .grid-3 {
+  .grid-1, .grid-2, .grid-3, .grid-4 {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(90px,1fr));
     grid-template-columns: repeat(12, minmax(auto, 1fr));
@@ -118,6 +123,7 @@ body.no-prefooter {
     align-items: start;
     grid-auto-rows: auto;
     padding: 0 var(--padding-xxlg);
+    gap: var(--padding-sm);
   }
   .grid-main {
     display: grid;

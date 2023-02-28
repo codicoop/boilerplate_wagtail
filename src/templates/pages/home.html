@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags wagtailimages_tags i18n %}
+{% load static wagtailcore_tags wagtailimages_tags i18n %}
 
 {% block page_title %}{{ page.title }}{% endblock %}
 
@@ -115,13 +115,29 @@
     {% endif %}
     </section>
 
-    <section class="instagram-feed grid-1">
+    <section class="instagram-feed">
       {% if page.display_instagram_feed %}
-        <h3 class="instagram-feed__title title-1--light">{% translate "News" %}</h3>
-        <!-- TODO: Configure the instagram feed here -->
+      <div class="instagram-feed__title grid-3">
+        <h3 class="title-1--light">{% translate "News" %}</h3>
+      </div>
+      <div id="home-instagram-feed" class="instagram-feed__container grid-4">
+        <script async src="//www.instagram.com/embed.js"></script>
+      </div>
       {% endif %}
+      <div class="instagram-feed__btn grid-item-full">
+        {# <!-- <a href="{% pageurl page.news %}"> --> #}
+        <a href="">
+          <div class="btn btn--light">
+            {% translate 'More news' %}
+          </div>
+        </a>
+      </div>
       </section>
 
   </main>
 
+{% endblock %}
+
+{% block extra_js %}
+  <script src="{% static 'js/ajax.js' %}"></script>
 {% endblock %}
