@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from "react-i18next"
+import SyncLoader from "react-spinners/SyncLoader"
 import axios from 'axios';
-import './i18n';
 
 export default function HistoryApp(){
-  const { t, i18n } = useTranslation()
   const [allSlides, setAllSlides] = useState([])
   const [currentSlide, setCurrentSlide] = useState("")
+  const [loading, setLoading] = useState(true)
 
   useEffect(()=>{
     // Getting the history items
@@ -18,14 +17,23 @@ export default function HistoryApp(){
     .then(response => {
       setAllSlides(response.data)
       setCurrentSlide(0)
+      setLoading(false)
     })
     },[])
 
-  if (currentSlide === "") {
-    return (
-      <div>LOADING...</div>
-    )
-  } else {
+    if (loading) {
+      return (
+        <div className="slider grid-2">
+          <div className="slider__loader grid-item-full">
+            <SyncLoader
+              color="#303030"
+              loading={loading}
+              data-testid="loader"
+            />
+          </div>
+        </div>
+      )
+    } else {
       return (
         <div className="history grid-3">
           <div className="history__controller">

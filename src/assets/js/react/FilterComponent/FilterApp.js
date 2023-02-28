@@ -2,12 +2,14 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select'
 import { useTranslation } from "react-i18next"
+import SyncLoader from "react-spinners/SyncLoader"
 import './i18n';
 
 import ProductCard from './ProductCard'
 
 export default function FilterApp(){
   const { t, i18n } = useTranslation()
+  const [loading, setLoading] = useState(true)
   const initialFormData = {
     type: "",
     model: "",
@@ -15,14 +17,10 @@ export default function FilterApp(){
   }
   const [formData, setFormData] = useState(initialFormData)
   const [imagesArray, setImagesArray] = useState([])
-  const filterTitle = "Filtra els models"
-  const filterTypeLabel = "Tipus"
-  const filterModelLabel = "Model"
-  const filterFinishingLabel = "Submodel / Acabat"
   const filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
-  console.log("backData", backData)
+  // console.log("backData", backData)
   // console.log("formData", formData);
 
   useEffect(()=>{
@@ -63,14 +61,14 @@ export default function FilterApp(){
       <section className="collections-detail__filters">
         <form action="" className="grid-1">
           <div className="collections-detail__filters-title title-3 grid-item-1-3">
-            <p>{filterTitle}</p>
+            <p>{t('Filter_the_models')}</p>
           </div>
           <div className="collections-detail__filters-select grid-item-4-6">
             <Select 
               styles={customStyles}
               options={filterTypeData} 
               name="type"
-              placeholder={filterTypeLabel}
+              placeholder={t('Type')}
               onChange={handleTypeChange}
             />
           </div>
@@ -79,7 +77,7 @@ export default function FilterApp(){
               styles={customStyles}
               options={filterModelData} 
               name="model"
-              placeholder={filterModelLabel}
+              placeholder={t('Model')}
               onChange={handleModelChange}
             />
           </div>
@@ -88,7 +86,7 @@ export default function FilterApp(){
               styles={customStyles}
               options={filterFinishingData} 
               name="finishing"
-              placeholder={filterFinishingLabel}
+              placeholder={t('Finishing')}
               onChange={handleSubmodelChange}
             />
           </div>
@@ -97,7 +95,16 @@ export default function FilterApp(){
       <section className="collections-detail__product-list">
         <div className="grid-2">
           {
-            imagesArray.map(printImages)
+            loading
+              ? <div className="slider__loader grid-item-full">
+                  <SyncLoader
+                    color="#303030"
+                    loading={loading}
+                    aria-label={t('Loading')}
+                    data-testid="loader"
+                  />
+                </div>
+              : imagesArray.map(printImages)
           }
         </div>
       </section>
@@ -126,11 +133,12 @@ export default function FilterApp(){
       headers: {'X-CSRFToken': backData.csrf}
     })
     .then(resp => {
-      console.log("resposta images", resp)
       setImagesArray(resp.data)
+      setLoading(false)
     })
   }
   function handleTypeChange(option){
+    setLoading(true)
     setFormData(prevData => {
       return {
         ...prevData,
@@ -140,6 +148,7 @@ export default function FilterApp(){
     getNewImages()
   }
   function handleModelChange(option){
+    setLoading(true)
     setFormData(prevData => {
       return {
         ...prevData,
@@ -148,6 +157,7 @@ export default function FilterApp(){
     })
   }
   function handleSubmodelChange(option){
+    setLoading(true)
     setFormData(prevData => {
       return {
         ...prevData,

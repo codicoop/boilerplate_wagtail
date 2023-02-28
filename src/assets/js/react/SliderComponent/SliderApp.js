@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from "react-i18next"
+import SyncLoader from "react-spinners/SyncLoader"
 import axios from 'axios';
 import './i18n';
 
@@ -7,12 +8,12 @@ export default function SliderApp(){
   const { t, i18n } = useTranslation()
   const [allSlides, setAllSlides] = useState([])
   const [currentSlide, setCurrentSlide] = useState("")
-  console.log("allSlides", allSlides)
+  const [loading, setLoading] = useState(true)
 
   const extractSrc = (embed) => {
-    const srcRegex = /src="(.*?)"/;
-    const match = srcRegex.exec(embed);
-    const src = match && match[1];
+    const srcRegex = /src="(.*?)"/
+    const match = srcRegex.exec(embed)
+    const src = match && match[1]
 
     return src
   }
@@ -27,17 +28,22 @@ export default function SliderApp(){
     .then(response => {
       setAllSlides(response.data)
       setCurrentSlide("0")
+      setLoading(false)
     })
     },[])
 
-    useEffect(()=>{
-      if (currentSlide === "") return
-
-    },[currentSlide])
-
-    if (currentSlide === "") {
+    if (loading) {
       return (
-        <div>LOADING...</div>
+        <div className="slider grid-2">
+          <div className="slider__loader grid-item-full">
+            <SyncLoader
+              color="#303030"
+              loading={loading}
+              aria-label={t('Loading')}
+              data-testid="loader"
+            />
+          </div>
+        </div>
       )
     } else {
       return (

@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from "react-i18next"
 
 export default function ProductCard({ image }){
+  const { t, i18n } = useTranslation()
   const imageUrl = image.image_thumbnail.url
   const modelName = translateModel(image.model)
 
@@ -92,14 +94,14 @@ export default function ProductCard({ image }){
 
   function translateModel(el) {
     const filterModelData = backData.model
-    let newModel = "Model:"
+    let newModel = ""
     filterModelData.map(item => {
       if (item.value == el) {
-        newModel = `${newModel} ${item.label}`
+        newModel = `${t('Model:')} ${newModel} ${item.label}`
       }
     })
-    if (newModel === "Model:") {
-      newModel = "Sense model"
+    if (newModel === "") {
+      newModel = t('Without_model')
     }
 
     return newModel
