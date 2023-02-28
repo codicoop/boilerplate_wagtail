@@ -9,7 +9,10 @@ from apps.cms_site.models import (
     CollectionItemType,
     CustomProject,
 )
+from apps.cms_site.models.contact import AjaxContactSubmission
 from apps.cms_site.models.snippets import CollectionItemModel
+from apps.wagtail_ajax_contact_form.wagtail_hooks import \
+    ContactSubmissionAdmin, ValidationPermissionHelper
 
 
 @hooks.register("after_delete_page")
@@ -52,6 +55,35 @@ class CollectionItemModelModelAdmin(ModelAdmin):
     inspect_view_enabled = True
 
 
+class ContactAjaxSubmissionAdmin(ContactSubmissionAdmin):
+    model = AjaxContactSubmission
+    list_display = (
+        "created",
+        "name",
+        "email",
+        "message",
+        "subject",
+        "phone",
+        "profile",
+        "personal_data_auth",
+        "personal_data_comercial_auth",
+    )
+    list_filter = (
+        "created",
+        "personal_data_auth",
+        "personal_data_comercial_auth",
+    )
+    search_fields = (
+        "name",
+        "email",
+        "message",
+        "subject",
+        "phone",
+    )
+    edit_view_class = None
+
+
 modeladmin_register(FinishingsModelAdmin)
 modeladmin_register(CollectionItemTypeModelAdmin)
 modeladmin_register(CollectionItemModelModelAdmin)
+modeladmin_register(ContactAjaxSubmissionAdmin)

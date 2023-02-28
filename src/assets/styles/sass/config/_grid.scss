@@ -31,11 +31,15 @@ body.no-prefooter {
   padding: 0 var(--padding-sm);
   gap: var(--padding-sm);
 }
-// Grid sense padding
+// Grid amb possiblitat de no-padding
 .grid-3 {
   display: grid;
   grid-template-columns: var(--padding-lg) 1fr var(--padding-lg);
-  gap: var(--padding-sm);
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: var(--padding-sm) 1fr var(--padding-sm);
+  gap: var(--padding-sm) 0;
 }
 .grid-main {
   display: flex;
@@ -48,10 +52,10 @@ body.no-prefooter {
   grid-column: 1 / -1;
 }
 .grid-item-4-9 {
-  grid-column: 4 / span 5;
+  grid-column: 4 / span 6;
 }
 .grid-item-2-6 {
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 5;
 }
 .grid-item-8-11 {
   grid-column: 8 / span 4;
@@ -111,7 +115,7 @@ body.no-prefooter {
   .main {
     margin-top: -120px;
   }
-  .grid-1, .grid-2, .grid-3 {
+  .grid-1, .grid-2, .grid-3, .grid-4 {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(90px,1fr));
     grid-template-columns: repeat(12, minmax(auto, 1fr));
@@ -119,6 +123,7 @@ body.no-prefooter {
     align-items: start;
     grid-auto-rows: auto;
     padding: 0 var(--padding-xxlg);
+    gap: var(--padding-sm);
   }
   .grid-main {
     display: grid;

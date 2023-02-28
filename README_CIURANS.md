@@ -1,5 +1,7 @@
 ## Endpoints
 
+### Articles de la col·lecció
+
 El llistat d'articles que es mostra quan accedeixes a una col·lecció s'obté a
 través d'un endpoint que accepta filtres.
 
@@ -19,3 +21,14 @@ La imatge de cada article es genera en dues mides diferents, configurades així:
     image_thumbnail = "width-700"
     image_maximized = "width-1500"
 
+### Items de la Història a Qui som
+
+    /api/history_items/
+
+### Vídeos a Qui Som
+
+    /api/video_items/
+
+### Posts d'Instagram
+
+    /api/instagram_posts/

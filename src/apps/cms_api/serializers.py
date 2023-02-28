@@ -6,6 +6,8 @@ from apps.cms_site.models import (
     CollectionItemFinishing,
     CollectionItemType,
 )
+from apps.cms_site.models.about_us import VideoItem, HistoryItem
+from apps.cms_site.models.news import InstagramPost
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
@@ -48,4 +50,41 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             "model",
             "finishings",
             "typologies",
+        ]
+
+
+class VideoItemReadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = VideoItem
+        fields = [
+            "id",
+            "title",
+            "embed",
+            "description",
+        ]
+
+
+class HistoryItemReadSerializer(serializers.ModelSerializer):
+    image_thumbnail = ImageRenditionField("width-700", source="image")
+    image_maximized = ImageRenditionField("width-1500", source="image")
+
+    class Meta:
+        model = HistoryItem
+        fields = [
+            "id",
+            "year",
+            "title",
+            "description",
+            "image_thumbnail",
+            "image_maximized",
+        ]
+
+
+class InstagramPostReadSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = InstagramPost
+        fields = [
+            "id",
+            "url",
         ]

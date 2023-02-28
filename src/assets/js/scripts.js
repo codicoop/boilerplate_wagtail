@@ -88,17 +88,15 @@ const mainObserver = new IntersectionObserver(function (entries, observer) {
 // Executing the observer
 mainObserver.observe(emptyBox);
 
-// Function that opens a model with a full size image
-function openFullImage(e) {
-    const thisItem = e.target
+function openFullImageTemplate(event) {
+    const thisItem = event.target
     const thisCard = thisItem.parentElement
     const thisModal = thisCard.querySelector(".modal")
     thisModal.classList.add("is-open")
 
-    function listenerFunction(event){
+    function listenerFunction(e){
         const object = thisCard.querySelector('.modal__image')
-        if (!object.contains(event.target)) {
-            console.log("you are clicking outside the image!");
+        if (!object.contains(e.target)) {
             thisModal.classList.remove('is-open');
         }
         window.removeEventListener("click", listenerFunction)
@@ -108,21 +106,19 @@ function openFullImage(e) {
         window.addEventListener('click', listenerFunction);
     }, 100)
 }
-
-function closeFullImage(e) {
-    const thisItem = e.target
+function closeFullImageTemplate(event) {
+    const thisItem = event.target
     const thisModal = thisItem.parentElement
     const thisCard = thisModal.parentElement
     thisModal.classList.remove("is-open")
 
-    function listenerFunction(event){
+    function listenerFunction(e){
         const object = thisCard.querySelector('.modal__image')
-        if (!object.contains(event.target)) {
-            console.log("you are clicking outside the image!");
+        if (!object.contains(e.target)) {
             thisModal.classList.remove('is-open');
         }
         window.removeEventListener("click", listenerFunction)
     }
 
     window.removeEventListener("click", listenerFunction)
-}
+  }

@@ -1,0 +1,19 @@
+{% extends "../base.html" %}
+{% load i18n wagtailcore_tags wagtailimages_tags static %}
+
+{% block content %}
+
+<main class="main news">
+  {% include '../components/heading.html' %}
+
+  <div id="news-instagram-feed" class="news__container grid-4">
+    <script async src="//www.instagram.com/embed.js"></script>
+  </div>
+
+</main>
+
+{% endblock %}
+
+{% block extra_js %}
+  <script src="{% static 'js/ajax.js' %}"></script>
+{% endblock %}

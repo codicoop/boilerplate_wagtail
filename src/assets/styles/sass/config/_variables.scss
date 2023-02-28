@@ -6,6 +6,7 @@
   --grey: #808080;
   --grey-light: hsl(0, 0%, 88%);
   --brown: #745740;
+  --red: #dd6e6e;
 
   // Paddings
   --padding-base: 16px;
@@ -18,5 +19,6 @@
   --padding-xlg: calc(var(--padding-base) * 3); // 48
   --padding-xxlg: calc(var(--padding-base) * 4); // 64
   --padding-xxxlg: calc(var(--padding-base) * 5); // 80
+  --padding-xxxxlg: calc(var(--padding-base) * 6); // 96
 
 }

@@ -7,6 +7,8 @@
     --top: -96px;
     --display-overlay: flex;
     --margin-overlay: 0 16px;
+    --padding-right: 0;
+
     &__image {
       --max-height: 260px;
     }
@@ -14,6 +16,7 @@
   .collections {
     &__title {
       --grid-column: 2;
+      --padding-left: var(--padding-lg);
     }
     &__item  {
       --grid-column: 1 / -1;
@@ -25,8 +28,18 @@
     }
   }
   .instagram-feed {
+    --align-self: center;
+
     &__title {
       --grid-column: 2;
+    }
+    &__container {
+      --padding: var(--padding-lg);
+      --align-items: center;
+    }
+    blockquote {
+      --grid-column: 2;
+      --display: flex;
     }
   }
 }
@@ -40,13 +53,16 @@
       --top: -192px;
       --display-overlay: grid;
       --margin-overlay: 0;
+      --padding-right: var(--padding-sm);
+
       &__image {
         --max-height: auto;
       }
     }
     .collections {
       &__title {
-        --grid-column: 2 / -2
+        --grid-column: 2 / -2;
+        --padding-left: 0;
       }
       &__item {
         --grid-column: span 12;
@@ -68,8 +84,18 @@
       }
     }
     .instagram-feed {
+    --align-self: baseline;
+
       &__title {
-        --grid-column: 2 / -2;
+        --grid-column: 2 / span 5;
+      }
+      &__container {
+        --padding: var(--padding-xxlg);
+        --align-items: baseline;
+      }
+      blockquote {
+        --grid-column: span 4;
+        --display: block;
       }
     }
   }
@@ -107,6 +133,7 @@
       grid-row: 1;
       display: flex;
       flex-direction: column;
+      padding-right: var(--padding-right);
       color: var(--white);
     }
     &__button {
@@ -129,7 +156,8 @@
     &__title {
       grid-column: var(--grid-column);
       font-weight: 400;
-      padding-bottom: var(--padding-lg)
+      padding-bottom: var(--padding-xlg);
+      padding-left: var(--padding-left);
     }
     &__item {
       grid-column: var(--grid-column);
@@ -159,11 +187,11 @@
   }
   .custom-projects {
     grid-column: 1 / -1;
-    margin-top: var(--padding-xxxlg);
+    margin-top: var(--padding-xxxxlg);
 
     &__title {
       grid-column: var(--grid-column);
-      padding-bottom: var(--padding-lg);
+      padding-bottom: var(--padding-xlg);
     }
     &__item {
       grid-column: 1 / -1;
@@ -172,11 +200,27 @@
 
   .instagram-feed {
     grid-column: 1 / -1;
-    margin-top: var(--padding-xxxlg);
+    margin-top: var(--padding-xxxxlg);
     margin-bottom: var(--padding-xxlg);
 
-    &__title {
+    &__title h3 {
       grid-column: var(--grid-column);
+      padding-bottom: var(--padding-lg);
+    }
+    &__container {
+      align-items: var(--align-items);
+      padding-top: var(--padding);
+      padding-bottom: var(--padding);
+  
+      blockquote {
+        grid-column: var(--grid-column);
+        display: var(--display);
+        justify-content: center;
+      }
+    }
+    .instagram-media {
+      grid-column: span 4;
+      align-self: var(--align-self);
     }
   }
 }
