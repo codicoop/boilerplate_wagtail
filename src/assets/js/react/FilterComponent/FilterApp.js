@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Select from 'react-select'
 import { useTranslation } from "react-i18next"
 import SyncLoader from "react-spinners/SyncLoader"
-import './i18n';
+import '../i18n';
 
 import ProductCard from './ProductCard'
 
