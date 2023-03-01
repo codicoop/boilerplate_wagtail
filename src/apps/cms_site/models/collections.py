@@ -1,5 +1,6 @@
 from django.apps import apps
 from django.db import models
+from django.urls import reverse_lazy
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey, ParentalManyToManyField
@@ -158,7 +159,7 @@ class CollectionItem(Orderable, ClusterableModel):
                 "The model is not in the list? To add more, go to "
                 '<a href="%(url)s" target="_blank">Models</a>.'
             )
-            % {"url": "/cms/snippets/cms_site/collectionitemmodel/"}
+            % {"url": "/cms/cms_site/collectionitemmodel/"}
         ),
     )
     finishings = ParentalManyToManyField(
@@ -169,7 +170,7 @@ class CollectionItem(Orderable, ClusterableModel):
                 "The finishing is not in the list? To add more, go to "
                 '<a href="%(url)s" target="_blank">Finishings</a>.'
             )
-            % {"url": "/cms/snippets/cms_site/collectionitemfinishing/"}
+            % {"url": "/cms/cms_site/collectionitemfinishing/"}
         ),
     )
     typologies = ParentalManyToManyField(
@@ -180,7 +181,7 @@ class CollectionItem(Orderable, ClusterableModel):
                 "The type is not in the list? To add more, go to "
                 '<a href="%(url)s" target="_blank">Typologies</a>.'
             )
-            % {"url": "/cms/snippets/cms_site/collectionitemtype/"}
+            % {"url": "/cms/cms_site/collectionitemtype/"}
         ),
     )
 
