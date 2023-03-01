@@ -74,12 +74,20 @@ class Collection(BasePage):
         context = super().get_context(request, *args, **kwargs)
         designers_page_model = apps.get_model("cms_site", "DesignersPage")
         designers_page = designers_page_model.objects.live().first()
+        collections = [
+            {
+                "active_class": "is-active" if collection.specific == self else "",
+                "page": collection,
+            }
+            for collection in self.get_siblings(True)
+        ]
+
         context.update(
             {
                 "available_types": self.get_available_types(),
                 "available_finishings": self.get_available_finishings(),
                 "available_models": self.get_available_models(),
-                "collections": self.get_siblings(True),
+                "collections": collections,
                 "designers_page": designers_page,
             }
         )

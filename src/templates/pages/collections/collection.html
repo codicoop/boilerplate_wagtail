@@ -7,17 +7,17 @@
   <span class="is-hidden" id="top_page"></span>
 
   {% include '../../components/heading.html' %}
-  
+
   <section class="collections-detail__nav">
     <div class="grid-1">
     {# A l'enllaç actiu se li afegeix "is-active" #}
-    {% for collection in collections %}
-      <a class="collections-detail__nav-link grid-item-3" href="{% pageurl collection %}">
-        <p>{{ collection.specific.title }}</p>
+    {% for collection_menu_item in collections %}
+      <a class="collections-detail__nav-link grid-item-3 {{ collection_menu_item.active_class }}" href="{% pageurl collection_menu_item.page %}">
+        <p>{{ collection_menu_item.page.specific.title }}</p>
       </a>
     {% endfor %}
     {% if designers_page %}
-      <a class="collections-detail__nav-link grid-item-3 is-active" href="{% pageurl designers_page %}">
+      <a class="collections-detail__nav-link grid-item-3" href="{% pageurl designers_page %}">
         <p>{% translate 'The designers' %}</p>
       </a>
     {% endif %}
