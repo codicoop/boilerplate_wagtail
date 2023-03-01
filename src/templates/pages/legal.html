@@ -1,0 +1,12 @@
+{% extends "../base.html" %}
+{% load i18n wagtailcore_tags %}
+
+{% block content %}
+
+<main class="main">
+  {% include '../components/heading.html' %}
+
+  {{ self.text|richtext }}
+</main>
+
+{% endblock %}

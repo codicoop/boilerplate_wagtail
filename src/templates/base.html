@@ -148,11 +148,13 @@
         <p>©2023 {% translate 'Mobles Ciurans' %}</p>
         <p>{% translate 'All rights reserved' %}</p>
       </span>
+      {% if legal_page %}
       <span class="footer__legal">
-        <a href="">
+        <a href="{% pageurl legal_page %}">
           <p>{% translate 'Legal warning' %}</p>
         </a>
       </span>
+      {% endif %}
     </div>
   </footer>
 
