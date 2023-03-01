@@ -4,12 +4,10 @@ from rest_framework import filters, mixins, viewsets
 from apps.cms_api.serializers import (
     CollectionItemReadSerializer,
     HistoryItemReadSerializer,
-    InstagramPostReadSerializer,
     VideoItemReadSerializer,
 )
 from apps.cms_site.models import CollectionItem
 from apps.cms_site.models.about_us import HistoryItem, VideoItem
-from apps.cms_site.models.news import InstagramPost
 
 
 class CollectionItemViewSet(
@@ -43,11 +41,3 @@ class HistoryItemViewSet(
 ):
     queryset = HistoryItem.objects.all()
     serializer_class = HistoryItemReadSerializer
-
-
-class InstagramPostViewSet(
-    viewsets.GenericViewSet,
-    mixins.ListModelMixin,
-):
-    queryset = InstagramPost.objects.all()
-    serializer_class = InstagramPostReadSerializer
