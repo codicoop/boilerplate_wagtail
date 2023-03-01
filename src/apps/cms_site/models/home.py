@@ -1,3 +1,4 @@
+from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import MultiFieldPanel
@@ -245,3 +246,15 @@ class HomePage(BasePage):
             and self.overlay_body
             and self.overlay_title
         )
+
+    def get_context(self, request, *args, **kwargs):
+        ctxt = super().get_context(request, *args, **kwargs)
+        instagram_post_model = apps.get_model("cms_site", "InstagramPost")
+        posts = instagram_post_model.objects.all()[:3]
+        if posts:
+            ctxt.update(
+                {
+                    "instagram_posts": posts,
+                },
+            )
+        return ctxt
