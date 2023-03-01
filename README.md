@@ -375,3 +375,42 @@ TO DO
 ## React Setup
 
 Consultar [els docus](http://docus.codi.coop:3000/e/en/knowledge-base/front/react_setup)
+
+## Configuring the webpage's Menu
+
+### For editors: How to use it
+
+In the CMS panel, go to Settings - Main menu.
+
+Click Add menu item, then select the page you want to link to it, leave every
+other field empty and Save.
+
+Now reload the page and the menu item should appear.
+If not, find and edit the linked Page and at the Promote tab, check the
+"Show in menus" field, and Publish.
+
+The label for the menu items is the `Menu title` field of the page. If that
+field does not exist, it's going to use the `Page title`.
+When a Page is available in multiple languages, the menu item is going to show
+the localized string according to the language that the user is using.
+
+### For developers: How to create new pages to be included in menus
+
+Just use the `base.models.MenuLabelMixin` mixin, as you'll see, this will add the
+field for the menu item's label, as well as setting the "Show in menus" field
+enabled by default.
+
+### Implementation technical notes
+
+2 packages are involved in the process:
+https://github.com/jazzband/wagtailmenus
+https://github.com/wagtail/wagtail-localize
+
+The problem is that wagtailmenus don't support localization yet.
+
+There's a workaround to make wagtailmenus return the localized version of the
+page, of which you can find information:
+- In this issue: https://github.com/jazzband/wagtailmenus/issues/242#issuecomment-795138779
+- At the documentation included in the class base.models.LocalizedMainMenu
+- At the documentation included in the class base.models.LocalizedMainMenuItem
+
