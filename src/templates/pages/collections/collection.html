@@ -10,7 +10,6 @@
 
   <section class="collections-detail__nav">
     <div class="grid-1">
-    {# A l'enllaç actiu se li afegeix "is-active" #}
     {% for collection_menu_item in collections %}
       <a class="collections-detail__nav-link grid-item-3 {{ collection_menu_item.active_class }}" href="{% pageurl collection_menu_item.page %}">
         <p>{{ collection_menu_item.page.specific.title }}</p>

@@ -74,13 +74,7 @@ class Collection(BasePage):
         context = super().get_context(request, *args, **kwargs)
         designers_page_model = apps.get_model("cms_site", "DesignersPage")
         designers_page = designers_page_model.objects.live().first()
-        collections = [
-            {
-                "active_class": "is-active" if collection.specific == self else "",
-                "page": collection,
-            }
-            for collection in self.get_siblings(True)
-        ]
+        collections = self.get_submenu()
 
         context.update(
             {
@@ -128,6 +122,15 @@ class Collection(BasePage):
             item.model.id: item.model.name for item in self.collection_items.all()
         }
         return available_models
+
+    def get_submenu(self):
+        return [
+            {
+                "active_class": "is-active" if collection.specific == self else "",
+                "page": collection,
+            }
+            for collection in self.get_siblings(True)
+        ]
 
     def __str__(self):
         return self.title
