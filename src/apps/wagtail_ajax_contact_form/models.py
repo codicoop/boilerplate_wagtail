@@ -1,10 +1,10 @@
 import json
 
-from django.http import JsonResponse
 from django.db import models
+from django.http import JsonResponse
 from django.utils.translation import gettext_lazy as _
-from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel
-from wagtail.core.fields import RichTextField
+from wagtail.admin.panels import FieldPanel, MultiFieldPanel
+from wagtail.fields import RichTextField
 
 from apps.base.models import BasePage
 
@@ -19,49 +19,54 @@ class AjaxContactPage(BasePage):
         _("name"),
         max_length=250,
         help_text=_("Label for the Name field."),
-        default=_("Your name")
+        default=_("Your name"),
     )
     email_label = models.CharField(
         _("email"),
         max_length=250,
         help_text=_("Label for the e-mail field."),
-        default=_("Your e-mail")
+        default=_("Your e-mail"),
     )
     message_label = models.CharField(
         _("message"),
         max_length=250,
         help_text=_("Label for the Message field."),
-        default=_("Message")
+        default=_("Message"),
     )
 
     # Form settings
     success_msg = RichTextField(
-        _("success message"),
-        default=_("Message sent, thanks for contacting us!")
+        _("success message"), default=_("Message sent, thanks for contacting us!")
     )
     to_address = models.EmailField(
         _("to address"),
-        blank=True, null=True,
-        help_text=_("E-mail to notify when a new submission is received. Leave"
-                    " it empty to disable the notifications.")
+        blank=True,
+        null=True,
+        help_text=_(
+            "E-mail to notify when a new submission is received. Leave"
+            " it empty to disable the notifications."
+        ),
     )
     notification_subject = models.CharField(
         _("subject"),
-        blank=True, null=True,
+        blank=True,
+        null=True,
         max_length=250,
-        help_text=_("If empty, you will not get e-mail notifications for new "
-                    "form submissions.")
+        help_text=_(
+            "If empty, you will not get e-mail notifications for new "
+            "form submissions."
+        ),
     )
 
     field_labels = [
-        FieldPanel('name_label', classname="full"),
-        FieldPanel('email_label', classname="full"),
-        FieldPanel('message_label', classname="full"),
+        FieldPanel("name_label", classname="full"),
+        FieldPanel("email_label", classname="full"),
+        FieldPanel("message_label", classname="full"),
     ]
     form_settings = [
-        FieldPanel('success_msg', classname="full"),
-        FieldPanel('to_address', classname="full"),
-        FieldPanel('notification_subject', classname="full"),
+        FieldPanel("success_msg", classname="full"),
+        FieldPanel("to_address", classname="full"),
+        FieldPanel("notification_subject", classname="full"),
     ]
 
     content_panels = BasePage.content_panels + [
@@ -78,8 +83,8 @@ class AjaxContactPage(BasePage):
     def serve(self, request, *args, **kwargs):
         # as request.is_ajax() is deprecated, checking HTTP_X_REQUESTED_WITH
         if (
-            request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest'
-            and request.method == 'POST'
+            request.META.get("HTTP_X_REQUESTED_WITH") == "XMLHttpRequest"
+            and request.method == "POST"
         ):
             form_class = self.get_contact_form()
             post_from_fetch = json.loads(request.body)
@@ -87,8 +92,7 @@ class AjaxContactPage(BasePage):
             if form.is_valid():
                 if self.to_address and self.notification_subject:
                     form.send_submission_notification(
-                        self.to_address, self.notification_subject,
-                        post_from_fetch
+                        self.to_address, self.notification_subject, post_from_fetch
                     )
 
                 # Receipt: disabled for now.
@@ -98,20 +102,17 @@ class AjaxContactPage(BasePage):
                 if submissions_model:
                     form.save()
 
-                success_return_data = {
-                    'success': True
-                }
+                success_return_data = {"success": True}
                 return JsonResponse(success_return_data)
             else:
-                return JsonResponse({
-                    'errors': form.errors
-                })
+                return JsonResponse({"errors": form.errors})
 
         return super().serve(request, *args, **kwargs)
 
     @staticmethod
     def get_contact_form():
         from .forms import ContactUsForm
+
         return ContactUsForm
 
     @staticmethod

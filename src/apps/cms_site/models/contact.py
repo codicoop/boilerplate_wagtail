@@ -1,13 +1,9 @@
 from django.db import models
-from wagtail.admin.panels import (
-    FieldPanel,
-    MultiFieldPanel,
-)
 from django.utils.translation import gettext_lazy as _
+from wagtail.admin.panels import FieldPanel, MultiFieldPanel
 
 from apps.base.models import BasePage, MenuLabelMixin
-from apps.wagtail_ajax_contact_form.models import AjaxContactPage, \
-    ContactSubmission
+from apps.wagtail_ajax_contact_form.models import AjaxContactPage, ContactSubmission
 
 
 class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
@@ -42,10 +38,10 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
     personal_data_comercial_auth_label = models.CharField(
         _("personal data for comercial use treatment"),
         max_length=250,
-        help_text=_("Label for the Personal data for comercial use treatment "
-                    "checkbox."),
-        default=_("Treatment of personal data authorization for comercial "
-                  "purposes"),
+        help_text=_(
+            "Label for the Personal data for comercial use treatment " "checkbox."
+        ),
+        default=_("Treatment of personal data authorization for comercial " "purposes"),
     )
 
     """
@@ -55,11 +51,11 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
     """
     content_panels = BasePage.content_panels + [
         MultiFieldPanel(
-            AjaxContactPage.field_labels +
-            [
-                FieldPanel('subject_label', classname="full"),
-                FieldPanel('phone_label', classname="full"),
-                FieldPanel('profile_label', classname="full"),
+            AjaxContactPage.field_labels
+            + [
+                FieldPanel("subject_label", classname="full"),
+                FieldPanel("phone_label", classname="full"),
+                FieldPanel("profile_label", classname="full"),
             ],
             heading=_("Field labels"),
         ),
@@ -70,11 +66,12 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
     ]
 
     max_count = 1
-    template = 'pages/contact_ajax.html'
+    template = "pages/contact_ajax.html"
 
     @classmethod
     def get_contact_form(cls):
         from apps.cms_site.forms import ContactFormAjax
+
         return ContactFormAjax
 
 

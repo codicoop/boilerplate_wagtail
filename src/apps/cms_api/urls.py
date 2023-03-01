@@ -1,8 +1,10 @@
 from rest_framework.routers import DefaultRouter
 
 from apps.cms_api.views import (
-    CollectionItemViewSet, VideoItemViewSet, HistoryItemViewSet,
-    InstagramPostViewSet
+    CollectionItemViewSet,
+    HistoryItemViewSet,
+    InstagramPostViewSet,
+    VideoItemViewSet,
 )
 
 router = DefaultRouter()

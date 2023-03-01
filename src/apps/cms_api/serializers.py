@@ -6,7 +6,7 @@ from apps.cms_site.models import (
     CollectionItemFinishing,
     CollectionItemType,
 )
-from apps.cms_site.models.about_us import VideoItem, HistoryItem
+from apps.cms_site.models.about_us import HistoryItem, VideoItem
 from apps.cms_site.models.news import InstagramPost
 
 
@@ -81,7 +81,6 @@ class HistoryItemReadSerializer(serializers.ModelSerializer):
 
 
 class InstagramPostReadSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = InstagramPost
         fields = [

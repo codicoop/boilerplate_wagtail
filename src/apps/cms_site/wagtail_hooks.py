@@ -11,8 +11,7 @@ from apps.cms_site.models import (
 )
 from apps.cms_site.models.contact import AjaxContactSubmission
 from apps.cms_site.models.snippets import CollectionItemModel
-from apps.wagtail_ajax_contact_form.wagtail_hooks import \
-    ContactSubmissionAdmin, ValidationPermissionHelper
+from apps.wagtail_ajax_contact_form.wagtail_hooks import ContactSubmissionAdmin
 
 
 @hooks.register("after_delete_page")

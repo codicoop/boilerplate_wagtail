@@ -1,11 +1,14 @@
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, mixins, viewsets
 
-from apps.cms_api.serializers import CollectionItemReadSerializer, \
-    VideoItemReadSerializer, HistoryItemReadSerializer, \
-    InstagramPostReadSerializer
+from apps.cms_api.serializers import (
+    CollectionItemReadSerializer,
+    HistoryItemReadSerializer,
+    InstagramPostReadSerializer,
+    VideoItemReadSerializer,
+)
 from apps.cms_site.models import CollectionItem
-from apps.cms_site.models.about_us import VideoItem, HistoryItem
+from apps.cms_site.models.about_us import HistoryItem, VideoItem
 from apps.cms_site.models.news import InstagramPost
 
 

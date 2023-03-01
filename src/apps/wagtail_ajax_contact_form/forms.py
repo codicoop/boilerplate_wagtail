@@ -10,9 +10,7 @@ from .models import ContactSubmission
 class ContactUsForm(forms.ModelForm):
     class Meta:
         model = ContactSubmission
-        fields = [
-            'name', 'email', 'message'
-        ]
+        fields = ["name", "email", "message"]
 
     def send_submission_notification(self, to, subject, post_data):
         body = self.get_body(post_data)
@@ -20,7 +18,9 @@ class ContactUsForm(forms.ModelForm):
             self.get_formatted_subject(subject, post_data),
             strip_tags(body),
             settings.DEFAULT_FROM_EMAIL,  # From
-            [to, ]  # To (iterable)
+            [
+                to,
+            ],  # To (iterable)
         )
         msg.attach_alternative(body, "text/html")
         msg.send()

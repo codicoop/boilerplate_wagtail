@@ -1,9 +1,9 @@
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.models import Orderable
-from django.utils.translation import gettext_lazy as _
 
 from apps.base.models import BasePage
 
@@ -31,7 +31,7 @@ class InstagramPost(Orderable, ClusterableModel):
     url = models.CharField(
         _("Link to post"),
         max_length=80,
-        help_text=_("Example: https://www.instagram.com/p/CfyTUDfIxeY")
+        help_text=_("Example: https://www.instagram.com/p/CfyTUDfIxeY"),
     )
 
     panels = [
