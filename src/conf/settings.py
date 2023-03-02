@@ -36,9 +36,11 @@ DATABASES = {
         "PORT": env("DB_PORT", default=5432),
     }
 }
-# If you enable this try a makemigrations to make sure the third party
-# packages are not generating migrations.
-# DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+# Django now defaults to BigAutoField, which causes makemigrations to generate
+# migrations for many third party libraries.
+# We're defaulting it back to AutoField here, but in our own apps the default
+# is BigAutoField, as you can see in each app.py.
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default=None)
 
@@ -241,6 +243,7 @@ AWS_S3_OBJECT_PARAMETERS = {
 }
 AWS_LOCATION = "media"
 AWS_PRIVATE_MEDIA_LOCATION = env.str("AWS_PRIVATE_MEDIA_LOCATION", default="")
+AWS_S3_FILE_OVERWRITE = False
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 # Local folder storage
 # IMPORTANT: Read the Django documentation and setup nginx to serve the images.
