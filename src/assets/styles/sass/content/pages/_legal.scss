@@ -1,0 +1,70 @@
+// Dynamic variables
+.legal {
+  &__content {
+    --padding-legal: var(--padding-xxlg) 0;
+  }
+  h2 {
+    --font-size: 24px;
+    --line-height: 32px;
+  }
+  h3 {
+    --font-size: 17px;
+    --line-height: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .legal {
+    &__content {
+      --padding-legal: 124px 0 var(--padding-xxlg) 0;
+    }
+    h2 {
+      --font-size: 28px;
+      --line-height: 36px;
+    }
+    h3 {
+      --font-size: 18px;
+      --line-height: 24px;
+    }
+  }
+}
+// Layout
+.legal {
+  &__content {
+    padding: var(--padding-legal);
+
+    i {
+      font-style: italic;
+    }
+    b {
+      font-weight: bold;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      padding-bottom: var(--padding-md);
+    }
+    h3 {
+      font-weight: 500;
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      padding-bottom: var(--padding-md);
+    }
+    ol {
+      list-style: decimal;
+      padding-left: var(--padding-lg); 
+      padding-bottom: var(--padding-md);
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: var(--padding-lg); 
+      padding-bottom: var(--padding-md);
+    }
+    a {
+      font-weight: 500;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

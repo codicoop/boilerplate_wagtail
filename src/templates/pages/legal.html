@@ -3,10 +3,14 @@
 
 {% block content %}
 
-<main class="main">
+<main class="main legal">
   {% include '../components/heading.html' %}
 
-  {{ self.text|richtext }}
+  <div class="legal__container grid-2">
+    <div class="legal__content grid-item-4-9">
+      {{ self.text|richtext }}
+    </div>
+  </div>
 </main>
 
 {% endblock %}
