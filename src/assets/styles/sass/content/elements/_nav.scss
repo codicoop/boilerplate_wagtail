@@ -3,6 +3,10 @@
   .nav {
     --flex-direction: column;
     --justify-content: center;
+
+    &__link {
+      --padding: 0 var(--padding-xlg);
+    }
   }
 }
 
@@ -10,7 +14,11 @@
   .header {
     .nav {
       --flex-direction: row;
-      --justify-content: space-between;
+      --justify-content: flex-end;
+
+      &__link {
+        --padding: 0;
+      }
     }
   }
 }
@@ -22,13 +30,14 @@
   .nav {
     display: flex;
     flex-direction: var(--flex-direction);
-    gap: 0 var(--padding-lg);
+    gap: var(--padding-md) var(--padding-lg);
     justify-content: var(--justify-content);
 
     &__link {
-      padding: var(--padding-sm) var(--padding-xlg);
       width: 100%;
+      padding: var(--padding);
       margin-bottom: 0;
+      text-align: center;
     }
   }
 }

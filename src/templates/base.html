@@ -13,12 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>{% translate 'Mobles Ciurans' %} | {% block page_title %}{% endblock %}</title>
 </head>
-<body class="{% block body_classes %}{% endblock %}">
-  Idioma actual: {{ language_code }}
+<body class="{% block body_classes %}{% endblock %}" data-lang="{{ language_code }}">
   <div class="empty-box"></div>
   <header class="header">
     <div class="topbar">
-      <div class="topbar__logo">
+      <a class="topbar__logo" href="/">
         <svg
           class="logo"
           title="Logo Ciurans"
@@ -44,7 +43,7 @@
             </clippath>
           </defs>
         </svg>
-      </div>
+      </a>
       <div class="topbar__action">
         <svg
             title="{% translate 'Open menu' %}"
@@ -61,9 +60,9 @@
     </div>
     <div class="menu">
       <div class="menu__top">
-        <div class="menu__logo">
+        <a class="menu__logo">
           <img class="logo" src="{% static 'images/logo.svg' %}" alt="{% translate 'Logo of Ciurans' %}">
-        </div>
+        </a>
         <div class="menu__action">
           <svg
             title="{% translate 'Close menu' %}"
@@ -82,8 +81,10 @@
           {% main_menu template="components/main_menu.html" %}
         </nav>
         <div class="menu__btn">
-          <a href="" class="btn btn--dark">
-            <p>{% translate 'Client Area' %}</p>
+          <a href="/cms">
+            <div class="btn btn--dark">
+              <p>{% translate 'Client Area' %}</p>
+            </div>
           </a>
         </div>
         {% if page %}
@@ -91,9 +92,9 @@
           <ul>
             {% for translation in page.get_translations.live %}
               {% get_language_info for translation.locale.language_code as lang %}
-              <li>
+              <li class="menu__lang-item">
                 <a href="{% pageurl translation %}" rel="alternate" hreflang="{{ lang.code }}">
-                  <p class="menu__lang-item">{{ lang.code }}</p>
+                  <p>{{ lang.code }}</p>
                 </a>
               </li>
             {% endfor %}
