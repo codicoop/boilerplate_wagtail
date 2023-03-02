@@ -118,8 +118,8 @@
       </div>
       {% if settings.cms_site.ContactDetailsSettings.address %}
       <div class="footer-info grid-item-5-8">
-        <div class="footer-info__heading title-3">
-          <p>{% translate 'Where are we' %}</p>
+        <div class="footer-info__heading">
+          {% translate 'Where are we' %}
         </div>
         <div class="footer-info__text">
           <p>{{ settings.cms_site.ContactDetailsSettings.address|safe }}</p>
@@ -128,8 +128,8 @@
     {% endif %}
     {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
     <div class="footer-info grid-item-9-12">
-      <div class="footer-info__heading title-3">
-        <p>{% translate 'Contact' %}</p>
+      <div class="footer-info__heading">
+        {% translate 'Contact' %}
       </div>
       <div class="footer-info__text">
         {% if settings.cms_site.ContactDetailsSettings.phone %}
@@ -145,16 +145,20 @@
     {% endif %}
     </div>
     <div class="footer__bottom grid-1">
-      <span class="footer__legal">
-        <p>©2023 {% translate 'Mobles Ciurans' %}</p>
-        <p>{% translate 'All rights reserved' %}</p>
-      </span>
-      {% if legal_page %}
-      <span class="footer__legal">
-        <a href="{% pageurl legal_page %}">
-          <p>{% translate 'Legal warning' %}</p>
-        </a>
-      </span>
+      <div class="footer__bottom-container grid-item-4-9">
+        <div class="footer__legal">
+          <p>©2023 {% translate 'Mobles Ciurans' %}.</p>
+        </div>
+        <div class="footer__legal">
+          <p>{% translate 'All rights reserved' %}.</p>
+        </div>
+        {% if legal_page %}
+        <div class="footer__legal">
+          <a href="{% pageurl legal_page %}">
+            <p>{% translate 'Legal warning' %}.</p>
+          </a>
+        </div>
+      </div>
       {% endif %}
     </div>
   </footer>
