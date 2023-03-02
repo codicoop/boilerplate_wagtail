@@ -7,7 +7,6 @@ from apps.cms_site.models import (
     CollectionItemType,
 )
 from apps.cms_site.models.about_us import HistoryItem, VideoItem
-from apps.cms_site.models.news import InstagramPost
 
 
 class CollectionItemFinishingSerializer(serializers.ModelSerializer):
