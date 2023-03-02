@@ -78,12 +78,3 @@ class HistoryItemReadSerializer(serializers.ModelSerializer):
             "image_thumbnail",
             "image_maximized",
         ]
-
-
-class InstagramPostReadSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = InstagramPost
-        fields = [
-            "id",
-            "url",
-        ]

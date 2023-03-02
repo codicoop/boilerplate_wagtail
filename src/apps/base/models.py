@@ -1,3 +1,4 @@
+from django.apps import apps
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
@@ -26,6 +27,17 @@ class BasePage(Page):
 
     class Meta:
         abstract = True
+
+    def get_context(self, request, *args, **kwargs):
+        ctxt = super().get_context(request, *args, **kwargs)
+        legal_page = apps.get_model("cms_site", "LegalPage").objects.first()
+        if legal_page:
+            ctxt.update(
+                {
+                    "legal_page": legal_page,
+                },
+            )
+        return ctxt
 
 
 class MenuLabelMixin(models.Model):

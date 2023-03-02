@@ -7,6 +7,9 @@
   {% include '../components/heading.html' %}
 
   <div id="news-instagram-feed" class="news__container grid-4">
+    {% for post in self.instagram_posts.all %}
+      {{ post.url }}
+    {% endfor %}
     <script async src="//www.instagram.com/embed.js"></script>
   </div>
 

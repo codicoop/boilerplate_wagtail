@@ -5,5 +5,6 @@ from .custom_projects import CustomProject, CustomProjectsPage  # noqa
 from .designers import DesignersPage  # noqa
 from .home import HomePage  # noqa
 from .news import NewsPage  # noqa
+from .legal import LegalPage  # noqa
 from .settings import ContactDetailsSettings, SocialMediaIconsSettings  # noqa
 from .snippets import CollectionItemFinishing, CollectionItemType  # noqa

@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="overlay__image">
-        <div class="container-square-image" 
+        <div class="container-square-image"
             style="--bg-image: url('{{ bg_overlay.url }}')"
         ></div>
       </div>
@@ -43,13 +43,13 @@
       {% if page.display_collections_section %}
         <h3 class="collections__title title-1--light">{% translate "Catalogue" %}</h3>
         {% if page.display_collection_1 %}
-        <div class="collections__item 
+        <div class="collections__item
           {% if page.display_collection_2 or page.display_collection_3 %} item-2 {% endif %}
           {% if page.display_collection_2 and page.display_collection_3 %} item-3 {% endif %}
         ">
           <a href="{% pageurl page.collection_1_page %}">
             <div class="collections__item-image">
-              <div class="container-square-image" 
+              <div class="container-square-image"
                   style="--bg-image: url('{{ bg_collection_1.url }}')"
               ></div>
             </div>
@@ -67,7 +67,7 @@
         ">
           <a href="{% pageurl page.collection_2_page %}">
             <div class="collections__item-image">
-              <div class="container-square-image" 
+              <div class="container-square-image"
                   style="--bg-image: url('{{ bg_collection_2.url }}')"
               >
               <div class="collections__item-shade"></div>
@@ -86,7 +86,7 @@
         ">
           <a href="{% pageurl page.collection_3_page %}">
             <div class="collections__item-image">
-              <div class="container-square-image" 
+              <div class="container-square-image"
                   style="--bg-image: url('{{ bg_collection_3.url }}')"
               ></div>
             </div>
@@ -121,6 +121,9 @@
         <h3 class="title-1--light">{% translate "News" %}</h3>
       </div>
       <div id="home-instagram-feed" class="instagram-feed__container grid-4">
+        {% for post in instagram_posts %}
+          {{ post.url }}
+        {% endfor%}
         <script async src="//www.instagram.com/embed.js"></script>
       </div>
       {% endif %}
