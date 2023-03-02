@@ -24,6 +24,17 @@ export default function FilterApp(){
   // console.log("formData", formData);
 
   useEffect(()=>{
+    // Agafem la llengua feta servir
+    const thisBody = document.getElementById("body")
+    let currentLang = thisBody.dataset.lang
+    if (currentLang !== "ca" && currentLang !== "es") {
+      currentLang = "ca"
+    }
+    // Actualitzem les traduccions
+    i18n.changeLanguage(currentLang)
+  },[])
+
+  useEffect(()=>{
     getNewImages()
   }, [formData])
   
