@@ -16,7 +16,7 @@ class LegalPage(BasePage):
             "link",
             "ol",
             "ul",
-        ]
+        ],
     )
     content_panels = BasePage.content_panels + [
         FieldPanel(
