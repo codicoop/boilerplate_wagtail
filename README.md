@@ -414,3 +414,7 @@ page, of which you can find information:
 - At the documentation included in the class base.models.LocalizedMainMenu
 - At the documentation included in the class base.models.LocalizedMainMenuItem
 
+Note that this all can work only if you use this setting:
+
+    WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"
+

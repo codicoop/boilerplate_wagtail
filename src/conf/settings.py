@@ -257,3 +257,7 @@ WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"
 
 # WAGTAILAPI_LIMIT_MAX = env.int("WAGTAILAPI_LIMIT_MAX", default=100)
 # WAGTAILAPI_SEARCH_ENABLED = env.bool("WAGTAILAPI_SEARCH_ENABLED", default=True)
+
+# Maintenance mode
+MAINTENANCE_MODE = env.bool("MAINTENANCE_MODE", default=False)
+MAINTENANCE_MODE_STATE_BACKEND = "maintenance_mode.backends.DefaultStorageBackend"
