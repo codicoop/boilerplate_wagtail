@@ -15,6 +15,7 @@ env = environ.Env()
 # False if not in os.environ
 DEBUG = env("DEBUG", default=False)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
+CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
 # Instance's absolute URL (given we're not using Sites framework)
 WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL", default="")
 
