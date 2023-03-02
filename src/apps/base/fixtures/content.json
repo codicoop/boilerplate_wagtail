@@ -2534,6 +2534,27 @@
   }
 },
 {
+  "model": "wagtailusers.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "hola@codi.coop"
+    ],
+    "submitted_notifications": true,
+    "approved_notifications": true,
+    "rejected_notifications": true,
+    "updated_comments_notifications": true,
+    "preferred_language": "",
+    "current_time_zone": "",
+    "avatar": "",
+    "dismissibles": {
+      "help": true,
+      "editor-guide": true,
+      "whats-new-in-wagtail-4.2": true
+    }
+  }
+},
+{
   "model": "wagtaildocs.document",
   "pk": 1,
   "fields": {
@@ -2918,6 +2939,27 @@
     "focal_point_height": null,
     "file_size": 208162,
     "file_hash": "ea9e81f0fcd5f8bf30a639d47982ca2959fc7708"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 24,
+  "fields": {
+    "collection": 1,
+    "title": "Capçalera notícies",
+    "file": "original_images/198301870_388017582544833_2240866170602239761_n_2.png",
+    "width": 1360,
+    "height": 456,
+    "created_at": "2023-03-01T15:29:40.301Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 621055,
+    "file_hash": "b4ed20f5d8f9694737b7d2d1e818320afb22497c"
   }
 },
 {
@@ -5591,6 +5633,374 @@
   }
 },
 {
+  "model": "wagtailcore.referenceindex",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "base_content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "10",
+    "model_path": "menu_items.item.link_page",
+    "content_path": "menu_items.1.link_page",
+    "content_path_hash": "89565392-45d8-5313-b0fe-fa69fdcfd6e3"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "base_content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "11",
+    "model_path": "menu_items.item.link_page",
+    "content_path": "menu_items.2.link_page",
+    "content_path_hash": "66a7c865-23fe-573e-912c-6883cb26a5c0"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "base_content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "14",
+    "model_path": "menu_items.item.link_page",
+    "content_path": "menu_items.3.link_page",
+    "content_path_hash": "d746fa2d-06e4-5943-be54-df3eb4fab85f"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "base_content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "15",
+    "model_path": "menu_items.item.link_page",
+    "content_path": "menu_items.4.link_page",
+    "content_path_hash": "4c50d8db-d001-5cec-87f5-771740847a43"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "24",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "16",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "24",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "16",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "base_content_type": [
+      "base",
+      "localizedmainmenu"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "16",
+    "model_path": "menu_items.item.link_page",
+    "content_path": "menu_items.5.link_page",
+    "content_path_hash": "99dae278-c767-5775-ab00-d9399236ddcb"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "15",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "10",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "11",
+    "model_path": "history_items.item.image",
+    "content_path": "history_items.1.image",
+    "content_path_hash": "8e9f8cb9-ff7a-52dd-a17b-c561942ea7b5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "17",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "24",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "17",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
   "model": "wagtailcore.page",
   "pk": 1,
   "fields": {
@@ -5633,7 +6043,7 @@
   "fields": {
     "path": "00010001",
     "depth": 2,
-    "numchild": 5,
+    "numchild": 7,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
     "latest_revision": 10,
@@ -5946,12 +6356,12 @@
     "numchild": 0,
     "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
     "locale": 1,
-    "latest_revision": 41,
+    "latest_revision": 43,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2023-02-22T11:10:31.368Z",
-    "last_published_at": "2023-02-22T15:57:59.596Z",
-    "live_revision": 41,
+    "last_published_at": "2023-03-01T15:38:35.874Z",
+    "live_revision": 43,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -5970,9 +6380,87 @@
       "hola@codi.coop"
     ],
     "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "latest_revision_created_at": "2023-03-01T15:38:35.704Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 16,
+  "fields": {
+    "path": "000100010008",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "a8d9a217-b059-428c-a33d-805ae3c577be",
+    "locale": 1,
+    "latest_revision": 42,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-03-01T15:31:32.467Z",
+    "last_published_at": "2023-03-01T15:31:32.467Z",
+    "live_revision": 42,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Últimes notícies",
+    "draft_title": "Últimes notícies",
+    "slug": "noticies",
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "url_path": "/home/noticies/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "Actualitat",
+    "show_in_menus": true,
+    "search_description": "",
+    "latest_revision_created_at": "2023-03-01T15:31:32.337Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 17,
+  "fields": {
+    "path": "000100010009",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "82c1f563-78cd-4084-9429-bab2148a8f6f",
+    "locale": 1,
+    "latest_revision": 47,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-03-02T10:38:50.383Z",
+    "last_published_at": "2023-03-02T11:14:29.830Z",
+    "live_revision": 47,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Avís legal",
+    "draft_title": "Avís legal",
+    "slug": "avis-legal",
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "url_path": "/home/avis-legal/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2023-02-22T15:57:59.551Z",
+    "latest_revision_created_at": "2023-03-02T11:14:29.597Z",
     "alias_of": null
   }
 },
@@ -9242,6 +9730,431 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "16",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-01T15:31:32.337Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Últimes notícies",
+    "content": {
+      "pk": 16,
+      "live": true,
+      "path": "000100010008",
+      "slug": "noticies",
+      "depth": 3,
+      "owner": 1,
+      "title": "Últimes notícies",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/noticies/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "Actualitat",
+      "go_live_at": null,
+      "draft_title": "Últimes notícies",
+      "content_type": 74,
+      "header_image": 24,
+      "live_revision": null,
+      "show_in_menus": true,
+      "instagram_posts": [
+        {
+          "pk": 1,
+          "url": "https://www.instagram.com/p/CpMdeYbIERY/",
+          "page": 16,
+          "sort_order": 0
+        },
+        {
+          "pk": 2,
+          "url": "https://www.instagram.com/p/CfyTUDfIxeY/",
+          "page": 16,
+          "sort_order": 1
+        },
+        {
+          "pk": 3,
+          "url": "https://www.instagram.com/p/Cd0Owl3ISBE/",
+          "page": 16,
+          "sort_order": 2
+        },
+        {
+          "pk": 4,
+          "url": "https://www.instagram.com/p/CdqUVQGop5J/",
+          "page": 16,
+          "sort_order": 3
+        },
+        {
+          "pk": 5,
+          "url": "https://www.instagram.com/p/CbhmYBRIg-e/",
+          "page": 16,
+          "sort_order": 4
+        },
+        {
+          "pk": 6,
+          "url": "https://www.instagram.com/p/CaTuQRrIv0v/",
+          "page": 16,
+          "sort_order": 5
+        }
+      ],
+      "latest_revision": null,
+      "translation_key": "a8d9a217-b059-428c-a33d-805ae3c577be",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 43,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-01T15:38:35.704Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 0,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 1,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": 3,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 2,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": 4,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 3,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": 5,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 4,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        }
+      ],
+      "content_type": 73,
+      "header_image": 10,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 11,
+          "title": "Cosis del 2020",
+          "sort_order": 0,
+          "description": "Prova de text"
+        }
+      ],
+      "live_revision": 41,
+      "show_in_menus": true,
+      "latest_revision": 41,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-02-22T15:57:59.596Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-22T15:57:59.551Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 44,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "17",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-02T10:38:50.245Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Avís legal",
+    "content": {
+      "pk": 17,
+      "live": true,
+      "path": "000100010009",
+      "slug": "avis-legal",
+      "text": "<p data-block-key=\"i76v3\">&lt;h2&gt;Titol en mode h2&lt;/h2&gt;</p><p data-block-key=\"eug4n\">&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!&lt;/p&gt;<br/>&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!&lt;/p&gt;<br/>&lt;ol&gt;<br/>    &lt;li&gt;Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>  &lt;/ol&gt;<br/>  &lt;h3&gt;Titol en mode h3&lt;/h3&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!&lt;/p&gt;<br/>  &lt;a href=&quot;&quot;&gt;<br/>    &lt;p&gt;Enllaç. Lorem ipsum dolor&lt;/p&gt;<br/>  &lt;/a&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!&lt;/p&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;Item sense ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item sense ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item sense ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>    &lt;li&gt;Item sense ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. &lt;/li&gt;<br/>  &lt;/ul&gt;</p>",
+      "depth": 3,
+      "owner": 1,
+      "title": "Avís legal",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/avis-legal/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Avís legal",
+      "content_type": 89,
+      "header_image": 24,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "82c1f563-78cd-4084-9429-bab2148a8f6f",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 45,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "17",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-02T10:42:46.912Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Avís legal",
+    "content": {
+      "pk": 17,
+      "live": true,
+      "path": "000100010009",
+      "slug": "avis-legal",
+      "text": "<h2 data-block-key=\"i76v3\">Titol en mode h2</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam </i>accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit. </li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/><br/></li></ul><h3 data-block-key=\"a05du\">Titol en mode h3</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur </b>adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"9kaol\"><a href=\"http://localhost/ca/cataleg/\">Hola fes click aquí!</a></p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>",
+      "depth": 3,
+      "owner": 1,
+      "title": "Avís legal",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/avis-legal/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Avís legal",
+      "content_type": 89,
+      "header_image": 24,
+      "live_revision": 44,
+      "show_in_menus": false,
+      "latest_revision": 44,
+      "translation_key": "82c1f563-78cd-4084-9429-bab2148a8f6f",
+      "last_published_at": "2023-03-02T10:38:50.383Z",
+      "first_published_at": "2023-03-02T10:38:50.383Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-02T10:38:50.245Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 46,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "17",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-02T11:13:14.716Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Avís legal",
+    "content": {
+      "pk": 17,
+      "live": true,
+      "path": "000100010009",
+      "slug": "avis-legal",
+      "text": "<h2 data-block-key=\"i76v3\">Titol exemple de nota legal</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam</i> accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/><br/></li></ul><h3 data-block-key=\"a05du\">Més textos de mostra</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"9kaol\"><a href=\"http://localhost/ca/cataleg/\">Això és un enllaç d&#x27;exemple</a></p><p data-block-key=\"51s54\"></p><p data-block-key=\"7r1ln\">Llistat d&#x27;items amb un ordre</p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>",
+      "depth": 3,
+      "owner": 1,
+      "title": "Avís legal",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/avis-legal/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Avís legal",
+      "content_type": 89,
+      "header_image": 24,
+      "live_revision": 45,
+      "show_in_menus": false,
+      "latest_revision": 45,
+      "translation_key": "82c1f563-78cd-4084-9429-bab2148a8f6f",
+      "last_published_at": "2023-03-02T10:42:46.990Z",
+      "first_published_at": "2023-03-02T10:38:50.383Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-02T10:42:46.912Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "17",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-02T11:14:29.597Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Avís legal",
+    "content": {
+      "pk": 17,
+      "live": true,
+      "path": "000100010009",
+      "slug": "avis-legal",
+      "text": "<h2 data-block-key=\"i76v3\">Titol exemple de nota legal</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam</i> accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"5mrs3\"><a href=\"http://localhost/ca/cataleg/\">Això és un enllaç d&#x27;exemple</a></p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/></li></ul><h3 data-block-key=\"a05du\">Més textos de mostra</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"51s54\"></p><p data-block-key=\"7r1ln\">Llistat d&#x27;items amb un ordre</p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>",
+      "depth": 3,
+      "owner": 1,
+      "title": "Avís legal",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/avis-legal/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Avís legal",
+      "content_type": 89,
+      "header_image": 24,
+      "live_revision": 46,
+      "show_in_menus": false,
+      "latest_revision": 46,
+      "translation_key": "82c1f563-78cd-4084-9429-bab2148a8f6f",
+      "last_published_at": "2023-03-02T11:13:14.886Z",
+      "first_published_at": "2023-03-02T10:38:50.383Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-02T11:13:14.716Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -11504,6 +12417,314 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 99,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "label": "Últimes notícies",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-03-01T15:31:32.292Z",
+    "uuid": "40af1722-5cd8-44e4-9348-e98bdf1ae357",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 16
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 100,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "label": "Últimes notícies",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-01T15:31:32.386Z",
+    "uuid": "40af1722-5cd8-44e4-9348-e98bdf1ae357",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 42,
+    "content_changed": true,
+    "deleted": false,
+    "page": 16
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 101,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "label": "Últimes notícies",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-01T15:31:32.628Z",
+    "uuid": "40af1722-5cd8-44e4-9348-e98bdf1ae357",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 42,
+    "content_changed": true,
+    "deleted": false,
+    "page": 16
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 102,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-01T15:38:35.787Z",
+    "uuid": "2c5cd53d-f163-4cd1-bfe8-f60beee0cdbc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 43,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 103,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-01T15:38:36.010Z",
+    "uuid": "2c5cd53d-f163-4cd1-bfe8-f60beee0cdbc",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 43,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 104,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-03-02T10:38:50.182Z",
+    "uuid": "cf965ce4-2f31-4b87-a4e9-b40c4f608e47",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 105,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-02T10:38:50.302Z",
+    "uuid": "cf965ce4-2f31-4b87-a4e9-b40c4f608e47",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 44,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 106,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-02T10:38:50.478Z",
+    "uuid": "cf965ce4-2f31-4b87-a4e9-b40c4f608e47",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 44,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 107,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-02T10:42:46.955Z",
+    "uuid": "65641aa7-ff2b-4bd4-a1d3-7d9431e983b8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 45,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 108,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-02T10:42:47.067Z",
+    "uuid": "65641aa7-ff2b-4bd4-a1d3-7d9431e983b8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 45,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 109,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-02T11:13:14.776Z",
+    "uuid": "bee3135f-9109-4c13-8698-d5de5b2417be",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 46,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 110,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-02T11:13:15.065Z",
+    "uuid": "bee3135f-9109-4c13-8698-d5de5b2417be",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 46,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 111,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-02T11:14:29.690Z",
+    "uuid": "ab805ce4-3a3b-4caa-9a13-dfa34a806998",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 47,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 112,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "legalpage"
+    ],
+    "label": "Avís legal",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-02T11:14:30.009Z",
+    "uuid": "ab805ce4-3a3b-4caa-9a13-dfa34a806998",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 47,
+    "content_changed": true,
+    "deleted": false,
+    "page": 17
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -11572,6 +12793,150 @@
       80
     ],
     "max_levels": 2
+  }
+},
+{
+  "model": "base.localizedmainmenuitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "link_page": 10,
+    "link_url": null,
+    "url_append": "",
+    "handle": "",
+    "link_text": "",
+    "allow_subnav": false,
+    "menu": 1
+  }
+},
+{
+  "model": "base.localizedmainmenuitem",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "link_page": 11,
+    "link_url": null,
+    "url_append": "",
+    "handle": "",
+    "link_text": "",
+    "allow_subnav": false,
+    "menu": 1
+  }
+},
+{
+  "model": "base.localizedmainmenuitem",
+  "pk": 3,
+  "fields": {
+    "sort_order": 4,
+    "link_page": 14,
+    "link_url": null,
+    "url_append": "",
+    "handle": "",
+    "link_text": "",
+    "allow_subnav": false,
+    "menu": 1
+  }
+},
+{
+  "model": "base.localizedmainmenuitem",
+  "pk": 4,
+  "fields": {
+    "sort_order": 2,
+    "link_page": 15,
+    "link_url": null,
+    "url_append": "",
+    "handle": "",
+    "link_text": "",
+    "allow_subnav": false,
+    "menu": 1
+  }
+},
+{
+  "model": "base.localizedmainmenuitem",
+  "pk": 5,
+  "fields": {
+    "sort_order": 3,
+    "link_page": 16,
+    "link_url": null,
+    "url_append": "",
+    "handle": "",
+    "link_text": "",
+    "allow_subnav": false,
+    "menu": 1
+  }
+},
+{
+  "model": "cms_site.aboutuspage",
+  "pk": 15,
+  "fields": {
+    "header_image": 10
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 15,
+    "title": "Com ho fem",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 15,
+    "title": "Manipulació i mecanització",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "page": 15,
+    "title": "El vernís",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 4,
+  "fields": {
+    "sort_order": 3,
+    "page": 15,
+    "title": "El muntatge",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 5,
+  "fields": {
+    "sort_order": 4,
+    "page": 15,
+    "title": "Transport i muntatge",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 15,
+    "year": 2020,
+    "title": "Cosis del 2020",
+    "description": "Prova de text",
+    "image": 11
   }
 },
 {
@@ -11756,133 +13121,6 @@
   }
 },
 {
-  "model": "cms_site.customprojectspage",
-  "pk": 11,
-  "fields": {
-    "header_image": 12,
-    "menu_label": null,
-    "description": "Text de presentació de l'apartat de projectes a mida."
-  }
-},
-{
-  "model": "cms_site.customproject",
-  "pk": 13,
-  "fields": {
-    "header_image": 12,
-    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
-    "main_section_image": 22,
-    "images_collection": 4
-  }
-},
-{
-  "model": "cms_site.designerspage",
-  "pk": 8,
-  "fields": {
-    "header_image": 10,
-    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}]"
-  }
-},
-{
-  "model": "cms_site.homepage",
-  "pk": 2,
-  "fields": {
-    "header_image": 2,
-    "overlay_title": "Nou disseny de llit pel teu dormitori",
-    "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
-    "overlay_button_text": "Veure col·lecció",
-    "overlay_button_page": 4,
-    "overlay_image": 1,
-    "collection_1_title": "Nova col·lecció Àrea",
-    "collection_1_image": 2,
-    "collection_1_page": 4,
-    "collection_2_title": "Col·lecció Nørdic",
-    "collection_2_image": 6,
-    "collection_2_page": 6,
-    "collection_3_title": "",
-    "collection_3_image": null,
-    "collection_3_page": null,
-    "custom_projects_title": "",
-    "custom_projects_image": null,
-    "custom_projects_page": null,
-    "display_instagram_feed": true,
-    "display_header_highlight": true
-  }
-},
-{
-  "model": "cms_site.aboutuspage",
-  "pk": 15,
-  "fields": {
-    "header_image": 10
-  }
-},
-{
-  "model": "cms_site.videoitem",
-  "pk": 1,
-  "fields": {
-    "sort_order": 0,
-    "page": 15,
-    "title": "Com ho fem",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
-  }
-},
-{
-  "model": "cms_site.videoitem",
-  "pk": 2,
-  "fields": {
-    "sort_order": 1,
-    "page": 15,
-    "title": "Manipulació i mecanització",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
-  }
-},
-{
-  "model": "cms_site.videoitem",
-  "pk": 3,
-  "fields": {
-    "sort_order": 2,
-    "page": 15,
-    "title": "El vernís",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
-  }
-},
-{
-  "model": "cms_site.videoitem",
-  "pk": 4,
-  "fields": {
-    "sort_order": 3,
-    "page": 15,
-    "title": "El muntatge",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
-  }
-},
-{
-  "model": "cms_site.videoitem",
-  "pk": 5,
-  "fields": {
-    "sort_order": 4,
-    "page": 15,
-    "title": "Transport i muntatge",
-    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
-  }
-},
-{
-  "model": "cms_site.historyitem",
-  "pk": 1,
-  "fields": {
-    "sort_order": 0,
-    "page": 15,
-    "year": 2020,
-    "title": "Cosis del 2020",
-    "description": "Prova de text",
-    "image": 11
-  }
-},
-{
   "model": "cms_site.customajaxcontact",
   "pk": 14,
   "fields": {
@@ -11991,6 +13229,128 @@
     "profile": "Altres",
     "personal_data_auth": true,
     "personal_data_comercial_auth": true
+  }
+},
+{
+  "model": "cms_site.customprojectspage",
+  "pk": 11,
+  "fields": {
+    "header_image": 12,
+    "menu_label": null,
+    "description": "Text de presentació de l'apartat de projectes a mida."
+  }
+},
+{
+  "model": "cms_site.customproject",
+  "pk": 13,
+  "fields": {
+    "header_image": 12,
+    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
+    "main_section_image": 22,
+    "images_collection": 4
+  }
+},
+{
+  "model": "cms_site.designerspage",
+  "pk": 8,
+  "fields": {
+    "header_image": 10,
+    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}]"
+  }
+},
+{
+  "model": "cms_site.homepage",
+  "pk": 2,
+  "fields": {
+    "header_image": 2,
+    "overlay_title": "Nou disseny de llit pel teu dormitori",
+    "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+    "overlay_button_text": "Veure col·lecció",
+    "overlay_button_page": 4,
+    "overlay_image": 1,
+    "collection_1_title": "Nova col·lecció Àrea",
+    "collection_1_image": 2,
+    "collection_1_page": 4,
+    "collection_2_title": "Col·lecció Nørdic",
+    "collection_2_image": 6,
+    "collection_2_page": 6,
+    "collection_3_title": "",
+    "collection_3_image": null,
+    "collection_3_page": null,
+    "custom_projects_title": "",
+    "custom_projects_image": null,
+    "custom_projects_page": null,
+    "display_instagram_feed": true,
+    "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.newspage",
+  "pk": 16,
+  "fields": {
+    "header_image": 24
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 16,
+    "url": "https://www.instagram.com/p/CpMdeYbIERY/"
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 16,
+    "url": "https://www.instagram.com/p/CfyTUDfIxeY/"
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "page": 16,
+    "url": "https://www.instagram.com/p/Cd0Owl3ISBE/"
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 4,
+  "fields": {
+    "sort_order": 3,
+    "page": 16,
+    "url": "https://www.instagram.com/p/CdqUVQGop5J/"
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 5,
+  "fields": {
+    "sort_order": 4,
+    "page": 16,
+    "url": "https://www.instagram.com/p/CbhmYBRIg-e/"
+  }
+},
+{
+  "model": "cms_site.instagrampost",
+  "pk": 6,
+  "fields": {
+    "sort_order": 5,
+    "page": 16,
+    "url": "https://www.instagram.com/p/CaTuQRrIv0v/"
+  }
+},
+{
+  "model": "cms_site.legalpage",
+  "pk": 17,
+  "fields": {
+    "header_image": 24,
+    "text": "<h2 data-block-key=\"i76v3\">Titol exemple de nota legal</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam</i> accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"5mrs3\"><a href=\"http://localhost/ca/cataleg/\">Això és un enllaç d&#x27;exemple</a></p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/></li></ul><h3 data-block-key=\"a05du\">Més textos de mostra</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"51s54\"></p><p data-block-key=\"7r1ln\">Llistat d&#x27;items amb un ordre</p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>"
   }
 },
 {
