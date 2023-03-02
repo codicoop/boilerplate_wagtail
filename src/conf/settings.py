@@ -4,6 +4,7 @@ https://django-environ.readthedocs.io/en/latest/
 
 Put the settings in /conf/.env
 """
+import logging.config
 import os
 
 import environ
@@ -264,3 +265,36 @@ WAGTAILMENUS_MAIN_MENU_MODEL = "base.LocalizedMainMenu"
 # Maintenance mode
 MAINTENANCE_MODE = env.bool("MAINTENANCE_MODE", default=False)
 MAINTENANCE_MODE_STATE_BACKEND = "maintenance_mode.backends.DefaultStorageBackend"
+
+# Logging Configuration for compatibility with Digital Ocean
+# Clear prev config
+LOGGING_CONFIG = None
+# Get loglevel from env
+LOGLEVEL = os.getenv("DJANGO_LOGLEVEL", "info").upper()
+
+logging.config.dictConfig(
+    {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "console": {
+                "format": "%(asctime)s %(levelname)s [%(name)s:%(lineno)s] %(module)s %(process)d %(thread)d %(message)s",
+            },
+        },
+        "handlers": {
+            "console": {
+                "class": "logging.StreamHandler",
+                "formatter": "console",
+            },
+        },
+        "loggers": {
+            "": {
+                "level": LOGLEVEL,
+                "handlers": [
+                    "console",
+                ],
+            },
+        },
+    }
+)
+Trucar: 937027799

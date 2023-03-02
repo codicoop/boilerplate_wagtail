@@ -66,7 +66,7 @@ RUN poetry install
 
 # will become mountpoint of our code
 WORKDIR /srv
-CMD ["gunicorn", "conf.wsgi:application", "--bind", "0.0.0.0:8000", "--reload"]
+CMD ["gunicorn", "--worker-tmp-dir",  "/dev/shm", "conf.wsgi:application", "--bind", "0.0.0.0:80"]
 
 # `production` image used for runtime
 FROM python-base as production
@@ -75,3 +75,5 @@ COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
 COPY src /srv
 WORKDIR /srv
 RUN ["python", "manage.py", "collectstatic", "--clear", "--no-input"]
+
+EXPOSE 80
