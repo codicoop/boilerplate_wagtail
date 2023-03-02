@@ -3,18 +3,24 @@
   --margin: 0 var(--padding-sm) var(--padding-lg) var(--padding-sm);
 }
 .footer {
-  --padding-footer: var(--padding-lg) 0 0 0;
+  --padding-footer: var(--padding-lg) 0 var(--padding-md) 0;
   
   &__top {
     --diplay-nav: flex;
+    --padding-bottom-top: var(--padding-xlg);
   }
   &__bottom {
     --justify-content: space-between;
+    --padding-top: 0;
+  }
+  &__bottom-container {
+    --display: grid;
+    --gap: 0;
   }
 }
 .footer-info {
   &__heading {
-    --padding-bottom: var(--padding-sm);
+    --padding-bottom: var(--padding-md);
   }
 }
 
@@ -24,13 +30,19 @@
     --margin: 0 var(--padding-xxlg) var(--padding-xxlg) var(--padding-xxlg);
   }
   .footer {
-  --padding-footer: var(--padding-xxlg) var(--padding-lg) 0 var(--padding-lg);
+  --padding-footer: var(--padding-xxlg) var(--padding-lg) var(--padding-xlg) var(--padding-lg);
 
     &__top {
       --diplay-nav: grid;
+      --padding-bottom-top: 0;
     }
     &__bottom {
       --justify-content: center;
+      --padding-top: var(--padding-xlg);
+    }
+    &__bottom-container {
+      --display: flex;
+      --gap: var(--padding-xsm);
     }
   }
   .footer-info {
@@ -53,20 +65,53 @@
 
   &__top {
     flex-direction: column;
-    gap: 44px;
+    gap: var(--padding-xlg);
     color: var(--white);
+    padding-bottom: var(--padding-bottom-top);
   }
   &__bottom {
-    display: flex;
-    justify-content: var(--justify-content);
-    color: var(--grey);
+    padding-top: var(--padding-top);
   }
-  // &__nav {  }
+  &__bottom-container {
+    display: var(--display);
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: var(--gap);
+    color: var(--grey);
+
+    // Primer bloc
+    & div:nth-child(1) {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+    }
+    // Segon bloc
+    & div:nth-child(2) {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    // Tercer bloc
+    & div:nth-child(3) {
+      grid-column: 2;
+      grid-row: 2;
+      text-align: right;
+    }
+  }
+  &__legal {
+    p {
+      margin-bottom: 0;
+    }
+  }
 }
 .footer-info {
+  p {
+    margin-bottom: 0;
+  }
   &__heading {
     text-transform: uppercase;
     padding-bottom: var(--padding-bottom);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
   }
-  // &__text {  }
+  // &__text {}
 }

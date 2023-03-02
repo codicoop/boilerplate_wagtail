@@ -9,9 +9,29 @@
     }
   }
 }
+.footer {
+  .nav {
+    --flex-direction: column;
+    --justify-content: center;
+
+    &__link {
+      --padding: 0 var(--padding-xlg);
+    }
+  }
+}
 
 @media (min-width: 1024px) {
   .header {
+    .nav {
+      --flex-direction: row;
+      --justify-content: flex-end;
+
+      &__link {
+        --padding: 0;
+      }
+    }
+  }
+  .footer {
     .nav {
       --flex-direction: row;
       --justify-content: flex-end;
@@ -46,10 +66,11 @@
   .nav {
     display: flex;
     flex-direction: column;
-    gap: var(--padding-xsm) 0;
+    gap: var(--padding-sm);
 
     &__link {
       text-transform: uppercase;
+      margin-bottom: 0;
     }
   }
 }
