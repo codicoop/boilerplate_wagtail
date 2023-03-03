@@ -136,7 +136,7 @@ export default function FilterApp(){
     if (formData.type) {
       parameters.push(`type=${formData.type}`)
     }
-    let imagesUrl = `/api/collection_items/?${parameters.join('&')}`
+    let imagesUrl = `/api/collection_items/?page=${backData.page_id}${parameters.join('&')}`
 
     axios({
       method: 'get',
