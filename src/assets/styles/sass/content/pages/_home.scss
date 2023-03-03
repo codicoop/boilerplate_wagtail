@@ -27,21 +27,6 @@
       --grid-column: 2;
     }
   }
-  .instagram-feed {
-    --align-self: center;
-
-    &__title {
-      --grid-column: 2;
-    }
-    &__container {
-      --padding: var(--padding-lg);
-      --align-items: center;
-    }
-    blockquote {
-      --grid-column: 2;
-      --display: flex;
-    }
-  }
 }
 
 @media (min-width: 1024px) {
@@ -81,21 +66,6 @@
     .custom-projects {
       &__title {
         --grid-column: 2 / -2;
-      }
-    }
-    .instagram-feed {
-    --align-self: baseline;
-
-      &__title {
-        --grid-column: 2 / span 5;
-      }
-      &__container {
-        --padding: var(--padding-xxlg);
-        --align-items: baseline;
-      }
-      blockquote {
-        --grid-column: span 4;
-        --display: block;
       }
     }
   }
@@ -200,27 +170,6 @@
 
   .instagram-feed {
     grid-column: 1 / -1;
-    margin-top: var(--padding-xxxxlg);
     margin-bottom: var(--padding-xxlg);
-
-    &__title h3 {
-      grid-column: var(--grid-column);
-      padding-bottom: var(--padding-lg);
-    }
-    &__container {
-      align-items: var(--align-items);
-      padding-top: var(--padding);
-      padding-bottom: var(--padding);
-  
-      blockquote {
-        grid-column: var(--grid-column);
-        display: var(--display);
-        justify-content: center;
-      }
-    }
-    .instagram-media {
-      grid-column: span 4;
-      align-self: var(--align-self);
-    }
   }
 }

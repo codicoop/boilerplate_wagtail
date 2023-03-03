@@ -1,38 +1,22 @@
 // Dynamic variables
-.news {
-  &__container {
-    --padding: var(--padding-lg);
-    --align-items: center;
-  }
-  blockquote {
-    --grid-column: 2;
-    --display: flex;
-  }
-}
+// .news {
+//   &__container {
 
-@media (min-width: 1024px) {
-  .news {
-    &__container {
-      --padding: var(--padding-xxlg);
-      --align-items: baseline;
-    }
-    blockquote {
-      --grid-column: span 4;
-      --display: block;
-    }
-  }
-}
-// Layout
-.news {
-  &__container {
-    align-items: var(--align-items);
-    padding-top: var(--padding);
-    padding-bottom: var(--padding);
+//   }
+// }
 
-    blockquote {
-      grid-column: var(--grid-column);
-      display: var(--display);
-      justify-content: center;
-    }
-  }
-}
+
+// @media (min-width: 1024px) {
+//   .news {
+//     &__container {
+
+//     }
+//   }
+
+// }
+// // Layout
+// .news {
+//   &__container {
+
+//   }
+// }

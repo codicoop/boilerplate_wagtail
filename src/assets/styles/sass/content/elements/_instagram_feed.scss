@@ -1,0 +1,57 @@
+// Dynamic variables
+.instagram-feed {
+  --padding: var(--padding-lg);
+  --align-items: center;
+
+  &__title {
+    --grid-column: 2;
+  }
+  &__btn {
+    --grid-column: 2;
+  }
+  .instagram-media {
+    --grid-column: 2;
+    --display: flex;
+    
+  }
+}
+
+@media (min-width: 1024px) {
+  .instagram-feed {
+    --padding: var(--padding-xxlg);
+    --align-items: baseline;
+
+    &__title {
+      --grid-column: 2 / span 5;
+    }
+    &__btn {
+      --grid-column: 5 / span 4;
+    }
+    .instagram-media {
+      --grid-column: span 4;
+      --display: block;
+    }
+  }
+}
+
+.instagram-feed {
+  align-items: var(--align-items);
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+
+  &__title h3 {
+    grid-column: var(--grid-column);
+    padding-bottom: var(--padding-lg);
+  }
+  &__btn {
+    grid-column: var(--grid-column);
+  }
+
+  .instagram-media {
+    grid-column: var(--grid-column);
+    justify-self: center;
+
+    display: var(--display);
+    justify-content: center;
+  }
+}
