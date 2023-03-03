@@ -21,6 +21,7 @@ class CollectionItemViewSet(
         DjangoFilterBackend,
     )
     filterset_fields = [
+        "page",
         "model",
         "finishings",
         "typologies",

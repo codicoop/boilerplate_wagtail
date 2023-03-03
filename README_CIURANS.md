@@ -7,7 +7,9 @@ través d'un endpoint que accepta filtres.
 
 Endpoint:
 
-    /api/collection_items/
+    /api/collection_items/?page=4
+
+Si no es passa el valor `page`, retornarà tots els articles de totes les col·leccions.
 
 Per consultar quins filtres hi ha disponibles i com s'han de passar els paràmetres,
 obre l'endpoint al navegador. En aquest projecte no hi ha cap Swagger que
