@@ -9,7 +9,10 @@ from apps.base.models import BasePage
 
 
 class AboutUsPage(BasePage):
+    description = models.TextField(_("Description"), default="", blank=True)
+
     content_panels = BasePage.content_panels + [
+        FieldPanel("description"),
         InlinePanel(
             "video_items",
             heading=_("Videos"),
