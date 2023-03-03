@@ -2585,6 +2585,21 @@
   }
 },
 {
+  "model": "wagtaildocs.document",
+  "pk": 3,
+  "fields": {
+    "collection": 1,
+    "title": "cataedg_area",
+    "file": "documents/cataedg_area.pdf",
+    "created_at": "2023-03-03T10:53:08.655Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "file_size": 4353578,
+    "file_hash": "1ad9b8b712791f83df6b4f5fbb5c0fe5d1f04754"
+  }
+},
+{
   "model": "wagtailimages.image",
   "pk": 1,
   "fields": {
@@ -2628,161 +2643,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 3,
+  "pk": 25,
   "fields": {
     "collection": 1,
-    "title": "Àrea 2, serenitat calidesa i benestar",
-    "file": "original_images/ciurans_area_2_Serenitat_calidesa_i_benestar.jpg",
-    "width": 800,
-    "height": 567,
-    "created_at": "2022-08-11T08:52:01.533Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 178856,
-    "file_hash": "79e6d7442f7461fe4c0d6f5b95b2055ca12cbd8b"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 4,
-  "fields": {
-    "collection": 1,
-    "title": "Àrea 1, els clàssics renovats",
-    "file": "original_images/ciurans_area_3_Els_classics_renovats.jpg",
-    "width": 600,
-    "height": 600,
-    "created_at": "2022-08-11T08:53:03.349Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 73077,
-    "file_hash": "a44cb775bb3def7b1a01146434c1ef06f46c1754"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 5,
-  "fields": {
-    "collection": 1,
-    "title": "Area 2, els clàssics renovats",
-    "file": "original_images/ciurans_area_4_Els_classics_renovats.jpg",
-    "width": 800,
-    "height": 540,
-    "created_at": "2022-08-11T08:54:22.246Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 182045,
-    "file_hash": "41fe83cd000e66fc3757e3fcc3da2335d9a3af4c"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 6,
-  "fields": {
-    "collection": 1,
-    "title": "Nordic 1",
-    "file": "original_images/ciurans_nordic_1_Moble_televisio_Jorn_i_Bufet_Sovik.jpg",
-    "width": 800,
-    "height": 566,
-    "created_at": "2022-08-11T09:52:33.394Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 301839,
-    "file_hash": "2f88bd94a70c7e5a7c60846c5b446661c7204937"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 7,
-  "fields": {
-    "collection": 1,
-    "title": "Nordic 2",
-    "file": "original_images/ciurans_nordic_2_Moble_Jorn_Dora_i_Brei.jpg",
-    "width": 800,
-    "height": 566,
-    "created_at": "2022-08-11T09:53:26.849Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 291381,
-    "file_hash": "9aabcbec599311f210d279af00d37bda741ecd7b"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 8,
-  "fields": {
-    "collection": 1,
-    "title": "Nordic 3",
-    "file": "original_images/ciurans_nordic_3_Buffet_Sovik.jpg",
-    "width": 800,
-    "height": 566,
-    "created_at": "2022-08-11T09:54:36.983Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 276138,
-    "file_hash": "0bc4b49f8d98e31b16e08aae6dd2d199c8731ff1"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 9,
-  "fields": {
-    "collection": 1,
-    "title": "Nordic 4",
-    "file": "original_images/ciurans_nordic_4_Llit_Brevik.jpg",
-    "width": 800,
-    "height": 566,
-    "created_at": "2022-08-11T09:55:28.441Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 277095,
-    "file_hash": "44743619ad038bacce3b422ef9b73520104ce44e"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 10,
-  "fields": {
-    "collection": 1,
-    "title": "Els nostres dissenyadors",
-    "file": "original_images/ciurans_els_nostres_dissenyadors_header.png",
+    "title": "Capçalera inici",
+    "file": "original_images/capcalera_inici.png",
     "width": 1360,
-    "height": 584,
-    "created_at": "2022-08-11T10:50:44.711Z",
+    "height": 768,
+    "created_at": "2023-03-03T10:30:30.194Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2790,20 +2658,20 @@
     "focal_point_y": null,
     "focal_point_width": null,
     "focal_point_height": null,
-    "file_size": 811647,
-    "file_hash": "450e53408553d4b868c526616ec4e1ba1e9f488b"
+    "file_size": 1938493,
+    "file_hash": "6095e7a0447d588d3659f4381c6291ba12983efd"
   }
 },
 {
   "model": "wagtailimages.image",
-  "pk": 11,
+  "pk": 26,
   "fields": {
     "collection": 1,
-    "title": "Josep Turell",
-    "file": "original_images/ciurans_foto_josep_turell.png",
-    "width": 326,
-    "height": 493,
-    "created_at": "2022-08-11T10:55:51.535Z",
+    "title": "new_area_collection",
+    "file": "original_images/new_area_collection.jpg",
+    "width": 637,
+    "height": 450,
+    "created_at": "2023-03-03T10:32:03.058Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2811,62 +2679,20 @@
     "focal_point_y": null,
     "focal_point_width": null,
     "focal_point_height": null,
-    "file_size": 171950,
-    "file_hash": "bdf2d165d07cf27e441267286fb19920652f0b5b"
+    "file_size": 140593,
+    "file_hash": "f2194d6950ebfd5945820344a43290a48ad9d3bc"
   }
 },
 {
   "model": "wagtailimages.image",
-  "pk": 12,
-  "fields": {
-    "collection": 1,
-    "title": "Capçalera Interiorisme",
-    "file": "original_images/ciurans_projectes_a_mida_header.png",
-    "width": 1360,
-    "height": 584,
-    "created_at": "2022-09-15T10:19:02.597Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 585132,
-    "file_hash": "e2ed50a2914e58fb2c8870ac72c05063bf8e7d01"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 19,
+  "pk": 27,
   "fields": {
     "collection": 4,
-    "title": "ciurans_projecte_cr1",
-    "file": "original_images/ciurans_projecte_cr1.jpg",
+    "title": "projecte_1_imatge_6",
+    "file": "original_images/projecte_1_imatge_6.jpg",
     "width": 401,
     "height": 600,
-    "created_at": "2022-09-21T14:41:46.860Z",
-    "uploaded_by_user": [
-      "hola@codi.coop"
-    ],
-    "focal_point_x": null,
-    "focal_point_y": null,
-    "focal_point_width": null,
-    "focal_point_height": null,
-    "file_size": 137363,
-    "file_hash": "a82baf09d26712399310084c8cc86bbac1e35a9f"
-  }
-},
-{
-  "model": "wagtailimages.image",
-  "pk": 20,
-  "fields": {
-    "collection": 4,
-    "title": "ciurans_projecte_cr2",
-    "file": "original_images/ciurans_projecte_cr2.jpg",
-    "width": 401,
-    "height": 600,
-    "created_at": "2022-09-21T14:41:47.444Z",
+    "created_at": "2023-03-03T10:42:00.348Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2880,14 +2706,35 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 21,
+  "pk": 28,
   "fields": {
     "collection": 4,
-    "title": "ciurans_projecte_cr3",
-    "file": "original_images/ciurans_projecte_cr3.jpg",
+    "title": "projecte_1_imatge_5",
+    "file": "original_images/projecte_1_imatge_5.jpg",
+    "width": 800,
+    "height": 535,
+    "created_at": "2023-03-03T10:42:01.698Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 197044,
+    "file_hash": "8ccb8096f6faa153f38e6f2acf189c1bbfc5ddd1"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 29,
+  "fields": {
+    "collection": 4,
+    "title": "projecte_1_imatge_4",
+    "file": "original_images/projecte_1_imatge_4.jpg",
     "width": 402,
     "height": 600,
-    "created_at": "2022-09-21T14:41:47.939Z",
+    "created_at": "2023-03-03T10:42:02.745Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2901,14 +2748,14 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 22,
+  "pk": 30,
   "fields": {
     "collection": 4,
-    "title": "ciurans_projecte_cr4",
-    "file": "original_images/ciurans_projecte_cr4.jpg",
-    "width": 800,
-    "height": 534,
-    "created_at": "2022-09-21T14:41:48.999Z",
+    "title": "projecte_1_imatge_3",
+    "file": "original_images/projecte_1_imatge_3.jpg",
+    "width": 401,
+    "height": 600,
+    "created_at": "2023-03-03T10:42:03.819Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2916,20 +2763,20 @@
     "focal_point_y": null,
     "focal_point_width": null,
     "focal_point_height": null,
-    "file_size": 165905,
-    "file_hash": "592856a1b70dc7b6258e77d6efa4ce35483dfc0b"
+    "file_size": 137363,
+    "file_hash": "a82baf09d26712399310084c8cc86bbac1e35a9f"
   }
 },
 {
   "model": "wagtailimages.image",
-  "pk": 23,
+  "pk": 31,
   "fields": {
     "collection": 4,
-    "title": "ciurans_projecte_cr5",
-    "file": "original_images/ciurans_projecte_cr5.jpg",
+    "title": "projecte_1_imatge_2",
+    "file": "original_images/projecte_1_imatge_2.jpg",
     "width": 800,
     "height": 535,
-    "created_at": "2022-09-21T14:41:49.600Z",
+    "created_at": "2023-03-03T10:42:05.133Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2943,14 +2790,392 @@
 },
 {
   "model": "wagtailimages.image",
-  "pk": 24,
+  "pk": 32,
   "fields": {
     "collection": 1,
-    "title": "Capçalera notícies",
-    "file": "original_images/198301870_388017582544833_2240866170602239761_n_2.png",
+    "title": "nordic_collection_6",
+    "file": "original_images/nordic_collection_6.jpg",
+    "width": 800,
+    "height": 567,
+    "created_at": "2023-03-03T10:42:06.431Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 305122,
+    "file_hash": "c8881f1275763582b71b1a4813c2721cd9bdf9b2"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 33,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection_5",
+    "file": "original_images/nordic_collection_5.jpg",
+    "width": 800,
+    "height": 501,
+    "created_at": "2023-03-03T10:42:07.417Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 231467,
+    "file_hash": "1dfc68690bb61fd7b74bbbb1d01d5830993b0f6a"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 34,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection_4",
+    "file": "original_images/nordic_collection_4.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2023-03-03T10:42:08.303Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 277095,
+    "file_hash": "44743619ad038bacce3b422ef9b73520104ce44e"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 35,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection_3",
+    "file": "original_images/nordic_collection_3.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2023-03-03T10:42:09.569Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 276138,
+    "file_hash": "0bc4b49f8d98e31b16e08aae6dd2d199c8731ff1"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 36,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection_2",
+    "file": "original_images/nordic_collection_2.jpg",
+    "width": 800,
+    "height": 567,
+    "created_at": "2023-03-03T10:42:10.740Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 267178,
+    "file_hash": "1c6821f114024d7f661820a61d8769354d765dee"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 37,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection_1",
+    "file": "original_images/nordic_collection_1.jpg",
+    "width": 800,
+    "height": 566,
+    "created_at": "2023-03-03T10:42:11.606Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 301839,
+    "file_hash": "2f88bd94a70c7e5a7c60846c5b446661c7204937"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 38,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_6",
+    "file": "original_images/new_area_collection_6.jpg",
+    "width": 800,
+    "height": 568,
+    "created_at": "2023-03-03T10:42:12.980Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 209905,
+    "file_hash": "389e45ed6c7578edb7273eddd0cd741578785710"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 39,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_5",
+    "file": "original_images/new_area_collection_5.jpg",
+    "width": 800,
+    "height": 540,
+    "created_at": "2023-03-03T10:42:14.238Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 193213,
+    "file_hash": "50c8cb19b04d38bff5f5d7cac2f503d7b62d69df"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 40,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_4",
+    "file": "original_images/new_area_collection_4.jpg",
+    "width": 600,
+    "height": 600,
+    "created_at": "2023-03-03T10:42:14.913Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 113717,
+    "file_hash": "fdd0a818949039ff15e379940d149adc646b506a"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 41,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_3",
+    "file": "original_images/new_area_collection_3.jpg",
+    "width": 800,
+    "height": 540,
+    "created_at": "2023-03-03T10:42:15.744Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 182045,
+    "file_hash": "41fe83cd000e66fc3757e3fcc3da2335d9a3af4c"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 42,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_2",
+    "file": "original_images/new_area_collection_2.jpg",
+    "width": 800,
+    "height": 567,
+    "created_at": "2023-03-03T10:42:16.533Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 178856,
+    "file_hash": "79e6d7442f7461fe4c0d6f5b95b2055ca12cbd8b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 43,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection_1",
+    "file": "original_images/new_area_collection_1.jpg",
+    "width": 800,
+    "height": 540,
+    "created_at": "2023-03-03T10:42:17.481Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 216770,
+    "file_hash": "e315c981370e251b9c1a26ca858ac6d7acd2edc3"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 44,
+  "fields": {
+    "collection": 1,
+    "title": "area_collection",
+    "file": "original_images/area_collection.jpg",
+    "width": 637,
+    "height": 450,
+    "created_at": "2023-03-03T10:42:18.450Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 138929,
+    "file_hash": "821236d551f6b63b5a405f843e0b6b2fa25c538e"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 45,
+  "fields": {
+    "collection": 1,
+    "title": "new_area_collection",
+    "file": "original_images/new_area_collection_W8jIijM.jpg",
+    "width": 637,
+    "height": 450,
+    "created_at": "2023-03-03T10:42:19.443Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 140593,
+    "file_hash": "f2194d6950ebfd5945820344a43290a48ad9d3bc"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 46,
+  "fields": {
+    "collection": 1,
+    "title": "nordic_collection",
+    "file": "original_images/nordic_collection.jpg",
+    "width": 637,
+    "height": 450,
+    "created_at": "2023-03-03T10:42:21.165Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 193738,
+    "file_hash": "951e8796cec4803ba9d2d489ae9f67f5cc00de2f"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 47,
+  "fields": {
+    "collection": 1,
+    "title": "foto_temps_2",
+    "file": "original_images/foto_temps_2.png",
+    "width": 464,
+    "height": 302,
+    "created_at": "2023-03-03T10:42:22.228Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 154291,
+    "file_hash": "8148cc6d7c5fb2d861b0819ed14a6087690367fc"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 48,
+  "fields": {
+    "collection": 1,
+    "title": "imatge_temps_2",
+    "file": "original_images/imatge_temps_2.png",
+    "width": 1245,
+    "height": 1192,
+    "created_at": "2023-03-03T10:42:23.201Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 80944,
+    "file_hash": "985d3e7fbfb9b43f5bc0b1dbf797958ebbbe99bc"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 49,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_contacte",
+    "file": "original_images/capcalera_contacte.png",
     "width": 1360,
     "height": 456,
-    "created_at": "2023-03-01T15:29:40.301Z",
+    "created_at": "2023-03-03T10:42:24.500Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 522680,
+    "file_hash": "dc3de6063273dd2aec168b81a082160cd5ed77e2"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 50,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_noticies",
+    "file": "original_images/capcalera_noticies.png",
+    "width": 1360,
+    "height": 456,
+    "created_at": "2023-03-03T10:42:25.704Z",
     "uploaded_by_user": [
       "hola@codi.coop"
     ],
@@ -2960,6 +3185,195 @@
     "focal_point_height": null,
     "file_size": 621055,
     "file_hash": "b4ed20f5d8f9694737b7d2d1e818320afb22497c"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 51,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_qui_som",
+    "file": "original_images/capcalera_qui_som.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2023-03-03T10:42:27.643Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 1034427,
+    "file_hash": "101e41629a9d2e16fda759eee4859849afa4a894"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 52,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_projecte_1",
+    "file": "original_images/capcalera_projecte_1.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2023-03-03T10:42:29.501Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 406751,
+    "file_hash": "c2a64235588de9f2a08ccf68707109c0df193b56"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 53,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_projectes_mida",
+    "file": "original_images/capcalera_projectes_mida.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2023-03-03T10:42:31.054Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 597837,
+    "file_hash": "39b734072a05d836c011be9374b18deb7fb60b75"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 54,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_dissenyadors",
+    "file": "original_images/capcalera_dissenyadors.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2023-03-03T10:42:33.241Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 834056,
+    "file_hash": "27356afe62e26c04c62c7b1971787c81f2bf1c30"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 55,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_coleccio_1",
+    "file": "original_images/capcalera_coleccio_1.png",
+    "width": 1360,
+    "height": 584,
+    "created_at": "2023-03-03T10:42:34.610Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 392736,
+    "file_hash": "60c0e375e86f1bce582392770d760cb6d6cf5cfe"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 56,
+  "fields": {
+    "collection": 1,
+    "title": "capcalera_inici",
+    "file": "original_images/capcalera_inici_N0MEZqk.png",
+    "width": 1360,
+    "height": 768,
+    "created_at": "2023-03-03T10:42:37.355Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 1938493,
+    "file_hash": "6095e7a0447d588d3659f4381c6291ba12983efd"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 57,
+  "fields": {
+    "collection": 1,
+    "title": "projecte_1_imatge_1",
+    "file": "original_images/projecte_1_imatge_1.jpg",
+    "width": 800,
+    "height": 534,
+    "created_at": "2023-03-03T10:43:02.446Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165905,
+    "file_hash": "592856a1b70dc7b6258e77d6efa4ce35483dfc0b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 58,
+  "fields": {
+    "collection": 1,
+    "title": "projecte_1_imatge_1",
+    "file": "original_images/projecte_1_imatge_1_ky9ckea.jpg",
+    "width": 800,
+    "height": 534,
+    "created_at": "2023-03-03T10:43:56.560Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165905,
+    "file_hash": "592856a1b70dc7b6258e77d6efa4ce35483dfc0b"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 59,
+  "fields": {
+    "collection": 1,
+    "title": "dissenyador_1",
+    "file": "original_images/dissenyador_1.png",
+    "width": 610,
+    "height": 493,
+    "created_at": "2023-03-03T11:24:11.732Z",
+    "uploaded_by_user": [
+      "hola@codi.coop"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165245,
+    "file_hash": "1b274a0c5a2d33b2f9151980d801745cfbdef02d"
   }
 },
 {
@@ -5726,75 +6140,6 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 8,
-  "fields": {
-    "content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "base_content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "object_id": "24",
-    "to_content_type": [
-      "wagtailcore",
-      "collection"
-    ],
-    "to_object_id": "1",
-    "model_path": "collection",
-    "content_path": "collection",
-    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
-  "pk": 9,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "newspage"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "object_id": "16",
-    "to_content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "to_object_id": "24",
-    "model_path": "header_image",
-    "content_path": "header_image",
-    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
-  "pk": 10,
-  "fields": {
-    "content_type": [
-      "wagtailcore",
-      "pagesubscription"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "pagesubscription"
-    ],
-    "object_id": "1",
-    "to_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "to_object_id": "16",
-    "model_path": "page",
-    "content_path": "page",
-    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
   "pk": 11,
   "fields": {
     "content_type": [
@@ -5841,29 +6186,6 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 14,
-  "fields": {
-    "content_type": [
-      "wagtailcore",
-      "pagesubscription"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "pagesubscription"
-    ],
-    "object_id": "2",
-    "to_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "to_object_id": "15",
-    "model_path": "page",
-    "content_path": "page",
-    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
   "pk": 15,
   "fields": {
     "content_type": [
@@ -5883,52 +6205,6 @@
     "model_path": "user",
     "content_path": "user",
     "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
-  "pk": 16,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "aboutuspage"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "object_id": "15",
-    "to_content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "to_object_id": "10",
-    "model_path": "header_image",
-    "content_path": "header_image",
-    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
-  "pk": 17,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "aboutuspage"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "object_id": "15",
-    "to_content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "to_object_id": "11",
-    "model_path": "history_items.item.image",
-    "content_path": "history_items.1.image",
-    "content_path_hash": "8e9f8cb9-ff7a-52dd-a17b-c561942ea7b5"
   }
 },
 {
@@ -5979,7 +6255,1203 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 20,
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "25",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "26",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "2",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "6",
+    "model_path": "collection_2_page",
+    "content_path": "collection_2_page",
+    "content_path_hash": "079d86d9-9826-53ae-98f6-eabcbc3d4346"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "25",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "4",
+    "model_path": "overlay_button_page",
+    "content_path": "overlay_button_page",
+    "content_path_hash": "39e664b4-4aa1-545a-88d1-2eaa0d7353f6"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "4",
+    "model_path": "collection_1_page",
+    "content_path": "collection_1_page",
+    "content_path_hash": "fc2d044c-815d-5cd8-9618-08a49e69c773"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "27",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "28",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "29",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "30",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "31",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "32",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "33",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "34",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 39,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "35",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 40,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "36",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "37",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "38",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 43,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "39",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 44,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "40",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 45,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "41",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 46,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "42",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "43",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 48,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "44",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 49,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "45",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 50,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "46",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 51,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "47",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 52,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "48",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 53,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "49",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 54,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "50",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 55,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "51",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 56,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "52",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 57,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "53",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 58,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "54",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 59,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "55",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 60,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "56",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 61,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "57",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 62,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "58",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 63,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "46",
+    "model_path": "collection_2_image",
+    "content_path": "collection_2_image",
+    "content_path_hash": "b592f4b3-df17-5f36-88b4-10859df99a1b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 64,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "45",
+    "model_path": "collection_1_image",
+    "content_path": "collection_1_image",
+    "content_path_hash": "61f9fe9f-f0f1-5475-8cb6-f398ffb6ca6e"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 65,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "41",
+    "model_path": "overlay_image",
+    "content_path": "overlay_image",
+    "content_path_hash": "b652f580-c875-5c09-b4dc-4b1021fdcf23"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 66,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "11",
+    "model_path": "custom_projects_page",
+    "content_path": "custom_projects_page",
+    "content_path_hash": "11443172-0116-5f83-82f9-74f29ad5140e"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 67,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "28",
+    "model_path": "custom_projects_image",
+    "content_path": "custom_projects_image",
+    "content_path_hash": "9349c0ef-0851-50c1-a0c3-bb7209294b66"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 68,
+  "fields": {
+    "content_type": [
+      "wagtaildocs",
+      "document"
+    ],
+    "base_content_type": [
+      "wagtaildocs",
+      "document"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 69,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "to_content_type": [
+      "wagtaildocs",
+      "document"
+    ],
+    "to_object_id": "3",
+    "model_path": "pdf",
+    "content_path": "pdf",
+    "content_path_hash": "c7079d86-994c-5bfd-8d4b-6f13a9ba9621"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 72,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "44",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 73,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "41",
+    "model_path": "collection_items.item.image",
+    "content_path": "collection_items.9.image",
+    "content_path_hash": "4e028c32-d13d-53a6-84b2-895315d2e354"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 74,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "to_content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "to_object_id": "6",
+    "model_path": "collection_items.item.model",
+    "content_path": "collection_items.9.model",
+    "content_path_hash": "e338e6fa-e8d2-5626-9932-d91fe361cbf6"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 75,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "18",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 76,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "18",
+    "model_path": "collection_3_page",
+    "content_path": "collection_3_page",
+    "content_path_hash": "10063098-6446-5556-82b6-bdcb4c23c828"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 77,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "44",
+    "model_path": "collection_3_image",
+    "content_path": "collection_3_image",
+    "content_path_hash": "37a640c0-4ad3-5520-995d-e342b77e8d98"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 78,
   "fields": {
     "content_type": [
       "wagtailcore",
@@ -5994,10 +7466,562 @@
       "wagtailcore",
       "page"
     ],
-    "to_object_id": "17",
+    "to_object_id": "16",
     "model_path": "page",
     "content_path": "page",
     "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 79,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "16",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "50",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 80,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "14",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 81,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 82,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "14",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "49",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 83,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "15",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 84,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 85,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "51",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 86,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "42",
+    "model_path": "history_items.item.image",
+    "content_path": "history_items.1.image",
+    "content_path_hash": "8e9f8cb9-ff7a-52dd-a17b-c561942ea7b5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 88,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "31",
+    "model_path": "history_items.item.image",
+    "content_path": "history_items.2.image",
+    "content_path_hash": "222d6807-1583-516e-8d3d-969d780e7c55"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 89,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 90,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "11",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 91,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "11",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "53",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 92,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 93,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "13",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 94,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "31",
+    "model_path": "main_section_image",
+    "content_path": "main_section_image",
+    "content_path_hash": "294d2e45-2bb6-537e-8d7d-bfb633bbd2fc"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 95,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "4",
+    "model_path": "images_collection",
+    "content_path": "images_collection",
+    "content_path_hash": "0430f124-5e55-5f5f-aa1a-c86dc5acb182"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 96,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "57",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 97,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "59",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 98,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 99,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "8",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 100,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "59",
+    "model_path": "designers_list.item.photo",
+    "content_path": "designers_list.568c5cb2-1942-4f08-85fe-5ef12272e520.photo",
+    "content_path_hash": "dda77664-ac62-560f-ad8d-3331bd975a4d"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 101,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "59",
+    "model_path": "designers_list.item.photo",
+    "content_path": "designers_list.1b138be3-9080-4500-b634-6326946153cb.photo",
+    "content_path_hash": "3e514cac-c65a-5a49-ada5-35b98a2ee979"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 102,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "53",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 103,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "59",
+    "model_path": "designers_list.item.photo",
+    "content_path": "designers_list.778dc2b8-45ba-4f4f-a8d9-b9fa2b54d447.photo",
+    "content_path_hash": "a965adbd-7271-5682-881d-a2d15320d956"
   }
 },
 {
@@ -6046,12 +8070,12 @@
     "numchild": 7,
     "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
     "locale": 1,
-    "latest_revision": 10,
+    "latest_revision": 53,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-10T13:56:15.151Z",
-    "last_published_at": "2022-08-11T10:37:14.923Z",
-    "live_revision": 10,
+    "last_published_at": "2023-03-03T10:55:31.780Z",
+    "live_revision": 53,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6060,17 +8084,17 @@
     "locked_by": null,
     "title": "Eslògan de portada",
     "draft_title": "Eslògan de portada",
-    "slug": "home",
+    "slug": "inici",
     "content_type": [
       "cms_site",
       "homepage"
     ],
-    "url_path": "/home/",
+    "url_path": "/inici/",
     "owner": null,
-    "seo_title": "",
+    "seo_title": "Inici",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-08-11T10:37:14.852Z",
+    "latest_revision_created_at": "2023-03-03T10:55:31.557Z",
     "alias_of": null
   }
 },
@@ -6102,7 +8126,7 @@
       "cms_site",
       "collection"
     ],
-    "url_path": "/home/cataleg/nova-collecció-àrea/",
+    "url_path": "/inici/cataleg/nova-collecció-àrea/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6141,7 +8165,7 @@
       "cms_site",
       "collection"
     ],
-    "url_path": "/home/cataleg/collecció-nordic/",
+    "url_path": "/inici/cataleg/collecció-nordic/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6161,12 +8185,12 @@
     "numchild": 0,
     "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
     "locale": 1,
-    "latest_revision": null,
+    "latest_revision": 64,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-08-11T10:56:41.639Z",
-    "last_published_at": "2022-08-11T10:56:41.639Z",
-    "live_revision": 11,
+    "last_published_at": "2023-03-03T11:25:54.029Z",
+    "live_revision": 64,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6175,19 +8199,19 @@
     "locked_by": null,
     "title": "Els nostres dissenyadors",
     "draft_title": "Els nostres dissenyadors",
-    "slug": "els-nostres-dissenyadors",
+    "slug": "dissenyadors",
     "content_type": [
       "cms_site",
       "designerspage"
     ],
-    "url_path": "/home/els-nostres-dissenyadors/",
+    "url_path": "/inici/dissenyadors/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-08-11T10:56:41.608Z",
+    "latest_revision_created_at": "2023-03-03T11:25:53.887Z",
     "alias_of": null
   }
 },
@@ -6197,7 +8221,7 @@
   "fields": {
     "path": "000100010004",
     "depth": 3,
-    "numchild": 2,
+    "numchild": 3,
     "translation_key": "08aa1288-2d83-433f-b156-38a24e7b1853",
     "locale": 1,
     "latest_revision": 13,
@@ -6219,7 +8243,7 @@
       "cms_site",
       "collectionspage"
     ],
-    "url_path": "/home/cataleg/",
+    "url_path": "/inici/cataleg/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6239,12 +8263,12 @@
     "numchild": 1,
     "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
     "locale": 1,
-    "latest_revision": 35,
+    "latest_revision": 60,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-09-15T10:19:24.144Z",
-    "last_published_at": "2023-02-20T15:00:19.457Z",
-    "live_revision": 35,
+    "last_published_at": "2023-03-03T11:14:52.453Z",
+    "live_revision": 60,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6258,14 +8282,14 @@
       "cms_site",
       "customprojectspage"
     ],
-    "url_path": "/home/projectes-a-mida/",
+    "url_path": "/inici/projectes-a-mida/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2023-02-20T15:00:19.431Z",
+    "latest_revision_created_at": "2023-03-03T11:14:52.330Z",
     "alias_of": null
   }
 },
@@ -6278,12 +8302,12 @@
     "numchild": 0,
     "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
     "locale": 1,
-    "latest_revision": 33,
+    "latest_revision": 61,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2022-09-21T14:43:12.994Z",
-    "last_published_at": "2022-09-28T10:22:32.367Z",
-    "live_revision": 33,
+    "last_published_at": "2023-03-03T11:15:31.727Z",
+    "live_revision": 61,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6297,14 +8321,14 @@
       "cms_site",
       "customproject"
     ],
-    "url_path": "/home/projectes-a-mida/projecte-cr/",
+    "url_path": "/inici/projectes-a-mida/projecte-cr/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2022-09-28T10:22:32.338Z",
+    "latest_revision_created_at": "2023-03-03T11:15:31.518Z",
     "alias_of": null
   }
 },
@@ -6317,12 +8341,12 @@
     "numchild": 0,
     "translation_key": "59a861a7-4882-4fbd-bb72-f0f77b2f9365",
     "locale": 1,
-    "latest_revision": 36,
+    "latest_revision": 55,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2023-02-20T16:44:56.685Z",
-    "last_published_at": "2023-02-20T16:44:56.685Z",
-    "live_revision": 36,
+    "last_published_at": "2023-03-03T11:00:57.743Z",
+    "live_revision": 55,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6336,14 +8360,14 @@
       "cms_site",
       "customajaxcontact"
     ],
-    "url_path": "/home/contacte/",
+    "url_path": "/inici/contacte/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2023-02-20T16:44:56.668Z",
+    "latest_revision_created_at": "2023-03-03T11:00:57.582Z",
     "alias_of": null
   }
 },
@@ -6356,12 +8380,12 @@
     "numchild": 0,
     "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
     "locale": 1,
-    "latest_revision": 43,
+    "latest_revision": 59,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2023-02-22T11:10:31.368Z",
-    "last_published_at": "2023-03-01T15:38:35.874Z",
-    "live_revision": 43,
+    "last_published_at": "2023-03-03T11:14:19.930Z",
+    "live_revision": 59,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6375,14 +8399,14 @@
       "cms_site",
       "aboutuspage"
     ],
-    "url_path": "/home/qui-som/",
+    "url_path": "/inici/qui-som/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2023-03-01T15:38:35.704Z",
+    "latest_revision_created_at": "2023-03-03T11:14:19.656Z",
     "alias_of": null
   }
 },
@@ -6395,12 +8419,12 @@
     "numchild": 0,
     "translation_key": "a8d9a217-b059-428c-a33d-805ae3c577be",
     "locale": 1,
-    "latest_revision": 42,
+    "latest_revision": 54,
     "live": true,
     "has_unpublished_changes": false,
     "first_published_at": "2023-03-01T15:31:32.467Z",
-    "last_published_at": "2023-03-01T15:31:32.467Z",
-    "live_revision": 42,
+    "last_published_at": "2023-03-03T11:00:05.859Z",
+    "live_revision": 54,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -6414,14 +8438,14 @@
       "cms_site",
       "newspage"
     ],
-    "url_path": "/home/noticies/",
+    "url_path": "/inici/noticies/",
     "owner": [
       "hola@codi.coop"
     ],
     "seo_title": "Actualitat",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2023-03-01T15:31:32.337Z",
+    "latest_revision_created_at": "2023-03-03T11:00:05.626Z",
     "alias_of": null
   }
 },
@@ -6453,7 +8477,7 @@
       "cms_site",
       "legalpage"
     ],
-    "url_path": "/home/avis-legal/",
+    "url_path": "/inici/avis-legal/",
     "owner": [
       "hola@codi.coop"
     ],
@@ -6461,6 +8485,45 @@
     "show_in_menus": false,
     "search_description": "",
     "latest_revision_created_at": "2023-03-02T11:14:29.597Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 18,
+  "fields": {
+    "path": "0001000100040003",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "f268f7be-45ab-4c3c-838c-727ccdb3a46c",
+    "locale": 1,
+    "latest_revision": 52,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-03-03T10:54:31.388Z",
+    "last_published_at": "2023-03-03T10:54:47.050Z",
+    "live_revision": 52,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Col·lecció Àrea",
+    "draft_title": "Col·lecció Àrea",
+    "slug": "colleccio-area",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "url_path": "/inici/cataleg/colleccio-area/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-03-03T10:54:46.852Z",
     "alias_of": null
   }
 },
@@ -10155,6 +12218,1387 @@
   }
 },
 {
+  "model": "wagtailcore.revision",
+  "pk": 48,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:41:27.128Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Eslògan de portada",
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 7,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "header_image": 25,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 10,
+      "overlay_image": 26,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "latest_revision": 10,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": null,
+      "last_published_at": "2022-08-11T10:37:14.923Z",
+      "collection_1_image": 2,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 6,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2022-08-11T10:37:14.852Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 49,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:46:39.504Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Eslògan de portada",
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "home",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 7,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "header_image": 25,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 48,
+      "overlay_image": 41,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "latest_revision": 48,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": null,
+      "last_published_at": "2023-03-03T10:41:27.284Z",
+      "collection_1_image": 45,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 46,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": null,
+      "collection_3_title": "Col·lecco",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": null,
+      "custom_projects_image": null,
+      "custom_projects_title": "",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2023-03-03T10:41:27.128Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 50,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:49:05.547Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Eslògan de portada",
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "inici",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 7,
+      "url_path": "/home/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "Inici",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "header_image": 25,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 48,
+      "overlay_image": 41,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "latest_revision": 49,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": null,
+      "last_published_at": "2023-03-03T10:41:27.284Z",
+      "collection_1_image": 45,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 46,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": null,
+      "collection_3_title": "",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": 11,
+      "custom_projects_image": 28,
+      "custom_projects_title": "Fes realitat les teves idees",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2023-03-03T10:46:39.504Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 51,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:54:31.209Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Àrea",
+    "content": {
+      "pk": 18,
+      "pdf": 3,
+      "live": true,
+      "path": "0001000100040003",
+      "slug": "colleccio-area",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Àrea",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/cataleg/colleccio-area/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Volem que et sentis a gust a casa. Aquesta col·lecció d'estil contemporani ens ofereix ambients delicats, funcionals i equilibrats en el espai. La simplicitat i les formes geomètriques ens revelen que es tracta de peces proporcionades, de manera que el concepte de la col·lecció és ideal per tots els que busquen la sensació de llibertat.",
+      "draft_title": "Col·lecció Àrea",
+      "content_type": 64,
+      "header_image": 44,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "f268f7be-45ab-4c3c-838c-727ccdb3a46c",
+      "collection_items": [
+        {
+          "pk": 9,
+          "page": 18,
+          "image": 41,
+          "model": 6,
+          "title": "Menjador portes correderes. Acabat noguera 10",
+          "finishings": [
+            10,
+            12,
+            15
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ]
+        }
+      ],
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 52,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "18",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:54:46.852Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Col·lecció Àrea",
+    "content": {
+      "pk": 18,
+      "pdf": 3,
+      "live": true,
+      "path": "0001000100040003",
+      "slug": "colleccio-area",
+      "depth": 4,
+      "owner": 1,
+      "title": "Col·lecció Àrea",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/cataleg/colleccio-area/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Volem que et sentis a gust a casa. Aquesta col·lecció d'estil contemporani ens ofereix ambients delicats, funcionals i equilibrats en el espai. La simplicitat i les formes geomètriques ens revelen que es tracta de peces proporcionades, de manera que el concepte de la col·lecció és ideal per tots els que busquen la sensació de llibertat.",
+      "draft_title": "Col·lecció Àrea",
+      "content_type": 64,
+      "header_image": 44,
+      "live_revision": 51,
+      "show_in_menus": false,
+      "latest_revision": 51,
+      "translation_key": "f268f7be-45ab-4c3c-838c-727ccdb3a46c",
+      "collection_items": [
+        {
+          "pk": 9,
+          "page": 18,
+          "image": 41,
+          "model": 6,
+          "title": "Menjador portes correderes",
+          "finishings": [
+            10,
+            12,
+            15
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ]
+        }
+      ],
+      "last_published_at": "2023-03-03T10:54:31.388Z",
+      "first_published_at": "2023-03-03T10:54:31.388Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T10:54:31.209Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 53,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "2",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T10:55:31.557Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Eslògan de portada",
+    "content": {
+      "pk": 2,
+      "live": true,
+      "path": "00010001",
+      "slug": "inici",
+      "depth": 2,
+      "owner": null,
+      "title": "Eslògan de portada",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 7,
+      "url_path": "/inici/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "Inici",
+      "go_live_at": null,
+      "draft_title": "Eslògan de portada",
+      "content_type": 5,
+      "header_image": 25,
+      "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
+      "live_revision": 50,
+      "overlay_image": 41,
+      "overlay_title": "Nou disseny de llit pel teu dormitori",
+      "show_in_menus": false,
+      "latest_revision": 50,
+      "translation_key": "cbf1099f-57c1-4bdd-beae-1b1eb6602e3c",
+      "collection_1_page": 4,
+      "collection_2_page": 6,
+      "collection_3_page": 18,
+      "last_published_at": "2023-03-03T10:49:05.683Z",
+      "collection_1_image": 45,
+      "collection_1_title": "Nova col·lecció Àrea",
+      "collection_2_image": 46,
+      "collection_2_title": "Col·lecció Nørdic",
+      "collection_3_image": 44,
+      "collection_3_title": "Col·lecció Àrea",
+      "first_published_at": "2022-08-10T13:56:15.151Z",
+      "search_description": "",
+      "overlay_button_page": 4,
+      "overlay_button_text": "Veure col·lecció",
+      "custom_projects_page": 11,
+      "custom_projects_image": 28,
+      "custom_projects_title": "Fes realitat les teves idees",
+      "display_instagram_feed": true,
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "display_header_highlight": true,
+      "latest_revision_created_at": "2023-03-03T10:49:05.547Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 54,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "16",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:00:05.626Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Últimes notícies",
+    "content": {
+      "pk": 16,
+      "live": true,
+      "path": "000100010008",
+      "slug": "noticies",
+      "depth": 3,
+      "owner": 1,
+      "title": "Últimes notícies",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/noticies/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "Actualitat",
+      "go_live_at": null,
+      "draft_title": "Últimes notícies",
+      "content_type": 68,
+      "header_image": 50,
+      "live_revision": 42,
+      "show_in_menus": true,
+      "instagram_posts": [
+        {
+          "pk": 1,
+          "url": "https://www.instagram.com/p/CpMdeYbIERY/",
+          "page": 16,
+          "sort_order": 0
+        },
+        {
+          "pk": 2,
+          "url": "https://www.instagram.com/p/CfyTUDfIxeY/",
+          "page": 16,
+          "sort_order": 1
+        },
+        {
+          "pk": 3,
+          "url": "https://www.instagram.com/p/Cd0Owl3ISBE/",
+          "page": 16,
+          "sort_order": 2
+        },
+        {
+          "pk": 4,
+          "url": "https://www.instagram.com/p/CdqUVQGop5J/",
+          "page": 16,
+          "sort_order": 3
+        },
+        {
+          "pk": 5,
+          "url": "https://www.instagram.com/p/CbhmYBRIg-e/",
+          "page": 16,
+          "sort_order": 4
+        },
+        {
+          "pk": 6,
+          "url": "https://www.instagram.com/p/CaTuQRrIv0v/",
+          "page": 16,
+          "sort_order": 5
+        }
+      ],
+      "latest_revision": 42,
+      "translation_key": "a8d9a217-b059-428c-a33d-805ae3c577be",
+      "last_published_at": "2023-03-01T15:31:32.467Z",
+      "first_published_at": "2023-03-01T15:31:32.467Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-01T15:31:32.337Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 55,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "14",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:00:57.582Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Contacte",
+    "content": {
+      "pk": 14,
+      "live": true,
+      "path": "000100010006",
+      "slug": "contacte",
+      "depth": 3,
+      "owner": 1,
+      "title": "Contacte",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/contacte/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "menu_label": null,
+      "name_label": "Nom",
+      "to_address": "pere@codi.coop",
+      "draft_title": "Contacte",
+      "email_label": "Correu electrònic",
+      "phone_label": "Telèfon",
+      "success_msg": "<p data-block-key=\"rdn9t\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
+      "content_type": 65,
+      "header_image": 49,
+      "live_revision": 36,
+      "message_label": "Missatge",
+      "profile_label": "Perfil",
+      "show_in_menus": true,
+      "subject_label": "Assumpte",
+      "latest_revision": 36,
+      "translation_key": "59a861a7-4882-4fbd-bb72-f0f77b2f9365",
+      "last_published_at": "2023-02-20T16:44:56.685Z",
+      "first_published_at": "2023-02-20T16:44:56.685Z",
+      "search_description": "",
+      "notification_subject": "Nou missatge al formulari de contacte de la web",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "personal_data_auth_label": "Treatment of personal data authorization",
+      "latest_revision_created_at": "2023-02-20T16:44:56.668Z",
+      "personal_data_comercial_auth_label": "Treatment of personal data authorization for comercial purposes"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 56,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:03:19.744Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 0,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 1,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": 3,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 2,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": 4,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 3,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": 5,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 4,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        }
+      ],
+      "content_type": 62,
+      "header_image": 51,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 42,
+          "title": "Coses del 2020",
+          "sort_order": 0,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "year": 2013,
+          "image": 31,
+          "title": "Els inicis",
+          "sort_order": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        }
+      ],
+      "live_revision": 43,
+      "show_in_menus": true,
+      "latest_revision": 43,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-03-01T15:38:35.874Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-01T15:38:35.704Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 57,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:07:51.856Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 0,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 1,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": 3,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 2,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": 4,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 3,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": 5,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 4,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        },
+        {
+          "pk": null,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x_jQiV26uQc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Mobles Ciurans",
+          "sort_order": 5,
+          "description": "A Mobles Ciurans us estem preparant una mostra dels nostres mobles de menjador i dormitori. Us obrirem les portes a la nostra fàbrica de La Garriga i coneixereu el nostre procés de fabricació, on hi veureu tots els detalls i secrets de cuidar tots els detalls: des de l'entrada de gènere fins a l'embalatge i entrega del moble. De moment us deixem amb aquesta petita mostra."
+        }
+      ],
+      "content_type": 62,
+      "header_image": 51,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 42,
+          "title": "Coses del 2020",
+          "sort_order": 0,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "year": 2013,
+          "image": 31,
+          "title": "Els inicis",
+          "sort_order": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        }
+      ],
+      "live_revision": 56,
+      "show_in_menus": true,
+      "latest_revision": 56,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-03-03T11:03:19.966Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T11:03:19.744Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 58,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:08:19.601Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 6,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x_jQiV26uQc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Mobles Ciurans",
+          "sort_order": 0,
+          "description": "A Mobles Ciurans us estem preparant una mostra dels nostres mobles de menjador i dormitori. Us obrirem les portes a la nostra fàbrica de La Garriga i coneixereu el nostre procés de fabricació, on hi veureu tots els detalls i secrets de cuidar tots els detalls: des de l'entrada de gènere fins a l'embalatge i entrega del moble. De moment us deixem amb aquesta petita mostra."
+        },
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 1,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 2,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": 3,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 3,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": 4,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 4,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": 5,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 5,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        }
+      ],
+      "content_type": 62,
+      "header_image": 51,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 42,
+          "title": "Coses del 2020",
+          "sort_order": 0,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "year": 2013,
+          "image": 31,
+          "title": "Els inicis",
+          "sort_order": 1,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        }
+      ],
+      "live_revision": 57,
+      "show_in_menus": true,
+      "latest_revision": 57,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-03-03T11:07:52.075Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T11:07:51.856Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 59,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "15",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:14:19.656Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Qui som",
+    "content": {
+      "pk": 15,
+      "live": true,
+      "path": "000100010007",
+      "slug": "qui-som",
+      "depth": 3,
+      "owner": 1,
+      "title": "Qui som",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/qui-som/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 6,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x_jQiV26uQc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Mobles Ciurans",
+          "sort_order": 0,
+          "description": "A Mobles Ciurans us estem preparant una mostra dels nostres mobles de menjador i dormitori. Us obrirem les portes a la nostra fàbrica de La Garriga i coneixereu el nostre procés de fabricació, on hi veureu tots els detalls i secrets de cuidar tots els detalls: des de l'entrada de gènere fins a l'embalatge i entrega del moble. De moment us deixem amb aquesta petita mostra."
+        },
+        {
+          "pk": 1,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Com ho fem",
+          "sort_order": 1,
+          "description": "A Ciurans hem realitzat un reportatge sobre tot el procés de producció del moble. Us obrim les portes al dia a dia de la nostra fàbrica i descobrireu la professió, el procés artesanal i la tecnologia amb els que hem creat el teu llit o moble del menjador.\r\n\r\nEl primer pas que duem a terme és la selecció i tria de la xapa. Escollim la de millor qualitat pels sobres i frontals de la composició. Marquem la xapa numèricament perquè cada comanda tingui la seva i d'aquesta manera aconseguim que tots els frontals de la mateixa composició tinguin una continuïtat. Un cop la xapa està marcada la tallem i la cosim comanda per comanda."
+        },
+        {
+          "pk": 2,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Manipulació i mecanització",
+          "sort_order": 2,
+          "description": "El disseny dels mobles, ja siguin dormitoris, mobles de menjador o taules, s'introdueix a la màquina de mecanitzat, d'aquesta manera podrem muntar el moble amb el disseny original adaptat a les mides amb una gran precisió, donant-li una solidesa, durabilitat i acabats inigualables.\r\n\r\nDes de 1925 fins avui hem apostat per l'última tecnologia, vols veure-ho? Entra i veuràs com fabriquem el teu moble!"
+        },
+        {
+          "pk": 3,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El vernís",
+          "sort_order": 3,
+          "description": "Les peces mecanitzades passen per les fregadores, que les preparen per dona'ls-hi la primera capa de vernís: el fondejat. La línia de vernís ultravioleta és l'encarregada de donar-li la primera capa a totes les peces.\r\n\r\nAquesta màquina fa que la capa tingui molta duresa i que les peces surtin seques a l'instant gràcies als 24.000W de potència de les llums ultravioleta. Seguidament tornen a passar per les fregadores per preparar-les per entrar a la cabina de vernís a pistola on se'ls aplicarà l'acabat definitiu.\r\n\r\nUn cop envernissades, les peces estaran 24 hores assecant-se abans de passar a la zona de muntatge i embalatge."
+        },
+        {
+          "pk": 4,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "El muntatge",
+          "sort_order": 4,
+          "description": "Quan les peces estan envernissades arriben a la zona de muntatge, embalatge i logística. Aquí, l'encarregat separa les peces de cada comanda i les distribueix als diferents bancs on els operaris monten els mobles i comproven que tot estigui correcte.\r\n\r\nSeguidament, els mobles passen per la màquina embaladora, que els deixarà a punt i a l'espera de la càrrega del transportista."
+        },
+        {
+          "pk": 5,
+          "page": 15,
+          "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "title": "Transport i muntatge",
+          "sort_order": 5,
+          "description": "Després del procés d'embalatge, l'equip de muntadors del teu distribuïdor s'encarregarà de fer-te el muntatge de la comanda i polir tots els detalls."
+        }
+      ],
+      "content_type": 62,
+      "header_image": 51,
+      "history_items": [
+        {
+          "pk": 2,
+          "page": 15,
+          "year": 2013,
+          "image": 31,
+          "title": "Els inicis",
+          "sort_order": 0,
+          "description": "Lorem ipsum 2 dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        },
+        {
+          "pk": 1,
+          "page": 15,
+          "year": 2020,
+          "image": 42,
+          "title": "Coses del 2020",
+          "sort_order": 1,
+          "description": "Lorem ipsum 1 dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
+        }
+      ],
+      "live_revision": 58,
+      "show_in_menus": true,
+      "latest_revision": 58,
+      "translation_key": "cd54c396-63bd-4b69-a4a6-fcf00048516a",
+      "last_published_at": "2023-03-03T11:08:19.799Z",
+      "first_published_at": "2023-02-22T11:10:31.368Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T11:08:19.601Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 60,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "11",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:14:52.330Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Projectes a mida",
+    "content": {
+      "pk": 11,
+      "live": true,
+      "path": "000100010005",
+      "slug": "projectes-a-mida",
+      "depth": 3,
+      "owner": 1,
+      "title": "Projectes a mida",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 1,
+      "url_path": "/inici/projectes-a-mida/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "menu_label": null,
+      "description": "Text de presentació de l'apartat de projectes a mida. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.",
+      "draft_title": "Projectes a mida",
+      "content_type": 73,
+      "header_image": 53,
+      "live_revision": 35,
+      "show_in_menus": true,
+      "latest_revision": 35,
+      "translation_key": "be59b50d-ff24-4775-82ba-67710595270f",
+      "last_published_at": "2023-02-20T15:00:19.457Z",
+      "first_published_at": "2022-09-15T10:19:24.144Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-02-20T15:00:19.431Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 61,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "13",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:15:31.518Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Projecte CR",
+    "content": {
+      "pk": 13,
+      "live": true,
+      "path": "0001000100050001",
+      "slug": "projecte-cr",
+      "depth": 4,
+      "owner": 1,
+      "title": "Projecte CR",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/projectes-a-mida/projecte-cr/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.",
+      "draft_title": "Projecte CR",
+      "content_type": 74,
+      "header_image": 57,
+      "live_revision": 33,
+      "show_in_menus": false,
+      "latest_revision": 33,
+      "translation_key": "c0ed4d21-0544-41a7-804e-ec10b5915628",
+      "images_collection": 4,
+      "last_published_at": "2022-09-28T10:22:32.367Z",
+      "first_published_at": "2022-09-21T14:43:12.994Z",
+      "main_section_image": 31,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-09-28T10:22:32.338Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 62,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:24:20.097Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Els nostres dissenyadors",
+    "content": {
+      "pk": 8,
+      "live": true,
+      "path": "000100010003",
+      "slug": "els-nostres-dissenyadors",
+      "depth": 3,
+      "owner": 1,
+      "title": "Els nostres dissenyadors",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/els-nostres-dissenyadors/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Els nostres dissenyadors",
+      "content_type": 72,
+      "header_image": 53,
+      "live_revision": 11,
+      "show_in_menus": false,
+      "designers_list": "[{\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"1b138be3-9080-4500-b634-6326946153cb\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\"}]",
+      "latest_revision": null,
+      "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+      "last_published_at": "2022-08-11T10:56:41.639Z",
+      "first_published_at": "2022-08-11T10:56:41.639Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2022-08-11T10:56:41.608Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 63,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:24:40.379Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Els nostres dissenyadors",
+    "content": {
+      "pk": 8,
+      "live": true,
+      "path": "000100010003",
+      "slug": "dissenyadors",
+      "depth": 3,
+      "owner": 1,
+      "title": "Els nostres dissenyadors",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/els-nostres-dissenyadors/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Els nostres dissenyadors",
+      "content_type": 72,
+      "header_image": 53,
+      "live_revision": 62,
+      "show_in_menus": false,
+      "designers_list": "[{\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"1b138be3-9080-4500-b634-6326946153cb\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\"}]",
+      "latest_revision": 62,
+      "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+      "last_published_at": "2023-03-03T11:24:20.256Z",
+      "first_published_at": "2022-08-11T10:56:41.639Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T11:24:20.097Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 64,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "submitted_for_moderation": false,
+    "created_at": "2023-03-03T11:25:53.887Z",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "object_str": "Els nostres dissenyadors",
+    "content": {
+      "pk": 8,
+      "live": true,
+      "path": "000100010003",
+      "slug": "dissenyadors",
+      "depth": 3,
+      "owner": 1,
+      "title": "Els nostres dissenyadors",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/inici/dissenyadors/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Els nostres dissenyadors",
+      "content_type": 72,
+      "header_image": 53,
+      "live_revision": 63,
+      "show_in_menus": false,
+      "designers_list": "[{\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"1b138be3-9080-4500-b634-6326946153cb\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\", \"photo\": 59}, \"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\"}, {\"type\": \"item\", \"value\": {\"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyadora d'arcs de Sant Mart\\u00ed\", \"description\": \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.\", \"photo\": 59}, \"id\": \"778dc2b8-45ba-4f4f-a8d9-b9fa2b54d447\"}]",
+      "latest_revision": 63,
+      "translation_key": "df4651c5-3d24-4a00-83ee-f8f43c357690",
+      "last_published_at": "2023-03-03T11:24:40.526Z",
+      "first_published_at": "2022-08-11T10:56:41.639Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2023-03-03T11:24:40.379Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
   "model": "wagtailcore.pagelogentry",
   "pk": 1,
   "fields": {
@@ -12725,6 +16169,786 @@
   }
 },
 {
+  "model": "wagtailcore.pagelogentry",
+  "pk": 113,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:41:27.209Z",
+    "uuid": "2c89a81b-b9e3-4e17-b9db-4cb14ad33e81",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 48,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 114,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T10:41:27.372Z",
+    "uuid": "2c89a81b-b9e3-4e17-b9db-4cb14ad33e81",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 48,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 115,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:46:39.652Z",
+    "uuid": "fc757bb2-f045-4d34-881c-d0d07ba99fba",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 49,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 116,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:49:05.596Z",
+    "uuid": "8cbb2641-79e4-4985-995c-ef4c669ed5a3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 50,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 117,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T10:49:05.814Z",
+    "uuid": "8cbb2641-79e4-4985-995c-ef4c669ed5a3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 50,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 118,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Àrea",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-03-03T10:54:31.122Z",
+    "uuid": "59623500-1234-4c90-9722-fcbe1ec84e39",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 18
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 119,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Àrea",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:54:31.293Z",
+    "uuid": "59623500-1234-4c90-9722-fcbe1ec84e39",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 51,
+    "content_changed": true,
+    "deleted": false,
+    "page": 18
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 120,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T10:54:31.502Z",
+    "uuid": "59623500-1234-4c90-9722-fcbe1ec84e39",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 51,
+    "content_changed": true,
+    "deleted": false,
+    "page": 18
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 121,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Àrea",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:54:46.953Z",
+    "uuid": "6d934fe5-4eb1-4490-a257-445e49ddd94f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 52,
+    "content_changed": true,
+    "deleted": false,
+    "page": 18
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 122,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "Col·lecció Àrea",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T10:54:47.192Z",
+    "uuid": "6d934fe5-4eb1-4490-a257-445e49ddd94f",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 52,
+    "content_changed": true,
+    "deleted": false,
+    "page": 18
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 123,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T10:55:31.659Z",
+    "uuid": "bb32218d-d12a-4adf-a324-ac75bbf57ec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 53,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 124,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "homepage"
+    ],
+    "label": "Eslògan de portada",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T10:55:31.945Z",
+    "uuid": "bb32218d-d12a-4adf-a324-ac75bbf57ec4",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 53,
+    "content_changed": true,
+    "deleted": false,
+    "page": 2
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 125,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "label": "Últimes notícies",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:00:05.716Z",
+    "uuid": "c9da6bca-6f50-4904-a5a7-792766a19f7e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 54,
+    "content_changed": true,
+    "deleted": false,
+    "page": 16
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 126,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "newspage"
+    ],
+    "label": "Últimes notícies",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:00:06.139Z",
+    "uuid": "c9da6bca-6f50-4904-a5a7-792766a19f7e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 54,
+    "content_changed": true,
+    "deleted": false,
+    "page": 16
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 127,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "label": "Contacte",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:00:57.695Z",
+    "uuid": "177f0af3-0129-4ecc-9404-e35a64a2d1bb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 55,
+    "content_changed": true,
+    "deleted": false,
+    "page": 14
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 128,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customajaxcontact"
+    ],
+    "label": "Contacte",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:00:57.869Z",
+    "uuid": "177f0af3-0129-4ecc-9404-e35a64a2d1bb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 55,
+    "content_changed": true,
+    "deleted": false,
+    "page": 14
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 129,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:03:19.876Z",
+    "uuid": "6908aedf-66cf-48da-bc9d-ac7cf32e9a18",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 56,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 130,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:03:20.343Z",
+    "uuid": "6908aedf-66cf-48da-bc9d-ac7cf32e9a18",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 56,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 131,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:07:51.924Z",
+    "uuid": "f4a52088-dbf0-423b-9cee-ab0f20fc53c7",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 57,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 132,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:07:52.295Z",
+    "uuid": "f4a52088-dbf0-423b-9cee-ab0f20fc53c7",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 57,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 133,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:08:19.656Z",
+    "uuid": "4346fb0b-fc2c-4a51-8fcc-da5b8c2427f8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 58,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 134,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:08:20.107Z",
+    "uuid": "4346fb0b-fc2c-4a51-8fcc-da5b8c2427f8",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 58,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 135,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:14:19.820Z",
+    "uuid": "9c66c3c6-6f00-4903-81f5-fbbf11bd6f2b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 59,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 136,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "label": "Qui som",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:14:20.771Z",
+    "uuid": "9c66c3c6-6f00-4903-81f5-fbbf11bd6f2b",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 59,
+    "content_changed": true,
+    "deleted": false,
+    "page": 15
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 137,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:14:52.398Z",
+    "uuid": "d6970d38-a2d8-4d47-8f58-e112f7bd5ba3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 60,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 138,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customprojectspage"
+    ],
+    "label": "Projectes a mida",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:14:52.561Z",
+    "uuid": "d6970d38-a2d8-4d47-8f58-e112f7bd5ba3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 60,
+    "content_changed": true,
+    "deleted": false,
+    "page": 11
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 139,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:15:31.618Z",
+    "uuid": "7db2f6c0-1978-493f-829c-8e089102f8e3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 61,
+    "content_changed": true,
+    "deleted": false,
+    "page": 13
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 140,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "customproject"
+    ],
+    "label": "Projecte CR",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:15:31.907Z",
+    "uuid": "7db2f6c0-1978-493f-829c-8e089102f8e3",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 61,
+    "content_changed": true,
+    "deleted": false,
+    "page": 13
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 141,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:24:20.182Z",
+    "uuid": "bf50daea-af2b-411d-90c5-eb9c784dd083",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 62,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 142,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.rename",
+    "data": {
+      "title": {
+        "new": "Els nostres dissenyadors",
+        "old": "None"
+      }
+    },
+    "timestamp": "2023-03-03T11:24:20.352Z",
+    "uuid": "bf50daea-af2b-411d-90c5-eb9c784dd083",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 62,
+    "content_changed": false,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 143,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.publish",
+    "data": {
+      "title": {
+        "new": "Els nostres dissenyadors",
+        "old": "None"
+      }
+    },
+    "timestamp": "2023-03-03T11:24:20.379Z",
+    "uuid": "bf50daea-af2b-411d-90c5-eb9c784dd083",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 62,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 144,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:24:40.445Z",
+    "uuid": "d85c5d86-e4b3-4172-b87e-b4418bf264c1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 63,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 145,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:24:40.682Z",
+    "uuid": "d85c5d86-e4b3-4172-b87e-b4418bf264c1",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 63,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 146,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-03-03T11:25:53.970Z",
+    "uuid": "6a691a69-39c6-4acd-ac7b-4cd1b98e0f1e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 64,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 147,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "designerspage"
+    ],
+    "label": "Els nostres dissenyadors",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-03-03T11:25:54.128Z",
+    "uuid": "6a691a69-39c6-4acd-ac7b-4cd1b98e0f1e",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 64,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
   "model": "taggit.tag",
   "pk": 1,
   "fields": {
@@ -12746,42 +16970,6 @@
   "fields": {
     "name": "dissenyador",
     "slug": "dissenyador"
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 1,
-  "fields": {
-    "tag": 1,
-    "content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "object_id": 10
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 2,
-  "fields": {
-    "tag": 2,
-    "content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "object_id": 11
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 3,
-  "fields": {
-    "tag": 3,
-    "content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "object_id": 11
   }
 },
 {
@@ -12869,14 +17057,14 @@
   "model": "cms_site.aboutuspage",
   "pk": 15,
   "fields": {
-    "header_image": 10
+    "header_image": 51
   }
 },
 {
   "model": "cms_site.videoitem",
   "pk": 1,
   "fields": {
-    "sort_order": 0,
+    "sort_order": 1,
     "page": 15,
     "title": "Com ho fem",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SZrLUayVYUk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
@@ -12887,7 +17075,7 @@
   "model": "cms_site.videoitem",
   "pk": 2,
   "fields": {
-    "sort_order": 1,
+    "sort_order": 2,
     "page": 15,
     "title": "Manipulació i mecanització",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rdojQLWP2HU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
@@ -12898,7 +17086,7 @@
   "model": "cms_site.videoitem",
   "pk": 3,
   "fields": {
-    "sort_order": 2,
+    "sort_order": 3,
     "page": 15,
     "title": "El vernís",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/b3gyDh5tFNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
@@ -12909,7 +17097,7 @@
   "model": "cms_site.videoitem",
   "pk": 4,
   "fields": {
-    "sort_order": 3,
+    "sort_order": 4,
     "page": 15,
     "title": "El muntatge",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rWTLrpWXNJc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
@@ -12920,7 +17108,7 @@
   "model": "cms_site.videoitem",
   "pk": 5,
   "fields": {
-    "sort_order": 4,
+    "sort_order": 5,
     "page": 15,
     "title": "Transport i muntatge",
     "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-HyxleazCKs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
@@ -12928,22 +17116,45 @@
   }
 },
 {
-  "model": "cms_site.historyitem",
-  "pk": 1,
+  "model": "cms_site.videoitem",
+  "pk": 6,
   "fields": {
     "sort_order": 0,
     "page": 15,
+    "title": "Mobles Ciurans",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x_jQiV26uQc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    "description": "A Mobles Ciurans us estem preparant una mostra dels nostres mobles de menjador i dormitori. Us obrirem les portes a la nostra fàbrica de La Garriga i coneixereu el nostre procés de fabricació, on hi veureu tots els detalls i secrets de cuidar tots els detalls: des de l'entrada de gènere fins a l'embalatge i entrega del moble. De moment us deixem amb aquesta petita mostra."
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 1,
+  "fields": {
+    "sort_order": 1,
+    "page": 15,
     "year": 2020,
-    "title": "Cosis del 2020",
-    "description": "Prova de text",
-    "image": 11
+    "title": "Coses del 2020",
+    "description": "Lorem ipsum 1 dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.",
+    "image": 42
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 2,
+  "fields": {
+    "sort_order": 0,
+    "page": 15,
+    "year": 2013,
+    "title": "Els inicis",
+    "description": "Lorem ipsum 2 dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.",
+    "image": 31
   }
 },
 {
   "model": "cms_site.collectionspage",
   "pk": 10,
   "fields": {
-    "header_image": 10,
+    "header_image": null,
     "menu_label": null
   }
 },
@@ -12951,7 +17162,7 @@
   "model": "cms_site.collection",
   "pk": 4,
   "fields": {
-    "header_image": 10,
+    "header_image": null,
     "description": "Amb més de 20 anys, Area és la nostra col·lecció més longeva, la nostra ànima i la nostra personalitat. Al llarg dels anys l’hem anat adaptant a noves necessitats, formes i estils per proporcionar sempre peces d’última generació, amb personalitat, cridaneres i pràctiques. Aquesta renovació actual d’Area ens aporta colors, formes i tendències sense perdre l’essència de la col·lecció. Gràcies a l’estreta col·laboració amb Josep Turell, dissenyador ja consagrat d’Area, i de Martí Nualart, dissenyador emergent, el resultat és una col·lecció indiscutiblement interessant, atractiva i funcional.",
     "pdf": 1
   }
@@ -12960,89 +17171,18 @@
   "model": "cms_site.collection",
   "pk": 6,
   "fields": {
-    "header_image": 10,
+    "header_image": null,
     "description": "Nordic Collection és una col·lecció de mobles dissenyada per Martí Nualart i fabricada per Mobles Ciurans. La col·lecció Nordic s'ha dissenyat per adaptar-se a qualsevol espai interior. Amb un disseny minimalista i un aire fresc i natural, aquest programa de mobiliari proporciona solucions i supera les expectatives dels consumidors més exigents.",
     "pdf": 2
   }
 },
 {
-  "model": "cms_site.collectionitem",
-  "pk": 1,
+  "model": "cms_site.collection",
+  "pk": 18,
   "fields": {
-    "sort_order": 0,
-    "page": 6,
-    "title": "Moble televisió Jörn i Bufet Sovik",
-    "image": 8,
-    "model": 11,
-    "finishings": [
-      15,
-      16,
-      30,
-      33
-    ],
-    "typologies": [
-      1
-    ]
-  }
-},
-{
-  "model": "cms_site.collectionitem",
-  "pk": 2,
-  "fields": {
-    "sort_order": 1,
-    "page": 6,
-    "title": "Moble Jörn, Dora i Brei",
-    "image": 7,
-    "model": 11,
-    "finishings": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "typologies": [
-      1
-    ]
-  }
-},
-{
-  "model": "cms_site.collectionitem",
-  "pk": 3,
-  "fields": {
-    "sort_order": 2,
-    "page": 6,
-    "title": "Buffet Sovik",
-    "image": 8,
-    "model": 14,
-    "finishings": [
-      1,
-      8,
-      9,
-      10
-    ],
-    "typologies": [
-      1
-    ]
-  }
-},
-{
-  "model": "cms_site.collectionitem",
-  "pk": 4,
-  "fields": {
-    "sort_order": 3,
-    "page": 6,
-    "title": "Llit Brevik",
-    "image": 9,
-    "model": 15,
-    "finishings": [
-      1,
-      23,
-      33
-    ],
-    "typologies": [
-      3
-    ]
+    "header_image": 44,
+    "description": "Volem que et sentis a gust a casa. Aquesta col·lecció d'estil contemporani ens ofereix ambients delicats, funcionals i equilibrats en el espai. La simplicitat i les formes geomètriques ens revelen que es tracta de peces proporcionades, de manera que el concepte de la col·lecció és ideal per tots els que busquen la sensació de llibertat.",
+    "pdf": 3
   }
 },
 {
@@ -13065,55 +17205,17 @@
 },
 {
   "model": "cms_site.collectionitem",
-  "pk": 6,
+  "pk": 9,
   "fields": {
-    "sort_order": 1,
-    "page": 4,
-    "title": "Serenitat, calidesa i benestar",
-    "image": 3,
-    "model": 1,
+    "sort_order": 0,
+    "page": 18,
+    "title": "Menjador portes correderes",
+    "image": 41,
+    "model": 6,
     "finishings": [
-      3,
-      4
-    ],
-    "typologies": [
-      1
-    ]
-  }
-},
-{
-  "model": "cms_site.collectionitem",
-  "pk": 7,
-  "fields": {
-    "sort_order": 2,
-    "page": 4,
-    "title": "Els clàssics renovats",
-    "image": 4,
-    "model": 2,
-    "finishings": [
-      15,
-      16
-    ],
-    "typologies": [
-      1
-    ]
-  }
-},
-{
-  "model": "cms_site.collectionitem",
-  "pk": 8,
-  "fields": {
-    "sort_order": 3,
-    "page": 4,
-    "title": "Els clàssics renovats",
-    "image": 5,
-    "model": 2,
-    "finishings": [
-      30,
-      31,
-      32,
-      33,
-      34
+      10,
+      12,
+      15
     ],
     "typologies": [
       1
@@ -13235,18 +17337,18 @@
   "model": "cms_site.customprojectspage",
   "pk": 11,
   "fields": {
-    "header_image": 12,
+    "header_image": 53,
     "menu_label": null,
-    "description": "Text de presentació de l'apartat de projectes a mida."
+    "description": "Text de presentació de l'apartat de projectes a mida. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi."
   }
 },
 {
   "model": "cms_site.customproject",
   "pk": 13,
   "fields": {
-    "header_image": 12,
-    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart.",
-    "main_section_image": 22,
+    "header_image": 57,
+    "description": "Reportatge fotogràfic del projecte CR realitzat per Estudi Nualart. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.",
+    "main_section_image": 31,
     "images_collection": 4
   }
 },
@@ -13254,41 +17356,49 @@
   "model": "cms_site.designerspage",
   "pk": 8,
   "fields": {
-    "header_image": 10,
-    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 11, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}]"
+    "header_image": 53,
+    "designers_list": "[{\"id\": \"1b138be3-9080-4500-b634-6326946153cb\", \"type\": \"item\", \"value\": {\"name\": \"Josep Turell\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 59, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"568c5cb2-1942-4f08-85fe-5ef12272e520\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyador de la col\\u00b7lecci\\u00f3 \\u00c0rea\", \"photo\": 59, \"quote\": \"Cita de'n Mart\\u00ed Nualart\", \"description\": \"Gr\\u00e0cies a l'estreta col\\u00b7laboraci\\u00f3 amb en Josep Turell -dissenyador ja consagrat d'\\u00c0rea- i en Mart\\u00ed Nualart -dissenyador emergent- la resposta \\u00e9s col\\u00b7lecci\\u00f3 indiscutiblement interessant i a la vegada atractiva i funcional.\"}}, {\"id\": \"778dc2b8-45ba-4f4f-a8d9-b9fa2b54d447\", \"type\": \"item\", \"value\": {\"name\": \"Mart\\u00ed Nualart\", \"role\": \"Dissenyadora d'arcs de Sant Mart\\u00ed\", \"photo\": 59, \"quote\": \"Experimentar, innovar i inventar sent coherent amb un estil \\u00e9s findamental en el meu proc\\u00e9s creatiu.\", \"description\": \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione dolores, esse porro consequuntur nam voluptatem cupiditate doloremque at tempora. Natus provident architecto vitae obcaecati voluptatem repellendus odio fuga commodi.\"}}]"
   }
 },
 {
   "model": "cms_site.homepage",
   "pk": 2,
   "fields": {
-    "header_image": 2,
+    "header_image": 25,
     "overlay_title": "Nou disseny de llit pel teu dormitori",
     "overlay_body": "Està compost per un capçal de llistons de grossors diferents i una base retroil·luminada pel matalàs. Tens l'opció de complementar-la amb les tauletes de la col·lecció New Area Collection.",
     "overlay_button_text": "Veure col·lecció",
     "overlay_button_page": 4,
-    "overlay_image": 1,
+    "overlay_image": 41,
     "collection_1_title": "Nova col·lecció Àrea",
-    "collection_1_image": 2,
+    "collection_1_image": 45,
     "collection_1_page": 4,
     "collection_2_title": "Col·lecció Nørdic",
-    "collection_2_image": 6,
+    "collection_2_image": 46,
     "collection_2_page": 6,
-    "collection_3_title": "",
-    "collection_3_image": null,
-    "collection_3_page": null,
-    "custom_projects_title": "",
-    "custom_projects_image": null,
-    "custom_projects_page": null,
+    "collection_3_title": "Col·lecció Àrea",
+    "collection_3_image": 44,
+    "collection_3_page": 18,
+    "custom_projects_title": "Fes realitat les teves idees",
+    "custom_projects_image": 28,
+    "custom_projects_page": 11,
     "display_instagram_feed": true,
     "display_header_highlight": true
+  }
+},
+{
+  "model": "cms_site.legalpage",
+  "pk": 17,
+  "fields": {
+    "header_image": null,
+    "text": "<h2 data-block-key=\"i76v3\">Titol exemple de nota legal</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam</i> accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"5mrs3\"><a href=\"http://localhost/ca/cataleg/\">Això és un enllaç d&#x27;exemple</a></p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/></li></ul><h3 data-block-key=\"a05du\">Més textos de mostra</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"51s54\"></p><p data-block-key=\"7r1ln\">Llistat d&#x27;items amb un ordre</p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>"
   }
 },
 {
   "model": "cms_site.newspage",
   "pk": 16,
   "fields": {
-    "header_image": 24
+    "header_image": 50
   }
 },
 {
@@ -13343,14 +17453,6 @@
     "sort_order": 5,
     "page": 16,
     "url": "https://www.instagram.com/p/CaTuQRrIv0v/"
-  }
-},
-{
-  "model": "cms_site.legalpage",
-  "pk": 17,
-  "fields": {
-    "header_image": 24,
-    "text": "<h2 data-block-key=\"i76v3\">Titol exemple de nota legal</h2><p data-block-key=\"eug4n\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum<i> nobis at natus quibusdam</i> accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"5mrs3\"><a href=\"http://localhost/ca/cataleg/\">Això és un enllaç d&#x27;exemple</a></p><ul><li data-block-key=\"4ejgn\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"3jjlf\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"8k8k7\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li><li data-block-key=\"5m7ft\">Item amb ordre.Lorem ipsum dolor sit amet consectetur adipisicing elit<br/></li></ul><h3 data-block-key=\"a05du\">Més textos de mostra</h3><p data-block-key=\"5k8k5\">Lorem ipsum <b>dolor sit amet consectetur</b> adipisicing elit. Totam rerum nobis at natus quibusdam accusamus numquam quo dignissimos nihil nemo, animi, fugiat velit deserunt qui modi? Laudantium accusamus reiciendis ex!</p><p data-block-key=\"51s54\"></p><p data-block-key=\"7r1ln\">Llistat d&#x27;items amb un ordre</p><ol><li data-block-key=\"5muls\">item1</li><li data-block-key=\"2q5gd\">item2</li><li data-block-key=\"e3quk\">item3</li></ol>"
   }
 },
 {
@@ -14050,12 +18152,12 @@
   "model": "wagtail_ajax_contact_form.ajaxcontactpage",
   "pk": 14,
   "fields": {
-    "header_image": 23,
+    "header_image": 49,
     "name_label": "Nom",
     "email_label": "Correu electrònic",
     "message_label": "Missatge",
     "success_msg": "<p data-block-key=\"rdn9t\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
-    "to_address": "p.picornell@gmail.com",
+    "to_address": "pere@codi.coop",
     "notification_subject": "Nou missatge al formulari de contacte de la web"
   }
 },
@@ -14192,6 +18294,23 @@
     "redirect_link": "",
     "automatically_created": true,
     "created_at": "2022-08-12T15:25:01.109Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 3,
+  "fields": {
+    "old_path": "/ca/els-nostres-dissenyadors",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 8,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2023-03-03T11:24:40.649Z"
   }
 }
 ]
