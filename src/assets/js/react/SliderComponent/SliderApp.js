@@ -129,7 +129,8 @@ export default function SliderApp(){
         </div>
         <div className="slider__info grid-item-1-6">
           <div className="slider__title title-1--light">
-            <p>{t('How_we_do_it')}</p>
+            {/* <p>{t('How_we_do_it')}</p> */}
+            <p>{allSlides[currentSlide].title}</p>
           </div>
           <div className="slider__text">
             <p>{allSlides[currentSlide].description}</p>
