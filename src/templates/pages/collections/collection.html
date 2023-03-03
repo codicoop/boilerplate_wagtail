@@ -59,6 +59,7 @@
       type: [{% for id, name in available_types.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
       model: [{% for id, name in available_models.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
       finishing: [{% for id, name in finishings.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
+      page_id: {{ page.id }},
     }
   </script>
 {% endblock %}
