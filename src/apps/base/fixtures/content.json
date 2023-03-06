@@ -17057,7 +17057,8 @@
   "model": "cms_site.aboutuspage",
   "pk": 15,
   "fields": {
-    "header_image": 51
+    "header_image": 51,
+    "description": ""
   }
 },
 {
@@ -17232,105 +17233,6 @@
     "profile_label": "Perfil",
     "personal_data_auth_label": "Treatment of personal data authorization",
     "personal_data_comercial_auth_label": "Treatment of personal data authorization for comercial purposes"
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 2,
-  "fields": {
-    "subject": "assumpte?",
-    "phone": "",
-    "profile": "",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 3,
-  "fields": {
-    "subject": "assumpte?",
-    "phone": "",
-    "profile": "",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 4,
-  "fields": {
-    "subject": "",
-    "phone": "",
-    "profile": "",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 5,
-  "fields": {
-    "subject": "sense redirecció",
-    "phone": "76876876",
-    "profile": "2",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 6,
-  "fields": {
-    "subject": "assumpte?",
-    "phone": "76876876",
-    "profile": "2",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 7,
-  "fields": {
-    "subject": "prova amb nova config emails",
-    "phone": "76876876",
-    "profile": "3",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": true
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 8,
-  "fields": {
-    "subject": "assumpte?",
-    "phone": "76876876",
-    "profile": "Botiga de mobiliari",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 9,
-  "fields": {
-    "subject": "Faltava el normalizebasedata a noves instàncies, verificar",
-    "phone": "76876876",
-    "profile": "Estudi d’interiorisme",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": false
-  }
-},
-{
-  "model": "cms_site.ajaxcontactsubmission",
-  "pk": 10,
-  "fields": {
-    "subject": "assumpte?",
-    "phone": "76876876",
-    "profile": "Altres",
-    "personal_data_auth": true,
-    "personal_data_comercial_auth": true
   }
 },
 {
@@ -18159,96 +18061,6 @@
     "success_msg": "<p data-block-key=\"rdn9t\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
     "to_address": "pere@codi.coop",
     "notification_subject": "Nou missatge al formulari de contacte de la web"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 2,
-  "fields": {
-    "created": "2023-02-21T10:47:59.975Z",
-    "name": "Pere",
-    "email": "aaaa@aa.com",
-    "message": "holaa"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 3,
-  "fields": {
-    "created": "2023-02-21T10:48:04.002Z",
-    "name": "Pere",
-    "email": "aaaa@aa.com",
-    "message": "holaa"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 4,
-  "fields": {
-    "created": "2023-02-21T10:51:16.614Z",
-    "name": "Pere",
-    "email": "aa@aa.com",
-    "message": "missatge i tal"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 5,
-  "fields": {
-    "created": "2023-02-21T10:53:32.384Z",
-    "name": "retest",
-    "email": "aaaa@aa.com",
-    "message": "testing\nsalts de línia\naa"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 6,
-  "fields": {
-    "created": "2023-02-21T10:54:11.209Z",
-    "name": "Pere",
-    "email": "aaaa@aa.com",
-    "message": "sgdfgdfgfd"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 7,
-  "fields": {
-    "created": "2023-02-21T11:22:41.679Z",
-    "name": "prova 2",
-    "email": "aaaa@aa.com",
-    "message": "El perfil es desarà..?"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 8,
-  "fields": {
-    "created": "2023-02-21T11:24:37.769Z",
-    "name": "Prova amb perfil diferent",
-    "email": "aaaa@aa.com",
-    "message": "fsdfsd"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 9,
-  "fields": {
-    "created": "2023-02-21T15:26:51.106Z",
-    "name": "Pere",
-    "email": "aaaa@aa.com",
-    "message": "fsfdfsfs"
-  }
-},
-{
-  "model": "wagtail_ajax_contact_form.contactsubmission",
-  "pk": 10,
-  "fields": {
-    "created": "2023-02-22T10:32:10.401Z",
-    "name": "Pere",
-    "email": "aaaa@aa.com",
-    "message": "msg de prova\nsalts de linia"
   }
 },
 {
