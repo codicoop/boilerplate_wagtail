@@ -1,11 +1,34 @@
+from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
+from wagtail.admin.forms import WagtailAdminPageForm
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.models import Orderable
 
 from apps.base.models import BasePage
+
+
+class AboutUsForm(WagtailAdminPageForm):
+    def clean(self):
+        cleaned_data = super().clean()
+        # We cannot do this validation in AboutUsPage.clean because the videos
+        # are a kind of m2m data, and when it calls .clean() the m2m data of
+        # the model is not saved yet so we could only access the "old" data
+        # but not the one just send in the form.
+        # This post explain the "formsets" solution used here:
+        # https://github.com/wagtail/wagtail/issues/3175#issuecomment-513917840
+        if len(self.formsets['video_items'].forms) != 6:
+            raise ValidationError(
+                # Having to use non field errors as there's not a field called
+                # "video_items".
+                {NON_FIELD_ERRORS: _(
+                    "There need to be exactly 6 videos to be able to save "
+                    "the changes."
+                )}
+            )
+        return cleaned_data
 
 
 class AboutUsPage(BasePage):
@@ -28,6 +51,7 @@ class AboutUsPage(BasePage):
     template = "pages/about_us.html"
     parent_page_types = ["cms_site.HomePage"]
     max_count = 1
+    base_form_class = AboutUsForm
 
 
 class VideoItem(Orderable, ClusterableModel):
