@@ -286,7 +286,7 @@ After having set up the `doctl` command in your system according to the
 aforementioned documentation, copy the generated
 image to another tag that will include the DO prefix:
 
-    docker tag ciurans:preproduction registry.digitalocean.com/codihub/ciurans:preproduction
+    `docker tag ciurans:preproduction registry.digitalocean.com/codihub/ciurans:preproduction`
 
 Then push it:
 
@@ -366,7 +366,68 @@ but instead of using the tag `ciurans:preproduction`, use:
 
 ### First time deployment
 
-TO DO
+At some point of the process we need to give access to the client for them to
+start filling the information at the CMS, collect photos for the sections,
+write missing texts, etc.
+
+We already leave the fixtures in the best state that we can with the information
+that we have before giving access to the client.
+
+An option is to give access in the preproduction server, but given that's the
+first time, we can do the production deployment at DO. That way when we reach
+the point in which is ready to be opened to the public, only a change of DNSs
+will be necessary.
+
+#### The first deployment itself
+
+Follow the steps detailed in the wiki, until you have the project_name.do.codi.coop
+host working correctly.
+
+Then:
+
+1. Run migrations.
+2. Import the fixtures.
+3. Log-in using the default superuser account according the the environment variable
+settings.
+4. This password should only be used for a first time login to change it for another
+one, given that is stored in the environment variables and in local files of
+the developers, and given that is a highly sensitive information, we don't want
+to risk forgetting to change it in case we leave it for later.
+So, right away, change the password for this user, and write down the new login
+details in the password manager.
+
+#### Updating a version that includes new fixtures
+
+If you upload a new image version containing updated fixtures, make sure that
+you are doing this in a stage of the process in which the client did not update
+any information yet.
+
+From the moment they start including real information, the fixtures should never
+be updated again in production. They should be kept updated as they're a great
+tool for developing, though.
+
+If you are in this situation in which you can completely override the CMS's
+database and you want to do that with new fixtures, the steps are:
+
+1. Make sure the fixtures are clean from undesired information. I.e., is you've
+been testing the contact form, the `AjaxContactSubmission` (if you kept the name)
+will be full of garbage entries. Before generating the fixtures empty the model,
+you can use the `shell_plus` command and then something like
+`AjaxContactSubmission.objects.all().delete()`.
+2. Obviously update the docker image and app settings as with any update.
+2. Go to the Databases section, and directly delete the project's database.
+**Double check as much as possible at this point to make sure you are deleting
+the right database.**
+3. Recreate the database with the same exact name.
+4. At the app, run the command to import the fixtures.
+
+Now you won't be able to login with the superuser account because the password
+is again the one specified in the environment variables.
+Read and follow the instructions of the 4th point in the section above,
+*The first deployment itself*. With the difference that this time you should
+set the same password that we already have in the password manager, don't create
+a new entry.
+
 
 ### Updating
 
