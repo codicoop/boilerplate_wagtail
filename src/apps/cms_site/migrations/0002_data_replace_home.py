@@ -3,6 +3,10 @@ from django.db import migrations
 
 def replace_home(apps, schema_editor):
     """
+    TLDR: After this migration, you can just use the model
+    *apps.cms_site.models.HomePage* to modify your home page. Still we
+    recommend you to read this documentation.
+
     If we were using a standalone Wagtail installation, we would already have
     a 'home' app with a 'HomePage' page model and we could just extend it,
     and no extra steps would be needed in the CMS admin.
@@ -10,11 +14,18 @@ def replace_home(apps, schema_editor):
     leaves us without this initial 'home' app, but Wagtail needs to create
     a page instance initially anyway (I guess that if there's only the Root
     level something might crash?).
+    That means that with the normal initialization over a Django project, you
+    end up with a database containing a Page (inside the Root level) that is
+    using the model: wagtail.project_template.home.models.HomePage.
 
     That means that when you access the root level of your site, aka:
     https://localhost:8001/
     You will always see the Welcome page and you cannot modify its model
     anywhere.
+
+    You will normally want to have your own model for the Home page that you
+    can add fields and modify at your will.
+
     From that point you normally need to:
     1. Create an app with some model that you will use as the home page.
     2. After migrating, access the admin panel and create a page at root leave
@@ -31,7 +42,7 @@ def replace_home(apps, schema_editor):
     is very annoying.
 
     The purpose of this migration is to replace the "Welcome to Wagtail" page
-    by our own Home page automatically so none of these steps are necessary
+    by our own HomePage model automatically so none of these steps are necessary
     anymore.
 
     - The Root page in Wagtail 2.16.2:

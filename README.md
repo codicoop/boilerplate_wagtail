@@ -11,7 +11,7 @@ the package Whitenoise.
 
 ## Prerequisites
 
-Knowledge of Python, virtual environments and Django are assumed for
+Knowledge of Python, virtual environments, Django and Wagtail are assumed for
 this tutorial.
 
 We use Pyenv to have multiple Python versions and Poetry for managing packages
@@ -73,37 +73,43 @@ Which will validate the format and run the tests.
 Tox will automatically be run when you push a PR to Github. The configuration
 is in the `.github` folder.
 
-### First setup in Wagtail's admin panel
+### Initial migration
 
-The behavior of the root page deserves some special attention to understand and
-avoid confusion.
+This boilerplate include a migration that sets up the initial home page for you.
 
-Using the Pages menu, go to the root level (at the topmost breadcrumb you'll
-only see an earth globe) and read the information card. That means that at this
-root level you will only need to have multiple pages if you are using different
-sites in the same project. Right now, without any other pages added, when you
-access your site's URL (http://localhost:8001) you'll just see a page with that
-root page title.
+We're detailing here what would normally be the manual setup you'll have to do
+when you initialize Wagtail over an existing Django project.
 
-To make it less confusing, edit the page "Home Page" to
-a meaningful name, like "blog", your customer's brand name, etc.
+This migration will:
 
-While editing that page, go to the Promote tab and note that the `Slug` field
-contains **home**. This is another source of confusion given that this slug does
-not actually exist, as you can see if you try to access `http://localhost:8001/home/`.
-
-With a "normal" or standalone installation of Wagtail, this home page is
-already an instance of a class that you can find in the sample source code
-they provide, so you can just modify or extend it right away.
-In this case, though, we're adding wagtail to an existing Django installation,
-for that reason we need a bit more work before we can start modifying the
-home page.
-Check `cms_site/migrations/0002_replace_home.py` to see how we solved this.
-Thanks to that migration, you can just get to `cms_site.models.home.HomePage`
-and work with this class without having to worry about manually creating the
-page and linking it to the site every time you reset the database.
+- Setup the initial Home page with the correct information. We highly recommend
+to read *apps.cms_site.migrations.0002_data_replace_home*'s documentation to
+understand what's going on with the home page.
+- Create an initial superuser, using the settings `DJANGO_SUPERUSER_EMAIL` and
+`DJANGO_SUPERUSER_PASSWORD`. You need to have these settings defined
+before running the initial migration for this to happen. Note that the first
+time you generate fixtures for the site (as explained later on), those will get
+"bound" to the user name you are using. For example, if I start the project
+and create content with the user hola@codi.coop, every other developer needs to
+have this same user created to be able to import the fixtures.
 
 ### Internationalization
+
+You have 2 separated blocks of content to be translated
+1. The source code literals, which include all the strings from the front end
+templates as well as the strings in your python files for the CMS panel.
+2. The content of the website itself.
+
+Recommendations for your development process:
+
+- Leave the translations for the very
+last of the steps, after all the final information is in place and the customer
+gave the OK for the base language.
+- For your content, use the most comfortable language for your customer to work
+with.
+- In your source code, always use english for your literals, even if the website
+is not going to be available in this language at all. More detauls about that
+in the following sections.
 
 #### Source code
 
