@@ -120,7 +120,7 @@ INSTALLED_APPS = [
     "apps.users",
     "apps.cms_site",
     "apps.cms_api",
-    "apps.blog",
+    # "apps.blog",
     "apps.wagtail_ajax_contact_form",
     "django.contrib.postgres",
     "django.contrib.admin",
