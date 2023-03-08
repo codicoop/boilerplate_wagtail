@@ -1,4 +1,4 @@
-from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
+from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
@@ -19,14 +19,16 @@ class AboutUsForm(WagtailAdminPageForm):
         # but not the one just send in the form.
         # This post explain the "formsets" solution used here:
         # https://github.com/wagtail/wagtail/issues/3175#issuecomment-513917840
-        if len(self.formsets['video_items'].forms) != 6:
+        if len(self.formsets["video_items"].forms) != 6:
             raise ValidationError(
                 # Having to use non field errors as there's not a field called
                 # "video_items".
-                {NON_FIELD_ERRORS: _(
-                    "There need to be exactly 6 videos to be able to save "
-                    "the changes."
-                )}
+                {
+                    NON_FIELD_ERRORS: _(
+                        "There need to be exactly 6 videos to be able to save "
+                        "the changes."
+                    )
+                }
             )
         return cleaned_data
 
