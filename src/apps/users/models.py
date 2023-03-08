@@ -4,6 +4,7 @@ from django.contrib.auth.models import (
     PermissionsMixin,
 )
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class UserManager(BaseUserManager):
@@ -39,6 +40,16 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
+    first_name = models.CharField(
+        _("Name"),
+        max_length=50,
+        default="",
+    )
+    last_name = models.CharField(
+        _("Surnames"),
+        max_length=100,
+        default="",
+    )
     email = models.EmailField(
         verbose_name="email address",
         max_length=255,
