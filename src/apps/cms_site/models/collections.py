@@ -22,9 +22,15 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     content_panels = BasePage.content_panels + [
         HelpPanel(
             _(
-                "To manage the list of collections that appear in this section"
-                " you must edit the Home page, as the information is taken "
-                "from there."
+                "In the Collections section, we show the user the different "
+                "collections in a full-screen sized mosaic of pictures."
+                "These pictures are the same than the collections shown in the "
+                "Home page."
+                "Therefore, if you want to change the content of this section, you "
+                "must edit the fields 'Image linking to the 1st collection', "
+                "'Image linking to the 2nd collection' and 'Image linking to "
+                "the 3rd collection' that you will find when editing the Home "
+                "page."
             )
         ),
     ]
