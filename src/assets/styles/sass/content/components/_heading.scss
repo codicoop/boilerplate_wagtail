@@ -30,6 +30,7 @@
   z-index: 1;
   
   &__title {
+    grid-column: 2 / span 4;
     padding-bottom: var(--padding-bottom);
     color: var(--white);
   }
