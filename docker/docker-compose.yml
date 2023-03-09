@@ -24,7 +24,7 @@ services:
       - 80:80
 
   develop_wagtail_startup_commands:
-    restart: on-failure
+    restart: "no"
     container_name: develop_wagtail_startup_commands
     build:
       context: ..
