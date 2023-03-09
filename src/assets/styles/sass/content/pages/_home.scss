@@ -14,6 +14,8 @@
     }
   }
   .collections {
+    --margin-top-collections: var(--padding-xxlg);
+
     &__title {
       --grid-column: 2;
       --padding-left: var(--padding-lg);
@@ -45,6 +47,8 @@
       }
     }
     .collections {
+    --margin-top-collections: 128px;
+
       &__title {
         --grid-column: 2 / -2;
         --padding-left: 0;
@@ -122,6 +126,7 @@
   }
   .collections {
     grid-column: 1 / -1;
+    margin-top: var(--margin-top-collections);
 
     &__title {
       grid-column: var(--grid-column);
@@ -154,6 +159,9 @@
       max-width: 300px;
       color: var(--white);
     }
+  }
+  .overlay + .collections {
+    margin-top: 0;
   }
   .custom-projects {
     grid-column: 1 / -1;
