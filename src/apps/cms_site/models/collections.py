@@ -154,6 +154,11 @@ class CollectionItem(Orderable, ClusterableModel):
         verbose_name=_("Image"),
         on_delete=models.CASCADE,
         related_name="+",
+        help_text=_(
+            "To avoid cutting the picture in the thumbnail, the "
+            "uploaded image should have a 1x1 proportion. Minimum recommended "
+            "size is 2.000x2.000px."
+        )
     )
     model = models.ForeignKey(
         "cms_site.CollectionItemModel",
