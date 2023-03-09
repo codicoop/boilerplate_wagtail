@@ -18,6 +18,13 @@ class BasePage(Page):
         # programatically creating a HomePage instance.
         null=True,
         blank=False,
+        help_text=_(
+            "Aquesta imatge està pensada per ser decorativa i crear "
+            "acompanyar el contingut. Segons la resolució i el dispositiu de "
+            "l'usuari, la mida i proporció variarà, i per tant es retallaran "
+            "parts de la imatge. La proporció recomanada és de 2x1, amb una "
+            "mida mínima de 2.000x1.000px."
+        ),
     )
 
     content_panels = Page.content_panels + [
