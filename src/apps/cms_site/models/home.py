@@ -249,12 +249,30 @@ class HomePage(BasePage):
 
     def get_context(self, request, *args, **kwargs):
         ctxt = super().get_context(request, *args, **kwargs)
+        ctxt = self.add_news_to_context(ctxt)
+        ctxt = self.add_posts_to_context(ctxt)
+        return ctxt
+
+    def add_news_to_context(self, context):
+        news_model = apps.get_model("cms_site", "NewsPage")
+        news_page = news_model.objects.first()
+        if news_page:
+            context.update(
+                {
+                    "news_url": news_page.get_url(),
+                }
+            )
+            return context
+        return context
+
+    def add_posts_to_context(self, context):
         instagram_post_model = apps.get_model("cms_site", "InstagramPost")
         posts = instagram_post_model.objects.all()[:3]
         if posts:
-            ctxt.update(
+            context.update(
                 {
                     "instagram_posts": posts,
                 },
             )
-        return ctxt
+            return context
+        return context
