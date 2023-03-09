@@ -292,7 +292,7 @@ After having set up the `doctl` command in your system according to the
 aforementioned documentation, copy the generated
 image to another tag that will include the DO prefix:
 
-    `docker tag ciurans:preproduction registry.digitalocean.com/codihub/ciurans:preproduction`
+    docker tag ciurans:preproduction registry.digitalocean.com/codihub/ciurans:preproduction
 
 Then push it:
 
