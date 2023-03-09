@@ -2,7 +2,7 @@
 // Dynamic variables
 
 // Pàgina de portada de colleccions
-.collections {
+.collections-catalog {
   --display: flex;
   --height: auto;
 
@@ -18,7 +18,7 @@
   }
   &__item {
     &:hover {
-      .collections__item-title {
+      .collections-catalog__item-title {
         --color: var(--white);
         --font-weight: 700;
       }
@@ -66,7 +66,7 @@
 
 @media (min-width: 1024px) {
   // Pàgina de portada de colleccions
-  .collections {
+  .collections-catalog {
     --display: grid;
     --height: 100vh;
 
@@ -94,14 +94,14 @@
       }
       // Dealing with hover behaviour
       &:hover {
-        .collections__item-title {
+        .collections-catalog__item-title {
           --color: var(--white);
           --font-weight: 700;
         }
         .container-square-fullheight-image {
           --background-image-custom: var(--bg-image);
         }
-        .collections__item-shade {
+        .collections-catalog__item-shade {
           --background-color-shade: black;
         }
       }
@@ -143,7 +143,7 @@
 
 // Layout
 
-.collections {
+.collections-catalog {
   display: var(--display);
   flex-direction: column;
   grid-template-columns: repeat(12, minmax(auto, 1fr));
