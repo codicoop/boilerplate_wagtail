@@ -31,8 +31,13 @@ class BasePage(Page):
         FieldPanel("header_image"),
     ]
     max_count = 1
-
     show_in_menus_default = False
+    is_submitable = False
+    is_unpublishable = False
+    # Removing this dropdown is also removing the "Delete" page option that it
+    # contains. If you enable it, make sure that you actually pretend to give
+    # the editor access to every action it provides!
+    show_more_dropdown_in_list_actions = False
 
     class Meta:
         abstract = True

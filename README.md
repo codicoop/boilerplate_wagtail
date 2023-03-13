@@ -213,6 +213,33 @@ Run this command:
 > To be able to load the fixtures, the `DJANGO_SUPERUSER_EMAIL` setting must be
 > set to `hola@codi.coop`.
 
+### CMS's admin modifications to page actions, and how to manage them
+
+We use hooks to modify the available page actions to control what the editors
+can and cannot do beyond what can be controlled by the permissions system.
+
+As you'll see in the official documentation, most hooks let you just add more
+buttons, but not edit or remove the existing ones.
+
+But the hooks that are prefixed *construct_* give us access to the entire
+renderization, for example:
+https://docs.wagtail.org/en/stable/reference/hooks.html#construct-page-action-menu
+
+Following this technique, this boilerplate comes with the following properties
+in the `BasePage` model:
+
+    is_submitable = False
+    is_unpublishable = False
+
+Which control that the corresponding buttons are rendered or not.
+
+    show_more_dropdown_in_list_actions = False
+
+Which hides the "More" dropdown in the actions for each page in the list view.
+
+You can customize all these tweaks in `apps.base.wagtail_hooks`.
+
+
 # TO DO: Different phases of developing
 
 ## Initial phase
