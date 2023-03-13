@@ -18,7 +18,6 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
 
     parent_page_types = ["cms_site.HomePage"]
     page_description = _("Main page for custom projects section.")
-    max_count = 1
     template = "pages/custom_projects/page.html"
 
     def get_context(self, request, *args, **kwargs):
@@ -76,6 +75,7 @@ class CustomProject(BasePage):
     parent_page_types = ["cms_site.CustomProjectsPage"]
     page_description = _("Custom project page.")
     template = "pages/custom_projects/custom_project.html"
+    max_count = None
 
     def save(self, clean=True, user=None, log_action=False, **kwargs):
         self.create_or_update_collection()

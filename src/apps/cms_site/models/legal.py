@@ -26,4 +26,3 @@ class LegalPage(BasePage):
 
     template = "pages/legal.html"
     parent_page_types = ["cms_site.HomePage"]
-    max_count = 1

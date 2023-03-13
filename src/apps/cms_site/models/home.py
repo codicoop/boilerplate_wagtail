@@ -197,7 +197,6 @@ class HomePage(BasePage):
 
     template = "pages/home.html"
     parent_page_types = ["wagtailcore.Page"]
-    max_count = 1
 
     @property
     def display_collection_1(self):

@@ -65,7 +65,6 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
         ),
     ]
 
-    max_count = 1
     template = "pages/contact_ajax.html"
 
     @classmethod

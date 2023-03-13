@@ -30,6 +30,8 @@ class BasePage(Page):
     content_panels = Page.content_panels + [
         FieldPanel("header_image"),
     ]
+    max_count = 1
+
     show_in_menus_default = False
 
     class Meta:

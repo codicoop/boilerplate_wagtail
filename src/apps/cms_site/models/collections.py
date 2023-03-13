@@ -16,7 +16,6 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     parent_page_types = ["cms_site.HomePage"]
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
-    max_count = 1
     template = "pages/collections/page.html"
 
     content_panels = BasePage.content_panels + [
