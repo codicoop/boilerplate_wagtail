@@ -76,6 +76,7 @@ class CustomProject(BasePage):
     page_description = _("Custom project page.")
     template = "pages/custom_projects/custom_project.html"
     max_count = None
+    is_unpublishable = True
 
     def save(self, clean=True, user=None, log_action=False, **kwargs):
         self.create_or_update_collection()

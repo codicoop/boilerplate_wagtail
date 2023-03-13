@@ -74,6 +74,7 @@ class Collection(BasePage):
     template = "pages/collections/collection.html"
     parent_page_types = ["CollectionsPage"]
     max_count = 3
+    is_unpublishable = True
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
