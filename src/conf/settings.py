@@ -20,7 +20,9 @@ CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
 WAGTAILADMIN_BASE_URL = env("WAGTAILADMIN_BASE_URL", default="")
 
 # Raises django's ImproperlyConfigured exception if SECRET_KEY not in os.environ
-SECRET_KEY = env.str("SECRET_KEY", default=get_random_secret_key())
+# Prefixing it to prevent the key from starting with a # char, which will
+# make Django crash.
+SECRET_KEY = env.str("SECRET_KEY", default=f"A{get_random_secret_key()}")
 
 # Variables for non-interactive superuser creation
 DJANGO_SUPERUSER_EMAIL = env("DJANGO_SUPERUSER_EMAIL", default=None)
