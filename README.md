@@ -108,7 +108,7 @@ gave the OK for the base language.
 - For your content, use the most comfortable language for your customer to work
 with.
 - In your source code, always use english for your literals, even if the website
-is not going to be available in this language at all. More detauls about that
+is not going to be available in this language at all. More details about that
 in the following sections.
 
 #### Source code
@@ -169,6 +169,25 @@ already implemented but not updated in the documentation, or is still pending.
 ##### Translatable snippets
 
 Snippets can be translatable: https://docs.wagtail.org/en/stable/advanced_topics/i18n.html#translatable-snippets
+
+##### Generating the .po files
+
+To translate the source code, you need to use the django's manage.py to
+generate the .po files and then compile them.
+
+In a previous project, it workes using the parameter `--all`, but this time I
+only managed to make it work by specifying the languages:
+
+    python manage.py makemessages -l ca -v 3
+    python manage.py makemessages -l es -v 3
+
+Also, when using it from the poetry's virtual environment, if I tried it with
+`django-admin` instead of `python manage.py`, it didn't work.
+
+You will need `gettext` installed to be able to generate these files. There's
+the idea of installing it in the Docker image so everyone will be able to
+generate the files from the docker container itself, but it's not done yet. So
+for Windows users, better ask someone with linux to generate the files for you.
 
 ### Wagtail's styleguide
 
