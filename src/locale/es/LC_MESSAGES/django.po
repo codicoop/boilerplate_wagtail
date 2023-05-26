@@ -1,0 +1,658 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-26 12:53+0200\n"
+"PO-Revision-Date: 2023-05-26 15:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: apps/base/models.py:14
+msgid "Header image"
+msgstr "Imagen de cabecera"
+
+#: apps/base/models.py:22
+msgid ""
+"Aquesta imatge està pensada per ser decorativa i crear acompanyar el "
+"contingut. Segons la resolució i el dispositiu de l'usuari, la mida i "
+"proporció variarà, i per tant es retallaran parts de la imatge. La proporció "
+"recomanada és de 2x1, amb una mida mínima de 2.000x1.000px."
+msgstr ""
+"Esta imagen está pensada para ser decorativa y acompañar el contenido. "
+"Dependiendo de la resolución y dispositivo del usuario, la medida y "
+"proporción variará, y por lo tanto se recortaran partes de la imagen. La "
+"proporción recomendada es 2x1, con una medida mínima de 2.000x1.000 píxeles."
+
+#: apps/base/models.py:63
+msgid "Menu title"
+msgstr "Título del menú"
+
+#: apps/base/models.py:67
+msgid "If not set, the menu title will be the page title."
+msgstr "Si se deja en blanco, el título del menú será el título de la página."
+
+#: apps/blog/models.py:30
+msgid "Blog category"
+msgstr "Categoría del blog"
+
+#: apps/blog/models.py:31
+msgid "Blog categories"
+msgstr "Categorías del blog"
+
+#: apps/cms_site/blocks.py:7
+msgid "Quote"
+msgstr "Cita"
+
+#: apps/cms_site/blocks.py:8 apps/users/models.py:44
+msgid "Name"
+msgstr "Nombre"
+
+#: apps/cms_site/blocks.py:10
+msgid "Role"
+msgstr "Rol"
+
+#: apps/cms_site/blocks.py:11
+msgid "I.e.: 'Area collection designer'"
+msgstr "P.e. 'Diseñador de la colección Area'"
+
+#: apps/cms_site/blocks.py:13 apps/cms_site/models/about_us.py:37
+#: apps/cms_site/models/about_us.py:66 apps/cms_site/models/about_us.py:86
+#: apps/cms_site/models/collections.py:54
+msgid "Description"
+msgstr "Descripción"
+
+#: apps/cms_site/blocks.py:14
+msgid "Photo"
+msgstr "Foto"
+
+#: apps/cms_site/models/about_us.py:28
+msgid "There need to be exactly 6 videos to be able to save the changes."
+msgstr "Deben haber exactamente 6 vídeos para poder guardar los cambios."
+
+#: apps/cms_site/models/about_us.py:43
+msgid "Videos"
+msgstr "Vídeos"
+
+#: apps/cms_site/models/about_us.py:44
+msgid "Video"
+msgstr "Video"
+
+#: apps/cms_site/models/about_us.py:48
+msgid "History"
+msgstr "Historia"
+
+#: apps/cms_site/models/about_us.py:49
+msgid "History item"
+msgstr "Artículo de la historia"
+
+#: apps/cms_site/models/about_us.py:64 apps/cms_site/models/about_us.py:85
+#: apps/cms_site/models/collections.py:151 apps/cms_site/models/home.py:13
+#: apps/cms_site/models/home.py:42 apps/cms_site/models/home.py:64
+#: apps/cms_site/models/home.py:86 apps/cms_site/models/home.py:108
+msgid "Title"
+msgstr "Título"
+
+#: apps/cms_site/models/about_us.py:65
+msgid "Embed code"
+msgstr "Código de incrustación"
+
+#: apps/cms_site/models/about_us.py:84
+msgid "Year"
+msgstr "Año"
+
+#: apps/cms_site/models/about_us.py:89 apps/cms_site/models/collections.py:154
+#: apps/cms_site/models/home.py:35 apps/cms_site/models/home.py:49
+#: apps/cms_site/models/home.py:71 apps/cms_site/models/home.py:93
+#: apps/cms_site/models/home.py:115
+msgid "Image"
+msgstr "Imágen"
+
+#: apps/cms_site/models/collections.py:18
+msgid "Main catalog page."
+msgstr "Página principal del catálogo."
+
+#: apps/cms_site/models/collections.py:24
+msgid ""
+"In the Collections section, we show the user the different collections in a "
+"full-screen sized mosaic of pictures.These pictures are the same than the "
+"collections shown in the Home page.Therefore, if you want to change the "
+"content of this section, you must edit the fields 'Image linking to the 1st "
+"collection', 'Image linking to the 2nd collection' and 'Image linking to the "
+"3rd collection' that you will find when editing the Home page."
+msgstr ""
+"En el apartado Colecciones, mostramos al usuario distintas colecciones en un "
+"mosaico de imágenes, a pantalla completa. Dichas imágenes son las mismas que "
+"las colecciones que se muestran en Portada. Por lo tanto, si quieres cambiar "
+"el contenido de esta sección, debes editar los campos \"Imagen enlazando a "
+"la 1a colección\", \"Imagen enlazando a la 2a colección\", \"Imagen "
+"enlazando a la 3a colección\", que encontrarás cuando edites la página "
+"Portada."
+
+#: apps/cms_site/models/collections.py:57
+msgid "Catalogue's PDF"
+msgstr "PDF del catálogo"
+
+#: apps/cms_site/models/collections.py:69
+msgid "Collection items"
+msgstr "Artículos de la colección"
+
+#: apps/cms_site/models/collections.py:70
+msgid "Collection item"
+msgstr "Artículo de la colección"
+
+#: apps/cms_site/models/collections.py:158
+msgid ""
+"To avoid cutting the picture in the thumbnail, the uploaded image should "
+"have a 1x1 proportion. Minimum recommended size is 2.000x2.000px."
+msgstr ""
+"Para evitar que la miniatura que se generará de esta imagen quede cortada, "
+"la imagen que subas debe tener una proporción 1x1. El mínimo recomendado es "
+"de 2.000x2.000 píxeles."
+
+#: apps/cms_site/models/collections.py:165
+msgid "Model"
+msgstr "Modelo"
+
+#: apps/cms_site/models/collections.py:169
+#, python-format
+msgid ""
+"The model is not in the list? To add more, go to <a href=\"%(url)s\" target="
+"\"_blank\">Models</a>."
+msgstr ""
+"El modelo no está en la lista? Para añadir más, ve a <a href=\"%(url)s\" "
+"target=\"_blank\">Modelos</a>."
+
+#: apps/cms_site/models/collections.py:180
+#, python-format
+msgid ""
+"The finishing is not in the list? To add more, go to <a href=\"%(url)s\" "
+"target=\"_blank\">Finishings</a>."
+msgstr ""
+"El acabado no está en la lista? Para añadir más, ve a <a href=\"%(url)s\" "
+"target=\"_blank\">Acabados</a>."
+
+#: apps/cms_site/models/collections.py:191
+#, python-format
+msgid ""
+"The type is not in the list? To add more, go to <a href=\"%(url)s\" target="
+"\"_blank\">Typologies</a>."
+msgstr ""
+"La tipologia no está en la lista? Para añadir más, ve a <a href=\"%(url)s\" "
+"target=\"_blank\">Tipologías</a>."
+
+#: apps/cms_site/models/contact.py:11
+msgid "Contact page"
+msgstr "Página de contacto"
+
+#: apps/cms_site/models/contact.py:15 apps/cms_site/models/contact.py:79
+#: apps/wagtail_ajax_contact_form/models.py:51
+msgid "subject"
+msgstr "asunto"
+
+#: apps/cms_site/models/contact.py:17
+msgid "Label for the Subject field."
+msgstr "Texto para el campo Asunto."
+
+#: apps/cms_site/models/contact.py:18
+msgid "Subject"
+msgstr "Asunto"
+
+#: apps/cms_site/models/contact.py:21 apps/cms_site/models/contact.py:85
+msgid "phone"
+msgstr "teléfono"
+
+#: apps/cms_site/models/contact.py:23
+msgid "Label for the Phone field."
+msgstr "Texto para el campo Teléfono"
+
+#: apps/cms_site/models/contact.py:24
+msgid "Phone"
+msgstr "Teléfono"
+
+#: apps/cms_site/models/contact.py:27 apps/cms_site/models/contact.py:91
+msgid "profile"
+msgstr "perfil"
+
+#: apps/cms_site/models/contact.py:29
+msgid "Label for the Profile field."
+msgstr "Texto para el campo Perfil."
+
+#: apps/cms_site/models/contact.py:30
+msgid "Profile"
+msgstr "Perfil"
+
+#: apps/cms_site/models/contact.py:33
+msgid "personal data treatment"
+msgstr "tratamiento de datos personales"
+
+#: apps/cms_site/models/contact.py:35
+msgid "Label for the Personal data treatment checkbox."
+msgstr "Texto para la casilla de Tratamiento de datos personales."
+
+#: apps/cms_site/models/contact.py:36 apps/cms_site/models/contact.py:97
+msgid "Treatment of personal data authorization"
+msgstr "Autorización para el tratamiento de datos personales"
+
+#: apps/cms_site/models/contact.py:39
+msgid "personal data for comercial use treatment"
+msgstr "tratamiento de datos personales para fines comerciales"
+
+#: apps/cms_site/models/contact.py:42
+msgid "Label for the Personal data for comercial use treatment checkbox."
+msgstr ""
+"Texto para la casilla Tratamiento de datos personales para fines comerciales."
+
+#: apps/cms_site/models/contact.py:44 apps/cms_site/models/contact.py:100
+msgid "Treatment of personal data authorization for comercial purposes"
+msgstr ""
+"Autorización para el tratamiento de datos personales con fines comerciales"
+
+#: apps/cms_site/models/contact.py:60
+#: apps/wagtail_ajax_contact_form/models.py:75
+msgid "Field labels"
+msgstr "Etiquetas de los campos"
+
+#: apps/cms_site/models/contact.py:64
+#: apps/wagtail_ajax_contact_form/models.py:79
+msgid "Form settings"
+msgstr "Configuración del formulario"
+
+#: apps/cms_site/models/custom_projects.py:13
+#: apps/cms_site/models/custom_projects.py:36
+msgid "description"
+msgstr "descripción"
+
+#: apps/cms_site/models/custom_projects.py:20
+msgid "Main page for custom projects section."
+msgstr "Página principal del apartado Proyectos a medida"
+
+#: apps/cms_site/models/custom_projects.py:39
+msgid "Main section image"
+msgstr "Imagen de la sección principal"
+
+#: apps/cms_site/models/custom_projects.py:60
+#, python-format
+msgid ""
+"To manage the project's photos, firstly save this page's changes (either as "
+"Draft or Published) and then go to the <a href=\"/cms/images\">"
+"%(url_label)s</a>, select the collection with the same namne as this project "
+"and there add the images."
+msgstr ""
+"Para gestionar las fotos del proyecto, en primer lugar guarda los cambios "
+"(ya sea como Boceto o Publicado) y luego ve a <a href=\"/cms/images\">"
+"%(url_label)s</a>, selecciona la colección indicada, y añade ahí las "
+"imágenes."
+
+#: apps/cms_site/models/custom_projects.py:76
+msgid "Custom project page."
+msgstr "Página de proyecto a medida."
+
+#: apps/cms_site/models/designers.py:16
+msgid "Compositions, renders and photos"
+msgstr "Composiciones, renders y fotos"
+
+#: apps/cms_site/models/home.py:18 apps/cms_site/models/legal.py:10
+msgid "Text"
+msgstr "Texto"
+
+#: apps/cms_site/models/home.py:20
+msgid "Button title"
+msgstr "Título del botón"
+
+#: apps/cms_site/models/home.py:27
+msgid "Linked page"
+msgstr "Página enlazada"
+
+#: apps/cms_site/models/home.py:57 apps/cms_site/models/home.py:79
+#: apps/cms_site/models/home.py:101
+msgid "Collection's page"
+msgstr "Página de colección"
+
+#: apps/cms_site/models/home.py:123
+msgid "Custom projects' page"
+msgstr "Página de proyecto a medida"
+
+#: apps/cms_site/models/home.py:130
+msgid "Display Instagram feed section"
+msgstr "Mostrar el bloque de publicaciones de Instagram"
+
+#: apps/cms_site/models/home.py:134
+msgid "Display header highlighted overlay"
+msgstr ""
+"Mostrar el bloque de \"destacado\" que se superpone a la imagen de portada"
+
+#: apps/cms_site/models/home.py:153
+msgid "Introduction overlaying header"
+msgstr "Cabecera del \"destacado\" en portada"
+
+#: apps/cms_site/models/home.py:161
+msgid "Image linking to the 1st collection"
+msgstr "Imagen que enlaza con la 1a colección"
+
+#: apps/cms_site/models/home.py:169
+msgid "Image linking to the 2nd collection"
+msgstr "Imagen que enlaza con la 2a colección"
+
+#: apps/cms_site/models/home.py:177
+msgid "Image linking to the 3rd collection"
+msgstr "Imagen que enlaza con la 3a colección"
+
+#: apps/cms_site/models/home.py:185
+msgid "Custom projects block"
+msgstr "Bloque de proyectos a medida"
+
+#: apps/cms_site/models/home.py:194
+msgid "Section's visibility configuration"
+msgstr "Configuración de la visibilidad de la sección"
+
+#: apps/cms_site/models/news.py:15
+msgid "Instagram posts"
+msgstr "Publicaciones de Instagram"
+
+#: apps/cms_site/models/news.py:16
+msgid "Instagram post"
+msgstr "Publicación de Instagram"
+
+#: apps/cms_site/models/news.py:31
+msgid "Link to post"
+msgstr "Enlace a la publicación"
+
+#: apps/cms_site/models/news.py:33
+msgid "Example: https://www.instagram.com/p/CfyTUDfIxeY"
+msgstr "Ejemplo: https://www.instagram.com/p/CfyTUDfIxeY"
+
+#: apps/cms_site/models/settings.py:13
+msgid "Facebook URL"
+msgstr "URL (enlace) a Facebook"
+
+#: apps/cms_site/models/settings.py:19
+msgid "Youtube URL"
+msgstr "URL (enlace) a Youtube"
+
+#: apps/cms_site/models/settings.py:25
+msgid "Instagram URL"
+msgstr "URL (enlace) a Instagram"
+
+#: apps/cms_site/models/settings.py:31
+msgid "Vimeo URL"
+msgstr "URL (enlace) a Vimeo"
+
+#: apps/cms_site/models/settings.py:43
+msgid "Social Media URLs"
+msgstr "Enlaces a redes sociales"
+
+#: apps/cms_site/models/settings.py:53
+msgid "Contact e-mail"
+msgstr "Correo electrónico de contacto"
+
+#: apps/cms_site/models/settings.py:59
+msgid "Address"
+msgstr "Dirección"
+
+#: apps/cms_site/models/settings.py:67
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: apps/cms_site/models/settings.py:79
+msgid "Contact Details"
+msgstr "Datos de contacto"
+
+#: apps/cms_site/models/snippets.py:8 apps/cms_site/models/snippets.py:23
+#: apps/cms_site/models/snippets.py:38
+#: apps/wagtail_ajax_contact_form/models.py:19
+#: apps/wagtail_ajax_contact_form/models.py:130
+msgid "name"
+msgstr "nombre"
+
+#: apps/cms_site/models/snippets.py:15
+msgid "Collection item type"
+msgstr "Tipología de artículo de la colección"
+
+#: apps/cms_site/models/snippets.py:16
+msgid "Collection item types"
+msgstr "Tipologías de artículo de la colección"
+
+#: apps/cms_site/models/snippets.py:30
+msgid "Collection item finishing"
+msgstr "Acabado de la colección"
+
+#: apps/cms_site/models/snippets.py:31
+msgid "Collection item finishings"
+msgstr "Acabados de la colección"
+
+#: apps/cms_site/models/snippets.py:45
+msgid "Collection item model"
+msgstr "Modelo de la colección"
+
+#: apps/cms_site/models/snippets.py:46
+msgid "Collection item models"
+msgstr "Modelos de la colección"
+
+#: apps/cms_site/wagtail_hooks.py:32
+msgid "Finishings"
+msgstr "Acabados"
+
+#: apps/cms_site/wagtail_hooks.py:41
+msgid "Types"
+msgstr "Tipologías"
+
+#: apps/cms_site/wagtail_hooks.py:50
+msgid "Models"
+msgstr "Modelos"
+
+#: apps/users/models.py:49
+msgid "Surnames"
+msgstr "Apellidos"
+
+#: apps/wagtail_ajax_contact_form/models.py:21
+msgid "Label for the Name field."
+msgstr "Texto para el campo Nombre"
+
+#: apps/wagtail_ajax_contact_form/models.py:22
+msgid "Your name"
+msgstr "Tu nombre"
+
+#: apps/wagtail_ajax_contact_form/models.py:25
+msgid "email"
+msgstr "email"
+
+#: apps/wagtail_ajax_contact_form/models.py:27
+msgid "Label for the e-mail field."
+msgstr "Texto para el campo Email"
+
+#: apps/wagtail_ajax_contact_form/models.py:28
+msgid "Your e-mail"
+msgstr "Tu correo electrónico"
+
+#: apps/wagtail_ajax_contact_form/models.py:31
+#: apps/wagtail_ajax_contact_form/models.py:138
+msgid "message"
+msgstr "mensaje"
+
+#: apps/wagtail_ajax_contact_form/models.py:33
+msgid "Label for the Message field."
+msgstr "Texto para el campo Mensaje"
+
+#: apps/wagtail_ajax_contact_form/models.py:34
+msgid "Message"
+msgstr "Mensaje"
+
+#: apps/wagtail_ajax_contact_form/models.py:39
+msgid "success message"
+msgstr "mensaje de éxito"
+
+#: apps/wagtail_ajax_contact_form/models.py:39
+msgid "Message sent, thanks for contacting us!"
+msgstr "Mensaje enviado, ¡gracias por contactar con nosotros!"
+
+#: apps/wagtail_ajax_contact_form/models.py:42
+msgid "to address"
+msgstr "dirección del destinatario"
+
+#: apps/wagtail_ajax_contact_form/models.py:46
+msgid ""
+"E-mail to notify when a new submission is received. Leave it empty to "
+"disable the notifications."
+msgstr ""
+"Email para notificar los nuevos mensajes recibidos. Déjalo en blanco para "
+"desactivar las notificaciones."
+
+#: apps/wagtail_ajax_contact_form/models.py:56
+msgid ""
+"If empty, you will not get e-mail notifications for new form submissions."
+msgstr ""
+"Si está en blanco, no vas a recibir un correo notificándote la recepción de "
+"nuevos mensajes del formulario."
+
+#: apps/wagtail_ajax_contact_form/models.py:125
+msgid "contact form submission"
+msgstr "mensaje del formulario de contacto"
+
+#: apps/wagtail_ajax_contact_form/models.py:126
+msgid "contact form submissions"
+msgstr "mensajes del formulario de contacto"
+
+#: apps/wagtail_ajax_contact_form/models.py:134
+msgid "e-mail"
+msgstr "e-mail"
+
+#. Translators: This is for Wagtail's admin menu, keep it very short.
+#: apps/wagtail_ajax_contact_form/wagtail_hooks.py:27
+msgid "Form submissions"
+msgstr "Mensajes recibidos"
+
+#: templates/base.html:12 templates/base.html:148
+msgid "Mobles Ciurans"
+msgstr "Mobles Ciurans"
+
+#: templates/base.html:47
+msgid "Open menu"
+msgstr "Abrir el menú"
+
+#: templates/base.html:62
+msgid "Logo of Ciurans"
+msgstr "Logo de Ciurans"
+
+#: templates/base.html:66
+msgid "Close menu"
+msgstr "Cerrar el menú"
+
+#: templates/base.html:84
+msgid "Client Area"
+msgstr "Área de cliente"
+
+#: templates/base.html:120
+msgid "Where are we"
+msgstr "Donde estamos"
+
+#: templates/base.html:130
+msgid "Contact"
+msgstr "Contacto"
+
+#: templates/base.html:151
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+
+#: templates/base.html:156
+msgid "Legal warning"
+msgstr "Aviso legal"
+
+#: templates/blog/post.html:5
+msgid "Back"
+msgstr "Volver"
+
+#: templates/blog/post.html:9
+msgid "Category"
+msgstr "Categoría"
+
+#: templates/elements/social.html:5
+msgid "Follow us on social media"
+msgstr "Síguenos en redes sociales"
+
+#: templates/elements/social.html:11
+msgid "Facebook Icon"
+msgstr "Icono de Facebook"
+
+#: templates/elements/social.html:18
+msgid "Youtube Icon"
+msgstr "Icono de Youtube"
+
+#: templates/elements/social.html:25
+msgid "Instagram Icon"
+msgstr "Icono de Instagram"
+
+#: templates/elements/social.html:32
+msgid "Vimeo Icon"
+msgstr "Icono de Vimeo"
+
+#: templates/pages/about_us.html:18
+msgid "Our history"
+msgstr "Nuestra historia"
+
+#: templates/pages/collections/block_item.html:30
+msgid "Close image overlay"
+msgstr "Cerrar imagen"
+
+#: templates/pages/collections/collection.html:20
+#: templates/pages/collections/designers.html:18
+msgid "The designers"
+msgstr "Los diseñadores"
+
+#: templates/pages/collections/collection.html:35
+msgid "Download PDF catalogue"
+msgstr "Descargar catálogo en PDF"
+
+#: templates/pages/contact_ajax.html:12
+msgid "Contact us"
+msgstr "Contacta con nosotros"
+
+#: templates/pages/contact_ajax.html:71
+msgid "Interior design studio"
+msgstr "Estudio de interiorismo"
+
+#: templates/pages/contact_ajax.html:74
+msgid "Furniture shop"
+msgstr "Tienda de muebles"
+
+#: templates/pages/contact_ajax.html:77
+msgid "Freelance interior designer"
+msgstr "Interiorista independiente"
+
+#: templates/pages/contact_ajax.html:80
+msgid "Others"
+msgstr "Otros"
+
+#: templates/pages/contact_ajax.html:130
+msgid "Send"
+msgstr "Enviar"
+
+#: templates/pages/contact_ajax.html:141
+msgid "Where we are"
+msgstr "Donde estamos"
+
+#: templates/pages/home.html:44
+msgid "Catalogue"
+msgstr "Catálogo"
+
+#: templates/pages/home.html:105
+msgid "Custom projects"
+msgstr "Proyectos a medida"
+
+#: templates/pages/home.html:121
+msgid "News"
+msgstr "Novedades"
+
+#: templates/pages/home.html:136
+msgid "More news"
+msgstr "Más novedades"
