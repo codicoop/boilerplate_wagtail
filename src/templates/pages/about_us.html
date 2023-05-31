@@ -13,12 +13,15 @@
   <section class="about-us__how-to">
     <div id="mySliderApp"></div>
   </section>
-  <section class="about-us__history">
-    <div class="about-us__history-title title-1--light grid-1">
-      <p class="grid-item-1-4">{% translate 'Our history' %}</p>
-    </div>
-    <div id="myHistoryApp"></div>
-  </section>
+
+  {% if page.history_items.all %}
+    <section class="about-us__history">
+      <div class="about-us__history-title title-1--light grid-1">
+        <p class="grid-item-1-4">{% translate 'Our history' %}</p>
+      </div>
+      <div id="myHistoryApp"></div>
+    </section>
+  {% endif %}
 
 </main>
 
