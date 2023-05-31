@@ -5,6 +5,7 @@ from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from wagtail.admin.forms import WagtailAdminPageForm
 from wagtail.admin.panels import FieldPanel, InlinePanel
+from wagtail.fields import RichTextField
 from wagtail.models import Orderable
 
 from apps.base.models import BasePage
@@ -34,8 +35,20 @@ class AboutUsForm(WagtailAdminPageForm):
 
 
 class AboutUsPage(BasePage):
-    description = models.TextField(_("Description"), default="", blank=True)
-
+    description = RichTextField(
+        _("Description"),
+        default="",
+        blank=True,
+        features=[
+            "h2",
+            "h3",
+            "bold",
+            "italic",
+            "link",
+            "ol",
+            "ul",
+        ],
+    )
     content_panels = BasePage.content_panels + [
         FieldPanel("description"),
         InlinePanel(
