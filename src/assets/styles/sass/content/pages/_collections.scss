@@ -182,6 +182,9 @@
 
 .collections-detail {
   position: relative;
+  .heading {
+    background-position: center 70%;
+  }
 
   &__nav {
     padding-top: var(--padding-xlg);
