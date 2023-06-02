@@ -128,15 +128,15 @@ export default function FilterApp(){
   function getNewImages() {
     let parameters = []
     if (formData.finishing) {
-      parameters.push(`finishing=${formData.finishing}`)
+      parameters.push(`&finishing=${formData.finishing}`)
     }
     if (formData.model) {
-      parameters.push(`model=${formData.model}`)
+      parameters.push(`&model=${formData.model}`)
     }
     if (formData.type) {
-      parameters.push(`type=${formData.type}`)
+      parameters.push(`&type=${formData.type}`)
     }
-    let imagesUrl = `/api/collection_items/?page=${backData.page_id}${parameters.join('&')}`
+    let imagesUrl = `/api/collection_items/?page=${backData.page_id}${parameters.join('')}`
 
     axios({
       method: 'get',
