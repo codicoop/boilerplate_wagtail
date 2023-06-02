@@ -7,28 +7,28 @@
   <ul class="social__icons">
     {% if settings.cms_site.SocialMediaIconsSettings.facebook %}
     <li>
-      <a href="">
+      <a href="{{ settings.cms_site.SocialMediaIconsSettings.facebook }}">
         <img src="{% static 'images/icons/icon_fb.svg' %}" alt="{% translate 'Facebook Icon' %}" class="social__icon">
       </a>
     </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.youtube %}
     <li>
-      <a href="">
+      <a href="{{ settings.cms_site.SocialMediaIconsSettings.youtube }}">
         <img src="{% static 'images/icons/icon_youtube.svg' %}" alt="{% translate 'Youtube Icon' %}" class="social__icon">
       </a>
     </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.instagram %}
     <li>
-      <a href="">
+      <a href="{{ settings.cms_site.SocialMediaIconsSettings.instagram }}">
         <img src="{% static 'images/icons/icon_instagram.svg' %}" alt="{% translate 'Instagram Icon' %}" class="social__icon">
       </a>
     </li>
     {% endif %}
     {% if settings.cms_site.SocialMediaIconsSettings.vimeo %}
     <li>
-      <a href="">
+      <a href="{{ settings.cms_site.SocialMediaIconsSettings.vimeo }}">
         <img src="{% static 'images/icons/icon_vimeo.svg' %}" alt="{% translate 'Vimeo Icon' %}" class="social__icon">
       </a>
     </li>
