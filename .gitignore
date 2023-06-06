@@ -14,3 +14,6 @@ docker/settings/
 docker/compose-*
 
 node_modules/
+
+# A local folder that we use for easily move data dumps:
+dumps/
