@@ -1,27 +1,31 @@
 // Estils per enllaços
-.richtext a {
-  font-weight: bold;
-  color: var(--brown);
-}
-// Estils per negretes
-.richtext b {
-  font-weight: bold;
-}
-// Estils per cursives
-.richtext i {
-  font-style: italic;
-}
-// Estils per quotes
-// .richtext blockquote {}
-
-// Separació de paràgrafs de text
-.richtext p + p {
-  padding-top: 1em;
-}
-// Títol gran
-h2 {
-  // Volem que tingui els estils de .title-1--light
-}
-h3 {
-  // Que tingui els estils de .title-3
+.richtext {
+  a {
+    font-weight: bold;
+    color: var(--brown);
+  }
+  // Estils per negretes
+  b {
+    font-weight: bold;
+  }
+  // Estils per cursives
+  i {
+    font-style: italic;
+  }
+  // Separació de paràgrafs de text
+  p + p {
+    padding-top: 1em;
+  }
+  // Títol gran
+  h2 {
+    padding-top: var(--padding-sm);
+    padding-bottom: var(--padding-md);
+  }
+  h3 {
+    padding-bottom: var(--padding-xsm);
+  }
+  ul {
+    list-style: disc;
+    padding-left: var(--padding-lg);
+  }
 }
