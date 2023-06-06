@@ -39,9 +39,9 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
         _("personal data for comercial use treatment"),
         max_length=250,
         help_text=_(
-            "Label for the Personal data for comercial use treatment " "checkbox."
+            "Label for the Personal data for comercial use treatment checkbox."
         ),
-        default=_("Treatment of personal data authorization for comercial " "purposes"),
+        default=_("Treatment of personal data authorization for comercial purposes"),
     )
 
     """
@@ -56,6 +56,11 @@ class CustomAjaxContact(MenuLabelMixin, AjaxContactPage):
                 FieldPanel("subject_label", classname="full"),
                 FieldPanel("phone_label", classname="full"),
                 FieldPanel("profile_label", classname="full"),
+                FieldPanel("personal_data_auth_label", classname="full"),
+                FieldPanel(
+                    "personal_data_comercial_auth_label",
+                    classname="full",
+                ),
             ],
             heading=_("Field labels"),
         ),
