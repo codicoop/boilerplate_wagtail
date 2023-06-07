@@ -131,7 +131,9 @@
       </div>
       <div class="footer-info__text">
         {% if settings.cms_site.ContactDetailsSettings.phone %}
-        <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
+        <a href="tel:{{ settings.cms_site.ContactDetailsSettings.phone }}">
+          <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
+        </a>
         {% endif %}
           {% if settings.cms_site.ContactDetailsSettings.email %}
             <a href="mailto:{{ settings.cms_site.ContactDetailsSettings.email }}">
