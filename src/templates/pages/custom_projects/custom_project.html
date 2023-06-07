@@ -18,11 +18,34 @@
   <section class="custom-projects__list grid-2">
 
     {% for item in images %}
-    {% image item width-900 as bg_product_card %}
-    <div 
-      class="grid-item-4 container-square-image"
-      style="--bg-image: url('{{ bg_product_card.url }}')"
-      ></div>
+      {% image item width-900 as bg_product_card %}
+      {% image item width-1900 as max_image %}
+      <div 
+        class="grid-item-4 container-square-image"
+        style="--bg-image: url('{{ bg_product_card.url }}')"
+        onclick="openImage(event)"
+      >
+        <div class="modal">
+          <div class="modal__container">
+            <div 
+              class="modal__icon" 
+              onclick="closeImage(event)"
+            >
+              <svg 
+              class="icon-close icon-24" 
+              viewbox="0 0 24 24" 
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M17.7556 6L6.02222 18" />
+              <path d="M6.02222 6L17.7556 18" />
+            </svg>
+            </div>
+            <div class="modal__image">
+              <img src="{{ max_image.url }}" alt="{{ max_image.alt }}" />
+            </div>
+          </div>
+        </div>
+      </div>
     {% endfor %}
 
   </section>

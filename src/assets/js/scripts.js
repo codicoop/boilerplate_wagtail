@@ -121,4 +121,35 @@ function closeFullImageTemplate(event) {
     }
 
     window.removeEventListener("click", listenerFunction)
-  }
+}
+
+// Gestió dels modals de imatge ampliada de projectes a mida
+
+function openImage(event) {
+    console.log("TARGET", event.target)
+    const thisItem = event.target
+    const thisModal = thisItem.querySelector(".modal")
+    console.log("thisModal", thisModal)
+    thisModal.classList.add("is-open")
+
+    function listenerFunction(e){
+        const imageContainer = thisModal.querySelector('.modal__image')
+        const object = imageContainer.querySelector("img")
+        if (!object.contains(e.target)) {
+            thisModal.classList.remove('is-open');
+            window.removeEventListener("click", listenerFunction)
+        }
+    }
+
+    setTimeout(function(){
+        window.addEventListener('click', listenerFunction);
+    }, 100)
+}
+
+function closeImage(event) {
+    console.log("TARGETTT", event.target)
+
+    const thisItem = event.target
+    const thisModal = thisItem.parentElement.parentElement
+    thisModal.classList.remove("is-open")
+}
