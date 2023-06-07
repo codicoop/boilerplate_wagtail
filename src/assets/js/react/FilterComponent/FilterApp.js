@@ -17,10 +17,10 @@ export default function FilterApp(){
   }
   const [formData, setFormData] = useState(initialFormData)
   const [imagesArray, setImagesArray] = useState([])
-  const filterTypeData = backData.type
+  let filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
-  // console.log("backData", backData)
+  console.log("backData", backData)
   // console.log("formData", formData);
 
   useEffect(()=>{
@@ -75,27 +75,30 @@ export default function FilterApp(){
             <p>{t('Filter_the_models')}</p>
           </div>
           <div className="collections-detail__filters-select grid-item-4-6">
-            <Select 
+            <Select
               styles={customStyles}
-              options={filterTypeData} 
+              options={filterTypeData}
+              isClearable={true}
               name="type"
               placeholder={t('Type')}
               onChange={handleTypeChange}
             />
           </div>
           <div className="collections-detail__filters-select grid-item-7-9">
-          <Select 
+          <Select
               styles={customStyles}
-              options={filterModelData} 
+              options={filterModelData}
+              isClearable={true}
               name="model"
               placeholder={t('Model')}
               onChange={handleModelChange}
             />
           </div>
           <div className="collections-detail__filters-select grid-item-10-12">
-          <Select 
+          <Select
               styles={customStyles}
-              options={filterFinishingData} 
+              options={filterFinishingData}
+              isClearable={true}
               name="finishing"
               placeholder={t('Finishing')}
               onChange={handleSubmodelChange}
@@ -134,7 +137,7 @@ export default function FilterApp(){
       parameters.push(`&model=${formData.model}`)
     }
     if (formData.type) {
-      parameters.push(`&type=${formData.type}`)
+      parameters.push(`&typologies=${formData.type}`)
     }
     let imagesUrl = `/api/collection_items/?page=${backData.page_id}${parameters.join('')}`
 
@@ -149,6 +152,9 @@ export default function FilterApp(){
     })
   }
   function handleTypeChange(option){
+    if (option === null) {
+      option = ""
+    }
     setLoading(true)
     setFormData(prevData => {
       return {
@@ -159,6 +165,9 @@ export default function FilterApp(){
     getNewImages()
   }
   function handleModelChange(option){
+    if (option === null) {
+      option = ""
+    }
     setLoading(true)
     setFormData(prevData => {
       return {
@@ -168,6 +177,9 @@ export default function FilterApp(){
     })
   }
   function handleSubmodelChange(option){
+    if (option === null) {
+      option = ""
+    }
     setLoading(true)
     setFormData(prevData => {
       return {
