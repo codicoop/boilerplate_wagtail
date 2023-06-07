@@ -16,6 +16,9 @@
   &__map {
     --margin-top: var(--padding-xlg);
   }
+  &__success {
+    --align-self: flex-start;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -35,6 +38,9 @@
     }
     &__map {
       --margin-top: 0;
+    }
+    &__success {
+      --align-self: end;
     }
   }  
 }
@@ -93,6 +99,8 @@
     grid-auto-flow: dense;
   }
   &__success {
+    grid-row: span 3;
+    align-self: var(--align-self);
     display: none;
   }
   &__map {
