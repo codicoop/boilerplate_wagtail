@@ -13,32 +13,23 @@ export default function ProductCard({ image }){
     thisModal.classList.add("is-open")
 
     function listenerFunction(e){
-        const object = thisCard.querySelector('.modal__image')
-        if (!object.contains(e.target)) {
-            thisModal.classList.remove('is-open');
-        }
-        window.removeEventListener("click", listenerFunction)
+      const imageContainer = thisModal.querySelector('.modal__image')
+      const object = imageContainer.querySelector("img")
+      if (!object.contains(e.target)) {
+          thisModal.classList.remove('is-open');
+          window.removeEventListener("click", listenerFunction)
+      }
     }
 
     setTimeout(function(){
-        window.addEventListener('click', listenerFunction);
+      window.addEventListener('click', listenerFunction);
     }, 100)
   }
+
   function closeFullImage(event) {
     const thisItem = event.target
-    const thisModal = thisItem.parentElement
-    const thisCard = thisModal.parentElement
+    const thisModal = thisItem.parentElement.parentElement
     thisModal.classList.remove("is-open")
-
-    function listenerFunction(e){
-        const object = thisCard.querySelector('.modal__image')
-        if (!object.contains(e.target)) {
-            thisModal.classList.remove('is-open');
-        }
-        window.removeEventListener("click", listenerFunction)
-    }
-
-    window.removeEventListener("click", listenerFunction)
   }
 
   // {% image item.image width-700 as item_image %}
