@@ -79,3 +79,16 @@ class ContactDetailsSettings(BaseSiteSetting):
             heading=_("Contact Details"),
         )
     ]
+
+
+@register_setting
+class AnalyticsSettings(BaseSiteSetting):
+    embed = models.TextField(
+        _("Embed code"),
+        default="",
+        blank=True,
+    )
+
+    panels = [
+        FieldPanel("embed"),
+    ]
