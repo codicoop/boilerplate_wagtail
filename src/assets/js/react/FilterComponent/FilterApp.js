@@ -101,7 +101,7 @@ export default function FilterApp(){
               isClearable={true}
               name="finishing"
               placeholder={t('Finishing')}
-              onChange={handleSubmodelChange}
+              onChange={handleFinishingChange}
             />
           </div>
         </form>
@@ -131,7 +131,7 @@ export default function FilterApp(){
   function getNewImages() {
     let parameters = []
     if (formData.finishing) {
-      parameters.push(`&finishing=${formData.finishing}`)
+      parameters.push(`&finishings=${formData.finishing}`)
     }
     if (formData.model) {
       parameters.push(`&model=${formData.model}`)
@@ -176,7 +176,7 @@ export default function FilterApp(){
       }
     })
   }
-  function handleSubmodelChange(option){
+  function handleFinishingChange(option){
     if (option === null) {
       option = ""
     }
@@ -184,7 +184,7 @@ export default function FilterApp(){
     setFormData(prevData => {
       return {
         ...prevData,
-        submodel: option.value
+        finishing: option.value
       }
     })
   }
