@@ -152,6 +152,7 @@ MIDDLEWARE = [
     "maintenance_mode.middleware.MaintenanceModeMiddleware",
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
     "apps.base.middlewares.Redirect404to301Middleware",
+    "apps.base.middlewares.LocaleMiddleware",
 ]
 
 ROOT_URLCONF = "conf.urls"
