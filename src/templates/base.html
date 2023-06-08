@@ -92,7 +92,8 @@
             </div>
           </a>
         </div>
-        {% if page %}
+        {# to re-enable the languages menu, only remove the "1 is 2" part #}
+        {% if page and 1 is 2 %}
         <div class="menu__lang">
           <ul>
             {% for translation in page.get_translations.live %}
