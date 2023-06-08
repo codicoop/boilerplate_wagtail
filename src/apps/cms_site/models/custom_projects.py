@@ -1,10 +1,10 @@
 from django.apps import apps
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext_lazy as _, get_language
 from wagtail.admin.panels import HelpPanel
 from wagtail.documents.edit_handlers import FieldPanel
 from wagtail.images.models import Image
-from wagtail.models import Collection, get_root_collection_id
+from wagtail.models import Collection, get_root_collection_id, Locale
 
 from apps.base.models import BasePage, MenuLabelMixin
 
@@ -23,7 +23,12 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
         collection_page_model = apps.get_model("cms_site", "CustomProject")
-        collection_pages = collection_page_model.objects.live()
+        collection_pages = collection_page_model.objects.live().specific()
+        current_locale = Locale.objects.get(
+            language_code=get_language())
+        collection_pages = collection_pages.filter(
+            locale=current_locale,
+        )
         context.update(
             {
                 "custom_projects": collection_pages,
