@@ -151,7 +151,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "maintenance_mode.middleware.MaintenanceModeMiddleware",
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
-    "apps.base.middleware.Redirect404to301Middleware",
+    "apps.base.middlewares.Redirect404to301Middleware",
 ]
 
 ROOT_URLCONF = "conf.urls"
