@@ -6,7 +6,7 @@ from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import HelpPanel, InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.models import Orderable
+from wagtail.models import Orderable, Page
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from apps.base.models import BasePage, MenuLabelMixin
@@ -17,8 +17,11 @@ class CollectionsPage(MenuLabelMixin, BasePage):
     subpage_types = ["cms_site.Collection"]
     page_description = _("Main catalog page.")
     template = "pages/collections/page.html"
+    header_image = None
 
-    content_panels = BasePage.content_panels + [
+    # Grabbing panels from Page instead of BasePage because in this one we are
+    # not including header_image.
+    content_panels = Page.content_panels + [
         HelpPanel(
             _(
                 "In the Collections section, we show the user the different "
