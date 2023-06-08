@@ -16,7 +16,6 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
         FieldPanel("description", classname="full"),
     ]
 
-    parent_page_types = ["cms_site.HomePage"]
     page_description = _("Main page for custom projects section.")
     template = "pages/custom_projects/page.html"
 
