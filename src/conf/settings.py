@@ -223,7 +223,7 @@ WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
 ]
 WAGTAIL_I18N_ENABLED = True
 LOCALE_PATHS = [
-    os.path.join(BASE_DIR, 'locale'),
+    os.path.join(BASE_DIR, "locale"),
 ]
 
 # Static files (CSS, JavaScript, Images)
