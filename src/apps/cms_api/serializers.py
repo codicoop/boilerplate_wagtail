@@ -14,7 +14,7 @@ class CollectionItemFinishingSerializer(serializers.ModelSerializer):
         model = CollectionItemFinishing
         fields = [
             "id",
-            "title",
+            "name",
         ]
 
 
@@ -23,7 +23,7 @@ class CollectionItemTypeSerializer(serializers.ModelSerializer):
         model = CollectionItemType
         fields = [
             "id",
-            "title",
+            "name",
         ]
 
 

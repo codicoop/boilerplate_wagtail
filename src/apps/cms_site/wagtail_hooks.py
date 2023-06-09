@@ -1,8 +1,9 @@
 from django.utils.translation import gettext_lazy as _
 from wagtail import hooks
-from wagtail.contrib.modeladmin.options import ModelAdmin, modeladmin_register
+from wagtail.contrib.modeladmin.options import modeladmin_register
 from wagtail.images.models import Image
 from wagtail.models import Collection
+from wagtail_localize.modeladmin.options import TranslatableModelAdmin
 
 from apps.cms_site.models import (
     CollectionItemFinishing,
@@ -27,25 +28,25 @@ def after_delete_custom_project(request, page):
         Collection.objects.get(id=page.images_collection.id).delete()
 
 
-class FinishingsModelAdmin(ModelAdmin):
+class FinishingsModelAdmin(TranslatableModelAdmin):
     model = CollectionItemFinishing
     menu_label = _("Finishings")
     menu_icon = "plus-inverse"
-    list_display = ("title",)
-    search_fields = ("title",)
+    list_display = ("name",)
+    search_fields = ("name",)
     inspect_view_enabled = True
 
 
-class CollectionItemTypeModelAdmin(ModelAdmin):
+class CollectionItemTypeModelAdmin(TranslatableModelAdmin):
     model = CollectionItemType
     menu_label = _("Types")
     menu_icon = "plus-inverse"
-    list_display = ("title",)
-    search_fields = ("title",)
+    list_display = ("name",)
+    search_fields = ("name",)
     inspect_view_enabled = True
 
 
-class CollectionItemModelModelAdmin(ModelAdmin):
+class CollectionItemModelModelAdmin(TranslatableModelAdmin):
     model = CollectionItemModel
     menu_label = _("Models")
     menu_icon = "plus-inverse"
