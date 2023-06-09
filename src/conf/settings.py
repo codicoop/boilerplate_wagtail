@@ -151,7 +151,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "maintenance_mode.middleware.MaintenanceModeMiddleware",
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
-    "apps.base.redirect_middleware.Redirect404to301Middleware",
+    "apps.base.middlewares.Redirect404to301Middleware",
+    "apps.base.middlewares.LocaleMiddleware",
 ]
 
 ROOT_URLCONF = "conf.urls"
@@ -222,7 +223,7 @@ WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
 ]
 WAGTAIL_I18N_ENABLED = True
 LOCALE_PATHS = [
-    os.path.join(BASE_DIR, 'locale'),
+    os.path.join(BASE_DIR, "locale"),
 ]
 
 # Static files (CSS, JavaScript, Images)

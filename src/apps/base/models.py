@@ -3,9 +3,15 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from wagtail.admin.panels import FieldPanel
-from wagtail.models import Page
+from wagtail.models import Page, PageManager
 from wagtailmenus.conf import settings as wagtail_settings
 from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
+
+
+class RequestedLocalePageManager(PageManager):
+    def requested_locale(self, request):
+        # current_locale is included in the request using a middleware
+        return self.get_queryset().filter(locale=request.current_locale)
 
 
 class BasePage(Page):
@@ -32,12 +38,14 @@ class BasePage(Page):
     ]
     max_count = 1
     show_in_menus_default = False
+    parent_page_types = ["cms_site.HomePage"]
     is_submitable = False
     is_unpublishable = False
     # Removing this dropdown is also removing the "Delete" page option that it
     # contains. If you enable it, make sure that you actually pretend to give
     # the editor access to every action it provides!
     show_more_dropdown_in_list_actions = False
+    objects = RequestedLocalePageManager()
 
     class Meta:
         abstract = True
