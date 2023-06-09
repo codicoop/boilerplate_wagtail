@@ -44,7 +44,7 @@ class CollectionsPage(MenuLabelMixin, BasePage):
         we'll be using the configuration set there.
         """
         home_page_model = apps.get_model("cms_site", "HomePage")
-        home_page_obj = home_page_model.objects.first()
+        home_page_obj = home_page_model.objects.requested_locale(request).first()
         context.update(
             {
                 "home_page": home_page_obj or None,
