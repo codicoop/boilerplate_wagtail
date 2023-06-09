@@ -106,8 +106,8 @@ class Collection(BasePage):
         :return: { id: name }
         """
         available_types = {
-            item_type.id: item_type.name
-            for item in self.collection_items.all()
+            item_type.id: item_type.localized
+            for item in self.get_instance_for_lang_code().collection_items.all()
             for item_type in item.typologies.all()
         }
         return available_types
@@ -117,8 +117,8 @@ class Collection(BasePage):
         See get_available_types comment.
         """
         available_finishings = {
-            finishing.id: finishing.name
-            for item in self.collection_items.all()
+            finishing.id: finishing.localized
+            for item in self.get_instance_for_lang_code().collection_items.all()
             for finishing in item.finishings.all()
         }
         return available_finishings
@@ -143,6 +143,12 @@ class Collection(BasePage):
 
     def __str__(self):
         return self.title
+
+    def get_instance_for_lang_code(self, code="ca"):
+        return Collection.objects.get(
+            locale=self.get_locale_for_lang_code(code),
+            translation_key=self.translation_key,
+        )
 
 
 class CollectionItem(Orderable, ClusterableModel):

@@ -3,7 +3,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from wagtail.admin.panels import FieldPanel
-from wagtail.models import Page, PageManager
+from wagtail.models import Page, PageManager, Locale
 from wagtailmenus.conf import settings as wagtail_settings
 from wagtailmenus.models import AbstractMainMenu, AbstractMainMenuItem
 
@@ -64,6 +64,9 @@ class BasePage(Page):
                 },
             )
         return ctxt
+
+    def get_locale_for_lang_code(self, code):
+        return Locale.objects.get(language_code=code)
 
 
 class MenuLabelMixin(models.Model):
