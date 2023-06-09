@@ -52,7 +52,11 @@ class BasePage(Page):
 
     def get_context(self, request, *args, **kwargs):
         ctxt = super().get_context(request, *args, **kwargs)
-        legal_page = apps.get_model("cms_site", "LegalPage").objects.first()
+        legal_page = (
+            apps.get_model("cms_site", "LegalPage")
+            .objects.requested_locale(request)
+            .first()
+        )
         if legal_page:
             ctxt.update(
                 {
