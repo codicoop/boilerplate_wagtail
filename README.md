@@ -189,6 +189,37 @@ the idea of installing it in the Docker image so everyone will be able to
 generate the files from the docker container itself, but it's not done yet. So
 for Windows users, better ask someone with linux to generate the files for you.
 
+### Development tools and advice for localized content
+
+Beware that when you create a translation for a page (for instance, if you
+choose to synchronize the tree when creating the new locale, it will generate
+a new page for each existing one), when you query all the child pages of a page
+you will get ALL of them, not filtered by the desired language.
+
+An easy example to understand is with a blog. Let's say that in the index page
+you are filling the context with all the blog articles, which are child pages
+of that index page.
+To avoid displaying every article in all the languages, you should use this:
+
+```python
+def get_context(self, request, *args, **kwargs):
+    context = super().get_context(request, *args, **kwargs)
+    collection_page_model = apps.get_model("cms_site", "CustomProject")
+    article_pages = blog_index_page_model.objects.requested_locale(
+        request,
+    ).live().specific()
+    context.update(
+        {
+            "article_pages": article_pages,
+        }
+    )
+    return context
+```
+
+*(the `.live().specific()` is a suggestion)*
+
+To understand how it works, check `RequestedLocalePageManager`.
+
 ### Wagtail's styleguide
 
 Including `"wagtail.contrib.styleguide"` in your `INSTALLED_APPS` will add a

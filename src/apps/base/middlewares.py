@@ -1,5 +1,7 @@
 from django.http import HttpResponsePermanentRedirect
 from django.utils.deprecation import MiddlewareMixin
+from django.utils.translation import get_language
+from wagtail.models import Locale
 
 
 class Redirect404to301Middleware(MiddlewareMixin):
@@ -15,3 +17,14 @@ class Redirect404to301Middleware(MiddlewareMixin):
             return response
 
         return self.response_redirect_class("/")
+
+
+class LocaleMiddleware:
+    def __init__(self, get_response):
+        self.get_response = get_response
+
+    def __call__(self, request):
+        current_locale = Locale.objects.get(language_code=get_language())
+        request.current_locale = current_locale
+        response = self.get_response(request)
+        return response

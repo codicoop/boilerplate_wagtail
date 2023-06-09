@@ -16,14 +16,19 @@ class CustomProjectsPage(MenuLabelMixin, BasePage):
         FieldPanel("description", classname="full"),
     ]
 
-    parent_page_types = ["cms_site.HomePage"]
     page_description = _("Main page for custom projects section.")
     template = "pages/custom_projects/page.html"
 
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
         collection_page_model = apps.get_model("cms_site", "CustomProject")
-        collection_pages = collection_page_model.objects.live()
+        collection_pages = (
+            collection_page_model.objects.requested_locale(
+                request,
+            )
+            .live()
+            .specific()
+        )
         context.update(
             {
                 "custom_projects": collection_pages,

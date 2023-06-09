@@ -27,13 +27,13 @@ class HomePage(BasePage):
         verbose_name=_("Linked page"),
         null=True,
         blank=True,
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
     )
     overlay_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=True,
         blank=True,
@@ -47,7 +47,7 @@ class HomePage(BasePage):
     collection_1_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=True,
         blank=True,
@@ -57,7 +57,7 @@ class HomePage(BasePage):
         verbose_name=_("Collection's page"),
         null=True,
         blank=True,
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
     )
     collection_2_title = models.CharField(
@@ -69,7 +69,7 @@ class HomePage(BasePage):
     collection_2_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=True,
         blank=True,
@@ -79,7 +79,7 @@ class HomePage(BasePage):
         verbose_name=_("Collection's page"),
         null=True,
         blank=True,
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
     )
     collection_3_title = models.CharField(
@@ -91,7 +91,7 @@ class HomePage(BasePage):
     collection_3_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=True,
         blank=True,
@@ -101,7 +101,7 @@ class HomePage(BasePage):
         verbose_name=_("Collection's page"),
         null=True,
         blank=True,
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
     )
     custom_projects_title = models.CharField(
@@ -113,7 +113,7 @@ class HomePage(BasePage):
     custom_projects_image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
         null=True,
         blank=True,
@@ -123,7 +123,7 @@ class HomePage(BasePage):
         verbose_name=_("Custom projects' page"),
         null=True,
         blank=True,
-        on_delete=models.PROTECT,
+        on_delete=models.SET_NULL,
         related_name="+",
     )
     display_instagram_feed = models.BooleanField(
