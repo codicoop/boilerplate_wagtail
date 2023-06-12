@@ -34,3 +34,16 @@ La imatge de cada article es genera en dues mides diferents, configurades així:
 ### Posts d'Instagram
 
     /api/instagram_posts/
+
+## Translations of CollectionItems
+
+CollectionItem hauria d'haver estat un model amb TranslationMixin, però no ha
+pogut ser degut a la complexitat de fer el canvi des del punt on és ara el projecte.
+També tinc dubtes de si és compatible això amb els ClusterableModel.
+
+L'únic camp que cal en els 2 idiomes és títol, així que l'hem duplicat per poder
+tenir la traducció però al marge del sistema de Wagtail.
+Els acabats i tipologies, ja va bé que es quedin seleccionats segons la versió
+en català, ja que el que fem és mostrar l'acabat o tipologia en l'idioma que toqui.
+D'aquesta manera, no cal que tots els articles de cada col·lecció es reassignin
+a altres acabats o tipologies.

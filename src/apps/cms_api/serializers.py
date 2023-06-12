@@ -38,6 +38,7 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
     )
     image_thumbnail = ImageRenditionField("width-700", source="image")
     image_maximized = ImageRenditionField("width-1500", source="image")
+    title = serializers.SerializerMethodField(method_name="get_title")
 
     class Meta:
         model = CollectionItem
@@ -50,6 +51,10 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             "finishings",
             "typologies",
         ]
+
+    def get_title(self, obj):
+        # To Do: return the right one according to language.
+        return obj.title_ca
 
 
 class VideoItemReadSerializer(serializers.ModelSerializer):
