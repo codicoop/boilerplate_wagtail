@@ -43,12 +43,12 @@
     }
     p + p {
       position: relative;
-      padding-left: var(--padding-sm);
+      padding-left: var(--padding-md);
 
       &:before {
         content: "/";
         position: absolute;
-        left: 2px;
+        left: 8px;
       }
     }
   }

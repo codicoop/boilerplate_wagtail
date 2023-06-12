@@ -52,7 +52,7 @@ export default function ProductCard({ image }){
         <div className="product-card__text">
           {
             image.finishings.map(item => {
-              return <p key={item.id}>{item.title}</p>
+              return <p key={item.id}>{item.name}</p>
             })
           }
         </div>

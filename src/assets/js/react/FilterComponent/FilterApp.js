@@ -20,7 +20,7 @@ export default function FilterApp(){
   let filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
-  console.log("backData", backData)
+  // console.log("backData", backData)
   // console.log("formData", formData);
 
   useEffect(()=>{
