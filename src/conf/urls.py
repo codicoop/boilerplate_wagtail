@@ -36,7 +36,7 @@ urlpatterns = [
     # features.
     path("documents/", include(wagtaildocs_urls)),
     path(
-        "api/",
+        "api/<str:language>/",
         include("apps.cms_api.urls"),
     ),
 ]

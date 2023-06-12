@@ -7,7 +7,7 @@ través d'un endpoint que accepta filtres.
 
 Endpoint:
 
-    /api/collection_items/?page=4
+    /api/[ca|es]/collection_items/?page=4
 
 Si no es passa el valor `page`, retornarà tots els articles de totes les col·leccions.
 
