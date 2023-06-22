@@ -6,7 +6,7 @@ from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import HelpPanel, InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.models import Orderable, Page
+from wagtail.models import Orderable, Page, TranslatableMixin
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from apps.base.models import BasePage, MenuLabelMixin
@@ -151,7 +151,7 @@ class Collection(BasePage):
         )
 
 
-class CollectionItem(Orderable, ClusterableModel):
+class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
     page = ParentalKey(
         Collection,
         on_delete=models.CASCADE,

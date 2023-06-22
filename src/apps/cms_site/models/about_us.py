@@ -6,7 +6,7 @@ from modelcluster.models import ClusterableModel
 from wagtail.admin.forms import WagtailAdminPageForm
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtail.fields import RichTextField
-from wagtail.models import Orderable
+from wagtail.models import Orderable, TranslatableMixin
 
 from apps.base.models import BasePage
 
@@ -68,7 +68,7 @@ class AboutUsPage(BasePage):
     base_form_class = AboutUsForm
 
 
-class VideoItem(Orderable, ClusterableModel):
+class VideoItem(TranslatableMixin, Orderable, ClusterableModel):
     page = ParentalKey(
         AboutUsPage,
         on_delete=models.CASCADE,
@@ -88,7 +88,7 @@ class VideoItem(Orderable, ClusterableModel):
         return self.title
 
 
-class HistoryItem(Orderable, ClusterableModel):
+class HistoryItem(TranslatableMixin, Orderable, ClusterableModel):
     page = ParentalKey(
         AboutUsPage,
         on_delete=models.CASCADE,
