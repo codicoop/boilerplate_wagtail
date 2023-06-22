@@ -4,20 +4,20 @@
   "pk": 1,
   "fields": {
     "collection": 1,
-    "title": "Portada",
-    "file": "original_images/ciurans_projecte_cr6_ydtCPx2.jpg",
-    "width": 800,
-    "height": 535,
-    "created_at": "2023-06-22T12:13:06.702Z",
+    "title": "Imatge",
+    "file": "original_images/ciurans_projecte_cr1.jpg",
+    "width": 401,
+    "height": 600,
+    "created_at": "2023-06-22T13:59:51.593Z",
     "uploaded_by_user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "focal_point_x": null,
     "focal_point_y": null,
     "focal_point_width": null,
     "focal_point_height": null,
-    "file_size": 197044,
-    "file_hash": "8ccb8096f6faa153f38e6f2acf189c1bbfc5ddd1"
+    "file_size": 137363,
+    "file_hash": "a82baf09d26712399310084c8cc86bbac1e35a9f"
   }
 },
 {
@@ -31,10 +31,76 @@
     "label": "localhost [per defecte]",
     "action": "wagtail.edit",
     "data": {},
-    "timestamp": "2023-06-22T12:13:44.314Z",
-    "uuid": "da59391d-3685-4d41-bf67-dc51054312ed",
+    "timestamp": "2023-06-22T14:00:07.352Z",
+    "uuid": "2e936bbf-b137-407b-8d33-ba95cadd7c92",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "label": "Model 1 (català)",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-06-22T14:03:35.865Z",
+    "uuid": "ada40505-7931-4723-aaa6-489f7f940ed5",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemtype"
+    ],
+    "label": "Tipologia 1 (català)",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-06-22T14:03:47.125Z",
+    "uuid": "eb1641cc-bd5e-456c-b10d-d7f9ab812ffb",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collectionitemfinishing"
+    ],
+    "label": "Roure 01",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2023-06-22T14:03:55.016Z",
+    "uuid": "5d07ad6b-3212-42e8-a719-9c9fd73b42f7",
+    "user": [
+      "hola@codi.coop"
     ],
     "revision": null,
     "content_changed": true,
@@ -173,7 +239,7 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
     "base_content_type": [
       "wagtailcore",
@@ -192,7 +258,53 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 7,
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "history_items.item.image",
+    "content_path": "history_items.1.image",
+    "content_path_hash": "8e9f8cb9-ff7a-52dd-a17b-c561942ea7b5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "aboutuspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "history_items.item.image",
+    "content_path": "history_items.2.image",
+    "content_path_hash": "222d6807-1583-516e-8d3d-969d780e7c55"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 10,
   "fields": {
     "content_type": [
       "wagtailcore",
@@ -215,7 +327,7 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 8,
+  "pk": 11,
   "fields": {
     "content_type": [
       "wagtailcore",
@@ -238,30 +350,7 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 9,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "customajaxcontact"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "object_id": "5",
-    "to_content_type": [
-      "wagtailimages",
-      "image"
-    ],
-    "to_object_id": "1",
-    "model_path": "header_image",
-    "content_path": "header_image",
-    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
-  }
-},
-{
-  "model": "wagtailcore.referenceindex",
-  "pk": 10,
+  "pk": 12,
   "fields": {
     "content_type": [
       "wagtailcore",
@@ -284,7 +373,7 @@
 },
 {
   "model": "wagtailcore.referenceindex",
-  "pk": 11,
+  "pk": 13,
   "fields": {
     "content_type": [
       "wagtailcore",
@@ -306,13 +395,174 @@
   }
 },
 {
+  "model": "wagtailcore.referenceindex",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "header_image",
+    "content_path": "header_image",
+    "content_path_hash": "e3882f9d-5702-50e1-bc8a-f91a79a3bf6b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection_items.item.image",
+    "content_path": "collection_items.1.image",
+    "content_path_hash": "857721da-cd85-55ab-b677-4ac850acb02a"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection_items.item.model",
+    "content_path": "collection_items.1.model",
+    "content_path_hash": "83ad8a39-9277-5151-b2a4-bf0a9dad9b5f"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection_items.item.image",
+    "content_path": "collection_items.2.image",
+    "content_path_hash": "848b047b-c07e-5ed6-b4dd-f2b598a3fa90"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "cms_site",
+      "collectionitemmodel"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection_items.item.model",
+    "content_path": "collection_items.2.model",
+    "content_path_hash": "4bdcc436-616b-58da-a433-29ae3f1d52d2"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "to_object_id": "6",
+    "model_path": "page",
+    "content_path": "page",
+    "content_path_hash": "7b295380-95fa-5117-92c0-23c46a06e9b7"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "pagesubscription"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "users",
+      "user"
+    ],
+    "to_object_id": "1",
+    "model_path": "user",
+    "content_path": "user",
+    "content_path_hash": "b9395e53-5243-59fd-88fa-de4156683cf8"
+  }
+},
+{
   "model": "wagtailcore.page",
   "pk": 1,
   "fields": {
     "path": "0001",
     "depth": 1,
     "numchild": 1,
-    "translation_key": "5325df90-b51f-4493-b51a-0fe77d887f52",
+    "translation_key": "0925d578-c790-494d-ac2f-aa4bbd1087ce",
     "locale": 1,
     "latest_revision": null,
     "live": true,
@@ -349,14 +599,14 @@
     "path": "00010002",
     "depth": 2,
     "numchild": 2,
-    "translation_key": "679a0115-2881-4573-a1c1-2ceea8e64e00",
+    "translation_key": "3ee5469d-be37-404c-9f58-021c7d381e4a",
     "locale": 1,
-    "latest_revision": 4,
+    "latest_revision": 1,
     "live": true,
     "has_unpublished_changes": false,
-    "first_published_at": "2023-06-22T12:13:25.979Z",
-    "last_published_at": "2023-06-22T12:16:18.851Z",
-    "live_revision": 4,
+    "first_published_at": "2023-06-22T13:59:56.898Z",
+    "last_published_at": "2023-06-22T13:59:56.898Z",
+    "live_revision": 1,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
@@ -365,19 +615,19 @@
     "locked_by": null,
     "title": "Fabricant mobles a La Garriga des de 1925",
     "draft_title": "Fabricant mobles a La Garriga des de 1925",
-    "slug": "home",
+    "slug": "fabricant-mobles-a-la-garriga-des-de-1925",
     "content_type": [
       "cms_site",
       "homepage"
     ],
-    "url_path": "/home/",
+    "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/",
     "owner": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2023-06-22T12:16:18.829Z",
+    "latest_revision_created_at": "2023-06-22T13:59:56.874Z",
     "alias_of": null
   }
 },
@@ -388,13 +638,13 @@
     "path": "000100020001",
     "depth": 3,
     "numchild": 0,
-    "translation_key": "4f9a7b6d-8b8e-4ded-b8e1-d66c5b99db37",
+    "translation_key": "5641d7cf-4831-4c88-9652-302a6b4861bc",
     "locale": 1,
     "latest_revision": 2,
     "live": true,
     "has_unpublished_changes": false,
-    "first_published_at": "2023-06-22T12:16:10.002Z",
-    "last_published_at": "2023-06-22T12:16:10.002Z",
+    "first_published_at": "2023-06-22T14:01:56.448Z",
+    "last_published_at": "2023-06-22T14:01:56.448Z",
     "live_revision": 2,
     "go_live_at": null,
     "expire_at": null,
@@ -402,21 +652,21 @@
     "locked": false,
     "locked_at": null,
     "locked_by": null,
-    "title": "Informació legal",
-    "draft_title": "Informació legal",
-    "slug": "informacio-legal",
+    "title": "Qui som",
+    "draft_title": "Qui som",
+    "slug": "qui-som",
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
-    "url_path": "/home/informacio-legal/",
+    "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/qui-som/",
     "owner": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": false,
     "search_description": "",
-    "latest_revision_created_at": "2023-06-22T12:16:09.978Z",
+    "latest_revision_created_at": "2023-06-22T14:01:56.410Z",
     "alias_of": null
   }
 },
@@ -426,36 +676,75 @@
   "fields": {
     "path": "000100020002",
     "depth": 3,
-    "numchild": 0,
-    "translation_key": "c7177f11-e7ef-4f26-ab5d-ea6358dc6786",
+    "numchild": 1,
+    "translation_key": "655f52e2-a87d-4be8-b186-9484bdb284e6",
     "locale": 1,
-    "latest_revision": 5,
-    "live": true,
-    "has_unpublished_changes": false,
-    "first_published_at": "2023-06-22T12:16:54.564Z",
-    "last_published_at": "2023-06-22T12:16:54.564Z",
-    "live_revision": 5,
+    "latest_revision": 3,
+    "live": false,
+    "has_unpublished_changes": true,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
     "go_live_at": null,
     "expire_at": null,
     "expired": false,
     "locked": false,
     "locked_at": null,
     "locked_by": null,
-    "title": "Contacte",
-    "draft_title": "Contacte",
-    "slug": "contacte",
+    "title": "Catàleg",
+    "draft_title": "Catàleg",
+    "slug": "cataleg",
     "content_type": [
       "cms_site",
-      "customajaxcontact"
+      "collectionspage"
     ],
-    "url_path": "/home/contacte/",
+    "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/cataleg/",
     "owner": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "seo_title": "",
     "show_in_menus": true,
     "search_description": "",
-    "latest_revision_created_at": "2023-06-22T12:16:54.539Z",
+    "latest_revision_created_at": "2023-06-22T14:02:23.602Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "0001000200020001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "7e48f82c-c71d-42ca-9224-4e223637bb2f",
+    "locale": 1,
+    "latest_revision": 4,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2023-06-22T14:04:26.715Z",
+    "last_published_at": "2023-06-22T14:04:26.715Z",
+    "live_revision": 4,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "New Area",
+    "draft_title": "New Area",
+    "slug": "new-area",
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/cataleg/new-area/",
+    "owner": [
+      "hola@codi.coop"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2023-06-22T14:04:26.681Z",
     "alias_of": null
   }
 },
@@ -473,16 +762,16 @@
     ],
     "object_id": "3",
     "submitted_for_moderation": false,
-    "created_at": "2023-06-22T12:13:25.950Z",
+    "created_at": "2023-06-22T13:59:56.874Z",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "object_str": "Fabricant mobles a La Garriga des de 1925",
     "content": {
       "pk": 3,
       "live": true,
       "path": "00010002",
-      "slug": "home2",
+      "slug": "fabricant-mobles-a-la-garriga-des-de-1925",
       "depth": 2,
       "owner": 1,
       "title": "Fabricant mobles a La Garriga des de 1925",
@@ -491,14 +780,14 @@
       "expired": false,
       "alias_of": null,
       "numchild": 0,
-      "url_path": "/home2/",
+      "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/",
       "expire_at": null,
       "locked_at": null,
       "locked_by": null,
       "seo_title": "",
       "go_live_at": null,
       "draft_title": "Fabricant mobles a La Garriga des de 1925",
-      "content_type": 70,
+      "content_type": 69,
       "header_image": 1,
       "overlay_body": "",
       "live_revision": null,
@@ -506,7 +795,7 @@
       "overlay_title": "",
       "show_in_menus": false,
       "latest_revision": null,
-      "translation_key": "679a0115-2881-4573-a1c1-2ceea8e64e00",
+      "translation_key": "3ee5469d-be37-404c-9f58-021c7d381e4a",
       "collection_1_page": null,
       "collection_2_page": null,
       "collection_3_page": null,
@@ -539,7 +828,7 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
     "base_content_type": [
       "wagtailcore",
@@ -547,38 +836,124 @@
     ],
     "object_id": "4",
     "submitted_for_moderation": false,
-    "created_at": "2023-06-22T12:16:09.978Z",
+    "created_at": "2023-06-22T14:01:56.410Z",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
-    "object_str": "Informació legal",
+    "object_str": "Qui som",
     "content": {
       "pk": 4,
       "live": true,
       "path": "000100020001",
-      "slug": "informacio-legal",
-      "text": "<p data-block-key=\"akf87\">Lorem ipsum</p>",
+      "slug": "qui-som",
       "depth": 3,
       "owner": 1,
-      "title": "Informació legal",
+      "title": "Qui som",
       "locale": 1,
       "locked": false,
       "expired": false,
       "alias_of": null,
       "numchild": 0,
-      "url_path": "/home2/informacio-legal/",
+      "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/qui-som/",
       "expire_at": null,
       "locked_at": null,
       "locked_by": null,
       "seo_title": "",
       "go_live_at": null,
-      "draft_title": "Informació legal",
-      "content_type": 68,
+      "description": "",
+      "draft_title": "Qui som",
+      "video_items": [
+        {
+          "pk": 1,
+          "page": 4,
+          "embed": "aa",
+          "title": "v1 cat",
+          "locale": 1,
+          "sort_order": 0,
+          "description": "aa",
+          "translation_key": "f3ce0133-cf70-4512-a96d-78c1a6d74383"
+        },
+        {
+          "pk": 2,
+          "page": 4,
+          "embed": "aa",
+          "title": "v2 cat",
+          "locale": 1,
+          "sort_order": 1,
+          "description": "aa",
+          "translation_key": "1ac5c15e-7c6a-436f-b3b7-341a4fc61d72"
+        },
+        {
+          "pk": 3,
+          "page": 4,
+          "embed": "aa",
+          "title": "v3 cat",
+          "locale": 1,
+          "sort_order": 2,
+          "description": "aa",
+          "translation_key": "11e00c7c-0faf-4809-b7aa-4d5b3a10b15f"
+        },
+        {
+          "pk": 4,
+          "page": 4,
+          "embed": "aa",
+          "title": "v4 cat",
+          "locale": 1,
+          "sort_order": 3,
+          "description": "aa",
+          "translation_key": "68c095f5-ae86-43b1-8fef-5ab12788afb2"
+        },
+        {
+          "pk": 5,
+          "page": 4,
+          "embed": "aa",
+          "title": "v5 cat",
+          "locale": 1,
+          "sort_order": 4,
+          "description": "aa",
+          "translation_key": "a0f2bb7e-2242-4e9a-8583-1ec6d1c093db"
+        },
+        {
+          "pk": 6,
+          "page": 4,
+          "embed": "aa",
+          "title": "v6 cat",
+          "locale": 1,
+          "sort_order": 5,
+          "description": "aa",
+          "translation_key": "1f66c547-35a4-4d59-8bdc-4fb5dd9e97d1"
+        }
+      ],
+      "content_type": 60,
       "header_image": 1,
+      "history_items": [
+        {
+          "pk": 1,
+          "page": 4,
+          "year": 2020,
+          "image": 1,
+          "title": "Història 1 cat",
+          "locale": 1,
+          "sort_order": 0,
+          "description": "aa",
+          "translation_key": "2108968b-1359-4ff1-9f24-e533363a84fe"
+        },
+        {
+          "pk": 2,
+          "page": 4,
+          "year": 2021,
+          "image": 1,
+          "title": "Història 23 cat",
+          "locale": 1,
+          "sort_order": 1,
+          "description": "aa",
+          "translation_key": "c8dc2e4b-7943-4a75-850e-678bd3e756d5"
+        }
+      ],
       "live_revision": null,
       "show_in_menus": false,
       "latest_revision": null,
-      "translation_key": "4f9a7b6d-8b8e-4ded-b8e1-d66c5b99db37",
+      "translation_key": "5641d7cf-4831-4c88-9652-302a6b4861bc",
       "last_published_at": null,
       "first_published_at": null,
       "search_description": "",
@@ -595,70 +970,51 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "homepage"
+      "collectionspage"
     ],
     "base_content_type": [
       "wagtailcore",
       "page"
     ],
-    "object_id": "3",
+    "object_id": "5",
     "submitted_for_moderation": false,
-    "created_at": "2023-06-22T12:16:15.994Z",
+    "created_at": "2023-06-22T14:02:23.602Z",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
-    "object_str": "Fabricant mobles a La Garriga des de 1925",
+    "object_str": "Catàleg",
     "content": {
-      "pk": 3,
-      "live": true,
-      "path": "00010002",
-      "slug": "home",
-      "depth": 2,
+      "pk": 5,
+      "live": false,
+      "path": "000100020002",
+      "slug": "cataleg",
+      "depth": 3,
       "owner": 1,
-      "title": "Fabricant mobles a La Garriga des de 1925",
+      "title": "Catàleg",
       "locale": 1,
       "locked": false,
       "expired": false,
       "alias_of": null,
-      "numchild": 1,
-      "url_path": "/home2/",
+      "numchild": 0,
+      "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/cataleg/",
       "expire_at": null,
       "locked_at": null,
       "locked_by": null,
       "seo_title": "",
       "go_live_at": null,
-      "draft_title": "Fabricant mobles a La Garriga des de 1925",
-      "content_type": 70,
-      "header_image": 1,
-      "overlay_body": "",
-      "live_revision": 1,
-      "overlay_image": null,
-      "overlay_title": "",
-      "show_in_menus": false,
-      "latest_revision": 1,
-      "translation_key": "679a0115-2881-4573-a1c1-2ceea8e64e00",
-      "collection_1_page": null,
-      "collection_2_page": null,
-      "collection_3_page": null,
-      "last_published_at": "2023-06-22T12:13:25.979Z",
-      "collection_1_image": null,
-      "collection_1_title": "",
-      "collection_2_image": null,
-      "collection_2_title": "",
-      "collection_3_image": null,
-      "collection_3_title": "",
-      "first_published_at": "2023-06-22T12:13:25.979Z",
+      "menu_label": null,
+      "draft_title": "Catàleg",
+      "content_type": 63,
+      "live_revision": null,
+      "show_in_menus": true,
+      "latest_revision": null,
+      "translation_key": "655f52e2-a87d-4be8-b186-9484bdb284e6",
+      "last_published_at": null,
+      "first_published_at": null,
       "search_description": "",
-      "overlay_button_page": null,
-      "overlay_button_text": "",
-      "custom_projects_page": null,
-      "custom_projects_image": null,
-      "custom_projects_title": "",
-      "display_instagram_feed": true,
       "wagtail_admin_comments": [],
       "has_unpublished_changes": false,
-      "display_header_highlight": true,
-      "latest_revision_created_at": "2023-06-22T12:13:25.950Z"
+      "latest_revision_created_at": null
     },
     "approved_go_live_at": null
   }
@@ -669,137 +1025,87 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "homepage"
+      "collection"
     ],
     "base_content_type": [
       "wagtailcore",
       "page"
     ],
-    "object_id": "3",
+    "object_id": "6",
     "submitted_for_moderation": false,
-    "created_at": "2023-06-22T12:16:18.829Z",
+    "created_at": "2023-06-22T14:04:26.681Z",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
-    "object_str": "Fabricant mobles a La Garriga des de 1925",
+    "object_str": "New Area",
     "content": {
-      "pk": 3,
+      "pk": 6,
+      "pdf": null,
       "live": true,
-      "path": "00010002",
-      "slug": "home",
-      "depth": 2,
+      "path": "0001000200020001",
+      "slug": "new-area",
+      "depth": 4,
       "owner": 1,
-      "title": "Fabricant mobles a La Garriga des de 1925",
-      "locale": 1,
-      "locked": false,
-      "expired": false,
-      "alias_of": null,
-      "numchild": 1,
-      "url_path": "/home/",
-      "expire_at": null,
-      "locked_at": null,
-      "locked_by": null,
-      "seo_title": "",
-      "go_live_at": null,
-      "draft_title": "Fabricant mobles a La Garriga des de 1925",
-      "content_type": 70,
-      "header_image": 1,
-      "overlay_body": "",
-      "live_revision": 1,
-      "overlay_image": null,
-      "overlay_title": "",
-      "show_in_menus": false,
-      "latest_revision": 3,
-      "translation_key": "679a0115-2881-4573-a1c1-2ceea8e64e00",
-      "collection_1_page": null,
-      "collection_2_page": null,
-      "collection_3_page": null,
-      "last_published_at": "2023-06-22T12:13:25.979Z",
-      "collection_1_image": null,
-      "collection_1_title": "",
-      "collection_2_image": null,
-      "collection_2_title": "",
-      "collection_3_image": null,
-      "collection_3_title": "",
-      "first_published_at": "2023-06-22T12:13:25.979Z",
-      "search_description": "",
-      "overlay_button_page": null,
-      "overlay_button_text": "",
-      "custom_projects_page": null,
-      "custom_projects_image": null,
-      "custom_projects_title": "",
-      "display_instagram_feed": true,
-      "wagtail_admin_comments": [],
-      "has_unpublished_changes": true,
-      "display_header_highlight": true,
-      "latest_revision_created_at": "2023-06-22T12:16:15.994Z"
-    },
-    "approved_go_live_at": null
-  }
-},
-{
-  "model": "wagtailcore.revision",
-  "pk": 5,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "customajaxcontact"
-    ],
-    "base_content_type": [
-      "wagtailcore",
-      "page"
-    ],
-    "object_id": "5",
-    "submitted_for_moderation": false,
-    "created_at": "2023-06-22T12:16:54.539Z",
-    "user": [
-      "ales@codi.coop"
-    ],
-    "object_str": "Contacte",
-    "content": {
-      "pk": 5,
-      "live": true,
-      "path": "000100020002",
-      "slug": "contacte",
-      "depth": 3,
-      "owner": 1,
-      "title": "Contacte",
+      "title": "New Area",
       "locale": 1,
       "locked": false,
       "expired": false,
       "alias_of": null,
       "numchild": 0,
-      "url_path": "/home/contacte/",
+      "url_path": "/fabricant-mobles-a-la-garriga-des-de-1925/cataleg/new-area/",
       "expire_at": null,
       "locked_at": null,
       "locked_by": null,
       "seo_title": "",
       "go_live_at": null,
-      "menu_label": null,
-      "name_label": "El teu nom",
-      "to_address": null,
-      "draft_title": "Contacte",
-      "email_label": "El teu correu electrònic",
-      "phone_label": "Telèfon",
-      "success_msg": "<p data-block-key=\"9h00s\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
-      "content_type": 64,
+      "description": "",
+      "draft_title": "New Area",
+      "content_type": 62,
       "header_image": 1,
       "live_revision": null,
-      "message_label": "Missatge",
-      "profile_label": "Perfil",
-      "show_in_menus": true,
-      "subject_label": "Assumpte",
+      "show_in_menus": false,
       "latest_revision": null,
-      "translation_key": "c7177f11-e7ef-4f26-ab5d-ea6358dc6786",
+      "translation_key": "7e48f82c-c71d-42ca-9224-4e223637bb2f",
+      "collection_items": [
+        {
+          "pk": 1,
+          "page": 6,
+          "image": 1,
+          "model": 1,
+          "title": "Article 1 cat",
+          "locale": 1,
+          "finishings": [
+            1
+          ],
+          "sort_order": 0,
+          "typologies": [
+            1
+          ],
+          "translation_key": "3ecbd1a3-1810-4779-aa47-b9837c74c425"
+        },
+        {
+          "pk": 2,
+          "page": 6,
+          "image": 1,
+          "model": 1,
+          "title": "Article 2 cat",
+          "locale": 1,
+          "finishings": [
+            1
+          ],
+          "sort_order": 1,
+          "typologies": [
+            1
+          ],
+          "translation_key": "36d1fcb4-e1b6-46ed-80d7-0aa75360bc2c"
+        }
+      ],
       "last_published_at": null,
       "first_published_at": null,
       "search_description": "",
-      "notification_subject": null,
       "wagtail_admin_comments": [],
       "has_unpublished_changes": false,
-      "personal_data_auth_label": "Autorització pel tractament de dades personals",
-      "latest_revision_created_at": null,
-      "personal_data_comercial_auth_label": "Autorització pel tractament de dades personals per ús comercial"
+      "latest_revision_created_at": null
     },
     "approved_go_live_at": null
   }
@@ -815,10 +1121,10 @@
     "label": "Fabricant mobles a La Garriga des de 1925",
     "action": "wagtail.create",
     "data": {},
-    "timestamp": "2023-06-22T12:13:25.937Z",
-    "uuid": "9dbc0fab-ffe8-4dca-8a6e-e9f87b800792",
+    "timestamp": "2023-06-22T13:59:56.863Z",
+    "uuid": "0d150a5b-dbc2-4c74-8d8b-a21ee0677547",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": null,
     "content_changed": true,
@@ -837,10 +1143,10 @@
     "label": "Fabricant mobles a La Garriga des de 1925",
     "action": "wagtail.edit",
     "data": {},
-    "timestamp": "2023-06-22T12:13:25.964Z",
-    "uuid": "9dbc0fab-ffe8-4dca-8a6e-e9f87b800792",
+    "timestamp": "2023-06-22T13:59:56.885Z",
+    "uuid": "0d150a5b-dbc2-4c74-8d8b-a21ee0677547",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": 1,
     "content_changed": true,
@@ -859,10 +1165,10 @@
     "label": "Fabricant mobles a La Garriga des de 1925",
     "action": "wagtail.publish",
     "data": {},
-    "timestamp": "2023-06-22T12:13:26.002Z",
-    "uuid": "9dbc0fab-ffe8-4dca-8a6e-e9f87b800792",
+    "timestamp": "2023-06-22T13:59:56.922Z",
+    "uuid": "0d150a5b-dbc2-4c74-8d8b-a21ee0677547",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": 1,
     "content_changed": true,
@@ -881,10 +1187,10 @@
     "label": "Welcome to your new Wagtail site!",
     "action": "wagtail.delete",
     "data": {},
-    "timestamp": "2023-06-22T12:13:53.497Z",
-    "uuid": "9d63b1d2-47a4-4748-aa54-27812266019c",
+    "timestamp": "2023-06-22T14:00:14.202Z",
+    "uuid": "8c55fdbe-ea55-4e40-b14c-845a35a64aa1",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": null,
     "content_changed": false,
@@ -898,15 +1204,15 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
-    "label": "Informació legal",
+    "label": "Qui som",
     "action": "wagtail.create",
     "data": {},
-    "timestamp": "2023-06-22T12:16:09.966Z",
-    "uuid": "a06ebccc-bc86-4b12-aa74-d1632b356af4",
+    "timestamp": "2023-06-22T14:01:56.395Z",
+    "uuid": "919e5f59-bccf-4b8f-a312-116dd4283309",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": null,
     "content_changed": true,
@@ -920,15 +1226,15 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
-    "label": "Informació legal",
+    "label": "Qui som",
     "action": "wagtail.edit",
     "data": {},
-    "timestamp": "2023-06-22T12:16:09.990Z",
-    "uuid": "a06ebccc-bc86-4b12-aa74-d1632b356af4",
+    "timestamp": "2023-06-22T14:01:56.422Z",
+    "uuid": "919e5f59-bccf-4b8f-a312-116dd4283309",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": 2,
     "content_changed": true,
@@ -942,15 +1248,15 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "legalpage"
+      "aboutuspage"
     ],
-    "label": "Informació legal",
+    "label": "Qui som",
     "action": "wagtail.publish",
     "data": {},
-    "timestamp": "2023-06-22T12:16:10.024Z",
-    "uuid": "a06ebccc-bc86-4b12-aa74-d1632b356af4",
+    "timestamp": "2023-06-22T14:01:56.499Z",
+    "uuid": "919e5f59-bccf-4b8f-a312-116dd4283309",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": 2,
     "content_changed": true,
@@ -964,81 +1270,15 @@
   "fields": {
     "content_type": [
       "cms_site",
-      "homepage"
+      "collectionspage"
     ],
-    "label": "Fabricant mobles a La Garriga des de 1925",
-    "action": "wagtail.edit",
-    "data": {},
-    "timestamp": "2023-06-22T12:16:16.007Z",
-    "uuid": "a5ea96de-3b58-4548-ad32-9fa3aceab2a9",
-    "user": [
-      "ales@codi.coop"
-    ],
-    "revision": 3,
-    "content_changed": true,
-    "deleted": false,
-    "page": 3
-  }
-},
-{
-  "model": "wagtailcore.pagelogentry",
-  "pk": 9,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "homepage"
-    ],
-    "label": "Fabricant mobles a La Garriga des de 1925",
-    "action": "wagtail.edit",
-    "data": {},
-    "timestamp": "2023-06-22T12:16:18.842Z",
-    "uuid": "90f67b6a-ca81-4a3c-815c-1d8e65d36207",
-    "user": [
-      "ales@codi.coop"
-    ],
-    "revision": 4,
-    "content_changed": true,
-    "deleted": false,
-    "page": 3
-  }
-},
-{
-  "model": "wagtailcore.pagelogentry",
-  "pk": 10,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "homepage"
-    ],
-    "label": "Fabricant mobles a La Garriga des de 1925",
-    "action": "wagtail.publish",
-    "data": {},
-    "timestamp": "2023-06-22T12:16:18.883Z",
-    "uuid": "90f67b6a-ca81-4a3c-815c-1d8e65d36207",
-    "user": [
-      "ales@codi.coop"
-    ],
-    "revision": 4,
-    "content_changed": false,
-    "deleted": false,
-    "page": 3
-  }
-},
-{
-  "model": "wagtailcore.pagelogentry",
-  "pk": 11,
-  "fields": {
-    "content_type": [
-      "cms_site",
-      "customajaxcontact"
-    ],
-    "label": "Contacte",
+    "label": "Catàleg",
     "action": "wagtail.create",
     "data": {},
-    "timestamp": "2023-06-22T12:16:54.528Z",
-    "uuid": "5ee0f481-c276-4283-a7b7-a25b735a1f7e",
+    "timestamp": "2023-06-22T14:02:23.594Z",
+    "uuid": "d4561501-8bdd-488a-9da4-e33e7501eaa0",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
     "revision": null,
     "content_changed": true,
@@ -1048,21 +1288,21 @@
 },
 {
   "model": "wagtailcore.pagelogentry",
-  "pk": 12,
+  "pk": 9,
   "fields": {
     "content_type": [
       "cms_site",
-      "customajaxcontact"
+      "collectionspage"
     ],
-    "label": "Contacte",
+    "label": "Catàleg",
     "action": "wagtail.edit",
     "data": {},
-    "timestamp": "2023-06-22T12:16:54.550Z",
-    "uuid": "5ee0f481-c276-4283-a7b7-a25b735a1f7e",
+    "timestamp": "2023-06-22T14:02:23.613Z",
+    "uuid": "d4561501-8bdd-488a-9da4-e33e7501eaa0",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
-    "revision": 5,
+    "revision": 3,
     "content_changed": true,
     "deleted": false,
     "page": 5
@@ -1070,24 +1310,68 @@
 },
 {
   "model": "wagtailcore.pagelogentry",
-  "pk": 13,
+  "pk": 10,
   "fields": {
     "content_type": [
       "cms_site",
-      "customajaxcontact"
+      "collection"
     ],
-    "label": "Contacte",
-    "action": "wagtail.publish",
+    "label": "New Area",
+    "action": "wagtail.create",
     "data": {},
-    "timestamp": "2023-06-22T12:16:54.592Z",
-    "uuid": "5ee0f481-c276-4283-a7b7-a25b735a1f7e",
+    "timestamp": "2023-06-22T14:04:26.665Z",
+    "uuid": "402f555a-8a6a-4c60-bee8-c81ecacdd86c",
     "user": [
-      "ales@codi.coop"
+      "hola@codi.coop"
     ],
-    "revision": 5,
+    "revision": null,
     "content_changed": true,
     "deleted": false,
-    "page": 5
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "New Area",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2023-06-22T14:04:26.694Z",
+    "uuid": "402f555a-8a6a-4c60-bee8-c81ecacdd86c",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "cms_site",
+      "collection"
+    ],
+    "label": "New Area",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2023-06-22T14:04:26.747Z",
+    "uuid": "402f555a-8a6a-4c60-bee8-c81ecacdd86c",
+    "user": [
+      "hola@codi.coop"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
   }
 },
 {
@@ -1102,15 +1386,171 @@
   }
 },
 {
-  "model": "cms_site.customajaxcontact",
+  "model": "cms_site.aboutuspage",
+  "pk": 4,
+  "fields": {
+    "header_image": 1,
+    "description": ""
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 1,
+  "fields": {
+    "translation_key": "f3ce0133-cf70-4512-a96d-78c1a6d74383",
+    "locale": 1,
+    "sort_order": 0,
+    "page": 4,
+    "title": "v1 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 2,
+  "fields": {
+    "translation_key": "1ac5c15e-7c6a-436f-b3b7-341a4fc61d72",
+    "locale": 1,
+    "sort_order": 1,
+    "page": 4,
+    "title": "v2 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 3,
+  "fields": {
+    "translation_key": "11e00c7c-0faf-4809-b7aa-4d5b3a10b15f",
+    "locale": 1,
+    "sort_order": 2,
+    "page": 4,
+    "title": "v3 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 4,
+  "fields": {
+    "translation_key": "68c095f5-ae86-43b1-8fef-5ab12788afb2",
+    "locale": 1,
+    "sort_order": 3,
+    "page": 4,
+    "title": "v4 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.videoitem",
   "pk": 5,
   "fields": {
-    "menu_label": null,
-    "subject_label": "Assumpte",
-    "phone_label": "Telèfon",
-    "profile_label": "Perfil",
-    "personal_data_auth_label": "Autorització pel tractament de dades personals",
-    "personal_data_comercial_auth_label": "Autorització pel tractament de dades personals per ús comercial"
+    "translation_key": "a0f2bb7e-2242-4e9a-8583-1ec6d1c093db",
+    "locale": 1,
+    "sort_order": 4,
+    "page": 4,
+    "title": "v5 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.videoitem",
+  "pk": 6,
+  "fields": {
+    "translation_key": "1f66c547-35a4-4d59-8bdc-4fb5dd9e97d1",
+    "locale": 1,
+    "sort_order": 5,
+    "page": 4,
+    "title": "v6 cat",
+    "embed": "aa",
+    "description": "aa"
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 1,
+  "fields": {
+    "translation_key": "2108968b-1359-4ff1-9f24-e533363a84fe",
+    "locale": 1,
+    "sort_order": 0,
+    "page": 4,
+    "year": 2020,
+    "title": "Història 1 cat",
+    "description": "aa",
+    "image": 1
+  }
+},
+{
+  "model": "cms_site.historyitem",
+  "pk": 2,
+  "fields": {
+    "translation_key": "c8dc2e4b-7943-4a75-850e-678bd3e756d5",
+    "locale": 1,
+    "sort_order": 1,
+    "page": 4,
+    "year": 2021,
+    "title": "Història 23 cat",
+    "description": "aa",
+    "image": 1
+  }
+},
+{
+  "model": "cms_site.collectionspage",
+  "pk": 5,
+  "fields": {
+    "menu_label": null
+  }
+},
+{
+  "model": "cms_site.collection",
+  "pk": 6,
+  "fields": {
+    "header_image": 1,
+    "description": "",
+    "pdf": null
+  }
+},
+{
+  "model": "cms_site.collectionitem",
+  "pk": 1,
+  "fields": {
+    "translation_key": "3ecbd1a3-1810-4779-aa47-b9837c74c425",
+    "locale": 1,
+    "sort_order": 0,
+    "page": 6,
+    "title": "Article 1 cat",
+    "image": 1,
+    "model": 1,
+    "finishings": [
+      1
+    ],
+    "typologies": [
+      1
+    ]
+  }
+},
+{
+  "model": "cms_site.collectionitem",
+  "pk": 2,
+  "fields": {
+    "translation_key": "36d1fcb4-e1b6-46ed-80d7-0aa75360bc2c",
+    "locale": 1,
+    "sort_order": 1,
+    "page": 6,
+    "title": "Article 2 cat",
+    "image": 1,
+    "model": 1,
+    "finishings": [
+      1
+    ],
+    "typologies": [
+      1
+    ]
   }
 },
 {
@@ -1137,14 +1577,6 @@
     "custom_projects_page": null,
     "display_instagram_feed": true,
     "display_header_highlight": true
-  }
-},
-{
-  "model": "cms_site.legalpage",
-  "pk": 4,
-  "fields": {
-    "header_image": 1,
-    "text": "<p data-block-key=\"akf87\">Lorem ipsum</p>"
   }
 },
 {
@@ -1186,16 +1618,30 @@
   }
 },
 {
-  "model": "wagtail_ajax_contact_form.ajaxcontactpage",
-  "pk": 5,
+  "model": "cms_site.collectionitemtype",
+  "pk": 1,
   "fields": {
-    "header_image": 1,
-    "name_label": "El teu nom",
-    "email_label": "El teu correu electrònic",
-    "message_label": "Missatge",
-    "success_msg": "<p data-block-key=\"9h00s\">Missatge enviat, gràcies per contactar amb nosaltres!</p>",
-    "to_address": null,
-    "notification_subject": null
+    "translation_key": "bce4af87-a644-4ef3-83fb-840817eea2e0",
+    "locale": 1,
+    "name": "Tipologia 1 (català)"
+  }
+},
+{
+  "model": "cms_site.collectionitemfinishing",
+  "pk": 1,
+  "fields": {
+    "translation_key": "2ea61f28-41f5-4ccd-9c84-4681373f465d",
+    "locale": 1,
+    "name": "Roure 01"
+  }
+},
+{
+  "model": "cms_site.collectionitemmodel",
+  "pk": 1,
+  "fields": {
+    "translation_key": "6c349e17-bf28-4962-8aea-a6b5bf3c56c3",
+    "locale": 1,
+    "name": "Model 1 (català)"
   }
 },
 {
