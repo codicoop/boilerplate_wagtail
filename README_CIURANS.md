@@ -7,7 +7,7 @@ través d'un endpoint que accepta filtres.
 
 Endpoint:
 
-    /api/[ca|es]/collection_items/?page=4
+    /custom_api/collection_items/?page=4
 
 Si no es passa el valor `page`, retornarà tots els articles de totes les col·leccions.
 
@@ -25,25 +25,14 @@ La imatge de cada article es genera en dues mides diferents, configurades així:
 
 ### Items de la Història a Qui som
 
-    /api/history_items/
+    /custom_api/history_items/?page=4
+
+Si no es passa el valor `page`, retornarà tots els items en tots els idiomes.
+Pots saber el valor de page amb {{ self.id }} o {{ page.id }}.
 
 ### Vídeos a Qui Som
 
-    /api/video_items/
+    /custom_api/video_items/?page=4
 
-### Posts d'Instagram
-
-    /api/instagram_posts/
-
-## Translations of CollectionItems
-
-CollectionItem hauria d'haver estat un model amb TranslationMixin, però no ha
-pogut ser degut a la complexitat de fer el canvi des del punt on és ara el projecte.
-També tinc dubtes de si és compatible això amb els ClusterableModel.
-
-L'únic camp que cal en els 2 idiomes és títol, així que l'hem duplicat per poder
-tenir la traducció però al marge del sistema de Wagtail.
-Els acabats i tipologies, ja va bé que es quedin seleccionats segons la versió
-en català, ja que el que fem és mostrar l'acabat o tipologia en l'idioma que toqui.
-D'aquesta manera, no cal que tots els articles de cada col·lecció es reassignin
-a altres acabats o tipologies.
+Si no es passa el valor `page`, retornarà tots els vídeos en tots els idiomes.
+Pots saber el valor de page amb {{ self.id }} o {{ page.id }}.

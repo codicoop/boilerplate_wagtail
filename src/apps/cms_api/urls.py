@@ -13,12 +13,12 @@ router.register(
     basename="collection_item",
 )
 router.register(
-    r"video_items/<str:language>/",
+    r"video_items",
     VideoItemViewSet,
     basename="video_item",
 )
 router.register(
-    r"history_items/<str:language>/",
+    r"history_items",
     HistoryItemViewSet,
     basename="history_item",
 )
