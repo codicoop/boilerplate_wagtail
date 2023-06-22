@@ -157,13 +157,7 @@ class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
         on_delete=models.CASCADE,
         related_name="collection_items",
     )
-    title_ca = models.CharField(_("Title (catalan)"), max_length=80)
-    title_es = models.CharField(
-        _("Title (spanish)"),
-        max_length=80,
-        default="",
-        blank=True,
-    )
+    title = models.CharField(_("Title"), max_length=80)
     image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
@@ -211,8 +205,7 @@ class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
     )
 
     panels = [
-        FieldPanel("title_ca"),
-        FieldPanel("title_es"),
+        FieldPanel("title"),
         FieldPanel("image"),
         FieldPanel("model"),
         AutocompletePanel(
@@ -226,4 +219,4 @@ class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
     ]
 
     def __str__(self):
-        return self.title_ca
+        return self.title
