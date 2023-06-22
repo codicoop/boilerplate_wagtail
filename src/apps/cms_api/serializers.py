@@ -28,16 +28,11 @@ class CollectionItemTypeSerializer(serializers.ModelSerializer):
 
 
 class CollectionItemReadSerializer(serializers.ModelSerializer):
-    finishings = CollectionItemFinishingSerializer(
-        many=True,
-        read_only=True,
-    )
-    typologies = CollectionItemTypeSerializer(
-        many=True,
-        read_only=True,
-    )
+    finishings = serializers.SerializerMethodField()
+    typologies = serializers.SerializerMethodField()
     image_thumbnail = ImageRenditionField("width-700", source="image")
     image_maximized = ImageRenditionField("width-1500", source="image")
+    model = serializers.StringRelatedField()
 
     class Meta:
         model = CollectionItem
@@ -50,6 +45,30 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             "finishings",
             "typologies",
         ]
+
+    def get_finishings(self, obj):
+        translated_finishings = [
+            finishing.get_translation(obj.locale)
+            for finishing in obj.finishings.all()
+        ]
+        finishing_serializer = CollectionItemFinishingSerializer(
+            translated_finishings,
+            many=True,
+            read_only=True
+        )
+        return finishing_serializer.data
+
+    def get_typologies(self, obj):
+        translated_typologies = [
+            finishing.get_translation(obj.locale)
+            for finishing in obj.typologies.all()
+        ]
+        typology_serializer = CollectionItemFinishingSerializer(
+            translated_typologies,
+            many=True,
+            read_only=True
+        )
+        return typology_serializer.data
 
 
 class VideoItemReadSerializer(serializers.ModelSerializer):
