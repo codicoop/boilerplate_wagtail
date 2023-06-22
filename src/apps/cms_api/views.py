@@ -26,7 +26,7 @@ class LanguageMixin(object):
 
 
 class CollectionItemViewSet(
-    LanguageMixin,
+    # LanguageMixin,
     viewsets.GenericViewSet,
     mixins.ListModelMixin,
 ):
@@ -45,7 +45,7 @@ class CollectionItemViewSet(
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        queryset = queryset.filter(page__locale=self.locale)
+        # queryset = queryset.filter(page__locale=self.locale)
         return queryset
 
 
