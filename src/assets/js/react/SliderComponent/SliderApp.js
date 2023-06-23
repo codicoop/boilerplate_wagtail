@@ -34,7 +34,6 @@ export default function SliderApp(){
     // Agafem la pàgina on som
     const thisApp = document.getElementById("mySliderApp")
     currentPage = thisApp.dataset.page
-    console.log("currentPage", currentPage);
   },[])
 
   useEffect(()=>{

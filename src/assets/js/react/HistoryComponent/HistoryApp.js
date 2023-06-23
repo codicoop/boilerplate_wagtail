@@ -12,7 +12,6 @@ export default function HistoryApp(){
     // Agafem la pàgina on som
     const thisApp = document.getElementById("mySliderApp")
     currentPage = thisApp.dataset.page
-    console.log("currentPage", currentPage);
   },[])
 
   useEffect(()=>{
