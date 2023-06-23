@@ -23,7 +23,7 @@
     if (!response.ok) {
       throw new Error("No s'ha pogut realitzar la petició");
     }
-    console.log("resdposta GET", response);
+    // console.log("resdposta GET", response);
     return response.json();
   })
   .then(data => {

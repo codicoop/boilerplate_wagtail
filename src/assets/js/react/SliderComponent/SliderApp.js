@@ -9,6 +9,7 @@ export default function SliderApp(){
   const [allSlides, setAllSlides] = useState([])
   const [currentSlide, setCurrentSlide] = useState("")
   const [loading, setLoading] = useState(true)
+  let currentPage
 
   const extractSrc = (embed) => {
     const srcRegex = /src="(.*?)"/
@@ -30,10 +31,17 @@ export default function SliderApp(){
   },[])
 
   useEffect(()=>{
+    // Agafem la pàgina on som
+    const thisApp = document.getElementById("mySliderApp")
+    currentPage = thisApp.dataset.page
+    console.log("currentPage", currentPage);
+  },[])
+
+  useEffect(()=>{
   // Getting the history items
   axios({
     method: 'get',
-    url: "/api/video_items/",
+    url: `/custom_api/video_items/?page=${currentPage}`,
     headers: {'X-CSRFToken': backData.csrf}
   })
   .then(response => {
