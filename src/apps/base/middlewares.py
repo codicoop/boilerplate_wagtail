@@ -24,7 +24,10 @@ class LocaleMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        current_locale = Locale.objects.get(language_code=get_language())
+        try:
+            current_locale = Locale.objects.get(language_code=get_language())
+        except Locale.DoesNotExist:
+            current_locale = Locale.objects.first()
         request.current_locale = current_locale
         response = self.get_response(request)
         return response
