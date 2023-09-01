@@ -194,7 +194,8 @@ body {
   --line-height: 48px;
 }
 
-.title-1--light {
+.title-1--light,
+.richtext h2 {
   --font-size: 40px;
   --line-height: 52px;
 }
@@ -204,7 +205,8 @@ body {
   --line-height: 32px;
 }
 
-.title-3 {
+.title-3,
+.richtext h3 {
   --font-size: 17px;
   --line-height: 22px;
 }
@@ -224,7 +226,8 @@ body {
     --line-height: 60px;
   }
 
-  .title-1--light {
+  .title-1--light,
+.richtext h2 {
     --font-size: 48px;
     --line-height: 60px;
   }
@@ -234,7 +237,8 @@ body {
     --line-height: 36px;
   }
 
-  .title-3 {
+  .title-3,
+.richtext h3 {
     --font-size: 18px;
     --line-height: 24px;
   }
@@ -253,9 +257,11 @@ body {
   font-weight: 700;
   font-size: var(--font-size);
   line-height: var(--line-height);
+  text-shadow: 2px 1px 4px var(--blackish);
 }
 
-.title-1--light {
+.title-1--light,
+.richtext h2 {
   font-weight: 300;
   font-size: var(--font-size);
   line-height: var(--line-height);
@@ -267,7 +273,8 @@ body {
   line-height: var(--line-height);
 }
 
-.title-3 {
+.title-3,
+.richtext h3 {
   font-weight: 500;
   font-size: var(--font-size);
   line-height: var(--line-height);
@@ -540,17 +547,25 @@ body.no-prefooter .prefooter {
   font-weight: bold;
   color: var(--brown);
 }
-
 .richtext b {
   font-weight: bold;
 }
-
 .richtext i {
   font-style: italic;
 }
-
 .richtext p + p {
   padding-top: 1em;
+}
+.richtext h2 {
+  padding-top: var(--padding-sm);
+  padding-bottom: var(--padding-md);
+}
+.richtext h3 {
+  padding-bottom: var(--padding-xsm);
+}
+.richtext ul {
+  list-style: disc;
+  padding-left: var(--padding-lg);
 }
 
 .project-card__label {
@@ -1168,6 +1183,9 @@ select {
   line-height: 24px;
   font-weight: 500;
 }
+.footer-info__logo {
+  border: 1px solid red;
+}
 
 .social {
   --padding-top: var(--padding-md);
@@ -1278,6 +1296,8 @@ select {
 }
 .modal__container {
   position: relative;
+  height: 100%;
+  overflow: clip;
 }
 .modal__icon {
   position: absolute;
@@ -1288,6 +1308,15 @@ select {
 }
 .modal__icon svg {
   pointer-events: none;
+}
+.modal__image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__image img {
+  max-height: 100%;
 }
 
 .product-card__label {
@@ -1324,12 +1353,12 @@ select {
 }
 .product-card__text p + p {
   position: relative;
-  padding-left: var(--padding-sm);
+  padding-left: var(--padding-md);
 }
 .product-card__text p + p:before {
   content: "/";
   position: absolute;
-  left: 2px;
+  left: 8px;
 }
 .product-card__title, .product-card__text {
   text-transform: uppercase;
@@ -1705,10 +1734,13 @@ select {
 }
 .home .heading {
   grid-column: 1/-1;
+  background-position: 50% 81%;
+}
+.home .heading .grid-1 {
+  width: 100%;
 }
 .home .heading__title {
-  border-radius: 2px solid red;
-  grid-column: 7/span 6;
+  grid-column: 6/span 8;
   padding-bottom: var(--padding-bottom);
 }
 .home .overlay {
@@ -1956,6 +1988,9 @@ select {
 .collections-detail {
   position: relative;
 }
+.collections-detail .heading {
+  background-position: center 70%;
+}
 .collections-detail__nav {
   padding-top: var(--padding-xlg);
   padding-bottom: var(--padding-bottom);
@@ -2033,6 +2068,12 @@ select {
     --padding: 0;
   }
 }
+.custom-projects .heading {
+  background-position: center 100%;
+}
+.custom-projects .heading__title {
+  grid-column: 2/span 5;
+}
 .custom-projects__intro {
   padding-top: var(--padding);
   padding-bottom: var(--padding);
@@ -2062,6 +2103,9 @@ select {
 .contact__map {
   --margin-top: var(--padding-xlg);
 }
+.contact__success {
+  --align-self: flex-start;
+}
 
 @media (min-width: 1024px) {
   .contact {
@@ -2081,6 +2125,9 @@ select {
   .contact__map {
     --margin-top: 0;
   }
+  .contact__success {
+    --align-self: end;
+  }
 }
 .contact {
   display: flex;
@@ -2088,6 +2135,7 @@ select {
 }
 .contact .heading {
   order: 1;
+  background-position: center 38%;
 }
 .contact__info-top {
   order: 2;
@@ -2134,6 +2182,8 @@ select {
   grid-auto-flow: dense;
 }
 .contact__success {
+  grid-row: span 3;
+  align-self: var(--align-self);
   display: none;
 }
 .contact__map {
@@ -2166,6 +2216,9 @@ select {
   .about-us__history-title {
     --padding: 0 var(--padding-xxlg) 0 116px;
   }
+}
+.about-us .heading .grid-1 {
+  width: 100%;
 }
 .about-us__intro {
   padding-top: var(--padding-top);

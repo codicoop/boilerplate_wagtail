@@ -133,27 +133,34 @@
           </a>
 
         </div>
+        <div class="footer-info__logo">
+          <img src="{% static 'images/logo_PRTR.png' %}" alt="">
+        </div>
       </div>
-    {% endif %}
-    {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
-    <div class="footer-info grid-item-9-12">
-      <div class="footer-info__heading">
-        {% translate 'Contact' %}
-      </div>
-      <div class="footer-info__text">
-        {% if settings.cms_site.ContactDetailsSettings.phone %}
-        <a href="tel:{{ settings.cms_site.ContactDetailsSettings.phone }}">
-          <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
-        </a>
-        {% endif %}
+      {% endif %}
+      {% if settings.cms_site.ContactDetailsSettings.phone or settings.cms_site.ContactDetailsSettings.email %}
+      <div class="footer-info grid-item-9-12">
+        <div class="footer-info__heading">
+          {% translate 'Contact' %}
+        </div>
+        <div class="footer-info__text">
+          {% if settings.cms_site.ContactDetailsSettings.phone %}
+          <a href="tel:{{ settings.cms_site.ContactDetailsSettings.phone }}">
+            <p>{{ settings.cms_site.ContactDetailsSettings.phone }}</p>
+          </a>
+          {% endif %}
           {% if settings.cms_site.ContactDetailsSettings.email %}
             <a href="mailto:{{ settings.cms_site.ContactDetailsSettings.email }}">
               <p>{{ settings.cms_site.ContactDetailsSettings.email }}</p>
             </a>
           {% endif %}
         </div>
+        <div class="footer-info__logo">
+          <p>Financiado por la Unión Europea - NextGenerationEU</p>
+          <img src="{% static 'images/logo_funded_EU.png' %}" alt="">
+        </div>
       </div>
-    {% endif %}
+      {% endif %}
     </div>
     <div class="footer__bottom grid-1">
       <div class="footer__bottom-container grid-item-4-9">
