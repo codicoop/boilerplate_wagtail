@@ -82,7 +82,9 @@ class Collection(BasePage):
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
         designers_page_model = apps.get_model("cms_site", "DesignersPage")
-        designers_page = designers_page_model.objects.live().first()
+        designers_page = designers_page_model.objects.requested_locale(
+            request,
+        ).live().first()
         collections = self.get_submenu()
 
         context.update(
