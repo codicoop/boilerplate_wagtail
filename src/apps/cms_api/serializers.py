@@ -47,28 +47,38 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
         ]
 
     def get_finishings(self, obj):
-        translated_finishings = [
-            finishing.get_translation(obj.locale)
-            for finishing in obj.finishings.all()
-        ]
+        data = []
+        try:
+            translated_finishings = [
+                finishing.get_translation(obj.locale)
+                for finishing in obj.finishings.all()
+            ]
+        except CollectionItemFinishing.DoesNotExist:
+            return data
         finishing_serializer = CollectionItemFinishingSerializer(
             translated_finishings,
             many=True,
             read_only=True
         )
-        return finishing_serializer.data
+        data = finishing_serializer.data
+        return data
 
     def get_typologies(self, obj):
-        translated_typologies = [
-            finishing.get_translation(obj.locale)
-            for finishing in obj.typologies.all()
-        ]
-        typology_serializer = CollectionItemFinishingSerializer(
+        data = []
+        try:
+            translated_typologies = [
+                finishing.get_translation(obj.locale)
+                for finishing in obj.typologies.all()
+            ]
+        except CollectionItemType.DoesNotExist:
+            return data
+        typology_serializer = CollectionItemTypeSerializer(
             translated_typologies,
             many=True,
             read_only=True
         )
-        return typology_serializer.data
+        data = typology_serializer.data
+        return data
 
 
 class VideoItemReadSerializer(serializers.ModelSerializer):
