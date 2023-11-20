@@ -66,6 +66,7 @@ class AboutUsPage(BasePage):
     template = "pages/about_us.html"
     parent_page_types = ["cms_site.HomePage"]
     base_form_class = AboutUsForm
+    show_in_menus_default = True
 
 
 class VideoItem(TranslatableMixin, Orderable, ClusterableModel):
