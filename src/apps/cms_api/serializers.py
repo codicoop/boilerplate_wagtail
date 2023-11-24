@@ -60,8 +60,7 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             many=True,
             read_only=True
         )
-        data = finishing_serializer.data
-        return data
+        return finishing_serializer.data
 
     def get_typologies(self, obj):
         data = []
@@ -77,8 +76,7 @@ class CollectionItemReadSerializer(serializers.ModelSerializer):
             many=True,
             read_only=True
         )
-        data = typology_serializer.data
-        return data
+        return typology_serializer.data
 
 
 class VideoItemReadSerializer(serializers.ModelSerializer):
