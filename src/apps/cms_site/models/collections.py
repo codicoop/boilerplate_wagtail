@@ -76,7 +76,11 @@ class Collection(BasePage):
 
     template = "pages/collections/collection.html"
     parent_page_types = ["CollectionsPage"]
-    max_count = 3
+    # 24/11/2023: max count is really 3, but it was nor working. My guess is
+    # that it's a bug in wagtail, that might be incorrectly counting
+    # translations as pages. Interstingly, the total pages including
+    # translations is 6, but setting it to 5 was enough.
+    max_count = 5
     is_unpublishable = True
 
     def get_context(self, request, *args, **kwargs):
@@ -193,6 +197,7 @@ class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
             )
             % {"url": "/cms/cms_site/collectionitemfinishing/"}
         ),
+        blank=True,
     )
     typologies = ParentalManyToManyField(
         "cms_site.CollectionItemType",
