@@ -56,9 +56,9 @@
   <script id="data_for_react">
     const backData = {
       csrf: "{{ csrf_token }}",
-      type: [{% for id, name in available_types.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
-      model: [{% for id, name in available_models.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
-      finishing: [{% for id, name in available_finishings.items %}{ value: '{{ id }}', label: '{{ name }}' },{% endfor %}],
+      type: [{% for id, name in available_types.items %}{ value: "{{ id }}", label: "{{ name|safe }}" },{% endfor %}],
+      model: [{% for id, name in available_models.items %}{ value: "{{ id }}", label: "{{ name|safe }}" },{% endfor %}],
+      finishing: [{% for id, name in available_finishings.items %}{ value: "{{ id }}", label: "{{ name|safe }}" },{% endfor %}],
       page_id: {{ page.id }},
     }
   </script>
