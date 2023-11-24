@@ -6,6 +6,7 @@ from wagtail.models import TranslatableMixin
 
 class CollectionItemType(TranslatableMixin):
     name = models.CharField(_("name"), max_length=255)
+    autocomplete_search_field = "name"
 
     panels = [
         FieldPanel("name"),
@@ -23,6 +24,7 @@ class CollectionItemType(TranslatableMixin):
 
 class CollectionItemFinishing(TranslatableMixin):
     name = models.CharField(_("name"), max_length=255)
+    autocomplete_search_field = "name"
 
     panels = [
         FieldPanel("name"),

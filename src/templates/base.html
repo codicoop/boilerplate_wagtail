@@ -22,7 +22,7 @@
   <div class="empty-box"></div>
   <header class="header">
     <div class="topbar">
-      <a class="topbar__logo" href="/">
+      <a class="topbar__logo" href="/{{ language_code }}/">
         <svg
           class="logo"
           title="Logo Ciurans"
@@ -65,7 +65,7 @@
     </div>
     <div class="menu">
       <div class="menu__top">
-        <a class="menu__logo" href="/">
+        <a class="menu__logo" href="/{{ language_code }}/">
           <img class="logo" src="{% static 'images/logo.svg' %}" alt="{% translate 'Logo of Ciurans' %}">
         </a>
         <div class="menu__action">
@@ -92,8 +92,6 @@
             </div>
           </a>
         </div>
-        {# to re-enable the languages menu, only remove the "and 1 is 2" part #}
-        {% if page and 1 is 2 %}
         <div class="menu__lang">
           <ul>
             {% for translation in page.get_translations.live %}
@@ -106,7 +104,6 @@
             {% endfor %}
           </ul>
         </div>
-        {% endif %}
       </div>
     </div>
   </header>

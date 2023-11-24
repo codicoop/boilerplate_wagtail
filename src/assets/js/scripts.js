@@ -126,10 +126,8 @@ function closeFullImageTemplate(event) {
 // Gestió dels modals de imatge ampliada de projectes a mida
 
 function openImage(event) {
-    console.log("TARGET", event.target)
     const thisItem = event.target
     const thisModal = thisItem.querySelector(".modal")
-    console.log("thisModal", thisModal)
     thisModal.classList.add("is-open")
 
     function listenerFunction(e){
@@ -147,8 +145,6 @@ function openImage(event) {
 }
 
 function closeImage(event) {
-    console.log("TARGETTT", event.target)
-
     const thisItem = event.target
     const thisModal = thisItem.parentElement.parentElement
     thisModal.classList.remove("is-open")

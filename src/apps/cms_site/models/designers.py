@@ -29,7 +29,9 @@ class DesignersPage(BasePage):
         context = super().get_context(request, *args, **kwargs)
         context.update(
             {
-                "collections": Collection.objects.live(),
+                "collections": Collection.objects.requested_locale(
+                    request,
+                ).live(),
             }
         )
         return context

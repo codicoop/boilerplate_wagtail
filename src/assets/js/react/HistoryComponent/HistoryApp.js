@@ -6,12 +6,19 @@ export default function HistoryApp(){
   const [allSlides, setAllSlides] = useState([])
   const [currentSlide, setCurrentSlide] = useState("")
   const [loading, setLoading] = useState(true)
+  let currentPage
+
+  useEffect(()=>{
+    // Agafem la pàgina on som
+    const thisApp = document.getElementById("mySliderApp")
+    currentPage = thisApp.dataset.page
+  },[])
 
   useEffect(()=>{
     // Getting the history items
     axios({
       method: 'get',
-      url: "/api/history_items/",
+      url: `/custom_api/history_items/?page=${currentPage}`,
       headers: {'X-CSRFToken': backData.csrf}
     })
     .then(response => {

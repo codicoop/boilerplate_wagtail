@@ -6,7 +6,7 @@ from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import HelpPanel, InlinePanel
 from wagtail.documents.edit_handlers import FieldPanel
-from wagtail.models import Orderable, Page
+from wagtail.models import Orderable, Page, TranslatableMixin
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from apps.base.models import BasePage, MenuLabelMixin
@@ -82,7 +82,9 @@ class Collection(BasePage):
     def get_context(self, request, *args, **kwargs):
         context = super().get_context(request, *args, **kwargs)
         designers_page_model = apps.get_model("cms_site", "DesignersPage")
-        designers_page = designers_page_model.objects.live().first()
+        designers_page = designers_page_model.objects.requested_locale(
+            request,
+        ).live().first()
         collections = self.get_submenu()
 
         context.update(
@@ -151,19 +153,13 @@ class Collection(BasePage):
         )
 
 
-class CollectionItem(Orderable, ClusterableModel):
+class CollectionItem(TranslatableMixin, Orderable, ClusterableModel):
     page = ParentalKey(
         Collection,
         on_delete=models.CASCADE,
         related_name="collection_items",
     )
-    title_ca = models.CharField(_("Title (catalan)"), max_length=80)
-    title_es = models.CharField(
-        _("Title (spanish)"),
-        max_length=80,
-        default="",
-        blank=True,
-    )
+    title = models.CharField(_("Title"), max_length=80)
     image = models.ForeignKey(
         "wagtailimages.Image",
         verbose_name=_("Image"),
@@ -211,8 +207,7 @@ class CollectionItem(Orderable, ClusterableModel):
     )
 
     panels = [
-        FieldPanel("title_ca"),
-        FieldPanel("title_es"),
+        FieldPanel("title"),
         FieldPanel("image"),
         FieldPanel("model"),
         AutocompletePanel(
@@ -226,4 +221,4 @@ class CollectionItem(Orderable, ClusterableModel):
     ]
 
     def __str__(self):
-        return self.title_ca
+        return self.title

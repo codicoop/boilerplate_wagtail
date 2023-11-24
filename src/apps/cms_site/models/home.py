@@ -258,7 +258,7 @@ class HomePage(BasePage):
         if news_page:
             context.update(
                 {
-                    "news_url": news_page.get_url(),
+                    "news_url": news_page.localized.get_url(),
                 }
             )
             return context

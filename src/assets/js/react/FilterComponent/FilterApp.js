@@ -20,8 +20,6 @@ export default function FilterApp(){
   let filterTypeData = backData.type
   const filterModelData = backData.model
   const filterFinishingData = backData.finishing
-  // console.log("backData", backData)
-  // console.log("formData", formData);
 
   useEffect(()=>{
     // Agafem la llengua feta servir
@@ -139,7 +137,7 @@ export default function FilterApp(){
     if (formData.type) {
       parameters.push(`&typologies=${formData.type}`)
     }
-    let imagesUrl = `/api/collection_items/?page=${backData.page_id}${parameters.join('')}`
+    let imagesUrl = `/custom_api/collection_items/?page=${backData.page_id}${parameters.join('')}`
 
     axios({
       method: 'get',
