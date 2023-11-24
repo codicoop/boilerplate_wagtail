@@ -87,7 +87,7 @@ export default function ProductCard({ image }){
     const filterModelData = backData.model
     let newModel = ""
     filterModelData.map(item => {
-      if (item.value == el) {
+      if (item.label == el) {
         newModel = `${t('Model:')} ${newModel} ${item.label}`
       }
     })
