@@ -32,7 +32,7 @@ class VideoItemViewSet(
     viewsets.GenericViewSet,
     mixins.ListModelMixin,
 ):
-    queryset = VideoItem.objects.all()
+    queryset = VideoItem.objects.order_by("sort_order").all()
     serializer_class = VideoItemReadSerializer
     filter_backends = (
         filters.SearchFilter,
