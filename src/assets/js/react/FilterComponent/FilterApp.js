@@ -160,7 +160,6 @@ export default function FilterApp(){
         type: option.value
       }
     })
-    getNewImages()
   }
   function handleModelChange(option){
     if (option === null) {
